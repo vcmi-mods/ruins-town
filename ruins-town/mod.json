@@ -5,11 +5,12 @@
 	"contact" : "https://fior.in",
 	"version" : "1.2.3",
 	"modType" : "Town",
+	"compatibility" :
 	{
 		"min" : "1.0.0"
 	},
 	"changelog" :
-    		{
+    {
 		"1.2.3"   : [ "Lots od changes and fixes" ],
 		"0.95"   : [ "Initial release" ]
     },
