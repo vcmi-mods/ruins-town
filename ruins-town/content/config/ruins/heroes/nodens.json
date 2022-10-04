@@ -1,0 +1,34 @@
+{
+	"rn_nodens" : {
+		"army" : [
+			{ "creature" : "rn_tracker", "max" : 25, "min" : 18 },
+			{ "creature" : "rn_tracker", "max" : 10, "min" : 7 },
+			{ "creature" : "rn_veteranTracker", "max" : 7, "min" : 5 }
+		],
+		"class" : "rn_hunter",
+		"battleImage" : "ruins/heroes/nodens/battle.def",
+		"spellbook" : [ "slow" ],
+		"images" : {
+			"large" : "ruins/heroes/nodens/large.bmp",
+			"small" : "ruins/heroes/nodens/small.bmp",
+			"specialtyLarge" : "ruins/heroes/nodens/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/nodens/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "earthMagic" },
+			{ "level" : "basic", "skill" : "resistance" }
+		],
+		"specialty" : {
+			"creature" : "rn_tracker"
+		},
+		"texts" : {
+			"biography" : "Native, chief and shaman of the Lost Plateau, Nodens knows how to manage his resources and the lives of his subordinates.",
+			"name" : "Nodens",
+			"specialty" : {
+				"description" : "{Tracker}\r\nIncreases Speed of any Tracker by 1 and their Attack and Defense skills by 5% for every 2 level.",
+				"name" : "Tracker",
+				"tooltip" : "Increases Speed of any Tracker by 1 and their Attack and Defense skills by 5% for every 2 level."
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"rn_hunter" :
+	{
+		"animation" : {
+			"battle" : 
+			{
+				"female" : "ruins/classes/hunter/female.def",
+				"male"   : "ruins/classes/hunter/male.def"
+			}
+		},
+		"mapObject" : {
+            "filters": {
+                "bellona": ["anyOf",
+                    ["rn_bellona"]
+                ],
+                "default": ["anyOf",
+                    ["rn_gobni"],
+                    ["rn_grim"],
+                    ["rn_mabon"],
+                    ["rn_nodens"],
+                    ["rn_teutates"],
+                    ["rn_thar"]
+                ]
+            },
+			"templates" : {
+                "bellona" : {
+                    "animation" : "ruins/heroes/bellona/adventure.def"
+                },
+				"default" : { 
+					"animation" : "ruins/classes/hunter/adventure.def",
+					"editorAnimation": "ruins/classes/hunter/editor.def" 
+				}
+			}
+		},
+		"name" : "Guardian",
+		"faction" : "ruins",
+		"commander" : "rn_veteranTracker",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 40,
+			"defence"    : 20,
+			"spellpower" : 15,
+			"knowledge"  : 25
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 20,
+			"knowledge"  : 30
+		},
+		"secondarySkills" :
+		{
+				"archery" : 9,
+				"armorer" : 6,
+				"artillery" : 4,
+				"ballistics" : 1,
+				"diplomacy" : 1,
+				"eagleEye" : 1,
+				"estates" : 4,
+				"intelligence" : 3,
+				"leadership" : 6,
+				"learning" : 7,
+				"logistics" : 9,
+				"luck" : 6,
+				"mysticism" : 3,
+				"navigation" : 2,
+				"offence" : 7,
+				"pathfinding" : 9,
+				"resistance" : 4,
+				"scholar" : 2,
+				"scouting" : 9,
+				"tactics" : 8,
+				"wisdom" : 3,
+				"firstAid" : 4
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle" : 3,
+			"conflux" : 1,
+			"dungeon" : 5,
+			"fortress" : 8,
+			"necropolis" : 1,
+			"rampart" : 8,
+			"stronghold" : 6,
+			"ruins" : 9,
+			"inferno" : 0,
+			"tower" : 0
+		}
+	}
+}

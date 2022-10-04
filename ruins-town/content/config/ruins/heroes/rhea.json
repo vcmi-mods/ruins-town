@@ -1,0 +1,43 @@
+{
+	"rn_rhea" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_tracker", "max" : 5, "min" : 3 },
+			{ "creature" : "rn_pygmy", "max" : 10, "min" : 5 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/rhea/battle.def",
+		"spellbook" : [ "magicArrow" ],
+		"images" : {
+			"large" : "ruins/heroes/rhea/large.png",
+			"small" : "ruins/heroes/rhea/small.png",
+			"specialtyLarge" : "ruins/heroes/rhea/slarge.png",
+			"specialtySmall" : "ruins/heroes/rhea/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "sorcery" },
+			{ "level" : "basic", "skill" : "mysticism" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Banned from her village for practicing witchcraft, Rhea used her gift to survive in the perilous depths of the forests. She never saw magic as something wrong. It's fun, it's survival, and she's always been good at it.",
+			"name" : "Rhea",
+			"specialty" : {
+				"description" : "{Sorcery}\r\nSorcery skill increased 5% for every hero level.",
+				"name" : "Sorcery",
+				"tooltip" : "Sorcery skill increased 5% for every hero level."
+			}
+		}
+	}
+}

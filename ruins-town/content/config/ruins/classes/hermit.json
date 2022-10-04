@@ -1,0 +1,102 @@
+{
+	"rn_hermit" :
+	{
+		"animation" : {
+			"battle" : 
+			{
+				"female" : "ruins/classes/hermit/female.def",
+				"male"   : "ruins/classes/hermit/male.def"
+			}
+		},
+		"mapObject" : {
+            "filters": {
+                "cerri": ["anyOf",
+                    ["rn_cerri"]
+                ],
+                "default": ["anyOf",
+                    ["rn_faye"],
+                    ["rn_horae"],
+                    ["rn_huldra"],
+                    ["rn_kali"],
+                    ["rn_kawa"],
+                    ["rn_langley"],
+                    ["rn_myra"],
+                    ["rn_rhea"]
+                ]
+            },
+			"templates" : {
+                "cerri" : {
+                    "animation" : "ruins/heroes/cerri/adventure.def"
+                },
+				"default" : { 
+					"animation" : "ruins/classes/hermit/adventure.def",
+					"editorAnimation": "ruins/classes/hermit/editor.def" 
+				}
+			}
+		},
+		"name" : "Hermit",
+		"faction" : "ruins",
+		"commander" : "rn_priestess",
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 25,
+			"spellpower" : 35,
+			"knowledge"  : 25
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"secondarySkills" :
+		{
+			"airMagic" : 6,
+			"archery" : 2,
+			"armorer" : 4,
+			"eagleEye" : 5,
+			"earthMagic" : 8,
+			"fireMagic" : 5,
+			"intelligence" : 6,
+			"learning" : 7,
+			"logistics" : 5,
+			"luck" : 2,
+			"mysticism" : 7,
+			"navigation" : 1,
+			"offence" : 4,
+			"pathfinding" : 6,
+			"resistance" : 5,
+			"scholar" : 7,
+			"scouting" : 4,
+			"sorcery" : 8,
+			"tactics" : 2,
+			"waterMagic" : 7,
+			"wisdom" : 8,
+			"firstAid" : 5
+		},
+		"defaultTavern" : 3,
+		"tavern" :
+		{
+			"castle" : 1,
+			"conflux" : 5,
+			"dungeon" : 4,
+			"fortress" : 9,
+			"rampart" : 8,
+			"stronghold" : 4,
+			"ruins" : 8,
+			"necropolis" : 0,
+			"inferno" : 0,
+			"tower" : 0
+		}
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"rn_veteranTracker" : 
+	{
+		"name" :
+		{
+			"singular" : "Veteran Tracker",
+			"plural" : "Veteran Trackers"
+		},
+		"level" : 2,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 170
+		},
+		"fightValue" : 229,
+		"aiValue" : 222,
+		"growth" : 9,
+		"horde" : 4,
+		"attack" : 6,
+		"defense" : 7,
+		"hitPoints" : 17,
+		"shots" : 6,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 3,
+			"max" : 5
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 18,
+			"max" : 27
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : { 
+				"type" : "SHOOTER"
+			},
+			"fighter":{ 
+				"type" : "NO_MELEE_PENALTY"
+			},
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/veteranTracker.def",
+			"map" : "ruins/creatures/adventure/veteranTracker.def",
+			"iconSmall" : "ruins/creatures/portrait/veteranTracker_s.png",
+			"iconLarge" : "ruins/creatures/portrait/veteranTracker_l.png",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.90,
+				"idle" : 10.00,
+				"attack" : 0.90,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 4,
+				"projectile": "ruins/projectiles/woodball.def",
+				"offset" :
+				{
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
+				},
+				"frameAngles" : [ -90, -45, 0, 45, 90]
+			}
+		},
+		"sound" :
+		{
+			"shoot": "HALFATTK.wav",
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

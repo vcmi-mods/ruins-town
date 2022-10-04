@@ -1,0 +1,48 @@
+{
+	"rn_grim" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_tracker", "max" : 15, "min" : 10 },
+			{ "creature" : "rn_tracker", "max" : 12, "min" : 7 }
+		],
+		"class" : "rn_hunter",
+		"battleImage" : "ruins/heroes/grim/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/grim/large.bmp",
+			"small" : "ruins/heroes/grim/small.bmp",
+			"specialtyLarge" : "ruins/heroes/grim/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/grim/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "pathfinding" },
+			{ "level" : "basic", "skill" : "armorer" }
+		],
+		"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"subtype" : "skill.pathfinding",
+						"type" : "SPECIAL_SECONDARY_SKILL",
+						"val" : 5
+					},
+					{
+						"subtype" : "skill.pathfinding",
+						"type" : "SECONDARY_SKILL_PREMY",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE"
+					}
+				],
+				"growsWithLevel" : true
+			}
+		],
+		"texts" : {
+			"biography" : "A bushman specialized in tracking their prey. Hunter by nature since he was young, his routine taught him that part of the job is to resist adversity. Thick skin lasts longer!",
+			"name" : "Grim",
+			"specialty" : {
+				"description" : "Secondary Skill Bonus: Pathfinding",
+				"name" : "Pathfinding",
+				"tooltip" : "{Pathfinding}\r\n\r\nReceives a 5% per level bonus to Pathfinding skill percentage."
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+	{
+	"rn_witch" : 
+	{
+		"name" :
+		{
+			"singular" : "Forest Witch",
+			"plural" : "Forest Witches"
+		},
+		"upgrades":
+		[
+			"rn_priestess"
+		],
+		"level" : 5,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 540
+		},
+		"fightValue" : 777,
+		"aiValue" : 848,
+		"growth" : 3,
+		"attack" : 11,
+		"defense" : 13,
+		"hitPoints" : 35,
+		"shots" : 12,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 12,
+			"max" : 16
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"magic": {
+				"type": "MAGIC_MIRROR",
+				"val": 20
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.forceField",
+				"val" : 1
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/witch.def",
+			"map" : "ruins/creatures/adventure/witchAdv.def",
+			"iconSmall" : "ruins/creatures/portrait/witch_s.bmp",
+			"iconLarge" : "ruins/creatures/portrait/witch_l.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "ruins/projectiles/green.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "LICHATTK.wav",
+			"defend": "LICHDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"shoot": "LICHSHOT.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"rn_thar" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 20, "min" : 15 },
+			{ "creature" : "rn_tracker", "max" : 10, "min" : 7 },
+			{ "creature" : "rn_pygmy", "max" : 15, "min" : 10 }
+		],
+		"class" : "rn_hunter",
+		"battleImage" : "ruins/heroes/thar/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/thar/large.png",
+			"small" : "ruins/heroes/thar/small.png",
+			"specialtyLarge" : "ruins/heroes/thar/slarge.png",
+			"specialtySmall" : "ruins/heroes/thar/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "leadership" },
+			{ "level" : "basic", "skill" : "armorer" }
+		],
+		"specialty" : {
+			"creature" : "rn_walkingStones",
+			"bonuses": {
+				"miner": {
+					"subtype" : "resource.ore",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 2,
+					"valueType" : "BASE_NUMBER"
+				},
+				"stoneGolem": {
+					"limiters" : [ { "parameters" : [ "stoneGolem", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Thar is a cowardly stone golem that one day was part of the walls of the ruins, but that preferred not to leave for the fight when the opportunity arose. Instead he urged his stone companions to feed the fervor of battle from a distance.",
+			"name" : "Thar",
+			"specialty" : {
+				"description" : "{Rocks}\r\nGenerates 2 ore/day.  Increases Speed of any Walking Stones by 1 and their Attack and Defense skills by 5% for every 7 level. Increases Speed of any Rock Golem by 1.",
+				"name" : "Rocks",
+				"tooltip" : "Generates 2 ore/day. Increases Speed of any Walking Stones by 1 and their Attack and Defense skills by 5% for every 7 level. Increases Speed of any Rock Golem by 1. "
+			}
+		}
+	}
+}

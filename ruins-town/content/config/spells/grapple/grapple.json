@@ -1,0 +1,100 @@
+{
+	"rn_seaweedGrapple" : {
+		"type": "combat",
+		"name": "Seaweed Grapple",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":["SP02_"]
+		},
+		"flags" : {
+			"negative": true,
+			"special": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"core:creature.airElemental" : "absolute",
+				"core:creature.stormElemental" : "absolute",
+				"core:creature.fireElemental" : "absolute",
+				"core:creature.energyElemental" : "absolute",
+				"core:creature.firebird" : "absolute",
+				"core:creature.phoenix" : "absolute",
+				"core:creature.efreet" : "absolute",
+				"core:creature.efreetSultan" : "absolute"
+			}
+		},
+		"sounds": {
+			"cast": "BIND"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/grapple/iconbook.bmp",
+			"iconScroll": "spells/grapple/iconscroll.bmp",
+			"iconScenarioBonus": "spells/grapple/iconbonus.bmp",
+			"iconEffect": "spells/grapple/iconeffect.bmp"
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : {
+					"bindEffects" :
+					{
+						"type": "core:timed",
+						"cumulative": false,
+						"bonus": {
+							"bindEffect" : {
+								"val" : 0,
+								"type" : "BIND_EFFECT",
+								"duration" : "N_TURNS",					
+								"turns": 1
+							},
+							"reduceSpeed":
+							{
+								"type": "STACKS_SPEED",
+								"val" : -50,
+								"valueType": "PERCENT_TO_BASE",
+								"duration": "N_TURNS",					
+								"turns": 2
+							}
+						}
+					}
+				},
+				"description": "Targeted creature will be grappled and slowed."
+			},
+			"none":
+			{	 
+				"cost": 20
+			},
+			"basic":
+			{	 
+				"cost": 18
+			},
+			"advanced":
+			{	 
+				"cost": 15
+			},
+			"expert":
+			{
+				"cost": 12
+			}
+		}
+	}
+}

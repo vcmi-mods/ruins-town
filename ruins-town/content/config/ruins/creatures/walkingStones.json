@@ -1,0 +1,89 @@
+{
+	"rn_walkingStones" : 
+	{
+		"name" :
+		{
+			"singular" : "Walking Stones",
+			"plural" : "Walking Stones"
+		},
+		"upgrades":
+		[
+			"rn_colossus"
+		],
+		"level" : 7,
+		"special" : false,
+		"faction" : "ruins", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 2,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 1600
+		},
+		"fightValue" : 3021,
+		"aiValue" : 3772,
+		"growth" : 1,
+		
+		"attack" : 16,
+		"defense" : 22,
+		"hitPoints" : 190,
+		"shots" : 0,
+		"speed" : 5,
+		"damage" :
+		{
+			"min" : 35,
+			"max" : 45
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 11
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"immunity" : { 
+				"type" : "EARTH_IMMUNITY",
+				"subtype": 2
+			},
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"resistance" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val" : 20
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/walkingStones.def",
+			"map" : "ruins/creatures/adventure/walkingStonesAdv.def",
+			"iconSmall" : "ruins/creatures/portrait/walkingStones_s.bmp",
+			"iconLarge" : "ruins/creatures/portrait/walkingStones_l.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 15.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

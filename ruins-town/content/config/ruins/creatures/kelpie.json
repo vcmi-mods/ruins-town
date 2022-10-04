@@ -1,0 +1,88 @@
+{
+	"rn_kelpie" : 
+	{
+		"name" :
+		{
+			"singular" : "Kelpie",
+			"plural" : "Kelpies"
+		},
+		"level" : 4,
+		"special" : false,
+		"faction" : "ruins",  
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 600
+		},
+		"fightValue" : 696,
+		"aiValue" : 727,
+		"growth" : 4,
+		"attack" : 8,
+		"defense" : 12,
+		"hitPoints" : 35,
+		"shots" : 12,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 6,
+			"max" : 9
+		},
+		"spellPoints" : 50,
+		"advMapAmount" :
+		{
+			"min" : 10,
+			"max" : 16
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"spirit" : { 
+				"type" : "NON_LIVING"
+			},
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"slow" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.rn_seaweedGrapple",
+				"val" : 50,
+				"addInfo" : 3
+			},
+			"immunity" :{
+				"type" : "WATER_IMMUNITY",
+				"val" : 1
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/kelpie.def",
+			"map" : "ruins/creatures/adventure/kelpie.def",
+			"iconSmall" : "ruins/creatures/portrait/kelpie_s.bmp",
+			"iconLarge" : "ruins/creatures/portrait/kelpie_l.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.90,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "WUNCATTK.wav",
+			"defend": "WUNCDFND.wav",
+			"killed": "WUNCKILL.wav",
+			"move": "WUNCMOVE.wav",
+			"shoot": "WUNCSHOT.wav",
+			"wince": "WUNCWNCE.wav"
+		}
+	}
+}

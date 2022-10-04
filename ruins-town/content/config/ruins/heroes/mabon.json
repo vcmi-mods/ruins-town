@@ -1,0 +1,37 @@
+{
+	"rn_mabon" : {
+		"army" : [
+			{ "creature" : "ammoCart", "max" : 1, "min" : 1 },
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 }
+		],
+		"class" : "rn_hunter",
+		"battleImage" : "ruins/heroes/mabon/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/mabon/large.bmp",
+			"small" : "ruins/heroes/mabon/small.bmp",
+			"specialtyLarge" : "ruins/heroes/mabon/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/mabon/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "luck" },
+			{ "level" : "basic", "skill" : "diplomacy" }
+		],
+		"specialty" : [
+			{
+				"bonuses" : [ 
+					{ "subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 } 
+				]
+			}
+		],
+		"texts" : {
+			"biography" : "A gardener proud of his seedlings, the spreading of a decelerated life and peaceful coexistence. Probably influenced by his supernatural luck that guarantees surprises in his days and blossoming of his plants.",
+			"name" : "Mabon",
+			"specialty" : {
+				"description" : "{Gold}\r\n+350 Gold each day",
+				"name" : "+350 Gold",
+				"tooltip" : "Increases kingdom's income by 350 gold per day."
+			}
+		}
+	}
+}

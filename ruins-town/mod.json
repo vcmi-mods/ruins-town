@@ -1,0 +1,83 @@
+{
+	"name" : "Ruins town",
+	"description" : "Ruins town\nVersion 1.2.3 - 2020/11/27\n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
+	"author" : "Fiorin",
+	"contact" : "https://fior.in",
+	"version" : "1.2.3",
+	"modType" : "Town",
+	{
+		"min" : "1.0.0"
+	},
+	"changelog" :
+    		{
+		"1.2.3"   : [ "Lots od changes and fixes" ],
+		"0.95"   : [ "Initial release" ]
+    },
+    "factions" : [
+		"config/ruins/town/faction.json",
+		"config/ruins/town/buildings.json",
+		"config/ruins/town/structures.json",
+		"config/ruins/town/siege.json",
+		"config/ruins/town/spells.json",
+		"config/ruins/town/puzzle.json"
+    ],
+	"creatures" :
+	[
+		// level1
+		"config/ruins/creatures/pygmy.json",
+		"config/ruins/creatures/pygmySurvivor.json",
+		// level2
+		// temporario
+		"config/ruins/creatures/tracker.json",
+		"config/ruins/creatures/veteranTracker.json",
+		// level3
+		"config/ruins/creatures/cockatrice.json",
+		"config/ruins/creatures/direCockatrice.json",
+		// level4
+		"config/ruins/creatures/witch.json",
+		"config/ruins/creatures/priestess.json",
+		// level5
+		"config/ruins/creatures/peryton.json",
+		"config/ruins/creatures/grandPeryton.json",
+		// level6
+		"config/ruins/creatures/riverSpirit.json",
+		"config/ruins/creatures/kelpie.json",
+		// level7
+		"config/ruins/creatures/walkingStones.json",
+		"config/ruins/creatures/colossus.json"
+	],
+	"heroClasses" :
+	[
+		"config/ruins/classes/hunter.json",
+		"config/ruins/classes/hermit.json"
+	],
+
+	"heroes" :
+	[
+		// hunter ---------------------------
+		"config/ruins/heroes/teutates.json", // pygmy
+		"config/ruins/heroes/nodens.json", // stalker
+		"config/ruins/heroes/langley.json", // cockatrice
+		"config/ruins/heroes/thar.json", // ore and stones
+		"config/ruins/heroes/bellona.json", // offence
+		"config/ruins/heroes/grim.json", // pathfind
+		"config/ruins/heroes/gobni.json", // artillery
+		// hermit ---------------------------
+		"config/ruins/heroes/rhea.json", // sorcery
+		"config/ruins/heroes/horae.json", // earthquake
+		"config/ruins/heroes/myra.json", // first aid
+		"config/ruins/heroes/mabon.json", // gold
+		"config/ruins/heroes/kali.json", // sacrifice
+		"config/ruins/heroes/cerri.json", // witch
+		"config/ruins/heroes/kawa.json", // forcefield
+		"config/ruins/heroes/huldra.json", // hypnotize
+		"config/ruins/heroes/faye.json", // haste
+	],
+	"objects" : [ 
+		"config/ruins/dwellings.json"
+	],
+	"spells" :
+    [ 
+		"config/spells/grapple/grapple.json"
+    ]
+}

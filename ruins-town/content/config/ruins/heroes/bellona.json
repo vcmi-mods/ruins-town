@@ -1,0 +1,49 @@
+{
+	"rn_bellona" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 20, "min" : 12 },
+			{ "creature" : "rn_pygmy", "max" : 15, "min" : 10 },
+			{ "creature" : "rn_pygmySurvivor", "max" : 15, "min" : 12 }
+		],
+		"female": true,
+		"class" : "rn_hunter",
+		"battleImage" : "ruins/heroes/bellona/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/bellona/large.bmp",
+			"small" : "ruins/heroes/bellona/small.bmp",
+			"specialtyLarge" : "ruins/heroes/bellona/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/bellona/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "tactics" }
+		],
+		"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"subtype" : "skill.offence",
+						"type" : "SPECIAL_SECONDARY_SKILL",
+						"val" : 5
+					},
+					{
+						"subtype" : "skill.offence",
+						"type" : "SECONDARY_SKILL_PREMY",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE"
+					}
+				],
+				"growsWithLevel" : true
+			}
+		],
+		"texts" : {
+			"biography" : "Daughter of a funky pygmy warrior and a human villager, Bellona bears an unusual beauty to her people. Attribute that becomes a burden when having to prove to be as good in combat as any other.",
+			"name" : "Bellona",
+			"specialty" : {
+				"description" : "Secondary Skill Bonus: Offence",
+				"name" : "Offence",
+				"tooltip" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
+			}
+		}
+	}
+}

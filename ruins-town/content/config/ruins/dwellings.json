@@ -1,0 +1,99 @@
+{
+	"core:creatureGeneratorCommon" : {
+//		"index" :17,
+//		"handler": "dwelling",
+		"base" : {
+			"base" : {
+//				"visitableFrom" : [ "---", "+++", "+++" ],
+				"mask" : [ "VVV", "VVV", "VBA" ]
+			},
+			"sounds" : {
+				"ambient" : ["LOOPSWOR"],
+				"visit" : ["MILITARY"]
+			}
+		},
+		"types" : {
+			"rn_pygmyVillage": {
+				"name" : "Pygmy Village",
+				"creatures": [["rn_pygmy"]],
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl1"
+					}
+				}
+			},
+			"rn_tent": {
+				"name" : "Tents",
+				"creatures": [["rn_tracker"]],
+				"sounds": {
+					"ambient": ["LOOPUNIC"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl2",
+					}
+				}
+			},
+			"rn_cave": {
+				"name" : "Cave Nest",
+				"creatures": [["rn_cockatrice"]],
+				"sounds": {
+					"ambient": ["LOOPGARD"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl3"
+					}
+				}
+			},
+			"rn_river": {
+				"name" : "River Forest",
+				"creatures": [["rn_riverSpirit"]],
+				"sounds": {
+					"ambient": ["LOOPCAVE"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl4"
+					}
+				}
+			},
+			"rn_ancientAltar": {
+				"name" : "Ancient Altar",
+				"creatures": [["rn_witch"]],
+				"sounds": {
+					"ambient": ["LOOPCAVE"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl5"
+					}
+				}
+			},
+			"rn_highStones": {
+				"name" : "High Stones",
+				"creatures": [["rn_peryton"]],
+				"sounds": {
+					"ambient": ["LOOPGRIF"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl6"
+					}
+				}
+			},
+			"rn_stonehenge": {
+				"name" : "Stonehenge",
+				"creatures": [["rn_walkingStones"]],
+				"sounds": {
+					"ambient": ["LOOPGARD"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl7"
+					}
+				}
+			}
+		}
+	}
+}

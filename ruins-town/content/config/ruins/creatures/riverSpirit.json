@@ -1,0 +1,83 @@
+{
+	"rn_riverSpirit" : 
+	{
+		"name" :
+		{
+			"singular" : "River Spirit",
+			"plural" : "River Spirits"
+		},
+		"upgrades":
+		[
+			"rn_kelpie"
+		],
+		"level" : 4,
+		"special" : false,
+		"faction" : "ruins", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 350
+		}, 
+		"fightValue" : 558,
+		"aiValue" : 573,
+		"growth" : 4,
+		"attack" : 8,
+		"defense" : 10,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 6,
+			"max" : 9
+		},
+		"spellPoints" : 50,
+		"advMapAmount" :
+		{
+			"min" : 10,
+			"max" : 20
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"spirit" : { 
+				"type" : "NON_LIVING"
+			},
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"immunity" :{
+				"type" : "WATER_IMMUNITY",
+				"val" : 2
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/riverSpirit.def",
+			"map" : "ruins/creatures/adventure/riverSpirit.def",
+			"iconSmall" : "ruins/creatures/portrait/riverSpirit_s.png",
+			"iconLarge" : "ruins/creatures/portrait/riverSpirit_l.png",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.90,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "UNICATTK.wav",
+			"defend": "UNICDFND.wav",
+			"killed": "UNICKILL.wav",
+			"move": "UNICMOVE.wav",
+			"wince": "UNICWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"rn_cerri" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 20, "min" : 15 },
+			{ "creature" : "rn_tracker", "max" : 8, "min" : 4 },
+			{ "creature" : "rn_cockatrice", "max" : 5, "min" : 2 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/cerri/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/cerri/large.bmp",
+			"small" : "ruins/heroes/cerri/small.bmp",
+			"specialtyLarge" : "ruins/heroes/cerri/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/cerri/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "mysticism" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : {
+			"creature" : "rn_witch"
+		},
+		"texts" : {
+			"biography" : "Cerri made his witchcraft the key to seizing the power of his region. Born for a leader does not taste the same as taking it by force.",
+			"name" : "Cerri",
+			"specialty" : {
+				"description" : "{Witch}\r\nIncreases Speed of any Witch by 1 and their Attack and Defense skills by 5% for every 5 level.",
+				"name" : "Witch",
+				"tooltip" : "Increases Speed of any Witch by 1 and their Attack and Defense skills by 5% for every 5 level."
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"rn_faye" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_tracker", "max" : 15, "min" : 10 },
+			{ "creature" : "rn_pygmy", "max" : 17, "min" : 12 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/faye/battle.def",
+		"spellbook" : [ "haste" ],
+		"images" : {
+			"large" : "ruins/heroes/faye/large.png",
+			"small" : "ruins/heroes/faye/small.png",
+			"specialtyLarge" : "ruins/heroes/faye/slarge.png",
+			"specialtySmall" : "ruins/heroes/faye/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "airMagic" },
+			{ "level" : "basic", "skill" : "diplomacy" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste": {
+					"type" : "SPELL",
+					"subtype" : "spell.haste",
+					"val" : 3
+				},
+				"maxHaste": {	
+					"subtype" : "spell.haste",
+					"type" : "MAXED_SPELL"
+				},
+			}
+		},
+		"texts" : {
+			"biography" : "She fled as a child to live in the forests at the foot of the great mountain calling herself daughter of the breeze. She shaped her youth with the words of the wind and made her learning and skills.",
+			"name" : "Faye",
+			"specialty" : {
+				"description" : "{Haste}\r\nMaxed effect Haste.",
+				"name" : "Haste",
+				"tooltip" : "Maxed effect Haste. Starts with Haste."
+			}
+		}
+	}
+}

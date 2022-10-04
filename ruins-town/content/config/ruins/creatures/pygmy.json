@@ -1,0 +1,83 @@
+{
+	"rn_pygmy" : 
+	{
+		"name" :
+		{
+			"singular" : "Pygmy",
+			"plural" : "Pygmies"
+		},
+		"upgrades":
+		[
+			"rn_pygmySurvivor"
+		],
+		"level" : 1,
+		"special" : false,
+		"faction" : "ruins", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 45
+		},
+		"fightValue" : 72,
+		"aiValue" : 63,
+		"growth" : 15,
+		"horde" : 9,
+		"attack" : 4,
+		"defense" : 2,
+		"hitPoints" : 5,
+		"shots" : 0,
+		"speed" : 5,
+		"damage" :
+		{
+			"min" : 1,
+			"max" : 2
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 20,
+			"max" : 50
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"fearless": {
+				"type":"FEARLESS"
+			},
+			"immunity": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.sorrow",
+				"addInfo" : 1
+			},
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/pygmy.def",
+			"map" : "ruins/creatures/adventure/pygmyAdv.def",
+			"iconSmall" : "ruins/creatures/portrait/pygmy_s.bmp",
+			"iconLarge" : "ruins/creatures/portrait/pygmy_l.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.90,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"defend": "HALFDFND.wav",
+			"killed": "HALFKILL.wav",
+			"move": "HALFMOVE.wav",
+			"shoot": "HALFSHOT.wav",
+			"wince": "HALFWNCE.wav"
+		}
+	}
+}

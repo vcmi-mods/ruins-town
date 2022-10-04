@@ -1,0 +1,48 @@
+{
+	"rn_kawa" : {
+		"army" : [
+			{ "creature" : "rn_tracker", "max" : 10, "min" : 5 },
+			{ "creature" : "rn_tracker", "max" : 4, "min" : 2 },
+			{ "creature" : "rn_veteranTracker", "max" : 3, "min" : 2 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/kawa/battle.def",
+		"spellbook" : [ "forceField" ],
+		"images" : {
+			"large" : "ruins/heroes/kawa/large.bmp",
+			"small" : "ruins/heroes/kawa/small.bmp",
+			"specialtyLarge" : "ruins/heroes/kawa/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/kawa/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "tactics" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"forcefield": {	
+					"subtype" : "spell.forceField",
+					"type" : "MAXED_SPELL"
+				},
+				"solitary": {	
+					"limiters" : [ { "parameters" : [ "rn_tracker", true ], "type" : "CREATURE_TYPE_LIMITER" } ],
+					"type" : "NO_WALL_PENALTY"
+				},
+				"witch": {	
+					"limiters" : [ { "parameters" : [ "rn_witch", true ], "type" : "CREATURE_TYPE_LIMITER" } ],
+					"type" : "NO_WALL_PENALTY"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Kawa is the incarnation of trickery and self preservation. A druid who firmly believes in hand-to-hand combat as dispensable and outdated. Through its charms seeks to favor the legitimate snipers of nature.",
+			"name" : "Kawa",
+			"specialty" : {
+				"description" : "{Forcefield}\r\nMaxed effect Forcefield. Shooters from Ruins, Rampart and Fortress have no wall penalty.",
+				"name" : "Wall knowledge",
+				"tooltip" : "Maxed effect Forcefield. Shooters from Ruins, Rampart and Fortress have no wall penalty."
+			}
+		}
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"rn_tracker" : 
+	{
+		"name" :
+		{
+			"singular" : "Tracker",
+			"plural" : "Trackers"
+		},
+		"upgrades":
+		[
+			"rn_veteranTracker"
+		],
+		"level" : 2,
+		"special" : false,
+		"faction" : "ruins", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 150
+		},
+		"fightValue" : 187,
+		"aiValue" : 177,
+		"growth" : 9,
+		"horde" : 4,
+		"attack" : 5,
+		"defense" : 6,
+		"hitPoints" : 17,
+		"shots" : 3,
+		"speed" : 5,
+		"damage" :
+		{
+			"min" : 2,
+			"max" : 4
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 8,
+			"max" : 15
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : { 
+				"type" : "SHOOTER"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/tracker.def",
+			"map" : "ruins/creatures/adventure/tracker.def",
+			"iconSmall" : "ruins/creatures/portrait/tracker_s.png",
+			"iconLarge" : "ruins/creatures/portrait/tracker_l.png",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.90,
+				"idle" : 10.00,
+				"attack" : 0.90,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 4,
+				"projectile": "ruins/projectiles/woodball.def",
+				"offset" :
+				{
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
+				},
+				"frameAngles" : [ -90, -45, 0, 45, 90]
+			}
+		},
+		"sound" :
+		{
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

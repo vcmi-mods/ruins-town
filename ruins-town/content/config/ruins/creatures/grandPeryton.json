@@ -1,0 +1,81 @@
+{
+	"rn_grandPeryton" : 
+	{
+		"name" :
+		{
+			"singular" : "Grand Peryton",
+			"plural" : "Grand Perytons"
+		},
+		"level" : 6,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 1150
+		},
+		"fightValue" : 1600,
+		"aiValue" : 1854,
+		"growth" : 2,
+		
+		"attack" : 18,
+		"defense" : 12,
+		"hitPoints" : 80,
+		"shots" : 0,
+		"speed" : 12,
+		"damage" :
+		{
+			"min" : 14,
+			"max" : 26
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 15,
+			"max" : 26
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"flying" : {
+				"type": "FLYING",
+				"subtype": 0
+			},
+			"jousting" : {
+				"type" : "JOUSTING"
+			},
+			"return" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "ruins/creatures/battle/grandPeryton.def",
+			"map" : "ruins/creatures/adventure/grandPeryton.def",
+			"iconSmall" : "ruins/creatures/portrait/grandPeryton_s.bmp",
+			"iconLarge" : "ruins/creatures/portrait/grandPeryton_l.bmp",
+			"timeBetweenFidgets" : 1.00,
+			"troopCountLocationOffset" : 0,
+			"animationTime" :
+			{
+				"walk" : 0.80,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move": "RGRFMOVE.wav",
+			"wince": "RGRFWNCE.wav"
+		}
+	}
+}

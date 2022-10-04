@@ -1,0 +1,45 @@
+{
+	"rn_huldra" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_tracker", "max" : 7, "min" : 3 },
+			{ "creature" : "rn_pygmy", "max" : 17, "min" : 7 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/huldra/battle.def",
+		"spellbook" : [ "hypnotize" ],
+		"images" : {
+			"large" : "ruins/heroes/huldra/large.png",
+			"small" : "ruins/heroes/huldra/small.png",
+			"specialtyLarge" : "ruins/heroes/huldra/slarge.png",
+			"specialtySmall" : "ruins/heroes/huldra/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "logistics" }
+		],
+		"specialty" : {
+			"bonuses":{
+				"hypnotize": {
+					"type" : "SPELL",
+					"subtype" : "spell.hypnotize",
+					"val" : 3
+				},
+				"maxEarthquake": {
+					"type" : "MAXED_SPELL",
+					"subtype" : "spell.hypnotize"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "A nature spirit of great beauty, who hypnotizes men and seduces them into the depths of the forest.",
+			"name" : "Huldra",
+			"specialty" : {
+				"description" : "Cast Hypnotize with maxed power.",
+				"name" : "Hypnotize",
+				"tooltip" : "{Hypnotize}\r\n\r\nCast Hypnotize with maxed power. Starts with Hypnotize."
+			}
+		}
+	}
+}

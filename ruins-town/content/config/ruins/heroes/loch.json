@@ -1,0 +1,33 @@
+{
+	"rn_loch" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 21, "min" : 17 },
+			{ "creature" : "rn_pygmy", "max" : 14, "min" : 7 },
+			{ "creature" : "rn_pygmy", "max" : 17, "min" : 13 }
+		],
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/loch/battle.def",
+		"images" : {
+			"large" : "ruins/heroes/loch/large.bmp",
+			"small" : "ruins/heroes/loch/small.bmp",
+			"specialtyLarge" : "ruins/heroes/loch/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/loch/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "waterMagic" },
+			{ "level" : "basic", "skill" : "necromancy" }
+		],
+		"specialty" : {
+			"creature" : "rn_kelpie"
+		},	
+		"texts" : {
+			"biography" : "",
+			"name" : "Loch",
+			"specialty" : {
+				"description" : "{Kelpie}\r\nIncreases Speed of any Kelpie by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"name" : "Kelpie",
+				"tooltip" : "Increases Speed of any Kelpie by 1 and their Attack and Defense skills by 5% for every 4 level."
+			}
+		}
+	}
+}

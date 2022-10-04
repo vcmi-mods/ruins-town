@@ -1,0 +1,45 @@
+{
+	"rn_kali" : {
+		"army" : [
+			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
+			{ "creature" : "rn_tracker", "max" : 5, "min" : 3 },
+			{ "creature" : "rn_pygmy", "max" : 17, "min" : 12 }
+		],
+		"female": true,
+		"class" : "rn_hermit",
+		"battleImage" : "ruins/heroes/kali/battle.def",
+		"spellbook" : [ "visions" ],
+		"images" : {
+			"large" : "ruins/heroes/kali/large.png",
+			"small" : "ruins/heroes/kali/small.png",
+			"specialtyLarge" : "ruins/heroes/kali/slarge.png",
+			"specialtySmall" : "ruins/heroes/kali/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "fireMagic" },
+			{ "level" : "basic", "skill" : "mysticism" }
+		],
+		"specialty" : {
+			"bonuses":{
+				"earthquake": {
+					"type" : "SPELL",
+					"subtype" : "spell.sacrifice",
+					"val" : 3
+				},
+				"maxEarthquake": {
+					"type" : "MAXED_SPELL",
+					"subtype" : "spell.sacrifice"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Priestess of the temple, Kali was responsible for the sacrifices to calm the fury of the lord of the flame. It was not always enough, but your belief remains focused.",
+			"name" : "Kali",
+			"specialty" : {
+				"description" : "Maxed Sacrifice.",
+				"name" : "Sacrifice",
+				"tooltip" : "{Sacrifice}\r\n\r\nMaxed Sacrifice spell. Start with Sacrifice."
+			}
+		}
+	}
+}
