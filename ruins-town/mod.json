@@ -8,6 +8,14 @@
 	"compatibility" :
 	{
 		"min" : "1.0.0"
+	},	
+	"german" : {
+		"name" : "Ruinen",
+		"description" : "Ruinen Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
 	},
 	"changelog" :
     {
