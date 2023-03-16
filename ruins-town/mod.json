@@ -14,7 +14,7 @@
 		"description" : "Ruinen Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/ruins/german.json"
 		]
 	},
 	"changelog" :
