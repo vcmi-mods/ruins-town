@@ -12,7 +12,6 @@
 	"german" : {
 		"name" : "Ruinen",
 		"description" : "Ruinen Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/ruins/german.json"
 		]
