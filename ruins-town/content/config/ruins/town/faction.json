@@ -50,7 +50,7 @@
 				"Caldragh",
 				"Poulnabrone",
 				"Loughcrew Cairns",
-				"Tulsk",
+				"Tulsk"
 			],
 			"hallBackground" : "ruins/town/hall",
 			"hallSlots" : [
@@ -68,7 +68,7 @@
 				[ 
 					[ "special1" ],
 					[ "special4" ],
-					[ "hordeLvl1","hordeUpLvl1" ],
+					[ "hordeLvl1","hordeUpLvl1" ]
 				],
 				[
 					[ "dwellingLvl1","dwellingUpLvl1" ],

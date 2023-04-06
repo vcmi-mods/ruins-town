@@ -22,13 +22,9 @@
 		"specialty" : {
 			"bonuses":{
 				"hypnotize": {
-					"type" : "SPELL",
+					"addInfo" : 3,
 					"subtype" : "spell.hypnotize",
-					"val" : 3
-				},
-				"maxEarthquake": {
-					"type" : "MAXED_SPELL",
-					"subtype" : "spell.hypnotize"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},

@@ -3,11 +3,11 @@
 	"description" : "Ruins town\nVersion 1.2.3 - 2020/11/27\n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
 	"author" : "Fiorin",
 	"contact" : "https://fior.in",
-	"version" : "1.2.3",
+	"version" : "1.2.4",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.0.0"
+		"min" : "1.2.0"
 	},	
 	"german" : {
 		"name" : "Ruinen",
@@ -18,6 +18,7 @@
 	},
 	"changelog" :
     {
+		"1.2.4"   : [ "Update to vcmi-1.2" ],
 		"1.2.3"   : [ "Lots od changes and fixes" ],
 		"0.95"   : [ "Initial release" ]
     },
@@ -79,7 +80,7 @@
 		"config/ruins/heroes/cerri.json", // witch
 		"config/ruins/heroes/kawa.json", // forcefield
 		"config/ruins/heroes/huldra.json", // hypnotize
-		"config/ruins/heroes/faye.json", // haste
+		"config/ruins/heroes/faye.json" // haste
 	],
 	"objects" : [ 
 		"config/ruins/dwellings.json"

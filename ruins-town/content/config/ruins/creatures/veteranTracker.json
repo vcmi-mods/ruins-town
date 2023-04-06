@@ -46,7 +46,7 @@
 			},
 			"fighter":{ 
 				"type" : "NO_MELEE_PENALTY"
-			},
+			}
 		},
 		"hasDoubleWeek": false,
 		"graphics" :
@@ -61,8 +61,7 @@
 			{
 				"walk" : 0.90,
 				"idle" : 10.00,
-				"attack" : 0.90,
-				"flight" : 1.00
+				"attack" : 0.90
 			},
 			"missile" :
 			{

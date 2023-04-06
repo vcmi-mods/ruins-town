@@ -17,24 +17,17 @@
 			{ "level" : "basic", "skill" : "pathfinding" },
 			{ "level" : "basic", "skill" : "armorer" }
 		],
-		"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"subtype" : "skill.pathfinding",
-						"type" : "SPECIAL_SECONDARY_SKILL",
-						"val" : 5
-					},
-					{
-						"subtype" : "skill.pathfinding",
-						"type" : "SECONDARY_SKILL_PREMY",
-						"val" : 5,
-						"valueType" : "PERCENT_TO_BASE"
-					}
-				],
-				"growsWithLevel" : true
+		"specialty" : {
+			"bonuses" : {
+				"pathfinding" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "ROUGH_TERRAIN_DISCOUNT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
 			}
-		],
+		},
 		"texts" : {
 			"biography" : "A bushman specialized in tracking their prey. Hunter by nature since he was young, his routine taught him that part of the job is to resist adversity. Thick skin lasts longer!",
 			"name" : "Grim",

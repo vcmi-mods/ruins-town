@@ -8,7 +8,7 @@
 		"female": true,
 		"class" : "rn_hermit",
 		"battleImage" : "ruins/heroes/kali/battle.def",
-		"spellbook" : [ "visions" ],
+		"spellbook" : [ "visions", "sacrifice" ],
 		"images" : {
 			"large" : "ruins/heroes/kali/large.png",
 			"small" : "ruins/heroes/kali/small.png",
@@ -21,14 +21,10 @@
 		],
 		"specialty" : {
 			"bonuses":{
-				"earthquake": {
-					"type" : "SPELL",
+				"maxSacrifice": {
+					"addInfo" : 3,
 					"subtype" : "spell.sacrifice",
-					"val" : 3
-				},
-				"maxEarthquake": {
-					"type" : "MAXED_SPELL",
-					"subtype" : "spell.sacrifice"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},

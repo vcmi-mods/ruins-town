@@ -21,15 +21,11 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"haste": {
-					"type" : "SPELL",
-					"subtype" : "spell.haste",
-					"val" : 3
-				},
 				"maxHaste": {	
+					"addInfo" : 3,
 					"subtype" : "spell.haste",
-					"type" : "MAXED_SPELL"
-				},
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
 			}
 		},
 		"texts" : {

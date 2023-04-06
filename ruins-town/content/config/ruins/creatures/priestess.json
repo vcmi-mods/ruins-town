@@ -77,8 +77,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 15.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			},
 			"missile" :
 			{

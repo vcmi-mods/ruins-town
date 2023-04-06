@@ -30,7 +30,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "ruins/map/lvl2",
+						"animation" : "ruins/map/lvl2"
 					}
 				}
 			},

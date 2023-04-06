@@ -3,6 +3,8 @@
 		"town" : {
 			"siege" : {
 				"shooter" : "rn_veteranTracker",
+				"towerIconSmall" : "ruins/icons/arrowtowersmall",
+				"towerIconLarge" : "ruins/icons/arrowtowerslarge",
 				"imagePrefix" : "ruins/siege/SGRN",
 				"gate" :
 				{

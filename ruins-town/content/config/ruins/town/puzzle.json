@@ -49,7 +49,7 @@
 				{ "index" : 45, "x" : 355,  "y" : 15 },
 				{ "index" : 46, "x" : 508,  "y" : 202 },
 				{ "index" : 47, "x" : 500,  "y" : 6 },
-				{ "index" : 48, "x" : 6,  "y" : 61 },
+				{ "index" : 48, "x" : 6,  "y" : 61 }
 			],
 			"prefix" : "ruins/puzzle-map/"
 		}

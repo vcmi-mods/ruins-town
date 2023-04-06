@@ -22,8 +22,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"forcefield": {	
+					"addInfo" : 3,
 					"subtype" : "spell.forceField",
-					"type" : "MAXED_SPELL"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				},
 				"solitary": {	
 					"limiters" : [ { "parameters" : [ "rn_tracker", true ], "type" : "CREATURE_TYPE_LIMITER" } ],

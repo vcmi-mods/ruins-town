@@ -144,6 +144,8 @@
 				},
 				"ship" : {
 					"id" : 20,
+					"name" : "Shipyard",
+					"description" : "Shipyard allows ships to be built.",
 					"upgrades" : "shipyard",
 					"requires" : [ "shipyard" ]
 				},
@@ -302,7 +304,7 @@
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"cost" : { "gems" : 10, "gold" : 2500, "wood" : 5,},
+					"cost" : { "gems" : 10, "gold" : 2500, "wood" : 5},
 					"description" : "The Upg. River Forest  allows you to recruit Kelpies.",
 					"id" : 40,
 					"name" : "Upg. River Forest ",
@@ -321,7 +323,7 @@
 					"description" : "The Upg. High Stones allows you to recruit Grand Perytons.",
 					"id" : 42,
 					"name" : "Upg. High Stones",
-					"upgrades" : "dwellingLvl6",
+					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
 					"cost" : { "gems" : 20, "gold" : 15000, "ore" : 15, "wood" : 5},

@@ -17,17 +17,9 @@
 			{ "level" : "basic", "skill" : "artillery" },
 			{ "level" : "basic", "skill" : "scouting" }
 		],
-		"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"limiters" : [ { "parameters" : [ "ballista", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
-						"type" : "ENEMY_DEFENCE_REDUCTION",
-						"val" : 50
-					}
-				]
-			}
-		],
+		"specialty" : {
+			"creature" : "ballista"
+		},
 		"texts" : {
 			"biography" : "Master of survival and trainer. No one comes near your hut without warning and whole.",
 			"name" : "Gobni",

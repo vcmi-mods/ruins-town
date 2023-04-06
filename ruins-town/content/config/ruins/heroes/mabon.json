@@ -17,13 +17,13 @@
 			{ "level" : "basic", "skill" : "luck" },
 			{ "level" : "basic", "skill" : "diplomacy" }
 		],
-		"specialty" : [
-			{
-				"bonuses" : [ 
-					{ "subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 } 
-				]
+		"specialty" : {
+			"bonuses" : {
+				"gold": {
+					"subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 
+				} 
 			}
-		],
+		},
 		"texts" : {
 			"biography" : "A gardener proud of his seedlings, the spreading of a decelerated life and peaceful coexistence. Probably influenced by his supernatural luck that guarantees surprises in his days and blossoming of his plants.",
 			"name" : "Mabon",

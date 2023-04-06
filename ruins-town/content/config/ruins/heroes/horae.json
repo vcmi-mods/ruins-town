@@ -3,7 +3,7 @@
 		"army" : [
 			{ "creature" : "rn_tracker", "max" : 12, "min" : 7 },
 			{ "creature" : "rn_pygmy", "max" : 10, "min" : 8 },
-			{ "creature" : "rn_pygmy", "max" : 12, "min" : 8 },
+			{ "creature" : "rn_pygmy", "max" : 12, "min" : 8 }
 		],
 		"class" : "rn_hermit",
 		"spellbook" : [ "earthquake" ],
@@ -18,15 +18,11 @@
 			{ "level" : "advanced", "skill" : "earthMagic" }
 		],
 		"specialty" : {
-			"bonuses":{
-				"earthquake": {
-					"type" : "SPELL",
+			"bonuses" : {
+				"maxEarthquake": {	
+					"addInfo" : 3,
 					"subtype" : "spell.earthquake",
-					"val" : 3
-				},
-				"maxEarthquake": {
-					"type" : "MAXED_SPELL",
-					"subtype" : "spell.earthquake"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
