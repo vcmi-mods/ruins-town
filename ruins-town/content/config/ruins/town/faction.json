@@ -2,6 +2,7 @@
 	"ruins" : {
 		"name" : "Ruins",
 		"alignment" : "neutral",
+		"boat" : "boatFortress",
 		"nativeTerrain" : "grass",
 		"creatureBackground" : { 
 			"120px" : "ruins/creaturebg120px", 
@@ -83,6 +84,7 @@
 				]
 			],
 			"horde" : [ 0 ],
+			"moatAbility" : "ruinsMoat",
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -124,8 +126,7 @@
 			"tavernVideo" : "TAVERN.BIK",
 			"townBackground" : "ruins/town/background",
 			"warMachine" : "ammoCart",
-			"guildBackground" : "ruins/town/mage",
-			"moatDamage" : 45
+			"guildBackground" : "ruins/town/mage"
 		}
 	}
 }

@@ -3,11 +3,11 @@
 	"description" : "Ruins town\nVersion 1.2.3 - 2020/11/27\n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
 	"author" : "Fiorin",
 	"contact" : "https://fior.in",
-	"version" : "1.2.5",
+	"version" : "1.2.6",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.3.0"
 	},	
 	"chinese" : {
 		"name" : "遗迹",
@@ -24,6 +24,7 @@
 	},
 	"changelog" :
     {
+		"1.2.6"   : [ "Update to vcmi-1.3" ],
 		"1.2.5"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.2.4"   : [ "Update to vcmi-1.2" ],
 		"1.2.3"   : [ "Lots od changes and fixes" ],
@@ -94,6 +95,7 @@
 	],
 	"spells" :
     [ 
-		"config/spells/grapple/grapple.json"
+		"config/spells/grapple/grapple.json",
+		"config/spells/moat.json"
     ]
 }
