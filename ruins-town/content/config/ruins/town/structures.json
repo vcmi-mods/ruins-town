@@ -40,7 +40,7 @@
 					"border" : "ruins/town/border/tavern",
 					"x" : 471,
 					"y" : 171,
-					"z" : 3
+					"z" : 1
 				},
 				"shipyard" : {
 					"animation" : "ruins/buildings/shipyard",
