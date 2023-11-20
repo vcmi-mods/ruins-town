@@ -1,40 +1,59 @@
 {
-	"rn_kali" : {
-		"army" : [
-			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
-			{ "creature" : "rn_tracker", "max" : 5, "min" : 3 },
-			{ "creature" : "rn_pygmy", "max" : 17, "min" : 12 }
+	"rn_kali": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 5,
+				"min": 3
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 17,
+				"min": 12
+			}
 		],
 		"female": true,
-		"class" : "rn_hermit",
-		"battleImage" : "ruins/heroes/kali/battle.def",
-		"spellbook" : [ "visions", "sacrifice" ],
-		"images" : {
-			"large" : "ruins/heroes/kali/large.png",
-			"small" : "ruins/heroes/kali/small.png",
-			"specialtyLarge" : "ruins/heroes/kali/slarge.png",
-			"specialtySmall" : "ruins/heroes/kali/ssmall.png"
-		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "fireMagic" },
-			{ "level" : "basic", "skill" : "mysticism" }
+		"class": "rn_magic",
+		"spellbook": [
+			"sacrifice"
 		],
-		"specialty" : {
-			"bonuses":{
+		"images": {
+			"large": "ruins/heroes/kali/large.png",
+			"small": "ruins/heroes/kali/small.png",
+			"specialtyLarge": "ruins/heroes/kali/slarge.png",
+			"specialtySmall": "ruins/heroes/kali/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "mysticism"
+			},
+			{
+				"level": "basic",
+				"skill": "fireMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
 				"maxSacrifice": {
-					"addInfo" : 3,
-					"subtype" : "spell.sacrifice",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+					"addInfo": 3,
+					"subtype": "spell.sacrifice",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Priestess of the temple, Kali was responsible for the sacrifices to calm the fury of the lord of the flame. It was not always enough, but your belief remains focused.",
-			"name" : "Kali",
-			"specialty" : {
-				"description" : "Maxed Sacrifice.",
-				"name" : "Sacrifice",
-				"tooltip" : "{Sacrifice}\r\n\r\nMaxed Sacrifice spell. Start with Sacrifice."
+		"texts": {
+			"biography": "Kali comes from the Human tribe called Ashflame, in Tatalia. She is the founder of the Original Witches, the Chroma Covenant, a faction of witches who have sworn to protect the lands. She is known to resolve the matter in unconventional and sometimes harmful ways. She hails from a bloodline of Fire Witches, possessing a lineage so potent that any subsequent Fire Witch is likely to be her heir.",
+			"name": "Kali",
+			"specialty": {
+				"description": "Maxed Sacrifice.",
+				"name": "Sacrifice",
+				"tooltip": "{Sacrifice}\r\n\r\nMaxed Sacrifice spell. Start with Sacrifice."
 			}
 		}
 	}

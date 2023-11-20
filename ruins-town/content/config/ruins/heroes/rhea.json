@@ -1,42 +1,60 @@
 {
-	"rn_rhea" : {
-		"army" : [
-			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
-			{ "creature" : "rn_tracker", "max" : 5, "min" : 3 },
-			{ "creature" : "rn_pygmy", "max" : 10, "min" : 5 }
+	"rn_rhea": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 5,
+				"min": 3
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 10,
+				"min": 5
+			}
 		],
 		"female": true,
-		"class" : "rn_hermit",
-		"battleImage" : "ruins/heroes/rhea/battle.def",
-		"spellbook" : [ "magicArrow" ],
-		"images" : {
-			"large" : "ruins/heroes/rhea/large.png",
-			"small" : "ruins/heroes/rhea/small.png",
-			"specialtyLarge" : "ruins/heroes/rhea/slarge.png",
-			"specialtySmall" : "ruins/heroes/rhea/ssmall.png"
-		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "sorcery" },
-			{ "level" : "basic", "skill" : "mysticism" }
+		"class": "rn_magic",
+		"spellbook": [
+			"magicArrow"
 		],
-		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
+		"images": {
+			"large": "ruins/heroes/rhea/large.png",
+			"small": "ruins/heroes/rhea/small.png",
+			"specialtyLarge": "ruins/heroes/rhea/slarge.png",
+			"specialtySmall": "ruins/heroes/rhea/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "sorcery"
+			},
+			{
+				"level": "basic",
+				"skill": "mysticism"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"sorcery": {
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "SPELL_DAMAGE",
+					"val": 5,
+					"valueType": "PERCENT_TO_BASE"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Banned from her village for practicing witchcraft, Rhea used her gift to survive in the perilous depths of the forests. She never saw magic as something wrong. It's fun, it's survival, and she's always been good at it.",
-			"name" : "Rhea",
-			"specialty" : {
-				"description" : "{Sorcery}\r\nSorcery skill increased 5% for every hero level.",
-				"name" : "Sorcery",
-				"tooltip" : "Sorcery skill increased 5% for every hero level."
+		"texts": {
+			"biography": "Rhea, known as the Green Sister within the Chroma Covenant, hails from a secluded village in the western reaches of the mighty Erathian Empire. In her humble origins as a peasant, she was intimately acquainted with the secrets of herbs and the nurturing of livestock. When the turbulent Timber Wars erupted, she bravely assumed the forefront of the defense.",
+			"name": "Rhea",
+			"specialty": {
+				"description": "{Sorcery}\r\nSorcery skill increased 5% for every hero level.",
+				"name": "Sorcery",
+				"tooltip": "Sorcery skill increased 5% for every hero level."
 			}
 		}
 	}

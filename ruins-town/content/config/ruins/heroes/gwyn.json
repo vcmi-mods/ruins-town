@@ -1,0 +1,59 @@
+{
+	"rn_gwyn": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 15,
+				"min": 10
+			},
+			{
+				"creature": "rn_creature_lvl1_up",
+				"max": 12,
+				"min": 7
+			}
+		],
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/gwyn/large.bmp",
+			"small": "ruins/heroes/gwyn/small.bmp",
+			"specialtyLarge": "ruins/heroes/gwyn/slarge.bmp",
+			"specialtySmall": "ruins/heroes/gwyn/ssmall.bmp"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "archery"
+			},
+			{
+				"level": "basic",
+				"skill": "tactics"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"archery": {
+					"subtype": 1,
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"val": 5,
+					"valueType": "PERCENT_TO_BASE",
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts": {
+			"biography": "Gwyn, a highly esteemed knight of the Brotherhood of the Sword, possessed an extraordinary penchant for ranged weaponry that ultimately drew him toward the path of a ranger. The alluring enigma of the Emerald Forests had always captivated him. With the threat looming over these sacred woods, the moment has come for him to stand as their guardian.",
+			"name": "Gwyn",
+			"specialty": {
+				"description": "Secondary Skill Bonus: Archery",
+				"name": "Archery",
+				"tooltip": "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage."
+			}
+		}
+	}
+}

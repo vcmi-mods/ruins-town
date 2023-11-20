@@ -1,40 +1,59 @@
 {
-	"rn_huldra" : {
-		"army" : [
-			{ "creature" : "rn_pygmy", "max" : 25, "min" : 20 },
-			{ "creature" : "rn_tracker", "max" : 7, "min" : 3 },
-			{ "creature" : "rn_pygmy", "max" : 17, "min" : 7 }
+	"rn_huldra": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 7,
+				"min": 3
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 17,
+				"min": 7
+			}
 		],
 		"female": true,
-		"class" : "rn_hermit",
-		"battleImage" : "ruins/heroes/huldra/battle.def",
-		"spellbook" : [ "hypnotize" ],
-		"images" : {
-			"large" : "ruins/heroes/huldra/large.png",
-			"small" : "ruins/heroes/huldra/small.png",
-			"specialtyLarge" : "ruins/heroes/huldra/slarge.png",
-			"specialtySmall" : "ruins/heroes/huldra/ssmall.png"
-		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "logistics" }
+		"class": "rn_magic",
+		"spellbook": [
+			"hypnotize"
 		],
-		"specialty" : {
-			"bonuses":{
+		"images": {
+			"large": "ruins/heroes/huldra/large.png",
+			"small": "ruins/heroes/huldra/small.png",
+			"specialtyLarge": "ruins/heroes/huldra/slarge.png",
+			"specialtySmall": "ruins/heroes/huldra/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "diplomacy"
+			}
+		],
+		"specialty": {
+			"bonuses": {
 				"hypnotize": {
-					"addInfo" : 3,
-					"subtype" : "spell.hypnotize",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+					"addInfo": 3,
+					"subtype": "spell.hypnotize",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "A nature spirit of great beauty, who hypnotizes men and seduces them into the depths of the forest.",
-			"name" : "Huldra",
-			"specialty" : {
-				"description" : "Cast Hypnotize with maxed power.",
-				"name" : "Hypnotize",
-				"tooltip" : "{Hypnotize}\r\n\r\nCast Hypnotize with maxed power. Starts with Hypnotize."
+		"texts": {
+			"biography": "Huldra, a being descended from pure light, possesses the innate ability to effortlessly influence the minds of lesser creatures and maintain a constant awareness of their thoughts. However, her benevolent nature guides her to exercise these powers only when circumstances deem it necessary. Having descended from the Elemental Plane of Light long ago, traversed the world, but it was the Emerald Forest that truly captured her heart. Her connection to the forest was profound, and she always felt the spirits that surrounded her, strengthening her bond with the natural world. However, on this particular journey, an unfamiliar presence stirred within her, distinct and unlike any she had ever experienced before.",
+			"name": "Huldra",
+			"specialty": {
+				"description": "Cast Hypnotize with maxed power.",
+				"name": "Hypnotize",
+				"tooltip": "{Hypnotize}\r\n\r\nCast Hypnotize with maxed power. Starts with Hypnotize."
 			}
 		}
 	}

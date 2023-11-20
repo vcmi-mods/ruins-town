@@ -1,0 +1,57 @@
+{
+	"rn_grimm": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 22,
+				"min": 17
+			},
+			{
+				"creature": "ballista",
+				"max": 1,
+				"min": 1
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 18,
+				"min": 13
+			}
+		],
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/grimm/large.bmp",
+			"small": "ruins/heroes/grimm/small.bmp",
+			"specialtyLarge": "ruins/heroes/grimm/slarge.bmp",
+			"specialtySmall": "ruins/heroes/grimm/ssmall.bmp"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			},
+			{
+				"level": "basic",
+				"skill": "ballistics"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"lumberjack": {
+					"subtype": "resource.wood",
+					"type": "GENERATE_RESOURCE",
+					"val": 2,
+					"valueType": "BASE_NUMBER"
+				}
+			}
+		},
+		"texts": {
+			"biography": "Once the revered blacksmith of the tribe, he gracefully passed the mantle to the younger generation. Now, in his multifaceted role as a tribe member, he has channeled his skills toward the art of conscientious tree-felling and actively contributes to the forest's rejuvenation.",
+			"name": "Grimm",
+			"specialty": {
+				"tooltip": "+2 Wood each day",
+				"name": "+1 Wood",
+				"description": "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+			}
+		}
+	}
+}

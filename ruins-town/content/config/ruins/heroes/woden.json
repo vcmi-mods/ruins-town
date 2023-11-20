@@ -1,0 +1,64 @@
+{
+	"rn_woden": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1_up",
+				"max": 15,
+				"min": 10
+			}
+		],
+		"class": "rn_magic",
+		"spellbook": [],
+		"images": {
+			"large": "ruins/heroes/woden/large.png",
+			"small": "ruins/heroes/woden/small.png",
+			"specialtyLarge": "ruins/heroes/woden/slarge.png",
+			"specialtySmall": "ruins/heroes/woden/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "resistance"
+			},
+			{
+				"level": "basic",
+				"skill": "eagleEye"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"interference": {
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE"
+					],
+					"subtype": "primSkill.spellpower",
+					"type": "PRIMARY_SKILL",
+					"val": -15,
+					"valueType": "PERCENT_TO_BASE",
+					"updater": {
+						"parameters": [
+							-10
+						],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		},
+		"texts": {
+			"biography": "Born an Erathian, Woden embarked on a journey of knowledge during his youth, enrolling at the esteemed University of Celeste. Despite his innate attraction to natural magic, the institution's curriculum leaned heavily toward elemental disciplines like fire, water, and air. Disheartened by the lack of focus on nature magic, he charted his own path into the verdant depths of the forests, where he painstakingly cultivated his mastery of this ancient art. All the while, Woden maintained his ties to the Empire of Erathia by serving as the royal herbalist, bridging the worlds of academia and the untamed wilds.",
+			"name": "Woden",
+			"specialty": {
+				"tooltip": "Secondary Skill Bonus: Interference",
+				"name": "Interference",
+				"description": "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage."
+			}
+		}
+	}
+}

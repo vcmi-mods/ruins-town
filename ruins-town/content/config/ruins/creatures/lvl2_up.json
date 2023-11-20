@@ -1,0 +1,81 @@
+{
+	"rn_creature_lvl2_up": {
+		"name": {
+			"singular": "Dire Cockatrice",
+			"plural": "Dire Cockatrices"
+		},
+		"level": 2,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 192
+		},
+		"fightValue": 163,
+		"aiValue": 181,
+		"growth": 9,
+		"horde": 4,
+		"attack": 6,
+		"defense": 4,
+		"hitPoints": 14,
+		"shots": 6,
+		"speed": 10,
+		"damage": {
+			"min": 1,
+			"max": 5
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 26,
+			"min": 15
+		},
+		"doubleWide": false,
+		"abilities": {
+			"fly": {
+				"type": "FLYING"
+			},
+			"petrify": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10
+			},
+			"petrifyImmunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.stoneGaze",
+				"addInfo": 1
+			},
+			"deathStrike" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 10
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl2_up.def",
+			"map": "ruins/creatures/adventure/lvl2_up.def",
+			"iconSmall": "ruins/creatures/icon/lvl2_up.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl2_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"shoot": "HALFATTK.wav",
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

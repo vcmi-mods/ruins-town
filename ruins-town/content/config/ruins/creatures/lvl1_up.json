@@ -1,0 +1,95 @@
+{
+	"rn_creature_lvl1_up": {
+		"name": {
+			"singular": "Woodwose",
+			"plural": "Woodwoses"
+		},
+		"level": 1,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 80
+		},
+		"fightValue": 70,
+		"aiValue": 95,
+		"growth": 16,
+		"horde": 9,
+		"attack": 4,
+		"defense": 5,
+		"hitPoints": 8,
+		"shots": 99,
+		"speed": 5,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 45,
+			"min": 16
+		},
+		"doubleWide": false,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"range": {
+				"type": "LIMITED_SHOOTING_RANGE",
+				"val": 10
+			},
+			"boomerang" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 2
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl1_up.def",
+			"map": "ruins/creatures/adventure/lvl1_up.def",
+			"iconSmall": "ruins/creatures/icon/lvl1_up.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl1_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			},
+			"missile": {
+				"attackClimaxFrame": 5,
+				"projectile": "ruins/projectiles/boomerang-triple.def",
+				"offset": {
+					"lowerX": 28,
+					"lowerY": 3,
+					"middleX": 62,
+					"middleY": -53,
+					"upperX": 37,
+					"upperY": -98
+				},
+				"frameAngles": [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
+		},
+		"sound": {
+			"attack": "HALFATTK.wav",
+			"defend": "HALFDFND.wav",
+			"killed": "BDRFKILL.wav",
+			"move": "BDRFMOVE.wav",
+			"shoot": "HALFSHOT.wav",
+			"wince": "HALFWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"rn_neit": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 30,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 15,
+				"min": 10
+			}
+		],
+		"female": true,
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/neit/large.png",
+			"small": "ruins/heroes/neit/small.png",
+			"specialtyLarge": "ruins/heroes/neit/slarge.png",
+			"specialtySmall": "ruins/heroes/neit/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "logistics"
+			},
+			{
+				"level": "basic",
+				"skill": "scouting"
+			}
+		],
+		"specialty": {
+			"creature": "rn_creature_lvl4"
+		},
+		"texts": {
+			"biography": "Neit's family had long held the esteemed role of Peryton tamers, a tradition passed down through generations. But when her tribe faced a dire threat, she faced an agonizing choice. In a desperate bid to secure the Perytons' aid, she left her remote home behind. Regrettably, upon her return, she discovered that time had betrayed her, and she arrived too late. The tragedy had already unfolded, with the loss of most of her people.",
+			"name": "Neit",
+			"specialty": {
+				"description": "{Peryton}\r\nIncreases Speed of any Peryton by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"name": "Peryton",
+				"tooltip": "Increases Speed of any Peryton by 1 and their Attack and Defense skills by 5% for every 4 level."
+			}
+		}
+	}
+}

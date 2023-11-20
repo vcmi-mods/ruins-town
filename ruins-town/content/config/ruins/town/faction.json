@@ -1,132 +1,250 @@
-{ 
-	"ruins" : {
-		"name" : "Ruins",
-		"alignment" : "neutral",
-		"boat" : "boatFortress",
-		"nativeTerrain" : "grass",
-		"creatureBackground" : { 
-			"120px" : "ruins/creaturebg120px", 
-			"130px" : "ruins/creaturebg130px" 
+{
+	"ruins": {
+		"name": "Ruins",
+		"alignment": "neutral",
+		"nativeTerrain": "grass",
+		"creatureBackground": {
+			"120px": "ruins/creaturebg120px",
+			"130px": "ruins/creaturebg130px"
 		},
-		"town" : {
-			"primaryResource" : "wood", 
-			"mapObject" : {
-				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+		"town": {
+			"primaryResource": "wood",
+			"mapObject": {
+				"filters": {
+					"castle": [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel": [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
-				"templates" : {
-					"capitol" : { "animation" : "ruins/map/capitol.def" },
-					"castle" : { "animation" : "ruins/map/castle.def" },
-					"citadel" : { "animation" : "ruins/map/citadel.def" },
-					"fort" : { "animation" : "ruins/map/fort.def" },
-					"village" : { "animation" : "ruins/map/village.def" }
+				"templates": {
+					"capitol": {
+						"animation": "ruins/map/capitol.def"
+					},
+					"castle": {
+						"animation": "ruins/map/castle.def"
+					},
+					"citadel": {
+						"animation": "ruins/map/citadel.def"
+					},
+					"fort": {
+						"animation": "ruins/map/fort.def"
+					},
+					"village": {
+						"animation": "ruins/map/village.def"
+					}
 				}
 			},
-			"musicTheme" : "music/ruins",
-			"creatures" : [
-				["rn_pygmy","rn_pygmySurvivor"],
-				["rn_tracker","rn_veteranTracker"],
-				["rn_cockatrice","rn_direCockatrice" ],
-				["rn_riverSpirit","rn_kelpie"],
-				["rn_witch","rn_priestess"],
-				["rn_peryton","rn_grandPeryton"],
-				["rn_walkingStones","rn_colossus"]
-			],
-			"guildWindow" : "ruins/town/mageguild",
-			"names" : [
-				"Glendalough",
-				"Kells",
-				"Baltinglass",
-				"Grianan Aileach",
-				"Newgrange",
-				"Clonmacnoise",
-				"Carrowmore",
-				"Drombeg",
-				"Ardmore",
-				"Innisfallen",
-				"Tipperary",
-				"Rathcroghan",
-				"Caldragh",
-				"Poulnabrone",
-				"Loughcrew Cairns",
-				"Tulsk"
-			],
-			"hallBackground" : "ruins/town/hall",
-			"hallSlots" : [
+			"musicTheme": "music/ruins",
+			"creatures": [
 				[
-					[ "villageHall","townHall","cityHall","capitol" ],
-					[ "fort", "citadel", "castle" ],
-					[ "tavern"],
-					[ "blacksmith" ]
+					"rn_creature_lvl1",
+					"rn_creature_lvl1_up"
 				],
 				[
-					[ "marketplace","resourceSilo" ],
-					[ "mageGuild1","mageGuild2","mageGuild3","mageGuild4" ],
-					[ "shipyard" ]
-				],
-				[ 
-					[ "special1" ],
-					[ "special4" ],
-					[ "hordeLvl1","hordeUpLvl1" ]
+					"rn_creature_lvl2",
+					"rn_creature_lvl2_up"
 				],
 				[
-					[ "dwellingLvl1","dwellingUpLvl1" ],
-					[ "dwellingLvl2","dwellingUpLvl2" ],
-					[ "dwellingLvl3","dwellingUpLvl3" ],
-					[ "dwellingLvl4","dwellingUpLvl4" ]
+					"rn_creature_lvl3",
+					"rn_creature_lvl3_up"
 				],
 				[
-					[ "dwellingLvl5","dwellingUpLvl5" ],
-					[ "dwellingLvl6","dwellingUpLvl6" ],
-					[ "dwellingLvl7","dwellingUpLvl7" ]
+					"rn_creature_lvl4",
+					"rn_creature_lvl4_up"
+				],
+				[
+					"rn_creature_lvl5",
+					"rn_creature_lvl5_up"
+				],
+				[
+					"rn_creature_lvl6",
+					"rn_creature_lvl6_up"
+				],
+				[
+					"rn_creature_lvl7",
+					"rn_creature_lvl7_up"
 				]
 			],
-			"horde" : [ 0 ],
-			"moatAbility" : "ruinsMoat",
-			"icons" : {
-				"fort" : {
-					"built" : {
-						"large" : "ruins/icons/fortbuildedlarge.bmp",
-						"small" : "ruins/icons/fortbuildedsmall.bmp"
+			"guildWindow": "ruins/town/mageguild",
+			"names": [
+				"Welnin ",
+				"Harmondale ",
+				"Stormhammer",
+				"Hillrock",
+				"Ashflame",
+				"Lindisfarne",
+				"Aberystwyth",
+				"Clifden ",
+				"Tintagel",
+				"Oban",
+				"Dingle"
+			],
+			"hallBackground": "ruins/town/hall",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"hordeLvl1",
+						"hordeUpLvl1"
+					],
+					[
+						"special4"
+					],
+					[
+						"hordeLvl6",
+						"hordeUpLvl6"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"horde": [
+				0
+			],
+			"icons": {
+				"fort": {
+					"built": {
+						"large": "ruins/icons/fortbuildedlarge.bmp",
+						"small": "ruins/icons/fortbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "ruins/icons/fortlarge.bmp", "small" : "ruins/icons/fortsmall.bmp" }
+					"normal": {
+						"large": "ruins/icons/fortlarge.bmp",
+						"small": "ruins/icons/fortsmall.bmp"
+					}
 				},
-				"village" : {
-					"built" : {
-						"large" : "ruins/icons/hallbuildedlarge.bmp",
-						"small" : "ruins/icons/hallbuildedsmall.bmp"
+				"village": {
+					"built": {
+						"large": "ruins/icons/hallbuildedlarge.bmp",
+						"small": "ruins/icons/hallbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "ruins/icons/halllarge.bmp", "small" : "ruins/icons/hallsmall.bmp" }
+					"normal": {
+						"large": "ruins/icons/halllarge.bmp",
+						"small": "ruins/icons/hallsmall.bmp"
+					}
 				}
 			},
-			"mageGuild" : 4,
-			"defaultTavern" : 5,
-			"tavern" : {
-				"knight" : 6,
-				"cleric" : 3,
-				"ranger" : 9,
-				"druid" : 9,
-				"alchemist" : 5,
-				"wizard" : 5,
-				"demoniac" : 1,
-				"heretic" : 0,
-				"deathknight" : 2,
-				"necromancer" : 3,
-				"overlord" : 3,
-				"warlock" : 4,
-				"barbarian" : 8,
-				"battlemage" : 6,
-				"beastmaster" : 8,
-				"witch" : 4,
-				"planeswalker" : 3,
-				"elementalist" : 4
+			"mageGuild": 4,
+			"defaultTavern": 5,
+			"tavern": {
+				"knight": 6,
+				"cleric": 3,
+				"ranger": 9,
+				"druid": 9,
+				"alchemist": 5,
+				"wizard": 5,
+				"demoniac": 1,
+				"heretic": 0,
+				"deathknight": 2,
+				"necromancer": 3,
+				"overlord": 3,
+				"warlock": 4,
+				"barbarian": 8,
+				"battlemage": 6,
+				"beastmaster": 8,
+				"witch": 4,
+				"planeswalker": 3,
+				"elementalist": 4
 			},
-			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "ruins/town/background",
-			"warMachine" : "ammoCart",
-			"guildBackground" : "ruins/town/mage"
+			"tavernVideo": "TAVERN.BIK",
+			"townBackground": "ruins/town/background",
+			"warMachine": "ammoCart",
+			"guildBackground": "ruins/town/mage",
+			"moatDamage": 45
 		}
 	}
 }

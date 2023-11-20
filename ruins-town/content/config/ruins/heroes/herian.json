@@ -1,0 +1,50 @@
+{
+	"rn_herian": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 15,
+				"min": 10
+			},
+			{
+				"creature": "rn_creature_lvl1_up",
+				"max": 12,
+				"min": 7
+			}
+		],
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/herian/large.bmp",
+			"small": "ruins/heroes/herian/small.bmp",
+			"specialtyLarge": "ruins/heroes/herian/slarge.bmp",
+			"specialtySmall": "ruins/heroes/herian/ssmall.bmp"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			},
+			{
+				"level": "basic",
+				"skill": "archery"
+			}
+		],
+		"specialty": {
+			"creature": "rn_creature_lvl5"
+		},
+		"texts": {
+			"biography": "Herian, renowned throughout the AvLean Empire as its finest archer and the embodiment of loyalty, faced an extraordinary twist of fate during his missions to safeguard the realm. Cursed to shed his mortal flesh, he transformed into a spectral being. Determined to safeguard his reputation, he sought refuge within the sanctuary of the forests, revealing his presence only to a select few whom he held dear as true friends.",
+			"name": "Herian",
+			"specialty": {
+				"description": "{Hunter}\r\nIncreases Speed of any Hunter by 1 and their Attack and Defense skills by 5% for every 1 level.",
+				"name": "Hunter",
+				"tooltip": "Increases Speed of any Hunter by 1 and their Attack and Defense skills by 5% for every 5 level."
+			}
+		}
+	}
+}

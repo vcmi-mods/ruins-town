@@ -1,0 +1,73 @@
+{
+	"rn_creature_lvl6": {
+		"name": {
+			"singular": "Wendigo",
+			"plural": "Wendigos"
+		},
+		"upgrades": [
+			"rn_creature_lvl6_up"
+		],
+		"level": 6,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 790
+		},
+		"fightValue": 1170,
+		"aiValue": 1092,
+		"growth": 2,
+		"attack": 15,
+		"defense": 11,
+		"hitPoints": 70,
+		"shots": 0,
+		"speed": 10,
+		"damage": {
+			"min": 10,
+			"max": 20
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 12,
+			"min": 5
+		},
+		"doubleWide": false,
+		"abilities": {
+			"fearless": {
+				"type": "FEARLESS"
+			},
+			"bloodlust": {
+				"type": "SPELL_BEFORE_ATTACK",
+				"subtype": "spell.bloodlust",
+				"val": 10,
+				"addInfo": 2001
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl6.def",
+			"map": "ruins/creatures/adventure/lvl6.def",
+			"iconSmall": "ruins/creatures/icon/lvl6.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl6.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1.1,
+				"idle": 10.00,
+				"attack": 1.3
+			}
+		},
+		"sound": {
+			"attack": "DEVLATTK.wav",
+			"defend": "SHDMDFND.wav",
+			"killed": "SHDMKILL.wav",
+			"move": "SHDMMOVE.wav",
+			"wince": "SHDMWNCE.wav"
+		}
+	}
+}

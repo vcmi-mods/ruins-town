@@ -1,38 +1,58 @@
 {
-	"rn_horae" : {
-		"army" : [
-			{ "creature" : "rn_tracker", "max" : 12, "min" : 7 },
-			{ "creature" : "rn_pygmy", "max" : 10, "min" : 8 },
-			{ "creature" : "rn_pygmy", "max" : 12, "min" : 8 }
+	"rn_horae": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 12,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 10,
+				"min": 8
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 12,
+				"min": 8
+			}
 		],
-		"class" : "rn_hermit",
-		"spellbook" : [ "earthquake" ],
-		"battleImage" : "ruins/heroes/horae/battle.def",
-		"images" : {
-			"large" : "ruins/heroes/horae/large.bmp",
-			"small" : "ruins/heroes/horae/small.bmp",
-			"specialtyLarge" : "ruins/heroes/horae/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/horae/ssmall.bmp"
+		"class": "rn_magic",
+		"spellbook": [
+			"earthquake"
+		],
+		"images": {
+			"large": "ruins/heroes/horae/large.bmp",
+			"small": "ruins/heroes/horae/small.bmp",
+			"specialtyLarge": "ruins/heroes/horae/slarge.bmp",
+			"specialtySmall": "ruins/heroes/horae/ssmall.bmp"
 		},
-		"skills" : [
-			{ "level" : "advanced", "skill" : "earthMagic" }
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "learning"
+			},
+			{
+				"level": "basic",
+				"skill": "learning"
+			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"maxEarthquake": {	
-					"addInfo" : 3,
-					"subtype" : "spell.earthquake",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+		"specialty": {
+			"bonuses": {
+				"maxEarthquake": {
+					"addInfo": 3,
+					"subtype": "spell.earthquake",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Horae is a fanatic druid who does not believe in unnatural buildings. If we come from the land, there is no reason to create barriers between us.",
-			"name" : "Horae",
-			"specialty" : {
-				"description" : "{Earthquake}\r\nMaxed earthquake spell.",
-				"name" : "Earthquake",
-				"tooltip" : "Maxed earthquake spell. Starts with earthquake."
+		"texts": {
+			"biography": "Horae's origins trace back to a castle nestled upon the boundary dividing the kingdom of Erathia and the Contested Lands. Born into nobility as the scion of a lordly lineage, he made a fateful choice to heed the beckoning call of Mother Nature. In forsaking his heritage, he faced the harsh rejection of his own kin. Seeking refuge within the leafy embrace of the Emerald Forest, he found a mentor who became not just a teacher but a cherished father figure.",
+			"name": "Horae",
+			"specialty": {
+				"description": "{Earthquake}\r\nMaxed Earthquake spell.",
+				"name": "Earthquake",
+				"tooltip": "Maxed Earthquake spell. Starts with Earthquake."
 			}
 		}
 	}

@@ -1,0 +1,84 @@
+{
+	"rn_might": {
+		"animation": {
+			"battle": {
+				"female": "ruins/classes/might/female.def",
+				"male": "ruins/classes/might/male.def"
+			}
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "ruins/classes/might/adventure.def",
+					"editorAnimation": "ruins/classes/might/editor.def"
+				}
+			}
+		},
+		"name": "Hunter",
+		"faction": "ruins",
+		"commander": "rn_creature_lvl3_up",
+		"affinity": "might",
+		"primarySkills": {
+			"attack": 2,
+			"defence": 1,
+			"spellpower": 1,
+			"knowledge": 2
+		},
+		"lowLevelChance": {
+			"attack": 45,
+			"defence": 25,
+			"spellpower": 10,
+			"knowledge": 20
+		},
+		"highLevelChance": {
+			"attack": 30,
+			"defence": 30,
+			"spellpower": 15,
+			"knowledge": 25
+		},
+		"secondarySkills": {
+			"archery": 9,
+			"pathfinding": 9,
+			"scouting": 8,
+			"logistics": 8,
+			"tactics": 7,
+			"artillery": 7,
+			"offence": 7,
+			"armorer": 7,
+			"leadership": 7,
+			"luck": 6,
+			"learning": 6,
+			"ballistics": 5,
+			"earthMagic": 5,
+			"firstAid": 5,
+			"wisdom": 4,
+			"mysticism": 4,
+			"interference": 4,
+			"navigation": 4,
+			"airMagic": 4,
+			"estates": 3,
+			"intelligence": 3,
+			"resistance": 3,
+			"eagleEye": 3,
+			"waterMagic": 3,
+			"scholar": 2,
+			"sorcery": 2,
+			"fireMagic": 1,
+			"necromancy": 0
+		},
+		"defaultTavern": 5,
+		"tavern": {
+			"castle": 3,
+			"conflux": 1,
+			"dungeon": 5,
+			"fortress": 8,
+			"necropolis": 1,
+			"rampart": 8,
+			"stronghold": 6,
+			"ruins": 9,
+			"inferno": 0,
+			"tower": 0,
+			"cove": 6
+		}
+	}
+}

@@ -1,45 +1,58 @@
 {
-	"rn_thar" : {
-		"army" : [
-			{ "creature" : "rn_pygmy", "max" : 20, "min" : 15 },
-			{ "creature" : "rn_tracker", "max" : 10, "min" : 7 },
-			{ "creature" : "rn_pygmy", "max" : 15, "min" : 10 }
+	"rn_thar": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 20,
+				"min": 15
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 10,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl1_up",
+				"max": 15,
+				"min": 10
+			}
 		],
-		"class" : "rn_hunter",
-		"battleImage" : "ruins/heroes/thar/battle.def",
-		"images" : {
-			"large" : "ruins/heroes/thar/large.png",
-			"small" : "ruins/heroes/thar/small.png",
-			"specialtyLarge" : "ruins/heroes/thar/slarge.png",
-			"specialtySmall" : "ruins/heroes/thar/ssmall.png"
+		"class": "rn_magic",
+		"spellbook": [
+			"slow"
+		],
+		"images": {
+			"large": "ruins/heroes/thar/large.png",
+			"small": "ruins/heroes/thar/small.png",
+			"specialtyLarge": "ruins/heroes/thar/slarge.png",
+			"specialtySmall": "ruins/heroes/thar/ssmall.png"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "leadership" },
-			{ "level" : "basic", "skill" : "armorer" }
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "resistance"
+			},
+			{
+				"level": "basic",
+				"skill": "earthMagic"
+			}
 		],
-		"specialty" : {
-			"creature" : "rn_walkingStones",
+		"specialty": {
 			"bonuses": {
-				"miner": {
-					"subtype" : "resource.ore",
-					"type" : "GENERATE_RESOURCE",
-					"val" : 2,
-					"valueType" : "BASE_NUMBER"
-				},
-				"stoneGolem": {
-					"limiters" : [ { "parameters" : [ "stoneGolem", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
-					"type" : "STACKS_SPEED",
-					"val" : 1
+				"maxSlow": {
+					"addInfo": 3,
+					"subtype": "spell.slow",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Thar is a cowardly stone golem that one day was part of the walls of the ruins, but that preferred not to leave for the fight when the opportunity arose. Instead he urged his stone companions to feed the fervor of battle from a distance.",
-			"name" : "Thar",
-			"specialty" : {
-				"description" : "{Rocks}\r\nGenerates 2 ore/day.  Increases Speed of any Walking Stones by 1 and their Attack and Defense skills by 5% for every 7 level. Increases Speed of any Rock Golem by 1.",
-				"name" : "Rocks",
-				"tooltip" : "Generates 2 ore/day. Increases Speed of any Walking Stones by 1 and their Attack and Defense skills by 5% for every 7 level. Increases Speed of any Rock Golem by 1. "
+		"texts": {
+			"biography": "Thar awoke in the heart of the Emerald Forest, buried beneath a dense layer of nurturing mud, her past shrouded in an enigmatic void. An immediate surge of earthly energy coursed through her, reinforcing her profound connection to the land and revealing the immense responsibility that destiny had thrust upon her—to safeguard these sacred lands. She formed deep bonds with the local denizens, witnessing their profound love for one another, and, in that warmth, recognizing the absence of emotions within herself, which left her feeling isolated. All other elementals and golems remained distant and stoic in her presence. Yet, as she ventured onward, she encountered a recurring legend that traced her lineage to Mother Nature herself, where it was foretold that her tears had given life to the very rocks upon which the world stood—a destiny as old and enduring as the earth itself.",
+			"name": "Thar",
+			"specialty": {
+				"description": "{Slow}\r\nMaxed Slow spell.",
+				"name": "Slow",
+				"tooltip": "Maxed Slow spell. Starts with Slow."
 			}
 		}
 	}
