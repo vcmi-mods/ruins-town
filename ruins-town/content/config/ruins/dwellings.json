@@ -1,96 +1,146 @@
 {
-	"core:creatureGeneratorCommon" : {
-//		"index" :17,
-//		"handler": "dwelling",
-		"base" : {
-			"base" : {
-//				"visitableFrom" : [ "---", "+++", "+++" ],
-				"mask" : [ "VVV", "VVV", "VBA" ]
+	"core:creatureGeneratorCommon": {
+		"base": {
+			"base": {
+				"mask": [
+					"VVV",
+					"VVV",
+					"VBA"
+				]
 			},
-			"sounds" : {
-				"ambient" : ["LOOPSWOR"],
-				"visit" : ["MILITARY"]
+			"sounds": {
+				"ambient": [
+					"LOOPSWOR"
+				],
+				"visit": [
+					"MILITARY"
+				]
 			}
 		},
-		"types" : {
-			"rn_pygmyVillage": {
-				"name" : "Pygmy Village",
-				"creatures": [["rn_pygmy"]],
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl1"
+		"types": {
+			"rn_creature_lvl1_dwelling": {
+				"name": "Shirefolk",
+				"creatures": [
+					[
+						"rn_creature_lvl1"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPELF"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl1"
 					}
 				}
 			},
-			"rn_tent": {
-				"name" : "Tents",
-				"creatures": [["rn_tracker"]],
+			"rn_creature_lvl2_dwelling": {
+				"name": "Scalecrest Roost",
+				"creatures": [
+					[
+						"rn_creature_lvl2"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPUNIC"]
+					"ambient": [
+						"LOOPCAVE"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl2"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl2"
 					}
 				}
 			},
-			"rn_cave": {
-				"name" : "Cave Nest",
-				"creatures": [["rn_cockatrice"]],
+			"rn_creature_lvl3_dwelling": {
+				"name": "Trapcrafters Headquarter",
+				"creatures": [
+					[
+						"rn_creature_lvl3"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPGARD"]
+					"ambient": [
+						"LOOPDWAR"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl3"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl3"
 					}
 				}
 			},
-			"rn_river": {
-				"name" : "River Forest",
-				"creatures": [["rn_riverSpirit"]],
+			"rn_creature_lvl4_dwelling": {
+				"name": "Aquarius Pond",
+				"creatures": [
+					[
+						"rn_creature_lvl4"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPCAVE"]
+					"ambient": [
+						"LOOPHYDR"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl4"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl4"
 					}
 				}
 			},
-			"rn_ancientAltar": {
-				"name" : "Ancient Altar",
-				"creatures": [["rn_witch"]],
+			"rn_creature_lvl5_dwelling": {
+				"name": "High Peak Nests",
+				"creatures": [
+					[
+						"rn_creature_lvl5"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPCAVE"]
+					"ambient": [
+						"LOOPAIR"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl5"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl5"
 					}
 				}
 			},
-			"rn_highStones": {
-				"name" : "High Stones",
-				"creatures": [["rn_peryton"]],
+			"rn_creature_lvl6_dwelling": {
+				"name": "Cave Thicket",
+				"creatures": [
+					[
+						"rn_creature_lvl6"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPGRIF"]
+					"ambient": [
+						"LOOPBEHE"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl6"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl6"
 					}
 				}
 			},
-			"rn_stonehenge": {
-				"name" : "Stonehenge",
-				"creatures": [["rn_walkingStones"]],
+			"rn_creature_lvl7_dwelling": {
+				"name": "Mountain Nexus",
+				"creatures": [
+					[
+						"rn_creature_lvl7"
+					]
+				],
 				"sounds": {
-					"ambient": ["LOOPGARD"]
+					"ambient": [
+						"LOOPEART"
+					]
 				},
-				"templates" : {
-					"default" : {
-						"animation" : "ruins/map/lvl7"
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl7"
 					}
 				}
 			}

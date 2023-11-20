@@ -1,0 +1,76 @@
+{
+	"rn_creature_lvl7": {
+		"name": {
+			"singular": "Walking Stones",
+			"plural": "Walking Stones"
+		},
+		"upgrades": [
+			"rn_creature_lvl7_up"
+		],
+		"level": 7,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 2,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 1600
+		},
+		"fightValue": 3021,
+		"aiValue": 3772,
+		"growth": 1,
+		"attack": 16,
+		"defense": 22,
+		"hitPoints": 200,
+		"shots": 0,
+		"speed": 5,
+		"damage": {
+			"min": 30,
+			"max": 50
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 11,
+			"min": 4
+		},
+		"doubleWide": true,
+		"abilities": {
+			"immunity": {
+				"type": "EARTH_IMMUNITY",
+				"subtype": 2
+			},
+			"nonliving": {
+				"type": "NON_LIVING"
+			},
+			"resistance": {
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val": 15
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl7.def",
+			"map": "ruins/creatures/adventure/lvl7.def",
+			"iconSmall": "ruins/creatures/icon/lvl7.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl7.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "YBMHATTK.wav",
+			"defend": "GGLMDFND.wav",
+			"killed": "GGLMKILL.wav",
+			"move": "YBMHMOVE.wav",
+			"wince": "YBMHWNCE.wav"
+		}
+	}
+}

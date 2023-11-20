@@ -1,42 +1,59 @@
 {
-	"rn_bellona" : {
-		"army" : [
-			{ "creature" : "rn_pygmy", "max" : 20, "min" : 12 },
-			{ "creature" : "rn_pygmy", "max" : 15, "min" : 10 },
-			{ "creature" : "rn_pygmySurvivor", "max" : 15, "min" : 12 }
+	"rn_bellona": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 20,
+				"min": 12
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 15,
+				"min": 10
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 15,
+				"min": 12
+			}
 		],
 		"female": true,
-		"class" : "rn_hunter",
-		"battleImage" : "ruins/heroes/bellona/battle.def",
-		"images" : {
-			"large" : "ruins/heroes/bellona/large.bmp",
-			"small" : "ruins/heroes/bellona/small.bmp",
-			"specialtyLarge" : "ruins/heroes/bellona/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/bellona/ssmall.bmp"
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/bellona/large.bmp",
+			"small": "ruins/heroes/bellona/small.bmp",
+			"specialtyLarge": "ruins/heroes/bellona/slarge.bmp",
+			"specialtySmall": "ruins/heroes/bellona/ssmall.bmp"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "tactics" }
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "leadership"
+			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"offence" : {
-					"subtype" : 0,
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
+		"specialty": {
+			"bonuses": {
+				"offence": {
+					"subtype": 0,
+					"targetSourceType": "SECONDARY_SKILL",
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"val": 5,
+					"valueType": "PERCENT_TO_BASE",
+					"updater": "TIMES_HERO_LEVEL"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Daughter of a funky pygmy warrior and a human villager, Bellona bears an unusual beauty to her people. Attribute that becomes a burden when having to prove to be as good in combat as any other.",
-			"name" : "Bellona",
-			"specialty" : {
-				"description" : "Secondary Skill Bonus: Offence",
-				"name" : "Offence",
-				"tooltip" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
+		"texts": {
+			"biography": "Bellona, born into the Stormshield Tribe, faced the weighty legacy of her family with unwavering determination. Her father, the esteemed Chieftain of their tribe, and her late mother, a revered Shieldmaiden, instilled in her the values of honor and responsibility from her earliest years. Bearing the heavy mantle of her mother's absence in the wake of the Timber Wars, Bellona defied convention as the tribe's sole heir, taking on the roles typically reserved for boys. With both combat prowess and leadership skills, she became the embodiment of her formidable lineage, forging her own path as a formidable warrior and leader within her tribe.",
+			"name": "Bellona",
+			"specialty": {
+				"description": "Secondary Skill Bonus: Offence",
+				"name": "Offence",
+				"tooltip": "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
 			}
 		}
 	}

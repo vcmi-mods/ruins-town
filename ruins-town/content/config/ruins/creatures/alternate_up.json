@@ -1,0 +1,73 @@
+{
+	"rn_creature_alternate_up": {
+		"name": {
+			"singular": "Wolpertinger",
+			"plural": "Wolpertingers"
+		},
+		"level": 1,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 4,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 3000
+		},
+		"fightValue": 4770,
+		"aiValue": 6274,
+		"growth": 1,
+		"attack": 18,
+		"defense": 25,
+		"hitPoints": 280,
+		"shots": 0,
+		"speed": 7,
+		"damage": {
+			"min": 40,
+			"max": 55
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"min": 4,
+			"max": 8
+		},
+		"doubleWide": true,
+		"abilities": {
+			"fly": {
+				"type": "FLYING"
+			},
+			"quick": {
+				"subtype": "spell.airShield",
+				"type": "ENCHANTED",
+				"val": 2
+			},
+			"jousting": {
+				"type": "JOUSTING",
+				"val": 1
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "ruins/creatures/battle/alternate_up.def",
+			"map": "ruins/creatures/adventure/alternate_up.def",
+			"iconSmall": "ruins/creatures/icon/alternate_up.bmp",
+			"iconLarge": "ruins/creatures/portrait/alternate_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"
+		}
+	}
+}

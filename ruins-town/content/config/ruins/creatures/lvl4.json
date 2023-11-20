@@ -1,0 +1,70 @@
+{
+	"rn_creature_lvl4": {
+		"name": {
+			"singular": "Kelpie",
+			"plural": "Kelpies"
+		},
+		"upgrades": [
+			"rn_creature_lvl4_up"
+		],
+		"level": 4,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 260
+		},
+		"fightValue": 342,
+		"aiValue": 350,
+		"growth": 6,
+		"attack": 8,
+		"defense": 8,
+		"hitPoints": 28,
+		"speed": 7,
+		"damage": {
+			"min": 4,
+			"max": 7
+		},
+		"spellPoints": 50,
+		"advMapAmount": {
+			"max": 16,
+			"min": 12
+		},
+		"doubleWide": true,
+		"abilities": {
+			"spirit": {
+				"type": "NON_LIVING"
+			},
+			"immunity": {
+				"type": "WATER_IMMUNITY",
+				"val": 2
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl4.def",
+			"map": "ruins/creatures/adventure/lvl4.def",
+			"iconSmall": "ruins/creatures/icon/lvl4.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl4.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "UNICATTK.wav",
+			"defend": "UNICDFND.wav",
+			"killed": "UNICKILL.wav",
+			"move": "UNICMOVE.wav",
+			"wince": "UNICWNCE.wav"
+		}
+	}
+}

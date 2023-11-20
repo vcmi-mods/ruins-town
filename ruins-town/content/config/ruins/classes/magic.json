@@ -1,0 +1,84 @@
+{
+	"rn_magic": {
+		"animation": {
+			"battle": {
+				"female": "ruins/classes/magic/female.def",
+				"male": "ruins/classes/magic/male.def"
+			}
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "ruins/classes/magic/adventure.def",
+					"editorAnimation": "ruins/classes/magic/editor.def"
+				}
+			}
+		},
+		"name": "Hermit",
+		"faction": "ruins",
+		"commander": "rn_creature_lvl3",
+		"affinity": "magic",
+		"primarySkills": {
+			"attack": 0,
+			"defence": 1,
+			"spellpower": 1,
+			"knowledge": 3
+		},
+		"lowLevelChance": {
+			"attack": 10,
+			"defence": 25,
+			"spellpower": 30,
+			"knowledge": 35
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"secondarySkills": {
+			"wisdom": 9,
+			"earthMagic": 8,
+			"learning": 8,
+			"intelligence": 8,
+			"firstAid": 8,
+			"pathfinding": 8,
+			"mysticism": 7,
+			"interference": 7,
+			"eagleEye": 7,
+			"scouting": 7,
+			"resistance": 6,
+			"airMagic": 6,
+			"waterMagic": 6,
+			"sorcery": 6,
+			"ballistics": 5,
+			"scholar": 5,
+			"logistics": 5,
+			"tactics": 5,
+			"armorer": 3,
+			"luck": 3,
+			"fireMagic": 2,
+			"estates": 2,
+			"archery": 1,
+			"offence": 1,
+			"artillery": 1,
+			"leadership": 1,
+			"navigation": 0,
+			"necromancy": 0
+		},
+		"defaultTavern": 3,
+		"tavern": {
+			"castle": 1,
+			"conflux": 5,
+			"dungeon": 2,
+			"fortress": 7,
+			"rampart": 8,
+			"stronghold": 4,
+			"ruins": 8,
+			"necropolis": 0,
+			"inferno": 0,
+			"tower": 0,
+			"cove": 4
+		}
+	}
+}

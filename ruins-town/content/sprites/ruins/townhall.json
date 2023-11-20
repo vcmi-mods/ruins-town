@@ -2,7 +2,5 @@
     "basepath" : "ruins/frames/",
 	"images" :
 	[
-		{ "frame" : 17, "file" : "17."},
-		{ "frame" : 23, "file" : "23."}
 	]
 }

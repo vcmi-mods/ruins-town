@@ -1,0 +1,78 @@
+{
+	"rn_creature_lvl2": {
+		"name": {
+			"singular": "Cockatrice",
+			"plural": "Cockatrices"
+		},
+		"upgrades": [
+			"rn_creature_lvl2_up"
+		],
+		"level": 2,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 125
+		},
+		"fightValue": 135,
+		"aiValue": 133,
+		"growth": 9,
+		"horde": 4,
+		"attack": 5,
+		"defense": 4,
+		"hitPoints": 11,
+		"shots": 0,
+		"speed": 8,
+		"damage": {
+			"min": 1,
+			"max": 4
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 32,
+			"min": 18
+		},
+		"doubleWide": false,
+		"abilities": {
+			"fly": {
+				"type": "FLYING"
+			},
+			"petrify": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10
+			},
+			"petrifyImmunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.stoneGaze",
+				"addInfo": 0
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl2.def",
+			"map": "ruins/creatures/adventure/lvl2.def",
+			"iconSmall": "ruins/creatures/icon/lvl2.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl2.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

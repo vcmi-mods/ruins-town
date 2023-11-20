@@ -1,0 +1,71 @@
+{
+	"rn_creature_lvl5": {
+		"name": {
+			"singular": "Peryton",
+			"plural": "Perytons"
+		},
+		"upgrades": [
+			"rn_creature_lvl5_up"
+		],
+		"level": 5,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 480
+		},
+		"fightValue": 640,
+		"aiValue": 576,
+		"growth": 3,
+		"attack": 11,
+		"defense": 10,
+		"hitPoints": 37,
+		"shots": 0,
+		"speed": 10,
+		"damage": {
+			"min": 9,
+			"max": 11
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 13,
+			"min": 9
+		},
+		"doubleWide": true,
+		"abilities": {
+			"flying": {
+				"type": "FLYING",
+				"subtype": 0
+			},
+			"jousting": {
+				"type": "JOUSTING"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl5.def",
+			"map": "ruins/creatures/adventure/lvl5.def",
+			"iconSmall": "ruins/creatures/icon/lvl5.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl5.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}

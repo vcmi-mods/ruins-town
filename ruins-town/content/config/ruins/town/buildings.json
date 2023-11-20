@@ -5,30 +5,30 @@
 			"buildings" : {
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
 					"id" : 0,
-					"name" : "Mage Guild Level 1",
+					"name" : "Observatory level 1",
 					"requires" : [ "fort" ]
 				},
 				"mageGuild2" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 4,"sulfur": 4, "mercury": 4, "gems": 4},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
 					"id" : 1,
-					"name" : "Mage Guild Level 2",
+					"name" : "Observatory Level 2",
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 6,"sulfur": 6, "mercury": 6, "gems": 6},
 					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 2,
-					"name" : "Mage Guild Level 3",
+					"name" : "Observatory Level 3",
 					"upgrades" : "mageGuild2"
 				},
 				"mageGuild4" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 8,"sulfur": 8, "mercury": 8, "gems": 8},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
 					"id" : 3,
-					"name" : "Mage Guild Level 4",
+					"name" : "Observatory Level 4",
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" : null,
@@ -103,41 +103,42 @@
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "wood" : 5 },
-					"description" : "The Resource Silo provides you with an additional +2 wood each day.",
+					"description" : "The Resource Silo provides you with an additional +2 ore each day.",
 					"id" : 15,
 					"name" : "Resource Silo",
 					"requires" : [ "marketplace" ],
-					"produce": { "wood": 2}
+					"produce": { "ore": 2}
 				},
 				"blacksmith" : {
-					"type" : "knowledgeVisitingBonus",
 					"cost" : { "gold" : 1000, "wood" : 5 },
-					"description" : "The Blacksmith provides your armies with Ballistas.",
+					"description" : "The Blacksmith provides your armies with Ammo Cart.",
 					"id" : 16,
 					"name" : "Blacksmith",
 					"requires" : [ "tavern" ]
 				},
-				"special4" : {
-					"cost" : { "gold" : 500, "ore" : 5},
-					"description" : "The Monument grants visiting heroes +1 knowledge.",
-					"type" : "knowledgeVisitingBonus",
-//					"id" : 22,
-					"name" : "Monument",
-					"requires" : [ "cityHall" ]
+				"special1" : {
+					"cost" : { "gold" : 2000, "wood" : 5},
+					"description" : "Siege Junkyard provides your armies with siege weapons.",
+					"id" : 17,
+				    "type": "ballistaYard",
+					"name" : "Siege Junkyard",
+					"requires" : [ 
+						"allOf", [ "tavern"], [ "blacksmith" ]
+					]
 				},
 				"hordeLvl1" : {
 					"cost" : { "gold" : 1000 },
-					"description" : "The Pygmy Community increases Pygmies production by 9 per week.",
+					"description" : "Crop fields increases Wildmen production by 9 per week.",
 					"id" : 18,
-					"name" : "Pygmy Community",
+					"name" : "Crop fields",
 					"requires" : [ "dwellingLvl1" ],
 					"upgrades" : "dwellingLvl1"
 				},
 				"hordeUpLvl1" : {
 					"cost" : { "gold" : 1000 },
-					"description" : "The Pygmy Community increases Pygmy Warriors production by 9 per week.",
+					"description" : "Crop fields increases Wild Chief production by 9 per week.",
 					"id" : 19,
-					"name" : "Pygmy Community",
+					"name" : "Crop fields",
 					"requires" : [ "hordeLvl1" ],
 					"upgrades" : "dwellingUpLvl1",
 					"mode": "auto"
@@ -149,190 +150,158 @@
 					"upgrades" : "shipyard",
 					"requires" : [ "shipyard" ]
 				},
-				"special1" : {
-					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5, "gems": 5},
-					"description" : "The Well allows a garrison hero to flee from defending against a siege.",
-//					"id" : 17,
-					"name" : "Well",
-					"type" : "escapeTunnel",
-					"requires" : [ "fort" ]
+				"special4" : {
+					"cost" : { "gold" : 500, "ore" : 5},
+					"description" : "The Monument grants visiting heroes +1 knowledge.",
+					"type" : "knowledgeVisitingBonus",
+					"id" : 23,
+					"name" : "Monument",
+					"requires" : [ "townHall" ]
 				},
-				//"temple" : {
-				//	"cost" : { "gold" : 1},
-				//	//"cost" : { "gold" : 2000, "wood" : 10},
-				//	"description" : "(Not working yet! Waiting nem version VCMI)",
-				//	"id" : 22,
-				//	"name" : "Forgotten Temple",
-				//	"requires" : [ 
-				//		"allOf", [ "dwellingLvl6" ],
-				//		[ "noneOf",
-				//    		[ "dwellingAlternateLvl6" ]
-				//    	] 
-				//	]
-				//},
-				//"temple" : {
-				//	"cost" : { "gold" : 1},
-				//	//"cost" : { "gold" : 2000, "wood" : 10},
-				//	"description" : "(Not working yet! Waiting nem version VCMI)",
-				//	"id" : 23,
-				//	"name" : "Forgotten Temple",
-				//	"requires" : [ 
-				//		"allOf", [ "dwellingLvl6" ],
-				//		[ "noneOf",
-				//    		[ "dwellingAlternateLvl6" ]
-				//    	] 
-				//	]
-				//},
-				//"hordeLvl2" : {
-				//	"cost" : { "gold" : 1500 },
-				//	"description" : "The null increases Stalker production by 6 per week.",
-				//	"id" : 24,
-				//	"name" : "null",
-				//	"requires" : [ "dwellingLvl2" ],
-				//	"upgrades" : "dwellingLvl2"
-				//},
-				//"hordeUpLvl2" : {
-				//	"cost" : { "gold" : 1500 },
-				//	"description" : "The null Domain increases Trackers production by 6 per week.",
-				//	"id" : 25,
-				//	"name" : "null",
-				//	"requires" : [ "hordeLvl2" ],
-				//	"upgrades" : "dwellingUpLvl2",
-				//	"mode": "auto"
-				//},
+				"hordeLvl6" : {
+					"cost" : { "gold" : 1500 },
+					"description" : "Impaling Stakes increases Wendigos production by 3 per week.",
+					"id" : 24,
+					"name" : "Impaling Stakes",
+					"requires" : [ "dwellingLvl6" ],
+					"upgrades" : "dwellingLvl6"
+				},
+				"hordeUpLvl6" : {
+					"cost" : { "gold" : 1500 },
+					"description" : "Impaling Stakes increases Feral Wendigos production by 3 per week.",
+					"id" : 25,
+					"name" : "Impaling Stakes",
+					"requires" : [ "hordeLvl6" ],
+					"upgrades" : "dwellingUpLvl6",
+					"mode": "auto"
+				},
 				"grail" : {
-					"description" : "Valley Guardians increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day.",
+					"description" : "The Tree of Life  increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 30% health bonus.",
 					"id" : 26,
 					"mode" : "grail",
-					"name" : "Valley Guardians", 
-					"produce": { "gold": 5000 }
+					"name" : "The Tree of Life ", 
+					"produce": { "gold": 5000 },
+					"bonuses" : [
+					{
+						"type" : "STACK_HEALTH",
+						"val" : 30,
+						"propagator" : "ALL_CREATURES",
+						"limiters" : [
+						{
+							"type": "CREATURE_FACTION_LIMITER",
+								"parameters" : ["ruins"]
+						}]
+					}]
 				},
-				//"animation" : {
-				//	"description" : "",
-				//	"id" : 27,
-				//	"name" : "Atlas Statue", 
-				//  "mode" : "auto"
-				//},
-				//"animation" : {
-				//	"description" : "",
-				//	"id" : 28,
-				//	"name" : "Atlas Statue", 
-				//  "mode" : "auto"
-				//},
-				//"animation" : {
-				//	"description" : "",
-				//	"id" : 29,
-				//	"name" : "Atlas Statue", 
-				//  "mode" : "auto"
-				//},
 				"dwellingLvl1" : {
 					"cost" : { "gold" : 500},
-					"description" : "The Pygmy Village allows you to recruit Pygmies.",
+					"description" : "Shirefolk allows you to recruit Wildmen.",
 					"id" : 30,
-					"name" : "Pygmy Village",
+					"name" : "Shirefolk",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" : {
 					"cost" : { "gold" : 1000, "ore" : 5},
-					"description" : "The Tents allows you to recruit Trackers.",
+					"description" : "Scalecrest Roost allows you to recruit Cockatrices.",
 					"id" : 31,
-					"name" : "Tents",
+					"name" : "Scalecrest Roost",
 					"requires" : [ 
 						"allOf", [ "fort"], [ "dwellingLvl1" ]
 					]
 				},
 				"dwellingLvl3" : {
-					"cost" : { "gold" : 1000, "ore" : 10 },
-					"description" : "The Cave Nest allows you to recruit Cockatrices.",
+					"cost" : { "gold" : 1000, "wood" : 10 },
+					"description" : "Trapcrafters Headquarter allows you to recruit Trackers.",
 					"id" : 32,
-					"name" : "Cave Nest",
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ] ]
+					"name" : "Trapcrafters HQ",
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "special1" ] ]
 				},
 				"dwellingLvl4" : {
 					"cost" : { "wood" : 5, "gold" : 2500},
-					"description" : "The River Forest allow you to recruit River Spirits.",
+					"description" : "Aquarius Pond allow you to recruit Kelpies.",
 					"id" : 33,
-					"name" : "River Forest ",
+					"name" : "Aquarius Pond",
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl5" : {
-					"cost" : { "mercury" : 5, "gold" : 2000, "ore" : 5 },
-					"description" : "The Ancient Altar allows you to recruit Witchs.",
+					"cost" : { "gold" : 2000, "ore" : 5 },
+					"description" : "High Peak Nests allows you to recruit Perytons.",
 					"id" : 34,
-					"name" : "Ancient Altar",
+					"name" : "High Peak Nests",
 					"requires" : [ 
-						"allOf", [ "mageGuild1" ], [ "dwellingLvl3" ]
+						"allOf", [ "marketplace" ], [ "dwellingLvl2" ]
 					]
 				},
 				"dwellingLvl6" : {
-					"cost" : { "gold" : 4000, "ore" : 10},
-					"description" : "The High Stones allows you to recruit Perytons.",
+					"cost" : { "gold" : 4000, "wood" : 5},
+					"description" : "Cave Thicket allows you to recruit Wendigos.",
 					"id" : 35,
-					"name" : "High Stones",
+					"name" : "Cave Thicket",
 					"requires" : [ 
-						"allOf", [ "dwellingLvl4" ]
+						"allOf", [ "mageGuild1"], [ "dwellingLvl4" ]
 					]
 				},
 				"dwellingLvl7" : {
-					"cost" : { "gold" : 10000, "ore" : 25},
-					"description" : "The Stonehenge allow you to recruit Walking Stones.",
+					"cost" : { "gold" : 10000, "ore" : 20},
+					"description" : "Mountain Nexus allow you to recruit Walking Stones.",
 					"id" : 36,
-					"name" : "Stonehenge",
+					"name" : "Mountain Nexus",
 					"requires" : [ 
-						"allOf", [ "dwellingLvl6" ]
+						"allOf", [ "mageGuild1"], [ "dwellingLvl5" ]
 					]
 				},
 				"dwellingUpLvl1" : {
 					"cost" : { "gold" : 1000, "wood" : 5},
-					"description" : "The Upg. Pygmy Village allows you to recruit Pygmy Survivors.",
+					"description" : "The Upg. Shirefolk allows you to recruit Wild Chiefs.",
 					"id" : 37,
-					"name" : "Upg. Pygmy Village",
+					"name" : "Upg. Wildmen Village",
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 1300, "ore" : 5},
-					"description" : "The Upg. Abandoned Fort Temple allows you to recruit Veteran Trackers.",
+					"description" : "The Upg. Scalecrest Roost allows you to recruit Dire Cockatrices.",
 					"id" : 38,
-					"name" : "Upg. Tents",
+					"name" : "Upg. Scalecrest Roost",
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
-					"description" : "The Upg. Cave Nest allows you to recruit Dire Cockatrices.",
+					"description" : "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
 					"id" : 39,
-					"name" : "Upg. Cave Nest",
+					"name" : "Upg. Trapcrafters Headquarter",
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"cost" : { "gems" : 10, "gold" : 2500, "wood" : 5},
-					"description" : "The Upg. River Forest  allows you to recruit Kelpies.",
+					"cost" : { "mercury" : 5, "gold" : 2500},
+					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
 					"id" : 40,
-					"name" : "Upg. River Forest ",
+					"name" : "Upg. Aquarius Pond",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"cost" : { "sulfur" : 5, "gold" : 2000},
-					"description" : "The Upg. Forgotten Hut allows you to recruit Priestesses.",
+					"cost" : { "ore" : 10, "gold" : 2000},
+					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
 					"id" : 41,
-					"name" : "Upg. Ancient Altar",
+					"name" : "Upg. High Peak Nests",
 					"upgrades" : "dwellingLvl5",
-					"requires" : [ "mageGuild2" ]
+					"requires" : [ "dwellingLvl3" ]
 				},
 				"dwellingUpLvl6" : {
-					"cost" : { "gold" : 3000, "crystal" : 5, "gems" : 5 },
-					"description" : "The Upg. High Stones allows you to recruit Grand Perytons.",
+					"cost" : { "gold" : 3000, "sulfur" : 10, "wood" : 5},
+					"description" : "The Upg. Cave Thicket allows you to recruit Feral Wendigos.",
 					"id" : 42,
-					"name" : "Upg. High Stones",
-					"upgrades" : "dwellingLvl6"
+					"name" : "Upg. Cave Thicket",
+					"upgrades" : "dwellingLvl6",
+					"requires" : [ "mageGuild2" ]
 				},
 				"dwellingUpLvl7" : {
-					"cost" : { "gems" : 20, "gold" : 15000, "ore" : 15, "wood" : 5},
-					"description" : "The Upg. Stonehenge allows you to recruit Colossus.",
+					"cost" : { "gems" : 15, "gold" : 15000, "ore" : 15},
+					"description" : "The Upg. Mountain Nexus allows you to recruit Colossus.",
 					"id" : 43,
-					"name" : "Upg. Stonehenge",
+					"name" : "Upg. Mountain Nexus",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [ 
-						"allOf", [ "dwellingLvl6" ], [ "castle" ]
+						"allOf", [ "mageGuild2" ], [ "castle" ]
 					]
 				}
 			}

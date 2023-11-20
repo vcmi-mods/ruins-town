@@ -1,33 +1,57 @@
 {
-	"rn_nodens" : {
-		"army" : [
-			{ "creature" : "rn_tracker", "max" : 25, "min" : 18 },
-			{ "creature" : "rn_tracker", "max" : 10, "min" : 7 },
-			{ "creature" : "rn_veteranTracker", "max" : 7, "min" : 5 }
+	"rn_nodens": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 18
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 10,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl1_up",
+				"max": 7,
+				"min": 5
+			}
 		],
-		"class" : "rn_hunter",
-		"battleImage" : "ruins/heroes/nodens/battle.def",
-		"spellbook" : [ "slow" ],
-		"images" : {
-			"large" : "ruins/heroes/nodens/large.bmp",
-			"small" : "ruins/heroes/nodens/small.bmp",
-			"specialtyLarge" : "ruins/heroes/nodens/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/nodens/ssmall.bmp"
+		"class": "rn_might",
+		"images": {
+			"large": "ruins/heroes/nodens/large.bmp",
+			"small": "ruins/heroes/nodens/small.bmp",
+			"specialtyLarge": "ruins/heroes/nodens/slarge.bmp",
+			"specialtySmall": "ruins/heroes/nodens/ssmall.bmp"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "earthMagic" },
-			{ "level" : "basic", "skill" : "resistance" }
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "leadership"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
 		],
-		"specialty" : {
-			"creature" : "rn_tracker"
+		"specialty": {
+			"bonuses": {
+				"armorer": {
+					"subtype": "skill.armorer",
+					"type": "SECONDARY_SKILL_PREMY",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 5,
+					"valueType": "PERCENT_TO_BASE"
+				}
+			}
 		},
-		"texts" : {
-			"biography" : "Native, chief and shaman of the Lost Plateau, Nodens knows how to manage his resources and the lives of his subordinates.",
-			"name" : "Nodens",
-			"specialty" : {
-				"description" : "{Tracker}\r\nIncreases Speed of any Tracker by 1 and their Attack and Defense skills by 5% for every 2 level.",
-				"name" : "Tracker",
-				"tooltip" : "Increases Speed of any Tracker by 1 and their Attack and Defense skills by 5% for every 2 level."
+		"texts": {
+			"biography": "Nodens, a native of the Lost Plateau and the revered chief and shaman of the Hillrock Tribe near the Tatalian borders, possesses an unmatched prowess in resource management and the welfare of his people. Under his guidance, the tribe valiantly repelled the relentless advances of the Erathian Empire, although victory came at a staggering price. Now, only a handful of the tribe's once-thriving members remain, their resilience a testament to Nodens' unwavering leadership amidst adversity.",
+			"name": "Nodens",
+			"specialty": {
+				"description": "Secondary Skill Bonus: Armorer",
+				"name": "Armorer",
+				"tooltip": "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage."
 			}
 		}
 	}

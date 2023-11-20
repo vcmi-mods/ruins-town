@@ -1,0 +1,96 @@
+{
+	"rn_creature_lvl7_up": {
+		"name": {
+			"singular": "Colossus",
+			"plural": "Colossus"
+		},
+		"level": 7,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 3,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 1,
+			"gold": 3000
+		},
+		"fightValue": 4860,
+		"aiValue": 5720,
+		"growth": 1,
+		"attack": 18,
+		"defense": 32,
+		"hitPoints": 300,
+		"shots": 0,
+		"speed": 6,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 7,
+			"min": 3
+		},
+		"doubleWide": true,
+		"abilities": {
+			"immunity": {
+				"type": "EARTH_IMMUNITY",
+				"subtype": 1
+			},
+			"nonliving": {
+				"type": "NON_LIVING"
+			},
+			"resistance": {
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val": 30
+			},
+			"earthquake":{
+				"subtype" : "spell.earthquake",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 3
+			},
+			"rangedProtection" :
+			{
+				"type": "ENCHANTER",
+				"subtype" : "spell.airShield",
+				"val": 1,
+				"addInfo" : 3,
+				"propagator": "BATTLE_WIDE",
+				"limiters": [
+					{
+						"type": "CREATURE_FACTION_LIMITER",
+						"parameters" : ["ruins"]
+					},
+					[ 
+						"noneOf", 
+						[ "OPPOSITE_SIDE", { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7", true ] }, { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7_up", true ]}]
+					]
+				]
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl7_up.def",
+			"map": "ruins/creatures/adventure/lvl7_up.def",
+			"iconSmall": "ruins/creatures/icon/lvl7_up.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl7_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"troopCountLocationOffset": 0,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "BMTHATTK.wav",
+			"defend": "GGLMDFND.wav",
+			"killed": "GGLMKILL.wav",
+			"move": "BMTHMOVE.wav",
+			"wince": "BMTHWNCE.wav"
+		}
+	}
+}

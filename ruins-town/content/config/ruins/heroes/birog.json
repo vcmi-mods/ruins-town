@@ -1,0 +1,60 @@
+{
+	"rn_birog": {
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 15,
+				"min": 10
+			},
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 17,
+				"min": 12
+			}
+		],
+		"female": true,
+		"class": "rn_magic",
+		"spellbook": [
+			"haste"
+		],
+		"images": {
+			"large": "ruins/heroes/birog/large.png",
+			"small": "ruins/heroes/birog/small.png",
+			"specialtyLarge": "ruins/heroes/birog/slarge.png",
+			"specialtySmall": "ruins/heroes/birog/ssmall.png"
+		},
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "airMagic"
+			},
+			{
+				"level": "basic",
+				"skill": "diplomacy"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"maxHaste": {
+					"addInfo": 3,
+					"subtype": "spell.haste",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts": {
+			"biography": "She fled as a child to live in the forests at the foot of the great mountain calling herself daughter of the breeze. She shaped her youth with the words of the wind and made her learning and skills.",
+			"name": "Birog",
+			"specialty": {
+				"description": "{Haste}\r\nMaxed effect Haste.",
+				"name": "Haste",
+				"tooltip": "Maxed effect Haste. Starts with Haste."
+			}
+		}
+	}
+}
