@@ -68,7 +68,6 @@
 	],
 	"heroes": [
 		"config/ruins/heroes/bellona.json",
-		// "config/ruins/heroes/birog.json",
 		"config/ruins/heroes/gobni.json",
 		"config/ruins/heroes/grimm.json",
 		"config/ruins/heroes/gwyn.json",
@@ -77,7 +76,6 @@
 		"config/ruins/heroes/hughes.json",
 		"config/ruins/heroes/huldra.json",
 		"config/ruins/heroes/kali.json",
-		// "config/ruins/heroes/mabon.json",
 		"config/ruins/heroes/mogh.json",
 		"config/ruins/heroes/myra.json",
 		"config/ruins/heroes/rhea.json",
