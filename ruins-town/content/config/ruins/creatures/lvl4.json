@@ -17,7 +17,7 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 260
+			"gold": 242
 		},
 		"fightValue": 342,
 		"aiValue": 350,
@@ -39,10 +39,6 @@
 		"abilities": {
 			"spirit": {
 				"type": "NON_LIVING"
-			},
-			"immunity": {
-				"type": "WATER_IMMUNITY",
-				"val": 2
 			}
 		},
 		"hasDoubleWeek": true,

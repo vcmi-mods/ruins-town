@@ -5,30 +5,30 @@
 			"buildings" : {
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5},
-					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 0,
-					"name" : "Observatory level 1",
+					"name" : "Mage Guild level 1",
 					"requires" : [ "fort" ]
 				},
 				"mageGuild2" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 4,"sulfur": 4, "mercury": 4, "gems": 4},
-					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 1,
-					"name" : "Observatory Level 2",
+					"name" : "Mage Guild Level 2",
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 6,"sulfur": 6, "mercury": 6, "gems": 6},
 					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 2,
-					"name" : "Observatory Level 3",
+					"name" : "Mage Guild Level 3",
 					"upgrades" : "mageGuild2"
 				},
 				"mageGuild4" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 8,"sulfur": 8, "mercury": 8, "gems": 8},
-					"description" : "Astronomical Observatory will allow a visiting hero to learn the spells kept within.",
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 3,
-					"name" : "Observatory Level 4",
+					"name" : "Mage Guild Level 4",
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" : null,
@@ -185,7 +185,8 @@
 					{
 						"type" : "STACK_HEALTH",
 						"val" : 30,
-						"propagator" : "ALL_CREATURES",
+						"valueType" : "PERCENT_TO_BASE",
+						"propagator" : "GLOBAL_EFFECT",
 						"limiters" : [
 						{
 							"type": "CREATURE_FACTION_LIMITER",
@@ -211,25 +212,25 @@
 				},
 				"dwellingLvl3" : {
 					"cost" : { "gold" : 1000, "wood" : 10 },
-					"description" : "Trapcrafters Headquarter allows you to recruit Trackers.",
+					"description" : "Trapcrafters HQ allows you to recruit Trackers.",
 					"id" : 32,
 					"name" : "Trapcrafters HQ",
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "special1" ] ]
+					"requires" : [ "allOf", [ "dwellingLvl1" ]]
 				},
 				"dwellingLvl4" : {
-					"cost" : { "wood" : 5, "gold" : 2500},
+					"cost" : { "wood" : 5, "gold" : 1000},
 					"description" : "Aquarius Pond allow you to recruit Kelpies.",
 					"id" : 33,
 					"name" : "Aquarius Pond",
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl5" : {
-					"cost" : { "gold" : 2000, "ore" : 5 },
+					"cost" : { "gold" : 1500, "ore" : 5 },
 					"description" : "High Peak Nests allows you to recruit Perytons.",
 					"id" : 34,
 					"name" : "High Peak Nests",
 					"requires" : [ 
-						"allOf", [ "marketplace" ], [ "dwellingLvl2" ]
+						"allOf", [ "marketplace" ], [ "dwellingLvl2" ], [ "noneOf", [ "dwellingAlternateLvl5" ] ] 
 					]
 				},
 				"dwellingLvl6" : {
@@ -268,18 +269,18 @@
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
 					"id" : 39,
-					"name" : "Upg. Trapcrafters Headquarter",
+					"name" : "Upg. Trapcrafters HQ",
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"cost" : { "mercury" : 5, "gold" : 2500},
+					"cost" : { "mercury" : 5, "gold" : 1000},
 					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
 					"id" : 40,
 					"name" : "Upg. Aquarius Pond",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"cost" : { "ore" : 10, "gold" : 2000},
+					"cost" : { "ore" : 10, "gold" : 1500},
 					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
 					"id" : 41,
 					"name" : "Upg. High Peak Nests",
@@ -303,6 +304,23 @@
 					"requires" : [ 
 						"allOf", [ "mageGuild2" ], [ "castle" ]
 					]
+				},
+				"dwellingAlternateLvl5" : {
+					"cost" : { "mercury" : 2, "wood" : 3, "gold" : 1000 },
+					"description" : "Witch Hut allows you to recruit Sorceress.",
+					"id" : 48,
+					"name" : "Witch Hut",
+					"requires" : [ 
+						"allOf", [ "mageGuild1" ], [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl5" ] ]
+					]
+				},
+				"dwellingAlternateUpLvl5" : {
+					"cost" : { "mercury" : 2, "sulfur" : 2,"gold" : 1000},
+					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
+					"id" : 55,
+					"name" : "Upg. Witch Hut",
+					"upgrades" : "dwellingAlternateLvl5",
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild2" ]]
 				}
 			}
 		}

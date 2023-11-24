@@ -23,7 +23,7 @@
 		"defense": 12,
 		"hitPoints": 50,
 		"shots": 0,
-		"speed": 13,
+		"speed": 14,
 		"damage": {
 			"min": 11,
 			"max": 14
@@ -39,11 +39,11 @@
 				"type": "FLYING",
 				"subtype": 0
 			},
-			"jousting": {
-				"type": "JOUSTING"
-			},
 			"return": {
-				"type": "THREE_HEADED_ATTACK"
+				"type": "RETURN_AFTER_STRIKE"
+			},
+			"retaliation": {
+				"type": "BLOCKS_RETALIATION"
 			}
 		},
 		"hasDoubleWeek": false,
@@ -55,7 +55,7 @@
 			"timeBetweenFidgets": 1.00,
 			"troopCountLocationOffset": 0,
 			"animationTime": {
-				"walk": 1,
+				"walk": 1.8,
 				"idle": 10.00,
 				"attack": 1
 			}

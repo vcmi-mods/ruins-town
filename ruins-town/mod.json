@@ -3,13 +3,14 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"modType": "Town",
 	"depends": [
-		"hota.cove"
+		"hota.cove",
+		"hota.interference"
 	],
 	"compatibility": {
-		"min": "1.2.0"
+		"min": "1.3.0"
 	},
 	"german": {
 		"name": "Ruinen",
@@ -19,10 +20,10 @@
 		]
 	},
 	"changelog": {
-		"2.0.0": [
-			"Town v2"
+		"2.0.1": [
+			"Add Priestess and lots of fixes"
 		],
-		"1.2.6": [
+		"2.0.0": [
 			"Town rework"
 		],
 		"1.2.5": [
@@ -60,7 +61,9 @@
 		"config/ruins/creatures/lvl6.json",
 		"config/ruins/creatures/lvl6_up.json",
 		"config/ruins/creatures/lvl7.json",
-		"config/ruins/creatures/lvl7_up.json"
+		"config/ruins/creatures/lvl7_up.json",
+		"config/ruins/creatures/alternate.json",
+		"config/ruins/creatures/alternate_up.json"
 	],
 	"heroClasses": [
 		"config/ruins/classes/might.json",

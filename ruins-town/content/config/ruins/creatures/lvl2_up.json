@@ -42,17 +42,12 @@
 			"petrify": {
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.stoneGaze",
-				"val": 10
+				"val": 20
 			},
 			"petrifyImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.stoneGaze",
 				"addInfo": 1
-			},
-			"deathStrike" :
-			{
-				"type" : "DOUBLE_DAMAGE_CHANCE",
-				"val" : 10
 			}
 		},
 		"hasDoubleWeek": false,
@@ -69,13 +64,14 @@
 				"attack": 1
 			}
 		},
-		"sound": {
-			"shoot": "HALFATTK.wav",
-			"attack": "OGREATTK.wav",
-			"defend": "OGREDFND.wav",
-			"killed": "OGREKILL.wav",
-			"move": "OGREMOVE.wav",
-			"wince": "OGREWNCE.wav"
+		"sound":
+		{
+			"attack": "HHAGATTK.wav",
+			"defend": "HHAGDFND.wav",
+			"killed": "HHAGKILL.wav",
+			"move": "HHAGMOVE.wav",
+			"shoot": "HHAGSHOT.wav",
+			"wince": "HHAGWNCE.wav"
 		}
 	}
 }

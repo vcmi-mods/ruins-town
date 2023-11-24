@@ -2,6 +2,7 @@
 	"ruins": {
 		"name": "Ruins",
 		"alignment": "neutral",
+		"boat" : "boatFortress",
 		"nativeTerrain": "grass",
 		"creatureBackground": {
 			"120px": "ruins/creaturebg120px",
@@ -86,7 +87,9 @@
 				],
 				[
 					"rn_creature_lvl5",
-					"rn_creature_lvl5_up"
+					"rn_creature_lvl5_up",
+					"rn_creature_alternate",
+					"rn_creature_alternate_up"
 				],
 				[
 					"rn_creature_lvl6",
@@ -144,6 +147,9 @@
 						"mageGuild4"
 					],
 					[
+						"special4"
+					],
+					[
 						"special1"
 					]
 				],
@@ -151,9 +157,6 @@
 					[
 						"hordeLvl1",
 						"hordeUpLvl1"
-					],
-					[
-						"special4"
 					],
 					[
 						"hordeLvl6",
@@ -182,6 +185,10 @@
 					[
 						"dwellingLvl5",
 						"dwellingUpLvl5"
+					],
+					[
+						"dwellingAlternateLvl5",
+						"dwellingAlternateUpLvl5"
 					],
 					[
 						"dwellingLvl6",
@@ -243,8 +250,8 @@
 			"tavernVideo": "TAVERN.BIK",
 			"townBackground": "ruins/town/background",
 			"warMachine": "ammoCart",
-			"guildBackground": "ruins/town/mage",
-			"moatDamage": 45
+			"guildBackground" : "TPMAGE.bmp",
+			"moatAbility" : "castleMoat"
 		}
 	}
 }

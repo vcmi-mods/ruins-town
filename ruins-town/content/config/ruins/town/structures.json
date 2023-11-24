@@ -118,8 +118,8 @@
 					"animation" : "ruins/buildings/blacksmith",
 					"area" : "ruins/town/area/blacksmith",
 					"border" : "ruins/town/border/blacksmith",
-					"x" : 658,
-					"y" : 81,
+					"x" : 732,
+					"y" : 79,
 					"z" : 0
 				},
 				"marketplace" : {
@@ -311,6 +311,22 @@
 					"x" : 549,
 					"y" : 48,
 					"z" : 1
+				},
+				"dwellingAlternateLvl5" : {
+					"animation" : "ruins/buildings/dwellingAlternateLvl5",
+					"area" : "ruins/town/area/dwellingAlternateLvl5",
+					"border" : "ruins/town/border/dwellingAlternateLvl5",
+					"x" : 644,
+					"y" : 72,
+					"z" : 0
+				},
+				"dwellingAlternateUpLvl5" : {
+					"animation" : "ruins/buildings/dwellingAlternateUpLvl5",
+					"area" : "ruins/town/area/dwellingAlternateUpLvl5",
+					"border" : "ruins/town/border/dwellingAlternateUpLvl5",
+					"x" : 644,
+					"y" : 72,
+					"z" : 0
 				}
 			}
 		}

@@ -42,8 +42,8 @@
 				"type": "FLYING",
 				"subtype": 0
 			},
-			"jousting": {
-				"type": "JOUSTING"
+			"retaliation": {
+				"type": "BLOCKS_RETALIATION"
 			}
 		},
 		"hasDoubleWeek": true,
@@ -55,7 +55,7 @@
 			"timeBetweenFidgets": 1.00,
 			"troopCountLocationOffset": 0,
 			"animationTime": {
-				"walk": 1,
+				"walk": 1.4,
 				"idle": 10.00,
 				"attack": 1
 			}
