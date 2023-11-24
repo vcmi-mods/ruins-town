@@ -67,12 +67,13 @@
 				"attack": 1
 			}
 		},
-		"sound": {
-			"attack": "OGREATTK.wav",
-			"defend": "OGREDFND.wav",
-			"killed": "OGREKILL.wav",
-			"move": "OGREMOVE.wav",
-			"wince": "OGREWNCE.wav"
+		"sound": 
+		{
+			"attack": "HARPATTK.wav",
+			"defend": "HARPDFND.wav",
+			"killed": "HARPKILL.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "HARPWNCE.wav"
 		}
 	}
 }

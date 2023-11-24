@@ -60,10 +60,6 @@
 				"addInfo" : 3,
 				"propagator": "BATTLE_WIDE",
 				"limiters": [
-					{
-						"type": "CREATURE_FACTION_LIMITER",
-						"parameters" : ["ruins"]
-					},
 					[ 
 						"noneOf", 
 						[ "OPPOSITE_SIDE", { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7", true ] }, { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7_up", true ]}]

@@ -26,7 +26,7 @@
 		"attack": 4,
 		"defense": 2,
 		"hitPoints": 5,
-		"shots": 99,
+		"shots": 2,
 		"speed": 4,
 		"damage": {
 			"min": 1,
@@ -41,10 +41,6 @@
 		"abilities": {
 			"shooter": {
 				"type": "SHOOTER"
-			},
-			"range": {
-				"type": "LIMITED_SHOOTING_RANGE",
-				"val": 8
 			}
 		},
 		"hasDoubleWeek": true,

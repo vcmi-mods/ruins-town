@@ -1,69 +1,91 @@
 {
 	"rn_creature_alternate": {
-		"name": {
-			"singular": "Jackalope",
-			"plural": "Jackalopes"
+		"name" :
+		{
+			"singular" : "Forest Witch",
+			"plural" : "Forest Witches"
 		},
 		"upgrades": [
 			"rn_creature_alternate_up"
 		],
-		"level": 1,
+		"level": 5,
 		"special": false,
 		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 2,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 1600
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 540
 		},
-		"fightValue": 3021,
-		"aiValue": 3772,
-		"growth": 1,
-		"attack": 16,
-		"defense": 22,
-		"hitPoints": 190,
-		"shots": 0,
-		"speed": 5,
-		"damage": {
-			"min": 35,
-			"max": 45
+		"fightValue" : 777,
+		"aiValue" : 848,
+		"growth" : 3,
+		"attack" : 11,
+		"defense" : 13,
+		"hitPoints" : 35,
+		"shots" : 12,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 12,
+			"max" : 16
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"min": 5,
-			"max": 11
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
 		},
-		"doubleWide": true,
-		"abilities": {
-			"quick": {
-				"subtype": "spell.airShield",
-				"type": "ENCHANTED",
-				"val": 1
+		"doubleWide": false,
+		"abilities" : {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"magic": {
+				"type": "MAGIC_MIRROR",
+				"val": 20
 			}
 		},
-		"hasDoubleWeek": false,
+		"hasDoubleWeek": true,
 		"graphics": {
-			"animation": "ruins/creatures/battle/alternate.def",
-			"map": "ruins/creatures/adventure/alternate.def",
-			"iconSmall": "ruins/creatures/icon/alternate.bmp",
-			"iconLarge": "ruins/creatures/portrait/alternate.bmp",
+			"animation": "ruins/creatures/battle/lvl5alt.def",
+			"map": "ruins/creatures/adventure/lvl5alt.def",
+			"iconSmall": "ruins/creatures/icon/lvl5alt.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl5alt.bmp",
 			"timeBetweenFidgets": 1.00,
 			"troopCountLocationOffset": 0,
 			"animationTime": {
 				"walk": 1,
 				"idle": 10.00,
 				"attack": 1
+			},
+			"missile" :
+			{
+				"projectile": "ruins/projectiles/green.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
 			}
 		},
-		"sound": {
-			"defend": "HALFDFND.wav",
-			"killed": "HALFKILL.wav",
-			"move": "HALFMOVE.wav",
-			"shoot": "HALFSHOT.wav",
-			"wince": "HALFWNCE.wav"
+		"sound" :
+		{
+			"attack": "LICHATTK.wav",
+			"defend": "LICHDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"shoot": "LICHSHOT.wav",
+			"wince": "OGREWNCE.wav"
 		}
 	}
 }

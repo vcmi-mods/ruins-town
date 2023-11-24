@@ -38,28 +38,16 @@
 			"fearless": {
 				"type": "FEARLESS"
 			},
-			"bloodlust": {
+			"frenzy": {
 				"type": "SPELL_BEFORE_ATTACK",
-				"subtype": "spell.bloodlust",
-				"val": 10,
+				"subtype": "spell.frenzy",
+				"val": 70,
 				"addInfo": 2001
 			},
-			"fear" :
+			"enemyDefenceReduction":
 			{
-				"type": "FEAR",
-				"propagator": "BATTLE_WIDE",
-				"limiters": [
-					[  "allOf", [ "OPPOSITE_SIDE" ]],
-					[ 
-						"noneOf", 
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters": [ "KING" ]
-						},
-						"IS_UNDEAD",
-						"DRAGON_NATURE"
-					]
-				]
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 20
 			}
 		},
 		"hasDoubleWeek": false,

@@ -23,7 +23,7 @@
 		"attack": 4,
 		"defense": 5,
 		"hitPoints": 8,
-		"shots": 99,
+		"shots": 4,
 		"speed": 5,
 		"damage": {
 			"min": 1,
@@ -39,15 +39,8 @@
 			"shooter": {
 				"type": "SHOOTER"
 			},
-			"range": {
-				"type": "LIMITED_SHOOTING_RANGE",
-				"val": 10
-			},
-			"boomerang" :
-			{
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireWall",
-				"val" : 2
+			"penalty": {
+				"type": "NO_WALL_PENALTY"
 			}
 		},
 		"hasDoubleWeek": false,

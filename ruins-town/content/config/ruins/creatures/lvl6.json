@@ -41,11 +41,10 @@
 			"fearless": {
 				"type": "FEARLESS"
 			},
-			"bloodlust": {
-				"type": "SPELL_BEFORE_ATTACK",
-				"subtype": "spell.bloodlust",
-				"val": 10,
-				"addInfo": 2001
+			"enemyDefenceReduction":
+			{
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 10
 			}
 		},
 		"hasDoubleWeek": true,
