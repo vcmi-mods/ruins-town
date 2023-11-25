@@ -3,7 +3,7 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"modType": "Town",
 	"depends": [
 		"hota.cove",
@@ -20,6 +20,9 @@
 		]
 	},
 	"changelog": {
+		"2.0.2": [
+			"Chinese translation update by Rindlit"
+		],
 		"2.0.1": [
 			"Add Priestess and lots of fixes"
 		],
@@ -91,5 +94,11 @@
 	],
 	"spells": [
 		"config/spells/grapple/grapple.json"
+	]
+    "chinese" : {
+		"name" : "遗迹",
+		"description" : "遗迹",
+		"translations" : [
+			"translation/ruins/chinese.json"
 	]
 }
