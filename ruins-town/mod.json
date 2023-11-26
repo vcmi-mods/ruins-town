@@ -94,11 +94,12 @@
 	],
 	"spells": [
 		"config/spells/grapple/grapple.json"
-	]
-    "chinese" : {
+	],
+	"chinese" : {
 		"name" : "遗迹",
 		"description" : "遗迹",
 		"translations" : [
 			"translation/ruins/chinese.json"
-	]
+		]
+	}
 }
