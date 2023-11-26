@@ -239,7 +239,7 @@
 					"id" : 35,
 					"name" : "Cave Thicket",
 					"requires" : [ 
-						"allOf", [ "mageGuild1"], [ "dwellingLvl4" ]
+						"allOf", [ "blacksmith"], [ "dwellingLvl3" ]
 					]
 				},
 				"dwellingLvl7" : {
@@ -248,7 +248,7 @@
 					"id" : 36,
 					"name" : "Mountain Nexus",
 					"requires" : [ 
-						"allOf", [ "mageGuild1"], [ "dwellingLvl5" ]
+						"allOf", [ "mageGuild1"], [ "dwellingLvl6" ]
 					]
 				},
 				"dwellingUpLvl1" : {
@@ -302,7 +302,7 @@
 					"name" : "Upg. Mountain Nexus",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [ 
-						"allOf", [ "mageGuild2" ], [ "castle" ]
+						"allOf", [ "mageGuild2" ]
 					]
 				},
 				"dwellingAlternateLvl5" : {
