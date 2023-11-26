@@ -51,7 +51,7 @@
 			"biography": "She fled as a child to live in the forests at the foot of the great mountain calling herself daughter of the breeze. She shaped her youth with the words of the wind and made her learning and skills.",
 			"name": "Birog",
 			"specialty": {
-				"description": "{Haste}\r\nMaxed effect Haste.",
+				"description": "{Haste}\r\n\r\nCasts Haste with expert effects but not expert range.",
 				"name": "Haste",
 				"tooltip": "Maxed effect Haste. Starts with Haste."
 			}

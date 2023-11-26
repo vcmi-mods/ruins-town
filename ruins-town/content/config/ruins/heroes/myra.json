@@ -1,5 +1,5 @@
 {
-	"rn_myra": {
+	"13rn_myra": {
 		"army": [
 			{
 				"creature": "firstAidTent",
@@ -53,9 +53,9 @@
 			"biography": "Originally from the Hillrock Tribe, Myra couldn't resist the beckoning of Light Magic, leading her to journey to the Erathian Empire for study. However, when word reached her about the tragic fate of her tribe, she did what came naturally: she returned to lend a helping hand. Her purpose now? To breathe life back into the honor of her tribe.",
 			"name": "Myra",
 			"specialty": {
-				"description": "Secondary Skill Bonus: First Aid",
+				"tooltip": "Secondary Skill Bonus: First Aid",
 				"name": "First Aid",
-				"tooltip": "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+				"description": "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
 			}
 		}
 	}

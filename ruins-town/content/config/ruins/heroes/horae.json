@@ -1,5 +1,5 @@
 {
-	"rn_horae": {
+	"09rn_horae": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl2",
@@ -50,7 +50,7 @@
 			"biography": "Horae's origins trace back to a castle nestled upon the boundary dividing the kingdom of Erathia and the Contested Lands. Born into nobility as the scion of a lordly lineage, he made a fateful choice to heed the beckoning call of Mother Nature. In forsaking his heritage, he faced the harsh rejection of his own kin. Seeking refuge within the leafy embrace of the Emerald Forest, he found a mentor who became not just a teacher but a cherished father figure.",
 			"name": "Horae",
 			"specialty": {
-				"description": "{Earthquake}\r\nMaxed Earthquake spell.",
+				"description": "{Earthquake}\r\n\r\nCasts Earthquake with expert effects but not expert range. Starts with Earthquake spell.",
 				"name": "Earthquake",
 				"tooltip": "Maxed Earthquake spell. Starts with Earthquake."
 			}

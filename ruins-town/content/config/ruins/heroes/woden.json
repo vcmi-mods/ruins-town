@@ -1,5 +1,5 @@
 {
-	"rn_woden": {
+	"16rn_woden": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -38,7 +38,7 @@
 					"limiters": [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "primSkill.spellpower",
+					"subtype": "primarySkill.spellpower",
 					"type": "PRIMARY_SKILL",
 					"val": -15,
 					"valueType": "PERCENT_TO_BASE",

@@ -1,5 +1,5 @@
 {
-	"rn_bellona": {
+	"01rn_bellona": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -51,9 +51,9 @@
 			"biography": "Bellona, born into the Stormshield Tribe, faced the weighty legacy of her family with unwavering determination. Her father, the esteemed Chieftain of their tribe, and her late mother, a revered Shieldmaiden, instilled in her the values of honor and responsibility from her earliest years. Bearing the heavy mantle of her mother's absence in the wake of the Timber Wars, Bellona defied convention as the tribe's sole heir, taking on the roles typically reserved for boys. With both combat prowess and leadership skills, she became the embodiment of her formidable lineage, forging her own path as a formidable warrior and leader within her tribe.",
 			"name": "Bellona",
 			"specialty": {
-				"description": "Secondary Skill Bonus: Offence",
+				"tooltip": "Secondary Skill Bonus: Offence",
 				"name": "Offence",
-				"tooltip": "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
+				"description": "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage."
 			}
 		}
 	}

@@ -48,9 +48,9 @@
 			"biography": "A gardener proud of his seedlings, the spreading of a decelerated life and peaceful coexistence. Probably influenced by his supernatural luck that guarantees surprises in his days and blossoming of his plants.",
 			"name": "Mabon",
 			"specialty": {
-				"description": "{Gold}\r\n+350 Gold each day",
+				"tooltip": "350 Gold each day",
 				"name": "+350 Gold",
-				"tooltip": "Increases kingdom's income by 350 gold per day."
+				"description": "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
 			}
 		}
 	}

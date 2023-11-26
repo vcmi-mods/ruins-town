@@ -1,5 +1,5 @@
 {
-	"rn_huldra": {
+	"10rn_huldra": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -41,9 +41,10 @@
 		"specialty": {
 			"bonuses": {
 				"hypnotize": {
-					"addInfo": 3,
-					"subtype": "spell.hypnotize",
-					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+					"subtype" : "spell.hypnotize",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				}
 			}
 		},
@@ -53,7 +54,7 @@
 			"specialty": {
 				"description": "Cast Hypnotize with maxed power.",
 				"name": "Hypnotize",
-				"tooltip": "{Hypnotize}\r\n\r\nCast Hypnotize with maxed power. Starts with Hypnotize."
+				"tooltip": "{Hypnotize}\r\n\r\nCasts Hypnotize with expert effects. Starts with Hypnotize spell."
 			}
 		}
 	}

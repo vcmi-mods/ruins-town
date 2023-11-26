@@ -69,7 +69,6 @@
 			"iconSmall": "ruins/creatures/icon/lvl5alt.bmp",
 			"iconLarge": "ruins/creatures/portrait/lvl5alt.bmp",
 			"timeBetweenFidgets": 1.00,
-			"troopCountLocationOffset": 0,
 			"animationTime": {
 				"walk": 1,
 				"idle": 10.00,

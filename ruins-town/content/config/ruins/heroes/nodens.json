@@ -1,5 +1,5 @@
 {
-	"rn_nodens": {
+	"07rn_nodens": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -49,9 +49,9 @@
 			"biography": "Nodens, a native of the Lost Plateau and the revered chief and shaman of the Hillrock Tribe near the Tatalian borders, possesses an unmatched prowess in resource management and the welfare of his people. Under his guidance, the tribe valiantly repelled the relentless advances of the Erathian Empire, although victory came at a staggering price. Now, only a handful of the tribe's once-thriving members remain, their resilience a testament to Nodens' unwavering leadership amidst adversity.",
 			"name": "Nodens",
 			"specialty": {
-				"description": "Secondary Skill Bonus: Armorer",
+				"tooltip": "Secondary Skill Bonus: Armorer",
 				"name": "Armorer",
-				"tooltip": "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage."
+				"description": "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage."
 			}
 		}
 	}

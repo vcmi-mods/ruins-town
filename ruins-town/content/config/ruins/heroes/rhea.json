@@ -1,5 +1,5 @@
 {
-	"rn_rhea": {
+	"14rn_rhea": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -42,9 +42,9 @@
 			"bonuses" : {
 				"forceField" : {
 					"subtype" : "spell.forceField",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				}
 			}
 		},
@@ -52,7 +52,7 @@
 			"biography": "Rhea, known as the Green Sister within the Chroma Covenant, hails from a secluded village in the western reaches of the mighty Erathian Empire. In her humble origins as a peasant, she was intimately acquainted with the secrets of herbs and the nurturing of livestock. When the turbulent Timber Wars erupted, she bravely assumed the forefront of the defense.",
 			"name": "Rhea",
 			"specialty": {
-				"description": "{Force Field}\r\nMaxed Force Field spell.",
+				"description": "{Force Field}\r\n\r\nCasts Force Field with expert effects. Start with Force Field spell.",
 				"name": "Force Field",
 				"tooltip": "Maxed Force Field spell. Starts with Force Field."
 			}

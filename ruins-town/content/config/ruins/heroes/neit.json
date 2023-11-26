@@ -1,5 +1,5 @@
 {
-	"rn_neit": {
+	"08rn_neit": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -37,9 +37,9 @@
 			"biography": "Neit's family had long held the esteemed role of Peryton tamers, a tradition passed down through generations. But when her tribe faced a dire threat, she faced an agonizing choice. In a desperate bid to secure the Perytons' aid, she left her remote home behind. Regrettably, upon her return, she discovered that time had betrayed her, and she arrived too late. The tragedy had already unfolded, with the loss of most of her people.",
 			"name": "Neit",
 			"specialty": {
-				"description": "{Peryton}\r\nIncreases Speed of any Peryton by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"description": "{Peryton}\r\n\r\nIncreases Speed of any Peryton by 1 and their Attack and Defense skills by 5% for every 4 level.",
 				"name": "Peryton",
-				"tooltip": "Increases Speed of any Peryton by 1 and their Attack and Defense skills by 5% for every 4 level."
+				"tooltip": "Creature bonus: Perytons"
 			}
 		}
 	}

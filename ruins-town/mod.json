@@ -3,7 +3,7 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"modType": "Town",
 	"depends": [
 		"hota.cove",
@@ -20,6 +20,10 @@
 		]
 	},
 	"changelog": {
+		"2.0.3": [
+			"Texts polishing", 
+			"Few tiny fixes"
+		],
 		"2.0.2": [
 			"Chinese translation update by Rindlit"
 		],
@@ -84,6 +88,7 @@
 		"config/ruins/heroes/kali.json",
 		"config/ruins/heroes/mogh.json",
 		"config/ruins/heroes/myra.json",
+		"config/ruins/heroes/nodens.json",
 		"config/ruins/heroes/rhea.json",
 		"config/ruins/heroes/thar.json",
 		"config/ruins/heroes/neit.json",

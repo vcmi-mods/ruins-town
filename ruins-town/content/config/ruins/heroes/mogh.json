@@ -1,5 +1,5 @@
 {
-	"rn_mogh": {
+	"12rn_mogh": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -44,9 +44,9 @@
 			"biography": "Mogh is among the first Wood Elf druids, taught by the founder of the Circle of Elders. The AvLean kingdom assigned him to safeguard the Emerald Forest.. He chose to live there, spending his life exploring and befriending even the forest's most fearsome creatures. While he still took on students from the empire, teaching them Earth and Nature Magic, his isolation turned him into a quirky old man. He now feels more connected to the forest than to the elven empire.",
 			"name": "Mogh",
 			"specialty": {
-				"description": "{Wendigo}\r\nIncreases Speed of any Wendigo by 1 and their Attack and Defense skills by 5% for every 6 level.",
+				"description": "{Wendigo}\r\n\r\nIncreases Speed of any Wendigo or Feral Wendigo by 1 and their Attack and Defense skills by 5% for every 6 levels.",
 				"name": "Wendigo",
-				"tooltip": "Increases Speed of any Wendigo by 1 and their Attack and Defense skills by 5% for every 6 level."
+				"tooltip": "Creature bonus: Wendigos"
 			}
 		}
 	}

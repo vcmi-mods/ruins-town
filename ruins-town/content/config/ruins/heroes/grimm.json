@@ -1,5 +1,5 @@
 {
-	"rn_grimm": {
+	"03rn_grimm": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
@@ -48,9 +48,9 @@
 			"biography": "Once the revered blacksmith of the tribe, he gracefully passed the mantle to the younger generation. Now, in his multifaceted role as a tribe member, he has channeled his skills toward the art of conscientious tree-felling and actively contributes to the forest's rejuvenation.",
 			"name": "Grimm",
 			"specialty": {
-				"tooltip": "+2 Wood each day",
+				"description": "+2 Wood each day",
 				"name": "+1 Wood",
-				"description": "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+				"tooltip": "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
 			}
 		}
 	}
