@@ -36,15 +36,16 @@
 		"doubleWide": true,
 		"abilities": {
 			"immunity": {
-				"type": "EARTH_IMMUNITY",
-				"subtype": 1
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.fire",
+				"val" : 100
 			},
 			"nonliving": {
 				"type": "NON_LIVING"
 			},
 			"resistance": {
 				"type": "GENERAL_DAMAGE_REDUCTION",
-				"subtype": 1,
+				"subtype": "damageTypeRanged",
 				"val": 30
 			},
 			"earthquake":{

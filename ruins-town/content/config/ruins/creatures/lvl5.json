@@ -40,7 +40,7 @@
 		"abilities": {
 			"flying": {
 				"type": "FLYING",
-				"subtype": 0
+				"subtype": "movementFlying"
 			},
 			"retaliation": {
 				"type": "BLOCKS_RETALIATION"
