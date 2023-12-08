@@ -1,8 +1,8 @@
 {
 	"rn_creature_lvl1": {
 		"name": {
-			"singular": "Wood Man",
-			"plural": "Wood Men"
+			"singular": "Wild Man",
+			"plural": "Wild Men"
 		},
 		"upgrades": [
 			"rn_creature_lvl1_up"
@@ -26,7 +26,7 @@
 		"attack": 4,
 		"defense": 2,
 		"hitPoints": 5,
-		"shots": 2,
+		"shots": 12,
 		"speed": 4,
 		"damage": {
 			"min": 1,

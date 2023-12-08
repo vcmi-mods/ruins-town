@@ -23,7 +23,7 @@
 		"defense": 32,
 		"hitPoints": 300,
 		"shots": 0,
-		"speed": 6,
+		"speed": 8,
 		"damage": {
 			"min": 40,
 			"max": 50
@@ -45,26 +45,18 @@
 			"resistance": {
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": 1,
-				"val": 30
+				"val": 20
 			},
 			"earthquake":{
 				"subtype" : "spell.earthquake",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 3
 			},
-			"rangedProtection" :
+			"paralize" :
 			{
-				"type": "ENCHANTER",
-				"subtype" : "spell.airShield",
-				"val": 1,
-				"addInfo" : 3,
-				"propagator": "BATTLE_WIDE",
-				"limiters": [
-				[ 
-					"noneOf", 
-						[ "OPPOSITE_SIDE", { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7", true ] }, { "type" : "CREATURE_TYPE_LIMITER", "parameters": [ "rn_creature_lvl7_up", true ]}]
-					]
-				]
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.earthquake",
+				"val" : 100
 			}
 		},
 		"hasDoubleWeek": false,
