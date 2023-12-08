@@ -45,8 +45,9 @@
 				"addInfo": 3
 			},
 			"immunity": {
-				"type": "WATER_IMMUNITY",
-				"val": 1
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val": 100
 			}
 		},
 		"hasDoubleWeek": false,
