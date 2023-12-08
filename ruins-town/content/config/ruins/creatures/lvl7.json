@@ -26,7 +26,7 @@
 		"defense": 22,
 		"hitPoints": 200,
 		"shots": 0,
-		"speed": 5,
+		"speed": 7,
 		"damage": {
 			"min": 30,
 			"max": 50
@@ -49,7 +49,7 @@
 			"resistance": {
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeRanged",
-				"val": 15
+				"val": 10
 			}
 		},
 		"hasDoubleWeek": false,
