@@ -1,8 +1,8 @@
 {
 	"rn_creature_lvl1_up": {
 		"name": {
-			"singular": "Woodwose",
-			"plural": "Woodwoses"
+			"singular": "Wild Chief",
+			"plural": "Wild Chiefs"
 		},
 		"level": 1,
 		"special": false,
@@ -23,7 +23,7 @@
 		"attack": 4,
 		"defense": 5,
 		"hitPoints": 8,
-		"shots": 4,
+		"shots": 12,
 		"speed": 5,
 		"damage": {
 			"min": 1,

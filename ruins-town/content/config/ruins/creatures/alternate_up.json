@@ -43,7 +43,12 @@
 			},
 			"magic": {
 				"type": "MAGIC_MIRROR",
-				"val": 30
+				"val": 50
+			},
+			"shield" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.shield",
+				"val" : 1
 			},
 			"spellPower" : 
 			{
@@ -59,7 +64,8 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.forceField",
-				"val" : 2
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX"
 			}
 		},
 		"hasDoubleWeek": false,
