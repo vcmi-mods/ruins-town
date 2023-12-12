@@ -42,22 +42,6 @@
 					"y" : 234,
 					"z" : 0
 				},
-				"shipyard" : {
-					"animation" : "ruins/buildings/shipyard",
-					"area" : "ruins/town/area/shipyard",
-					"border" : "ruins/town/border/shipyard",
-					"x" : 323,
-					"y" : 228,
-					"z" : 1
-				},
-				"ship" : {
-					"animation" : "ruins/buildings/shipyard",
-					"area" : "ruins/town/area/shipyard",
-					"border" : "ruins/town/border/shipyard",
-					"x" : 320,
-					"y" : 203,
-					"z" : 1
-				},
 				"fort" : {
 					"animation" : "ruins/buildings/fort",
 					"area" : "ruins/town/area/fort",

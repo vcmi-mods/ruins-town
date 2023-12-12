@@ -38,12 +38,6 @@
 					"id" : 5,
 					"name" : "Tavern"
 				},
-				"shipyard" : {
-					"cost" : { "gold" : 2000, "wood" : 20 },
-					"description" : "The Shipyard allows you to purchase ships.",
-					"id" : 6,
-					"name" : "Shipyard"
-				},
 				"fort" : {
 					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
 					"description" : "The Fort provides your ruins with defensive walls.",
