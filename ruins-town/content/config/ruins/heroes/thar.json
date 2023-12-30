@@ -3,18 +3,18 @@
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
-				"max": 20,
-				"min": 15
+				"max": 25,
+				"min": 20
 			},
 			{
 				"creature": "rn_creature_lvl2",
-				"max": 10,
+				"max": 12,
 				"min": 7
 			},
 			{
-				"creature": "rn_creature_lvl1_up",
-				"max": 15,
-				"min": 10
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"class": "rn_magic",
@@ -27,11 +27,11 @@
 			"specialtyLarge": "ruins/heroes/thar/slarge.png",
 			"specialtySmall": "ruins/heroes/thar/ssmall.png"
 		},
-		"skills": [
-			{
-				"level": "basic",
-				"skill": "resistance"
-			},
+		"skills": [	
+		{
+			"level": "basic",
+			"skill": "resistance"
+		},
 			{
 				"level": "basic",
 				"skill": "earthMagic"

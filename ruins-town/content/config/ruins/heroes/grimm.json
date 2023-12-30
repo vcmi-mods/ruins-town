@@ -3,8 +3,8 @@
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
-				"max": 22,
-				"min": 17
+				"max": 25,
+				"min": 15
 			},
 			{
 				"creature": "ballista",
@@ -12,9 +12,9 @@
 				"min": 1
 			},
 			{
-				"creature": "rn_creature_lvl1",
-				"max": 18,
-				"min": 13
+				"creature": "rn_creature_lvl2",
+				"max": 12,
+				"min": 7
 			}
 		],
 		"class": "rn_might",
@@ -49,7 +49,7 @@
 			"name": "Grimm",
 			"specialty": {
 				"description": "+2 Wood each day",
-				"name": "+1 Wood",
+				"name": "+2 Wood",
 				"tooltip": "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
 			}
 		}

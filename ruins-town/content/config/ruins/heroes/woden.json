@@ -7,9 +7,14 @@
 				"min": 20
 			},
 			{
-				"creature": "rn_creature_lvl1_up",
-				"max": 15,
-				"min": 10
+				"creature": "rn_creature_lvl2",
+				"max": 12,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"class": "rn_magic",
@@ -27,7 +32,7 @@
 			},
 			{
 				"level": "basic",
-				"skill": "eagleEye"
+				"skill": "tactics"
 			}
 		],
 		"specialty": {

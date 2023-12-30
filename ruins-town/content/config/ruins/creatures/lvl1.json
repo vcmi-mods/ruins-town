@@ -45,7 +45,7 @@
 		},
 		"hasDoubleWeek": true,
 		"graphics": {
-			"animation": "ruins/creatures/battle/lvl1.def",
+			"animation": "ruins/creatures/battle/battle_lvl1.def",
 			"map": "ruins/creatures/adventure/lvl1.def",
 			"iconSmall": "ruins/creatures/icon/lvl1.bmp",
 			"iconLarge": "ruins/creatures/portrait/lvl1.bmp",

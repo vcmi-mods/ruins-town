@@ -28,6 +28,7 @@
 			"min": 15,
 			"max": 25
 		},
+		"horde" : 2,
 		"spellPoints": 0,
 		"advMapAmount": {
 			"max": 9,

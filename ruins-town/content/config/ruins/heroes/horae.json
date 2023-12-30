@@ -2,19 +2,19 @@
 	"09rn_horae": {
 		"army": [
 			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 20
+			},
+			{
 				"creature": "rn_creature_lvl2",
 				"max": 12,
 				"min": 7
 			},
 			{
-				"creature": "rn_creature_lvl1",
-				"max": 10,
-				"min": 8
-			},
-			{
-				"creature": "rn_creature_lvl1",
-				"max": 12,
-				"min": 8
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"class": "rn_magic",
@@ -22,19 +22,19 @@
 			"earthquake"
 		],
 		"images": {
-			"large": "ruins/heroes/horae/large.bmp",
-			"small": "ruins/heroes/horae/small.bmp",
-			"specialtyLarge": "ruins/heroes/horae/slarge.bmp",
-			"specialtySmall": "ruins/heroes/horae/ssmall.bmp"
+			"large": "ruins/heroes/horae_l.png",
+			"small": "ruins/heroes/horae_s.png",
+			"specialtyLarge": "ruins/heroes/horae_sl.bmp",
+			"specialtySmall": "ruins/heroes/horae_ss.bmp"
 		},
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "intelligence"
+				"skill": "learning"
 			},
 			{
 				"level": "basic",
-				"skill": "learning"
+				"skill": "earthMagic"
 			}
 		],
 		"specialty": {
