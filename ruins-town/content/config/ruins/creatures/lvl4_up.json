@@ -23,7 +23,7 @@
 		"defense": 11,
 		"hitPoints": 40,
 		"shots": 0,
-		"speed": 6,
+		"speed": 7,
 		"damage": {
 			"min": 7,
 			"max": 9

@@ -1,20 +1,20 @@
 {
-	"07rn_nodens": {
+	"rn_nodens": {
 		"army": [
 			{
 				"creature": "rn_creature_lvl1",
 				"max": 25,
-				"min": 18
+				"min": 20
 			},
 			{
 				"creature": "rn_creature_lvl2",
-				"max": 10,
+				"max": 12,
 				"min": 7
 			},
 			{
-				"creature": "rn_creature_lvl1_up",
-				"max": 7,
-				"min": 5
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"class": "rn_might",

@@ -8,13 +8,13 @@
 			},
 			{
 				"creature": "rn_creature_lvl2",
-				"max": 7,
-				"min": 3
+				"max": 12,
+				"min": 7
 			},
 			{
-				"creature": "rn_creature_lvl1",
-				"max": 17,
-				"min": 7
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"female": true,

@@ -20,6 +20,10 @@
 		]
 	},
 	"changelog": {
+		"2.0.6": [
+			"Horae portrait replace",
+			"Small buildings and graphic fixes"
+		],
 		"2.0.5": [
 			"Few minor graphical fixes by Fabrice"
 		],

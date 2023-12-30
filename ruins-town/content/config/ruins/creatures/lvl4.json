@@ -25,7 +25,7 @@
 		"attack": 8,
 		"defense": 8,
 		"hitPoints": 28,
-		"speed": 7,
+		"speed": 6,
 		"damage": {
 			"min": 4,
 			"max": 7

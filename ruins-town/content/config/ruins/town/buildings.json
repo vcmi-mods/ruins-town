@@ -137,13 +137,8 @@
 					"upgrades" : "dwellingUpLvl1",
 					"mode": "auto"
 				},
-				"ship" : {
-					"id" : 20,
-					"name" : "Shipyard",
-					"description" : "Shipyard allows ships to be built.",
-					"upgrades" : "shipyard",
-					"requires" : [ "shipyard" ]
-				},
+				"ship" : null,
+				"shipyard" : null,
 				"special4" : {
 					"cost" : { "gold" : 500, "ore" : 5},
 					"description" : "The Monument grants visiting heroes +1 knowledge.",

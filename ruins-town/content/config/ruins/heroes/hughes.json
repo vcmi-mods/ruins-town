@@ -4,17 +4,17 @@
 			{
 				"creature": "rn_creature_lvl1",
 				"max": 25,
-				"min": 20
+				"min": 15
 			},
 			{
 				"creature": "rn_creature_lvl1",
-				"max": 15,
+				"max": 20,
 				"min": 10
 			},
 			{
-				"creature": "rn_creature_lvl1_up",
-				"max": 10,
-				"min": 5
+				"creature": "rn_creature_lvl1",
+				"max": 20,
+				"min": 10
 			}
 		],
 		"class": "rn_might",
@@ -41,7 +41,7 @@
 			"biography": "As the High Chieftain of the Stormshield Tribe, Hughes once harbored dreams of a peaceful life, alongside his radiant red-headed wife, and a home filled with laughter and children. However, destiny wove a different tapestry. The drums of war began to beat, and tragedy struck as he lost his beloved wife. Now, he stands as the protector of his tribe and his precious daughter, determined to shield them from the storm of conflict.",
 			"name": "Hughes",
 			"specialty": {
-				"description": "{Wild man}\r\n\r\nIncreases Speed of any Wild Man or Woodwose by 1 and their Attack and Defense skills by 5% for every 1 level.",
+				"description": "{Wild man}\r\n\r\nIncreases Speed of any Wild Man or Wild Chief by 1 and their Attack and Defense skills by 5% for every 1 level.",
 				"name": "Wild man",
 				"tooltip": "Creature bonus: Wildmen."
 			}
