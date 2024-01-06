@@ -3,7 +3,7 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"modType": "Town",
 	"depends": [
 		"hota.cove",
@@ -19,7 +19,17 @@
 			"translation/ruins/german.json"
 		]
 	},
+	"polish": {
+		"name": "tok | Ruiny",
+		"description": "Mod dodaje miasto: Ruiny\n – \n\nMod wykonany z wielkim zaangażowaniem, miłej zabawy. Czekam na Twoją opinię.\n\n Więcej informacji znajdziesz na http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtwórz plik manual.pdf w katalogu mod",
+		"translations": [
+			"translation/ruins/polish.json"
+		]
+	},
 	"changelog": {
+		"2.0.6": [
+			"Added Polish translation by ToRRent1812"
+		],
 		"2.0.5": [
 			"Few minor graphical fixes by Fabrice"
 		],
