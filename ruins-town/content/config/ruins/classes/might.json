@@ -16,7 +16,7 @@
 		},
 		"name": "Hunter",
 		"faction": "ruins",
-		"commander": "rn_creature_lvl3_up",
+		"commander": "rn_creature_cm3_up",
 		"affinity": "might",
 		"primarySkills": {
 			"attack": 2,

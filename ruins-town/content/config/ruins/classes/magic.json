@@ -16,7 +16,7 @@
 		},
 		"name": "Hermit",
 		"faction": "ruins",
-		"commander": "rn_creature_lvl3",
+		"commander": "rn_creature_cm3",
 		"affinity": "magic",
 		"primarySkills": {
 			"attack": 0,

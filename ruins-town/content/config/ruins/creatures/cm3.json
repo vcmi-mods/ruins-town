@@ -1,14 +1,11 @@
 	{
-		"rn_creature_lvl3": {
+		"rn_creature_cm3": {
 			"name": {
 				"singular": "Tracker",
 				"plural": "Trackers"
 			},
-			"upgrades": [
-				"rn_creature_lvl3_up"
-			],
-			"level": 3,
-			"special": false,
+			"level": 0,
+			"special": true,
 			"faction": "ruins",
 			"cost": {
 				"wood": 0,
@@ -17,19 +14,19 @@
 				"sulfur": 0,
 				"crystal": 0,
 				"gems": 0,
-				"gold": 195
+				"gold": 140
 			},
-			"fightValue": 320,
-			"aiValue": 314,
-			"growth": 7,
-			"attack": 8,
+			"fightValue" : 130,
+			"aiValue" : 156,
+			"growth": 9,
+			"attack": 5,
 			"defense": 5,
-			"hitPoints": 15,
-			"shots": 10,
-			"speed": 5,
+			"hitPoints": 40,
+			"shots": 24,
+			"speed": 4,
 			"damage": {
-				"min": 2,
-				"max": 6
+				"min": 6,
+				"max": 12
 			},
 			"spellPoints": 0,
 			"advMapAmount": {
@@ -38,56 +35,31 @@
 			},
 			"doubleWide": false,
 			"abilities": {
-				"shooter": {
-					"type": "SHOOTER"
-				},
-				"hunter": {
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"hunter":
+			{
 					"type": "NO_WALL_PENALTY"
-				}
-			},	
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
-		],
+			},
 			"hasDoubleWeek": true,
 			"graphics": {
 				"animation": "ruins/creatures/battle/lvl3.def",
