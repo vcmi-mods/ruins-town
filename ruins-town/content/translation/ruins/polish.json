@@ -189,12 +189,8 @@
     "spell.ruins-town.rn_seaweedGrapple.description.none": "Wybrane stworzenie zostanie złapane i spowolnione.",
     "spell.ruins-town.rn_seaweedGrapple.name": "Łapacz wodorostów",
     "spell.ruins-town.rn_seaweedGrapple.levels.description": "Wybrane stworzenie zostanie złapane i spowolnione.",
-    "building.ruins-town.ruins.dwellingAlternateLvl5.description": "Huta czarownic pozwala rekrutować Czarnoksiężniczkę.",
-    "building.ruins-town.ruins.dwellingAlternateLvl5.name": "Huta czarownic",
-    "building.ruins-town.ruins.dwellingAlternateUpLvl5.description": "Upg. Huta czarownic umożliwia rekrutację kapłanki.",
-    "building.ruins-town.ruins.dwellingAlternateUpLvl5.name": "Upg. Huta czarownic",
-    "building.ruins-town.ruins.hordeLvl6.description": "Wbijanie kołków zwiększa produkcję Wendigos o 3 w tygodniu.",
-    "building.ruins-town.ruins.hordeLvl6.name": "Wbijanie kołków",
-    "building.ruins-town.ruins.hordeUpLvl6.description": "Wbijanie kołków zwiększa produkcję Feral Wendigos o 3 w tygodniu.",
-    "building.ruins-town.ruins.hordeUpLvl6.name": "Wbijanie kołków"
+    "building.ruins-town.ruins.hordeLvl6.description": "Przeszywające kołki zwiększają produkcję Wendigo o 3 w tygodniu.",
+    "building.ruins-town.ruins.hordeLvl6.name": "Przeszywające kołki",
+    "building.ruins-town.ruins.hordeUpLvl6.description": "Przeszywające kołki zwiększają produkcję Dzikich wendigo o 3 w tygodniu.",
+    "building.ruins-town.ruins.hordeUpLvl6.name": "Przeszywające kołki"
 }
