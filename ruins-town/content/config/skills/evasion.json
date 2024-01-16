@@ -24,7 +24,7 @@
 				"medium": "skills/evasion/MediumBasic.png",
 				"large": "skills/evasion/LargeBasic.png"
 			},
-			"description": "{Basic evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing by 80%",
+			"description": "{Basic evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing by 40% melee attack damage and 80% ranged attack damage",
 			"effects" : {
 				"miss": {
 					"val": 10,
@@ -38,10 +38,10 @@
 				"medium": "skills/evasion/MediumAdvanced.png",
 				"large": "skills/evasion/LargeAdvanced.png"
 			},
-			"description": "{Advanced evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing by 90%",
+			"description": "{Advanced evasion}\n\nCreatures have a 15% chance to mitigate incoming damage, reducing by 45% melee attack damage and 90% ranged attack damage",
 			"effects" : {
 				"miss": {
-					"val": 10,
+					"val": 15,
 					"addInfo": [2,0]
 				}
 			}
@@ -52,10 +52,10 @@
 				"medium": "skills/evasion/MediumExpert.png",
 				"large": "skills/evasion/LargeExpert.png"
 			},
-			"description": "{Basic evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing it to 1.",
+			"description": "{Basic evasion}\n\nCreatures have a 20% chance to mitigate incoming damage, reducing by 50% melee attack damage and to 1 ranged attack damage",
 			"effects" : {
 				"miss": {
-					"val": 10,
+					"val": 20,
 					"addInfo": [3,0]
 				}
 			}

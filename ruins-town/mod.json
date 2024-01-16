@@ -27,6 +27,10 @@
 		]
 	},
 	"changelog": {
+		"2.0.8": [
+			"Added secondary skill: Evasion",
+			"Changed some heroes secondaries"
+		],
 		"2.0.7": [
 			"Added the creatures' stackExp, fixed the commander and translations"
 		],
@@ -126,7 +130,7 @@
 		"config/spells/dodge/dodge.json"
 	],
 	"skills": [
-		"config/skills/evasion/evasion.json"
+		"config/skills/evasion.json"
 	],
 	"chinese" : {
 		"name" : "遗迹",

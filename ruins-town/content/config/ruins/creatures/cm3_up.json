@@ -66,7 +66,7 @@
 		},
 		"hasDoubleWeek": false,
 		"graphics": {
-			"animation": "ruins/creatures/battle/lvl3_up.def",
+			"animation": "ruins/creatures/battle/battle_lvl3_up.def",
 			"map": "ruins/creatures/adventure/lvl3_up.def",
 			"iconSmall": "ruins/creatures/icon/lvl3_up.bmp",
 			"iconLarge": "ruins/creatures/portrait/lvl3_up.bmp",

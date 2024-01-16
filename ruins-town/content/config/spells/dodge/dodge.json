@@ -13,15 +13,15 @@
 		"graphics":
 		{
 			"iconImmune":"spells/dodge/spellImmune.bmp",
-			"iconScenarioBonus": "spells/dodge/dodgeBonus.bmp",
-			"iconEffect": "spells/dodge/dodgeEffect.bmp",
-			"iconBook": "spells/dodge/dodgeFrame.bmp",
-			"iconScroll": "spells/dodge/dodgeScroll.bmp"
+			"iconScenarioBonus": "spells/dodge/dodgeBonus.png",
+			"iconEffect": "spells/dodge/dodgeEffect.png",
+			"iconBook": "spells/dodge/dodgeFrame.png",
+			"iconScroll": "spells/dodge/dodgeScroll.png"
  
 		},		
 		"animation":
-		{"affect":[{"defName":"C07SPA1", "verticalPosition":"bottom"}, "C07SPA1"]},
-		"sounds": {"cast": "DISRUPTR"},
+		{"affect":[{"defName":"spells/dodge/dodge.def", "verticalPosition":"bottom"}]},
+		"sounds": {"cast": "dodge.mp3"},
 		"levels" : 
 			{			
 				"base": {
@@ -32,13 +32,22 @@
 					"range" : "0",
 					"targetModifier":{"smart":false},
 					"effects" : {
-						"miss" : {
-							"val" : 100,
+						"melee" : {
 							"type" : "GENERAL_DAMAGE_REDUCTION",
+							"subtype" : "damageTypeMelee",
 							"propagator" : "BATTLE_WIDE",
 							"duration": "UNTIL_BEING_ATTACKED",		
 							"limiters": [ 
-								[ "noneOf", { "type":"OPPOSITE_SIDE" } ]
+								[ "noneOf", [ "OPPOSITE_SIDE" ] ]
+							 ]
+						},
+						"ranged" : {
+							"type" : "GENERAL_DAMAGE_REDUCTION",
+							"subtype" : "damageTypeRanged",
+							"propagator" : "BATTLE_WIDE",
+							"duration": "UNTIL_BEING_ATTACKED",		
+							"limiters": [ 
+								[ "noneOf", [ "OPPOSITE_SIDE" ] ]
 							 ]
 						}
 					}
@@ -47,46 +56,37 @@
 				{},
 				"basic":
 				{
-					"description": "The creature has damage reduced for the next attack by 80%.",
+					"description": "The creature has damage reduced for the next melee attack by 40% or ranged attack by 80%.",
 					"effects" : {
-						"miss" : {
-							"val" : 80,
-							"type" : "GENERAL_DAMAGE_REDUCTION",
-							"propagator" : "BATTLE_WIDE",
-							"duration": "UNTIL_BEING_ATTACKED",		
-							"limiters": [ 
-								[ "noneOf", { "type":"OPPOSITE_SIDE" } ]
-							 ]
+						"melee" : {
+							"val" : 40
+						},
+						"ranged" : {
+							"val" : 80
 						}
 					}
 				},
 				"advanced":
 				{
-					"description": "The creature has damage reduced for the next attack by 90%.",
+					"description": "The creature has damage reduced for the next melee attack by 45% or ranged attack by 90%.",
 					"effects" : {
-						"miss" : {
-							"val" : 90,
-							"type" : "GENERAL_DAMAGE_REDUCTION",
-							"propagator" : "BATTLE_WIDE",
-							"duration": "UNTIL_BEING_ATTACKED",		
-							"limiters": [ 
-								[ "noneOf", { "type":"OPPOSITE_SIDE" } ]
-							 ]
+						"melee" : {
+							"val" : 45
+						},
+						"ranged" : {
+							"val" : 90
 						}
 					}
 				},
 				"expert":
 				{
-					"description": "The creature has damage reduced for the next attack by 60%.",
+					"description": "The creature has damage reduced for the next melee attack by 50% or ranged attack to 1.",
 					"effects" : {
-						"miss" : {
-							"val" : 100,
-							"type" : "GENERAL_DAMAGE_REDUCTION",
-							"propagator" : "BATTLE_WIDE",
-							"duration": "UNTIL_BEING_ATTACKED",		
-							"limiters": [ 
-								[ "noneOf", { "type":"OPPOSITE_SIDE" } ]
-							 ]
+						"melee" : {
+							"val" : 50
+						},
+						"ranged" : {
+							"val" : 100
 						}
 					}
 				}
