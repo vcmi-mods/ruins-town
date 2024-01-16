@@ -27,11 +27,11 @@
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "pathfinding"
+				"skill": "archery"
 			},
 			{
 				"level": "basic",
-				"skill": "archery"
+				"skill": "evasion"
 			}
 		],
 		"specialty": {

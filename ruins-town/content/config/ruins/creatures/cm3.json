@@ -1,0 +1,104 @@
+	{
+		"rn_creature_cm3": {
+			"name": {
+				"singular": "Tracker",
+				"plural": "Trackers"
+			},
+			"level": 0,
+			"special": true,
+			"faction": "ruins",
+			"cost": {
+				"wood": 0,
+				"mercury": 0,
+				"ore": 0,
+				"sulfur": 0,
+				"crystal": 0,
+				"gems": 0,
+				"gold": 140
+			},
+			"fightValue" : 130,
+			"aiValue" : 156,
+			"growth": 9,
+			"attack": 5,
+			"defense": 5,
+			"hitPoints": 40,
+			"shots": 24,
+			"speed": 4,
+			"damage": {
+				"min": 6,
+				"max": 12
+			},
+			"spellPoints": 0,
+			"advMapAmount": {
+				"max": 18,
+				"min": 12
+			},
+			"doubleWide": false,
+			"abilities": {
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"hunter":
+			{
+					"type": "NO_WALL_PENALTY"
+			}
+			},
+			"hasDoubleWeek": true,
+			"graphics": {
+				"animation": "ruins/creatures/battle/lvl3.def",
+				"map": "ruins/creatures/adventure/lvl3.def",
+				"iconSmall": "ruins/creatures/icon/lvl3.bmp",
+				"iconLarge": "ruins/creatures/portrait/lvl3.bmp",
+				"timeBetweenFidgets": 1.00,
+				"animationTime": {
+					"walk": 1,
+					"idle": 10.00,
+					"attack": 1
+				},
+				"missile": {
+					"projectile": "ruins/projectiles/arrow.def",
+					"attackClimaxFrame": 8,
+					"offset": {
+						"upperX": 0,
+						"upperY": 0,
+						"middleX": 0,
+						"middleY": 0,
+						"lowerX": -5,
+						"lowerY": 20
+					},
+					"frameAngles": [
+						-90,
+						-45,
+						0,
+						45,
+						90
+					]
+				}
+			},
+			"sound": {
+				"attack": "HCRSATTK.wav",
+				"defend": "HCRSDFND.wav",
+				"killed": "HCRSKILL.wav",
+				"move": "HCRSMOVE.wav",
+				"shoot": "HCRSSHOT.wav",
+				"wince": "HCRSWNCE.wav"
+			}
+		}
+	}

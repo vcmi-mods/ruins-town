@@ -28,10 +28,10 @@
 			"specialtySmall": "ruins/heroes/thar/ssmall.png"
 		},
 		"skills": [	
-		{
-			"level": "basic",
-			"skill": "resistance"
-		},
+			{
+				"level": "basic",
+				"skill": "resistance"
+			},
 			{
 				"level": "basic",
 				"skill": "earthMagic"
