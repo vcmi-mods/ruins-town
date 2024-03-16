@@ -19,6 +19,13 @@
 			"translation/ruins/german.json"
 		]
 	},
+	"chinese" : {
+		"name" : "遗迹",
+		"description" : "遗迹有着浓厚的原始氛围，兵种主要来自凯尔特神话和阿尔冈昆传说。更多信息请访问http://heroescommunity.com/viewthread.php3?TID=44951进行反馈。",
+		"translations" : [
+			"translation/ruins/chinese.json"
+		]
+	},
 	"polish": {
 		"name": "tok | Ruiny",
 		"description": "Mod dodaje miasto: Ruiny\n – \n\nMod wykonany z wielkim zaangażowaniem, miłej zabawy. Czekam na Twoją opinię.\n\n Więcej informacji znajdziesz na http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtwórz plik manual.pdf w katalogu mod",
@@ -131,12 +138,5 @@
 	],
 	"skills": [
 		"config/skills/evasion.json"
-	],
-	"chinese" : {
-		"name" : "遗迹",
-		"description" : "遗迹",
-		"translations" : [
-			"translation/ruins/chinese.json"
-		]
-	}
+	]
 }
