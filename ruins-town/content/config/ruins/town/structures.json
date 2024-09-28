@@ -6,33 +6,33 @@
 					"animation" : "ruins/buildings/mageguild1",
 					"area" : "ruins/town/area/mageguild1",
 					"border" : "ruins/town/border/mageguild1",
-					"x" : 292,
-					"y" : 172,
-					"z" : 1
+					"x" : 250,
+					"y" : 192,
+					"z" : 3
 				},
 				"mageGuild2" : {
 					"animation" : "ruins/buildings/mageguild2",
 					"area" : "ruins/town/area/mageguild2",
 					"border" : "ruins/town/border/mageguild2",
-					"x" : 292,
-					"y" : 172,
-					"z" : 1
+					"x" : 250,
+					"y" : 192,
+					"z" : 3
 				},
 				"mageGuild3" : {
 					"animation" : "ruins/buildings/mageguild3",
 					"area" : "ruins/town/area/mageguild3",
 					"border" : "ruins/town/border/mageguild3",
-					"x" : 292,
-					"y" : 172,
-					"z" : 1
+					"x" : 250,
+					"y" : 192,
+					"z" : 3
 				},
 				"mageGuild4" : {
 					"animation" : "ruins/buildings/mageguild4",
 					"area" : "ruins/town/area/mageguild4",
 					"border" : "ruins/town/border/mageguild4",
-					"x" : 292,
-					"y" : 172,
-					"z" : 1
+					"x" : 250,
+					"y" : 192,
+					"z" : 3
 				},
 				"tavern" : {
 					"animation" : "ruins/buildings/tavern",
@@ -46,32 +46,32 @@
 					"animation" : "ruins/buildings/fort",
 					"area" : "ruins/town/area/fort",
 					"border" : "ruins/town/border/fort",
-					"x" : 376,
-					"y" : 51,
+					"x" : 408,
+					"y" : 53,
 					"z" : 1
 				},
 				"citadel" : {
 					"animation" : "ruins/buildings/citadel",
 					"area" : "ruins/town/area/citadel",
 					"border" : "ruins/town/border/citadel",
-					"x" : 376,
-					"y" : 51,
+					"x" : 408,
+					"y" : 53,
 					"z" : 1
 				},				
 				"castle" : {
 					"animation" : "ruins/buildings/castle",
 					"area" : "ruins/town/area/castle",
 					"border" : "ruins/town/border/castle",
-					"x" : 376,
-					"y" : 51,
+					"x" : 408,
+					"y" : 53,
 					"z" : 1
 				},
 				"villageHall" : {
 					"animation" : "ruins/buildings/villagehall",
 					"area" : "ruins/town/area/villagehall",
 					"border" : "ruins/town/border/villagehall",
-					"x" : 151,
-					"y" : 149,
+					"x" : 490,
+					"y" : 158,
 					"z" : 2
 				},
 				"townHall" : {
@@ -79,7 +79,7 @@
 					"area" : "ruins/town/area/townHall",
 					"border" : "ruins/town/border/townHall",
 					"x" : 151,
-					"y" : 149,
+					"y" : 158,
 					"z" : 2
 				},
 				"cityHall" : {
@@ -87,7 +87,7 @@
 					"area" : "ruins/town/area/cityHall",
 					"border" : "ruins/town/border/cityHall",
 					"x" : 151,
-					"y" : 149,
+					"y" : 158,
 					"z" : 2
 				},
 				"capitol" : {
@@ -95,7 +95,7 @@
 					"area" : "ruins/town/area/capitol",
 					"border" : "ruins/town/border/capitol",
 					"x" : 151,
-					"y" : 149,
+					"y" : 152,
 					"z" : 2
 				},				
 				"blacksmith" : {
@@ -110,16 +110,16 @@
 					"animation" : "ruins/buildings/marketplace",
 					"area" : "ruins/town/area/marketplace",
 					"border" : "ruins/town/border/marketplace",
-					"x" : 259,
-					"y" : 242,
+					"x" : 264,
+					"y" : 249,
 					"z" : 0
 				},
 				"resourceSilo" : {
 					"animation" : "ruins/buildings/silo",
 					"area" : "ruins/town/area/silo",
 					"border" : "ruins/town/border/silo",
-					"x" : 259,
-					"y" : 242,
+					"x" : 348,
+					"y" : 300,
 					"z" : 1
 				},
 				"dwellingLvl1" : {
@@ -127,7 +127,7 @@
 					"area" : "ruins/town/area/dwellingLvl1",
 					"border" : "ruins/town/border/dwellingLvl1",
 					"x" : 0,
-					"y" : 257,
+					"y" : 247,
 					"z" : 2
 				},			
 				"dwellingUpLvl1" : {
@@ -135,7 +135,7 @@
 					"area" : "ruins/town/area/dwellingUpLvl1",
 					"border" : "ruins/town/border/dwellingUpLvl1",
 					"x" : 0,
-					"y" : 232,
+					"y" : 231,
 					"z" : 2
 				},
 				"hordeLvl1" : {
@@ -161,32 +161,32 @@
 					"animation" : "ruins/buildings/dwellingLvl2",
 					"area" : "ruins/town/area/dwellingLvl2",
 					"border" : "ruins/town/border/dwellingLvl2",
-					"x" : 520,
-					"y" : 123,
+					"x" : 523,
+					"y" : 126,
 					"z" : 3
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "ruins/buildings/dwellingUpLvl2",
 					"area" : "ruins/town/area/dwellingUpLvl2",
 					"border" : "ruins/town/border/dwellingUpLvl2",
-					"x" : 520,
-					"y" : 123,
+					"x" : 523,
+					"y" : 126,
 					"z" : 3
 				},
 				"dwellingLvl3" : {
 					"animation" : "ruins/buildings/dwellingLvl3",
 					"area" : "ruins/town/area/dwellingLvl3",
 					"border" : "ruins/town/border/dwellingLvl3",
-					"x" : 156,
-					"y" : 134,
+					"x" : 139,
+					"y" : 150,
 					"z" : 3
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "ruins/buildings/dwellingUpLvl3",
 					"area" : "ruins/town/area/dwellingUpLvl3",
 					"border" : "ruins/town/border/dwellingUpLvl3",
-					"x" : 156,
-					"y" : 134,
+					"x" : 137,
+					"y" : 140,
 					"z" : 3
 				},
 				"dwellingLvl4" : {
@@ -194,7 +194,7 @@
 					"area" : "ruins/town/area/dwellingLvl4",
 					"border" : "ruins/town/border/dwellingLvl4",
 					"x" : 0,
-					"y" : 161,
+					"y" : 200,
 					"z" : 1
 				},
 				"dwellingUpLvl4" : {
@@ -202,23 +202,23 @@
 					"area" : "ruins/town/area/dwellingUpLvl4",
 					"border" : "ruins/town/border/dwellingUpLvl4",
 					"x" : 0,
-					"y" : 161,
+					"y" : 146,
 					"z" : 1
 				},
 				"dwellingLvl5" : {
 					"animation" : "ruins/buildings/dwellingLvl5",
 					"area" : "ruins/town/area/dwellingLvl5",
 					"border" : "ruins/town/border/dwellingLvl5",
-					"x" : 717,
-					"y" : 39,
+					"x" : 733,
+					"y" : 41,
 					"z" : 0
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "ruins/buildings/dwellingUpLvl5",
 					"area" : "ruins/town/area/dwellingUpLvl5",
 					"border" : "ruins/town/border/dwellingUpLvl5",
-					"x" : 717,
-					"y" : 39,
+					"x" : 678,
+					"y" : 36,
 					"z" : 0
 				},
 				"dwellingLvl6" : {
@@ -226,7 +226,7 @@
 					"area" : "ruins/town/area/dwellingLvl6",
 					"border" : "ruins/town/border/dwellingLvl6",
 					"x" : 0,
-					"y" : 102,
+					"y" : 105,
 					"z" : 0
 				},
 				"dwellingUpLvl6" : {
@@ -234,7 +234,7 @@
 					"area" : "ruins/town/area/dwellingUpLvl6",
 					"border" : "ruins/town/border/dwellingUpLvl6",
 					"x" : 0,
-					"y" : 102,
+					"y" : 105,
 					"z" : 0
 				},
 				"hordeLvl6" : {
@@ -260,7 +260,7 @@
 					"animation" : "ruins/buildings/dwellingLvl7",
 					"area" : "ruins/town/area/dwellingLvl7",
 					"border" : "ruins/town/border/dwellingLvl7",
-					"x" : 254,
+					"x" : 248,
 					"y" : 101,
 					"z" : 0
 				},	
@@ -268,7 +268,7 @@
 					"animation" : "ruins/buildings/dwellingUpLvl7",
 					"area" : "ruins/town/area/dwellingUpLvl7",
 					"border" : "ruins/town/border/dwellingUpLvl7",
-					"x" : 254,
+					"x" : 248,
 					"y" : 101,
 					"z" : 0
 				},
@@ -276,8 +276,8 @@
 					"animation" : "ruins/buildings/cemetery",
 					"area" : "ruins/town/area/cemetery",
 					"border" : "ruins/town/border/cemetery",
-					"x" : 481,
-					"y" : 236,
+					"x" : 486,
+					"y" : 235,
 					"z" : 1
 				},		
 				"special4" : {
@@ -292,24 +292,24 @@
 					"animation" : "ruins/buildings/grail",
 					"area" : "ruins/town/area/grail",
 					"border" : "ruins/town/border/grail",
-					"x" : 549,
-					"y" : 48,
+					"x" : 573,
+					"y" : 47,
 					"z" : 1
 				},
 				"dwellingAlternateLvl5" : {
 					"animation" : "ruins/buildings/dwellingAlternateLvl5",
 					"area" : "ruins/town/area/dwellingAlternateLvl5",
 					"border" : "ruins/town/border/dwellingAlternateLvl5",
-					"x" : 644,
-					"y" : 72,
+					"x" : 618,
+					"y" : 70,
 					"z" : 0
 				},
 				"dwellingAlternateUpLvl5" : {
 					"animation" : "ruins/buildings/dwellingAlternateUpLvl5",
 					"area" : "ruins/town/area/dwellingAlternateUpLvl5",
 					"border" : "ruins/town/border/dwellingAlternateUpLvl5",
-					"x" : 644,
-					"y" : 72,
+					"x" : 618,
+					"y" : 70,
 					"z" : 0
 				}
 			}

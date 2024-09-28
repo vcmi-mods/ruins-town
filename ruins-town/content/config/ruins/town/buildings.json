@@ -165,15 +165,15 @@
 					"mode": "auto"
 				},
 				"grail" : {
-					"description" : "The Tree of Life  increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 30% health bonus.",
+					"description" : "The Wickerman increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 25% health bonus and your heroes get maxed Sacrifice spell.",
 					"id" : 26,
 					"mode" : "grail",
-					"name" : "The Tree of Life ", 
+					"name" : "The Wickerman", 
 					"produce": { "gold": 5000 },
 					"bonuses" : [
 					{
 						"type" : "STACK_HEALTH",
-						"val" : 30,
+						"val" : 25,
 						"valueType" : "PERCENT_TO_BASE",
 						"propagator" : "GLOBAL_EFFECT",
 						"limiters" : [
