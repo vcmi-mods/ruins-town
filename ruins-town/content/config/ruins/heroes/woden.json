@@ -48,10 +48,9 @@
 					"val": -15,
 					"valueType": "PERCENT_TO_BASE",
 					"updater": {
-						"parameters": [
-							-10
-						],
-						"type": "GROWS_WITH_LEVEL"
+						"type": "GROWS_WITH_LEVEL",
+						"valPer20" : -10,
+						"stepSize" : 1
 					}
 				}
 			}

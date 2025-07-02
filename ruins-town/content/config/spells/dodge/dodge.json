@@ -28,7 +28,7 @@
 					"description": "The creature has damage reduced for the next attack to 1.",
 					"cost": 0,
 					"power": 0,
-					"aiValue": 0,
+//					"aiValue": 0,
 					"range" : "0",
 					"targetModifier":{"smart":false},
 					"effects" : {

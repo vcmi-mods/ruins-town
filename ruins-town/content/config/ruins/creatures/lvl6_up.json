@@ -37,7 +37,10 @@
 		"doubleWide": false,
 		"abilities": {
 			"fearless": {
-				"type": "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
 			"frenzy": {
 				"type": "SPELL_BEFORE_ATTACK",

@@ -1,6 +1,7 @@
 {
 	"evasion" : {
 		"name" : "Evasion",
+		"specialty" : [], // no generic specialty
 		"gainChance" : {
 			"might" : 3,
 			"magic" : 4
@@ -22,7 +23,8 @@
 			"images": {
 				"small": "skills/evasion/SmallBasic.png",
 				"medium": "skills/evasion/MediumBasic.png",
-				"large": "skills/evasion/LargeBasic.png"
+				"large": "skills/evasion/LargeBasic.png",
+				"scenarioBonus" : "skills/evasion/bonusBlank.png"
 			},
 			"description": "{Basic evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing by 40% melee attack damage and 80% ranged attack damage",
 			"effects" : {
@@ -36,7 +38,8 @@
 			"images": {
 				"small": "skills/evasion/SmallAdvanced.png",
 				"medium": "skills/evasion/MediumAdvanced.png",
-				"large": "skills/evasion/LargeAdvanced.png"
+				"large": "skills/evasion/LargeAdvanced.png",
+				"scenarioBonus" : "skills/evasion/bonusBlank.png"
 			},
 			"description": "{Advanced evasion}\n\nCreatures have a 15% chance to mitigate incoming damage, reducing by 45% melee attack damage and 90% ranged attack damage",
 			"effects" : {
@@ -50,7 +53,8 @@
 			"images": {
 				"small": "skills/evasion/SmallExpert.png",
 				"medium": "skills/evasion/MediumExpert.png",
-				"large": "skills/evasion/LargeExpert.png"
+				"large": "skills/evasion/LargeExpert.png",
+				"scenarioBonus" : "skills/evasion/bonusBlank.png"
 			},
 			"description": "{Basic evasion}\n\nCreatures have a 20% chance to mitigate incoming damage, reducing by 50% melee attack damage and to 1 ranged attack damage",
 			"effects" : {

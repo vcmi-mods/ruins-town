@@ -93,7 +93,7 @@
 			"none": {
 				"description": "",
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 15,
 				"battleEffects":{
 					"obstacle":{
@@ -104,7 +104,7 @@
 			"basic": {
 				"description": "",
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 20,
 				"battleEffects":{
 					"obstacle":{
@@ -115,7 +115,7 @@
 			"advanced": {
 				"description": "",
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 25,
 				"battleEffects":{
 					"obstacle":{
@@ -126,7 +126,7 @@
 			"expert": {
 				"description": "",
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 30,
 				"battleEffects":{
 					"obstacle":{
