@@ -38,7 +38,7 @@
 		"abilities": {
 			"fearless": {
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
+				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
