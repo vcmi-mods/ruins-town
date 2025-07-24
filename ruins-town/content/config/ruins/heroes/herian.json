@@ -41,7 +41,7 @@
 			"biography": "Herian, renowned throughout the AvLean Empire as its finest archer and the embodiment of loyalty, faced an extraordinary twist of fate during his missions to safeguard the realm. Cursed to shed his mortal flesh, he transformed into a spectral being. Determined to safeguard his reputation, he sought refuge within the sanctuary of the forests, revealing his presence only to a select few whom he held dear as true friends.",
 			"name": "Herian",
 			"specialty": {
-				"description": "{Hunters}\r\n\r\nIncreases Speed of any Tracker or Huntsman by 1 and their Attack and Defense skills by 5% for every 3 levels.",
+				"description": "Increases Speed of any Tracker or Huntsman by 1 and their Attack and Defense skills by 5% for every 3 levels.",
 				"name": "Hunter",
 				"tooltip": "Creature bonus: Hunters."
 			}

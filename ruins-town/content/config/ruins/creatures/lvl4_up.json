@@ -40,7 +40,7 @@
 			},
 			"slow": {
 				"type": "SPELL_AFTER_ATTACK",
-				"subtype": "spell.rn_seaweedGrapple",
+				"subtype": "rn_seaweedGrapple",
 				"val": 50,
 				"addInfo": 3
 			},
@@ -51,7 +51,9 @@
 			},
 			"immunity": {
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-				"subtype" : "water"
+				"subtype" : "water",
+				"description" : "{Bad Water Immunity}\nEldritch Kelpies are immune to all negative water spells",
+				"icon" : "icons/e_spwater1.png"					
 			}
 		},
 		"stackExperience" :
@@ -60,7 +62,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -68,7 +70,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},

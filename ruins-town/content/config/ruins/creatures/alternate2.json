@@ -39,7 +39,7 @@
 		"doubleWide": true,
 		"abilities": {
 			"quick": {
-				"subtype": "spell.airShield",
+				"subtype": "airShield",
 				"type": "ENCHANTED",
 				"val": 1
 			}

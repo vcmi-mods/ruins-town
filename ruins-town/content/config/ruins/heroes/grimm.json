@@ -37,7 +37,7 @@
 		"specialty": {
 			"bonuses": {
 				"lumberjack": {
-					"subtype": "resource.wood",
+					"subtype": "wood",
 					"type": "GENERATE_RESOURCE",
 					"val": 2,
 					"valueType": "BASE_NUMBER"
@@ -50,7 +50,7 @@
 			"specialty": {
 				"description": "+2 Wood each day",
 				"name": "+2 Wood",
-				"tooltip": "{Wood}\r\n\r\nIncreases kingdom's wood production by 2 per day."
+				"tooltip": "Increases kingdom's wood production by 2 per day."
 			}
 		}
 	}

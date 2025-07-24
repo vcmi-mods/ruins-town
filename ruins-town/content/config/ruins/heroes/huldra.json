@@ -41,7 +41,7 @@
 		"specialty": {
 			"bonuses": {
 				"hypnotize": {
-					"subtype" : "spell.hypnotize",
+					"subtype" : "hypnotize",
 					"type" : "SPELL",
 					"val" : 3,
 					"valueType" : "INDEPENDENT_MAX"
@@ -54,7 +54,7 @@
 			"specialty": {
 				"description": "Cast Hypnotize with maxed power.",
 				"name": "Hypnotize",
-				"tooltip": "{Hypnotize}\r\n\r\nCasts Hypnotize with expert effects. Starts with Hypnotize spell."
+				"tooltip": "Casts Hypnotize with expert effects. Starts with Hypnotize spell."
 			}
 		}
 	}

@@ -41,7 +41,7 @@
 		"specialty": {
 			"bonuses": {
 				"maxSacrifice": {
-					"subtype" : "spell.sacrifice",
+					"subtype" : "sacrifice",
 					"type" : "SPELL",
 					"val" : 3,
 					"valueType" : "INDEPENDENT_MAX"
@@ -54,7 +54,7 @@
 			"specialty": {
 				"tooltip": "Maxed Sacrifice.",
 				"name": "Sacrifice",
-				"description": "{Sacrifice}\r\n\r\nCasts Sacrifice with expert effects. Starts with Sacrifice spell."
+				"description": "Casts Sacrifice with expert effects. Starts with Sacrifice spell."
 			}
 		}
 	}

@@ -35,16 +35,7 @@
 			}
 		],
 		"specialty": {
-			"bonuses": {
-				"archery": {
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeRanged",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE",
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary": "archery"
 		},
 		"texts": {
 			"biography": "Gwyn, a highly esteemed knight of the Brotherhood of the Sword, possessed an extraordinary penchant for ranged weaponry that ultimately drew him toward the path of a ranger. The alluring enigma of the Emerald Forests had always captivated him. With the threat looming over these sacred woods, the moment has come for him to stand as their guardian.",
@@ -52,7 +43,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Archery",
 				"name": "Archery",
-				"description": "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage."
+				"description": "Receives a 5% per level bonus to Archery skill percentage."
 			}
 		}
 	}

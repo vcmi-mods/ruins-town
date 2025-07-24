@@ -43,7 +43,7 @@
 					"limiters": [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "primarySkill.spellpower",
+					"subtype": "spellpower",
 					"type": "PRIMARY_SKILL",
 					"val": -15,
 					"valueType": "PERCENT_TO_BASE",
@@ -61,7 +61,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Interference",
 				"name": "Interference",
-				"description": "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage."
+				"description": "Receives a 5% per level bonus to Interference skill percentage."
 			}
 		}
 	}

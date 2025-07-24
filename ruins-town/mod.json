@@ -3,7 +3,7 @@
   "description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
   "author": "Fiorin, Stefan Ciobanu",
   "contact": "https://fior.in",
-  "version": "2.0.28",
+  "version": "2.0.30",
   "modType": "Town",
   "depends": ["hota.cove", "hota.interference"],
   "conflicts": ["ruins-town-var"],
@@ -36,7 +36,8 @@
     "translations": ["translation/ruins/czech.json"]
   },
   "changelog": {
-    "2.0.29": ["Update to vcmi-1.7 format"],
+    "2.0.30": ["Some custom ability icons added"],
+	"2.0.29": ["Update to vcmi-1.7 format"],
 	"2.0.28": ["Def towscreen fixes"],
     "2.0.27": ["Updated Czech translation"],
     "2.0.26": ["Few bufixes"],

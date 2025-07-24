@@ -58,7 +58,7 @@
 			"spellcaster":
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.forceField",
+				"subtype" : "forceField",
 				"val" : 2,
 				"valueType" : "INDEPENDENT_MAX"
 			}
@@ -69,7 +69,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -77,7 +77,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},

@@ -6,7 +6,6 @@
 				"special1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5, "gems": 5},
 					"description" : "The Well allows a garrison hero to flee from defending against a siege.",
-					"id" : 17,
 					"name" : "Well",
 					"type" : "escapeTunnel",
 					"requires" : [ "fort" ]
@@ -47,10 +46,7 @@
 				},
 				"grail" : {
 					"description" : "Guardians of the Valley increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 25% health bonus and your heroes get maxed Sacrifice spell.",
-					"id" : 26,
-					"mode" : "grail",
 					"name" : "Guardians of the Valley", 
-					"produce": { "gold": 5000 },
 					"bonuses" : [
 					{
 						"type" : "STACK_HEALTH",
@@ -60,21 +56,19 @@
 						"limiters" : [
 						{
 							"type": "CREATURE_FACTION_LIMITER",
-								"parameters" : ["ruins"]
+								"faction" : "ruins"
 						}]
 					}]
 				},
 				"dwellingLvl4" : {
 					"cost" : { "ore" : 5, "gold" : 2000},
 					"description" : "Old spring allow you to recruit Kelpies.",
-					"id" : 33,
 					"name" : "Old spring",
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl5" : {
 					"cost" : { "gold" : 2500, "ore" : 5 },
 					"description" : "High Altar allows you to recruit Perytons.",
-					"id" : 34,
 					"name" : "High Altar",
 					"requires" : [ 
 						"allOf", [ "marketplace" ], [ "dwellingLvl2" ], [ "noneOf", [ "dwellingAlternateLvl5" ] ] 
@@ -83,7 +77,6 @@
 				"dwellingLvl6" : {
 					"cost" : { "gold" : 4000, "wood" : 5},
 					"description" : "River forest allows you to recruit Wendigos.",
-					"id" : 35,
 					"name" : "River forest",
 					"requires" : [ 
 						"allOf", [ "blacksmith"], [ "dwellingLvl3" ]
@@ -92,7 +85,6 @@
 				"dwellingLvl7" : {
 					"cost" : { "gold" : 10000, "ore" : 20},
 					"description" : "Stonehenge allow you to recruit Walking Stones.",
-					"id" : 36,
 					"name" : "Stonehenge",
 					"requires" : [ 
 						"allOf", [ "mageGuild1"], [ "dwellingLvl6" ]
@@ -101,14 +93,12 @@
 				"dwellingUpLvl4" : {
 					"cost" : { "mercury" : 5, "gold" : 2000},
 					"description" : "The Upg. Old spring allows you to recruit Eldritch Kelpies.",
-					"id" : 40,
 					"name" : "Upg. Old spring",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : { "ore" : 10, "gold" : 1500},
 					"description" : "The Upg. High Altar allows you to recruit Grand Perytons.",
-					"id" : 41,
 					"name" : "Upg. High Altar",
 					"upgrades" : "dwellingLvl5",
 					"requires" : [ "dwellingLvl3" ]
@@ -116,7 +106,6 @@
 				"dwellingUpLvl6" : {
 					"cost" : { "gold" : 3000, "sulfur" : 10, "wood" : 5},
 					"description" : "The Upg. River forest allows you to recruit Feral Wendigos.",
-					"id" : 42,
 					"name" : "Upg. River forest",
 					"upgrades" : "dwellingLvl6",
 					"requires" : [ "mageGuild2" ]
@@ -124,7 +113,6 @@
 				"dwellingUpLvl7" : {
 					"cost" : { "gems" : 15, "gold" : 15000, "ore" : 15},
 					"description" : "The Upg. Stonehenge allows you to recruit Colossus.",
-					"id" : 43,
 					"name" : "Upg. Stonehenge",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [ 

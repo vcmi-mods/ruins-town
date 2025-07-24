@@ -39,7 +39,7 @@
 				"type": "FLYING"
 			},
 			"quick": {
-				"subtype": "spell.airShield",
+				"subtype": "airShield",
 				"type": "ENCHANTED",
 				"val": 2
 			},

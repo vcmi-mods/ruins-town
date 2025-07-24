@@ -39,15 +39,7 @@
 			}
 		],
 		"specialty": {
-			"bonuses": {
-				"firstAid": {
-					"subtype": "core:spell.firstAid",
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "SPECIFIC_SPELL_POWER",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE"
-				}
-			}
+			"secondary": "firstAid"
 		},
 		"texts": {
 			"biography": "Originally from the Hillrock Tribe, Myra couldn't resist the beckoning of Light Magic, leading her to journey to the Erathian Empire for study. However, when word reached her about the tragic fate of her tribe, she did what came naturally: she returned to lend a helping hand. Her purpose now? To breathe life back into the honor of her tribe.",
@@ -55,7 +47,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: First Aid",
 				"name": "First Aid",
-				"description": "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+				"description": "Receives a 5% per level bonus to First Aid skill percentage."
 			}
 		}
 	}

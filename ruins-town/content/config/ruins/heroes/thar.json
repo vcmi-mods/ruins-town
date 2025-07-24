@@ -41,12 +41,12 @@
 			"bonuses": {
 				"maxSlow": {
 					"addInfo": 3,
-					"subtype": "spell.slow",
+					"subtype": "slow",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				},
 				"immunity": {
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.slow",
+					"subtype" : "slow",
 					"propagator": "BATTLE_WIDE",		
 					"limiters": [ 
 						[ "noneOf", [ "OPPOSITE_SIDE" ] ]
@@ -58,7 +58,7 @@
 			"biography": "Thar awoke in the heart of the Emerald Forest, buried beneath a dense layer of nurturing mud, her past shrouded in an enigmatic void. An immediate surge of earthly energy coursed through her, reinforcing her profound connection to the land and revealing the immense responsibility that destiny had thrust upon her—to safeguard these sacred lands. She formed deep bonds with the local denizens, witnessing their profound love for one another, and, in that warmth, recognizing the absence of emotions within herself, which left her feeling isolated. All other elementals and golems remained distant and stoic in her presence. Yet, as she ventured onward, she encountered a recurring legend that traced her lineage to Mother Nature herself, where it was foretold that her tears had given life to the very rocks upon which the world stood—a destiny as old and enduring as the earth itself.",
 			"name": "Thar",
 			"specialty": {
-				"description": "{Slow}\r\n\r\nCasts Slow with expert effects but not expert range. Your creatures are immune to Slow. Starts with Slow spell.",
+				"description": "Casts Slow with expert effects but not expert range. Your creatures are immune to Slow. Starts with Slow spell.",
 				"name": "Slow",
 				"tooltip": "Maxed Slow spell. Slow immunity. Starts with Slow."
 			}

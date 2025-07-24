@@ -42,7 +42,7 @@
 					"limiters": [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "primarySkill.knowledge",
+					"subtype": "knowledge",
 					"type": "PRIMARY_SKILL",
 					"val": -20,
 					"valueType": "PERCENT_TO_BASE",
@@ -59,7 +59,7 @@
 			"biography": "Stef is a welsh bard and poet, writer of inumerous songs.",
 			"name": "Stef",
 			"specialty": {
-				"description": "{Knowledge} Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
+				"description": "Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
 				"name": "Writing",
 				"tooltip": "Knowledge enemy reduction."
 			}

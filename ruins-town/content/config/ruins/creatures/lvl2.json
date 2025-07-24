@@ -43,7 +43,7 @@
 			},
 			"petrify": {
 				"type": "SPELL_AFTER_ATTACK",
-				"subtype": "spell.stoneGaze",
+				"subtype": "stoneGaze",
 				"val": 10
 			}
 		},
@@ -53,7 +53,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -61,7 +61,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -93,7 +93,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze",
+					"subtype" : "stoneGaze",
 					
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]				
@@ -102,7 +102,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.paralyze",
+					"subtype" : "paralyze",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 5, 5, 5, 5, 10, 10, 10, 15, 15, 20 ]				

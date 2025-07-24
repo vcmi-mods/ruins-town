@@ -39,14 +39,15 @@
 			"fearless": {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "icons/e_fearl.png"				
 			},
 			"frenzy": {
 				"type": "SPELL_BEFORE_ATTACK",
-				"subtype": "spell.frenzy",
+				"subtype": "frenzy",
 				"val": 70,
-				"addInfo": 2001
+				"addInfo": [1, 2]
 			},
 			"enemyDefenceReduction":
 			{
@@ -60,7 +61,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -68,7 +69,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
