@@ -1,14 +1,13 @@
 {
-	"rn_creature_alternate_up": {
-		"name": {
+	"rn_creature_alternate_up" : {
+		"name" : {
 			"singular" : "Priestess",
 			"plural" : "Priestesses"
 		},
-		"level": 5,
-		"special": false,
-		"faction": "ruins",
-		"cost" : 
-		{
+		"level" : 5,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -25,104 +24,157 @@
 		"hitPoints" : 40,
 		"shots" : 12,
 		"speed" : 7,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 12,
 			"max" : 16
 		},
 		"spellPoints" : 0,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 5,
 			"max" : 10
 		},
-		"doubleWide": false,
+		"doubleWide" : false,
 		"abilities" : {
-			"shooter": {
-				"type":"SHOOTER"
+			"shooter" : {
+				"type" : "SHOOTER"
 			},
-			"magic": {
-				"type": "MAGIC_MIRROR",
-				"val": 50
+			"magic" : {
+				"type" : "MAGIC_MIRROR",
+				"val" : 50
 			},
-			"spellPower" : 
-			{
+			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"spellcaster":
-			{
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "forceField",
 				"val" : 2,
 				"valueType" : "INDEPENDENT_MAX"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl5alt_up.def",
-			"map": "ruins/creatures/adventure/lvl5alt_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl5alt_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl5alt_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl5alt_up.def",
+			"map" : "ruins/creatures/adventure/lvl5alt_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl5alt_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl5alt_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile" :
-			{
-				"projectile": "ruins/projectiles/green.def",
+			"missile" : {
+				"projectile" : "ruins/projectiles/green.def",
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -133,14 +185,13 @@
 				}
 			}
 		},
-		"sound" :
-		{
-			"attack": "LICHATTK.wav",
-			"defend": "LICHDFND.wav",
-			"killed": "OGRMKILL.wav",
-			"move": "OGRMMOVE.wav",
-			"shoot": "LICHSHOT.wav",
-			"wince": "OGRMWNCE.wav"
+		"sound" : {
+			"attack" : "LICHATTK.wav",
+			"defend" : "LICHDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"shoot" : "LICHSHOT.wav",
+			"wince" : "OGRMWNCE.wav"
 		}
 	}
 }

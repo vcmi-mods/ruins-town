@@ -1,92 +1,92 @@
 {
-	"core:creatureGeneratorCommon": {
-		"base": {
-			"base": {
-				"mask": [
+	"core:creatureGeneratorCommon" : {
+		"base" : {
+			"base" : {
+				"mask" : [
 					"VVV",
 					"VVV",
 					"VBA"
 				]
 			},
-			"sounds": {
-				"ambient": [
+			"sounds" : {
+				"ambient" : [
 					"LOOPSWOR"
 				],
-				"visit": [
+				"visit" : [
 					"MILITARY"
 				]
 			}
 		},
-		"types": {
-			"rn_creature_lvl4_dwelling": {
-				"name": "Old spring",
-				"creatures": [
+		"types" : {
+			"rn_creature_lvl4_dwelling" : {
+				"name" : "Old spring",
+				"creatures" : [
 					[
 						"rn_creature_lvl4"
 					]
 				],
-				"sounds": {
-					"ambient": [
+				"sounds" : {
+					"ambient" : [
 						"LOOPHYDR"
 					]
 				},
-				"templates": {
-					"default": {
-						"animation": "ruins/map/lvl4"
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl4"
 					}
 				}
 			},
-			"rn_creature_lvl5_dwelling": {
-				"name": "High Altar",
-				"creatures": [
+			"rn_creature_lvl5_dwelling" : {
+				"name" : "High Altar",
+				"creatures" : [
 					[
 						"rn_creature_lvl5"
 					]
 				],
-				"sounds": {
-					"ambient": [
+				"sounds" : {
+					"ambient" : [
 						"LOOPAIR"
 					]
 				},
-				"templates": {
-					"default": {
-						"animation": "ruins/map/lvl5"
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl5"
 					}
 				}
 			},
-			"rn_creature_lvl6_dwelling": {
-				"name": "River forest",
-				"creatures": [
+			"rn_creature_lvl6_dwelling" : {
+				"name" : "River forest",
+				"creatures" : [
 					[
 						"rn_creature_lvl6"
 					]
 				],
-				"sounds": {
-					"ambient": [
+				"sounds" : {
+					"ambient" : [
 						"LOOPBEHE"
 					]
 				},
-				"templates": {
-					"default": {
-						"animation": "ruins/map/lvl6"
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl6"
 					}
 				}
 			},
-			"rn_creature_lvl7_dwelling": {
-				"name": "Stonehenge",
-				"creatures": [
+			"rn_creature_lvl7_dwelling" : {
+				"name" : "Stonehenge",
+				"creatures" : [
 					[
 						"rn_creature_lvl7"
 					]
 				],
-				"sounds": {
-					"ambient": [
+				"sounds" : {
+					"ambient" : [
 						"LOOPEART"
 					]
 				},
-				"templates": {
-					"default": {
-						"animation": "ruins/map/lvl7"
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl7"
 					}
 				}
 			}

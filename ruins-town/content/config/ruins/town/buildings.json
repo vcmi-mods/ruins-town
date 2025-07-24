@@ -1,333 +1,545 @@
 {
-  "ruins": {
-    "town": {
-      "buildingsIcons": "ruins/townhall.def",
-      "buildings": {
-        "mageGuild1": {
-          "cost": { "gold": 2000, "ore": 5, "wood": 5 },
-          "description": "Mage Guild will allow a visiting hero to learn the spells kept within.",
-          "name": "Mage Guild level 1",
-          "requires": ["villageHall"]
-        },
-        "mageGuild2": {
-          "cost": {
-            "gold": 1000,
-            "ore": 5,
-            "wood": 5,
-            "crystal": 4,
-            "sulfur": 4,
-            "mercury": 4,
-            "gems": 4
-          },
-          "description": "Mage Guild will allow a visiting hero to learn the spells kept within.",
-          "name": "Mage Guild Level 2"
-        },
-        "mageGuild3": {
-          "cost": {
-            "gold": 1000,
-            "ore": 5,
-            "wood": 5,
-            "crystal": 6,
-            "sulfur": 6,
-            "mercury": 6,
-            "gems": 6
-          },
-          "description": "Mage Guild will allow a visiting hero to learn the spells kept within.",
-          "name": "Mage Guild Level 3"
-        },
-        "mageGuild4": {
-          "cost": {
-            "gold": 1000,
-            "ore": 5,
-            "wood": 5,
-            "crystal": 8,
-            "sulfur": 8,
-            "mercury": 8,
-            "gems": 8
-          },
-          "description": "Mage Guild will allow a visiting hero to learn the spells kept within.",
-          "name": "Mage Guild Level 4"
-        },
-        "mageGuild5": null,
-        "tavern": {
-          "cost": { "gold": 500, "wood": 5 },
-          "description": "The Tavern allow recruiting heroes.",
-          "name": "Tavern"
-        },
-        "fort": {
-          "cost": { "gold": 5000, "ore": 20, "wood": 20 },
-          "description": "The Fort provides your ruins with defensive walls.",
-          "name": "Fort"
-        },
-        "citadel": {
-          "cost": { "gold": 2500, "ore": 5 },
-          "description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-          "name": "Citadel"
-        },
-        "castle": {
-          "cost": { "gold": 5000, "ore": 10, "wood": 10 },
-          "description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-          "name": "Castle"
-        },
-        "villageHall": {
-          "description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-          "name": "Village Hall"
-        },
-        "townHall": {
-          "cost": { "gold": 2500 },
-          "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-          "name": "Town Hall"
-        },
-        "cityHall": {
-          "cost": { "gold": 5000 },
-          "description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-          "name": "City Hall"
-
-        },
-        "capitol": {
-          "cost": { "gold": 10000 },
-          "description": "The Capitol earns your kingdom 4000 gold per day.",
-          "name": "Capitol"
-        },
-        "marketplace": {
-          "cost": { "gold": 500, "wood": 5 },
-          "description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-          "name": "Marketplace"
-        },
-        "resourceSilo": {
-          "cost": { "gold": 5000, "wood": 5 },
-          "description": "The Resource Silo provides you with an additional +2 ore each day.",
-          "name": "Resource Silo",
-          "produce": { "ore": 2 }
-        },
-        "blacksmith": {
-          "cost": { "gold": 1000, "wood": 5 },
-          "description": "The Blacksmith provides your armies with First Aid Tent.",
-          "warMachine": "firstAidTent",
-          "name": "Blacksmith",
-          "requires": ["tavern"]
-        },
-        "special1": {
-          "cost": { "gold": 2000, "wood": 5 },
-          "description": "Siege Junkyard provides your armies with Ballistas.",
-          "warMachine": "ballista",
-          "name": "Siege Junkyard",
-          "requires": ["allOf", ["tavern"], ["blacksmith"]]
-        },
-        "hordeLvl1": {
-          "cost": { "gold": 1000 },
-          "description": "Crop fields increases Wildmen production by 9 per week.",
-          "id": 18,
-          "name": "Crop fields",
-          "requires": ["dwellingLvl1"],
-          "upgrades": "dwellingLvl1"
-        },
-        "hordeUpLvl1": {
-          "cost": { "gold": 1000 },
-          "description": "Crop fields increases Wild Chief production by 9 per week.",
-          "id": 19,
-          "name": "Crop fields",
-          "requires": ["hordeLvl1"],
-          "upgrades": "dwellingUpLvl1",
-          "mode": "auto"
-        },
-        "ship": null,
-        "shipyard": null,
-        "special3": {
-          "cost": { "gold": 500, "ore": 5 },
-          "description": "The Monument grants visiting heroes +1 knowledge.",
-          "configuration": {
-            "visitMode": "hero",
-            "rewards": [
-              {
-                "message": "You study the glyphs on the Monument and gain insight into the workings of various magics (+1 Knowledge)",
-                "primary": { "knowledge": 1 }
-              }
-            ]
-          },
-          "name": "Monument",
-          "requires": ["townHall"]
-        },
-        "special4": {
-          "cost": { "gold": 500, "ore": 5 },
-          "description": "The Jail grants visiting heroes +1 defence and block attacker fleeing combat.",
-		  "bonuses": [
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype" : "defence",
-				"val": 1
-			},
-			{
-				"propagator": "BATTLE_WIDE",
-				"type": "BATTLE_NO_FLEEING",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+	"ruins" : {
+		"town" : {
+			"buildingsIcons" : "ruins/townhall.def",
+			"buildings" : {
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild level 1",
+					"requires" : [
+						"villageHall"
+					]
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5,
+						"crystal" : 4,
+						"sulfur" : 4,
+						"mercury" : 4,
+						"gems" : 4
+					},
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5,
+						"crystal" : 6,
+						"sulfur" : 6,
+						"mercury" : 6,
+						"gems" : 6
+					},
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+				"mageGuild4" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5,
+						"crystal" : 8,
+						"sulfur" : 8,
+						"mercury" : 8,
+						"gems" : 8
+					},
+					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+				},
+				"mageGuild5" : null,
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern allow recruiting heroes.",
+					"name" : "Tavern"
+				},
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your ruins with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+				"villageHall" : {
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall"
+				},
+				"townHall" : {
+					"cost" : {
+						"gold" : 2500
+					},
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall"
+				},
+				"cityHall" : {
+					"cost" : {
+						"gold" : 5000
+					},
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "City Hall"
+				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +2 ore each day.",
+					"name" : "Resource Silo",
+					"produce" : {
+						"ore" : 2
+					}
+				},
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with First Aid Tent.",
+					"warMachine" : "firstAidTent",
+					"name" : "Blacksmith",
+					"requires" : [
+						"tavern"
+					]
+				},
+				"special1" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5
+					},
+					"description" : "Siege Junkyard provides your armies with Ballistas.",
+					"warMachine" : "ballista",
+					"name" : "Siege Junkyard",
+					"requires" : [
+						"allOf",
+						[
+							"tavern"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"hordeLvl1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "Crop fields increases Wildmen production by 9 per week.",
+					"id" : 18,
+					"name" : "Crop fields",
+					"requires" : [
+						"dwellingLvl1"
+					],
+					"upgrades" : "dwellingLvl1"
+				},
+				"hordeUpLvl1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"description" : "Crop fields increases Wild Chief production by 9 per week.",
+					"id" : 19,
+					"name" : "Crop fields",
+					"requires" : [
+						"hordeLvl1"
+					],
+					"upgrades" : "dwellingUpLvl1",
+					"mode" : "auto"
+				},
+				"ship" : null,
+				"shipyard" : null,
+				"special3" : {
+					"cost" : {
+						"gold" : 500,
+						"ore" : 5
+					},
+					"description" : "The Monument grants visiting heroes +1 knowledge.",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "You study the glyphs on the Monument and gain insight into the workings of various magics (+1 Knowledge)",
+								"primary" : {
+									"knowledge" : 1
+								}
+							}
+						]
+					},
+					"name" : "Monument",
+					"requires" : [
+						"townHall"
+					]
+				},
+				"special4" : {
+					"cost" : {
+						"gold" : 500,
+						"ore" : 5
+					},
+					"description" : "The Jail grants visiting heroes +1 defence and block attacker fleeing combat.",
+					"bonuses" : [
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "defence",
+							"val" : 1
+						},
+						{
+							"propagator" : "BATTLE_WIDE",
+							"type" : "BATTLE_NO_FLEEING",
+							"propagationUpdater" : "BONUS_OWNER_UPDATER",
+							"limiters" : [
+								"OPPOSITE_SIDE"
+							]
+						}
+					],
+					"name" : "Jail",
+					"requires" : [
+						"allOf",
+						[
+							"townHall"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"hordeLvl6" : {
+					"cost" : {
+						"gold" : 1500
+					},
+					"description" : "Impaling Stakes increases Wendigos production by 2 per week.",
+					"id" : 24,
+					"name" : "Impaling Stakes",
+					"requires" : [
+						"dwellingLvl6"
+					],
+					"upgrades" : "dwellingLvl6"
+				},
+				"hordeUpLvl6" : {
+					"cost" : {
+						"gold" : 1500
+					},
+					"description" : "Impaling Stakes increases Feral Wendigos production by 2 per week.",
+					"id" : 25,
+					"name" : "Impaling Stakes",
+					"requires" : [
+						"hordeLvl6"
+					],
+					"upgrades" : "dwellingUpLvl6",
+					"mode" : "auto"
+				},
+				"grail" : {
+					"description" : "The Wickerman increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 20% health bonus and your heroes get maxed Sacrifice spell.",
+					"name" : "The Wickerman",
+					"bonuses" : [
+						{
+							"type" : "STACK_HEALTH",
+							"val" : 20,
+							"valueType" : "PERCENT_TO_BASE",
+							"propagator" : "TEAM",
+							"limiters" : [
+								{
+									"type" : "CREATURE_FACTION_LIMITER",
+									"faction" : "ruins"
+								}
+							]
+						},
+						{
+							"type" : "SPELL",
+							"subtype" : "sacrifice",
+							"val" : 3,
+							"valueType" : "INDEPENDENT_MAX",
+							"propagator" : "TEAM",
+							"limiters" : [
+								{
+									"type" : "CREATURE_FACTION_LIMITER",
+									"faction" : "ruins"
+								}
+							]
+						}
+					]
+				},
+				"dwellingLvl1" : {
+					"cost" : {
+						"gold" : 500
+					},
+					"description" : "Shirefolk allows you to recruit Wildmen.",
+					"name" : "Shirefolk",
+					"requires" : [
+						"fort"
+					]
+				},
+				"dwellingLvl2" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"description" : "Scalecrest Roost allows you to recruit Cockatrices.",
+					"name" : "Scalecrest Roost",
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						]
+					]
+				},
+				"dwellingLvl3" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 10
+					},
+					"description" : "Trapcrafters HQ allows you to recruit Trackers.",
+					"name" : "Trapcrafters HQ",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					]
+				},
+				"dwellingLvl4" : {
+					"cost" : {
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"description" : "Aquarius Pond allow you to recruit Kelpies.",
+					"name" : "Aquarius Pond",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"dwellingLvl2"
+						]
+					]
+				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "High Peak Nests allows you to recruit Perytons.",
+					"name" : "High Peak Nests",
+					"requires" : [
+						"allOf",
+						[
+							"marketplace"
+						],
+						[
+							"dwellingLvl2"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingAlternateLvl5"
+							]
+						]
+					]
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5
+					},
+					"description" : "Cave Thicket allows you to recruit Wendigos.",
+					"name" : "Cave Thicket",
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
+				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 30
+					},
+					"description" : "Mountain Nexus allow you to recruit Walking Stones.",
+					"name" : "Mountain Nexus",
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl6"
+						]
+					]
+				},
+				"dwellingUpLvl1" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Upg. Shirefolk allows you to recruit Wild Chiefs.",
+					"name" : "Upg. Wildmen Village",
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" : {
+					"cost" : {
+						"gold" : 1300,
+						"ore" : 5
+					},
+					"description" : "The Upg. Scalecrest Roost allows you to recruit Dire Cockatrices.",
+					"name" : "Upg. Scalecrest Roost",
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
+					"name" : "Upg. Trapcrafters HQ",
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" : {
+					"cost" : {
+						"mercury" : 5,
+						"gold" : 2000
+					},
+					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
+					"name" : "Upg. Aquarius Pond",
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" : {
+					"cost" : {
+						"ore" : 10,
+						"gold" : 1500,
+						"wood" : 5
+					},
+					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
+					"name" : "Upg. High Peak Nests",
+					"upgrades" : "dwellingLvl5",
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				"dwellingUpLvl6" : {
+					"cost" : {
+						"gold" : 3000,
+						"sulfur" : 10,
+						"wood" : 5
+					},
+					"description" : "The Upg. Cave Thicket allows you to recruit Feral Wendigos.",
+					"name" : "Upg. Cave Thicket",
+					"upgrades" : "dwellingLvl6",
+					"requires" : [
+						"mageGuild2"
+					]
+				},
+				"dwellingUpLvl7" : {
+					"cost" : {
+						"gems" : 15,
+						"gold" : 15000,
+						"ore" : 15
+					},
+					"description" : "The Upg. Mountain Nexus allows you to recruit Colossus.",
+					"name" : "Upg. Mountain Nexus",
+					"upgrades" : "dwellingLvl7",
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingAlternateLvl5" : {
+					"cost" : {
+						"mercury" : 2,
+						"wood" : 3,
+						"gold" : 2500
+					},
+					"description" : "Witch Hut allows you to recruit Forest Witches.",
+					"id" : 48,
+					"name" : "Witch Hut",
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl2"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl5"
+							]
+						]
+					]
+				},
+				"dwellingAlternateUpLvl5" : {
+					"cost" : {
+						"mercury" : 2,
+						"sulfur" : 2,
+						"gold" : 2500
+					},
+					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
+					"id" : 55,
+					"name" : "Upg. Witch Hut",
+					"upgrades" : "dwellingAlternateLvl5",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				}
 			}
-		  ],
-          "name": "Jail",
-          "requires": [ "allOf", ["townHall"], ["blacksmith"] ]
-        },
-        "hordeLvl6": {
-          "cost": { "gold": 1500 },
-          "description": "Impaling Stakes increases Wendigos production by 2 per week.",
-          "id": 24,
-          "name": "Impaling Stakes",
-          "requires": ["dwellingLvl6"],
-          "upgrades": "dwellingLvl6"
-        },
-        "hordeUpLvl6": {
-          "cost": { "gold": 1500 },
-          "description": "Impaling Stakes increases Feral Wendigos production by 2 per week.",
-          "id": 25,
-          "name": "Impaling Stakes",
-          "requires": ["hordeLvl6"],
-          "upgrades": "dwellingUpLvl6",
-          "mode": "auto"
-        },
-        "grail": {
-          "description": "The Wickerman increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 20% health bonus and your heroes get maxed Sacrifice spell.",
-          "name": "The Wickerman",
-          "bonuses": [
-            {
-              "type": "STACK_HEALTH",
-              "val": 20,
-              "valueType": "PERCENT_TO_BASE",
-              "propagator": "TEAM",
-              "limiters": [
-                {
-                  "type": "CREATURE_FACTION_LIMITER",
-                  "faction": "ruins"
-                }
-              ]
-            },
-            {
-              "type": "SPELL",
-              "subtype": "sacrifice",
-              "val": 3,
-			  "valueType" : "INDEPENDENT_MAX",
-              "propagator": "TEAM",
-              "limiters": [
-                {
-                  "type": "CREATURE_FACTION_LIMITER",
-                  "faction": "ruins"
-                }
-              ]	
-			}
-          ]
-        },
-        "dwellingLvl1": {
-          "cost": { "gold": 500 },
-          "description": "Shirefolk allows you to recruit Wildmen.",
-          "name": "Shirefolk",
-          "requires": ["fort"]
-        },
-        "dwellingLvl2": {
-          "cost": { "gold": 1000, "ore": 5 },
-          "description": "Scalecrest Roost allows you to recruit Cockatrices.",
-          "name": "Scalecrest Roost",
-          "requires": ["allOf", ["fort"], ["dwellingLvl1"]]
-        },
-        "dwellingLvl3": {
-          "cost": { "gold": 1000, "wood": 10 },
-          "description": "Trapcrafters HQ allows you to recruit Trackers.",
-          "name": "Trapcrafters HQ",
-          "requires": ["allOf", ["dwellingLvl1"]]
-        },
-        "dwellingLvl4": {
-          "cost": { "ore": 5, "gold": 2000 },
-          "description": "Aquarius Pond allow you to recruit Kelpies.",
-          "name": "Aquarius Pond",
-          "requires": ["allOf", ["dwellingLvl1"], ["dwellingLvl2"]]
-        },
-        "dwellingLvl5": {
-          "cost": { "gold": 2500, "ore": 5, "wood": 5 },
-          "description": "High Peak Nests allows you to recruit Perytons.",
-          "name": "High Peak Nests",
-          "requires": [
-            "allOf",
-            ["marketplace"],
-            ["dwellingLvl2"],
-            ["noneOf", ["dwellingAlternateLvl5"]]
-          ]
-        },
-        "dwellingLvl6": {
-          "cost": { "gold": 4000, "wood": 5 },
-          "description": "Cave Thicket allows you to recruit Wendigos.",
-          "name": "Cave Thicket",
-          "requires": ["allOf", ["blacksmith"], ["dwellingLvl3"]]
-        },
-        "dwellingLvl7": {
-          "cost": { "gold": 10000, "ore": 30 },
-          "description": "Mountain Nexus allow you to recruit Walking Stones.",
-          "name": "Mountain Nexus",
-          "requires": ["allOf", ["mageGuild1"], ["dwellingLvl6"]]
-        },
-        "dwellingUpLvl1": {
-          "cost": { "gold": 1000, "wood": 5 },
-          "description": "The Upg. Shirefolk allows you to recruit Wild Chiefs.",
-          "name": "Upg. Wildmen Village",
-          "upgrades": "dwellingLvl1"
-        },
-        "dwellingUpLvl2": {
-          "cost": { "gold": 1300, "ore": 5 },
-          "description": "The Upg. Scalecrest Roost allows you to recruit Dire Cockatrices.",
-          "name": "Upg. Scalecrest Roost",
-          "upgrades": "dwellingLvl2"
-        },
-        "dwellingUpLvl3": {
-          "cost": { "gold": 1000, "wood": 5 },
-          "description": "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
-          "name": "Upg. Trapcrafters HQ",
-          "upgrades": "dwellingLvl3"
-        },
-        "dwellingUpLvl4": {
-          "cost": { "mercury": 5, "gold": 2000 },
-          "description": "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
-          "name": "Upg. Aquarius Pond",
-          "upgrades": "dwellingLvl4"
-        },
-        "dwellingUpLvl5": {
-          "cost": { "ore": 10, "gold": 1500, "wood": 5 },
-          "description": "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
-          "name": "Upg. High Peak Nests",
-          "upgrades": "dwellingLvl5",
-          "requires": ["dwellingLvl3"]
-        },
-        "dwellingUpLvl6": {
-          "cost": { "gold": 3000, "sulfur": 10, "wood": 5 },
-          "description": "The Upg. Cave Thicket allows you to recruit Feral Wendigos.",
-          "name": "Upg. Cave Thicket",
-          "upgrades": "dwellingLvl6",
-          "requires": ["mageGuild2"]
-        },
-        "dwellingUpLvl7": {
-          "cost": { "gems": 15, "gold": 15000, "ore": 15 },
-          "description": "The Upg. Mountain Nexus allows you to recruit Colossus.",
-          "name": "Upg. Mountain Nexus",
-          "upgrades": "dwellingLvl7",
-          "requires": ["allOf", ["mageGuild2"]]
-        },
-        "dwellingAlternateLvl5": {
-          "cost": { "mercury": 2, "wood": 3, "gold": 2500 },
-          "description": "Witch Hut allows you to recruit Forest Witches.",
-          "id": 48,
-          "name": "Witch Hut",
-          "requires": [
-            "allOf",
-            ["mageGuild1"],
-            ["dwellingLvl2"],
-            ["noneOf", ["dwellingLvl5"]]
-          ]
-        },
-        "dwellingAlternateUpLvl5": {
-          "cost": { "mercury": 2, "sulfur": 2, "gold": 2500 },
-          "description": "The Upg. Witch Hut allows you to recruit Priestess.",
-          "id": 55,
-          "name": "Upg. Witch Hut",
-          "upgrades": "dwellingAlternateLvl5",
-          "requires": ["allOf", ["dwellingLvl3"], ["mageGuild2"]]
-        }
-      }
-    }
-  }
+		}
+	}
 }

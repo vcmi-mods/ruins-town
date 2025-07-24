@@ -1,146 +1,236 @@
 {
-	"rn_creature_lvl2_up": {
-		"name": {
-			"singular": "Dire Cockatrice",
-			"plural": "Dire Cockatrices"
+	"rn_creature_lvl2_up" : {
+		"name" : {
+			"singular" : "Dire Cockatrice",
+			"plural" : "Dire Cockatrices"
 		},
-		"level": 2,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 192
+		"level" : 2,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 192
 		},
-		"fightValue": 163,
-		"aiValue": 181,
-		"growth": 9,
-		"attack": 6,
-		"defense": 4,
-		"hitPoints": 14,
-		"shots": 24,
-		"speed": 10,
-		"damage": {
-			"min": 1,
-			"max": 5
+		"fightValue" : 163,
+		"aiValue" : 181,
+		"growth" : 9,
+		"attack" : 6,
+		"defense" : 4,
+		"hitPoints" : 14,
+		"shots" : 24,
+		"speed" : 10,
+		"damage" : {
+			"min" : 1,
+			"max" : 5
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 26,
-			"min": 15
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 26,
+			"min" : 15
 		},
-		"doubleWide": false,
-		"abilities": {
-			"fly": {
-				"type": "FLYING"
+		"doubleWide" : false,
+		"abilities" : {
+			"fly" : {
+				"type" : "FLYING"
 			},
-			"petrify": {
-				"type": "SPELL_AFTER_ATTACK",
-				"subtype": "stoneGaze",
-				"val": 20
+			"petrify" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "stoneGaze",
+				"val" : 20
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "stoneGaze",
-					
+					"subtype" : "stoneGaze"
 				},
-				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]				
+				"values" : [
+					3,
+					6,
+					9,
+					12,
+					15,
+					18,
+					21,
+					24,
+					27,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "paralyze",
-					"addInfo" : [3, 1]
+					"addInfo" : [
+						3,
+						1
+					]
 				},
-				"values" : [ 5, 5, 5, 5, 10, 10, 10, 15, 15, 20 ]				
+				"values" : [
+					5,
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					15,
+					15,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{ 
+				"bonus" : {
 					"type" : "DEATH_STARE",
 					"subtype" : "deathStareGorgon"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]				
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl2_up.def",
-			"map": "ruins/creatures/adventure/lvl2_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl2_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl2_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl2_up.def",
+			"map" : "ruins/creatures/adventure/lvl2_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl2_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl2_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound":
-		{
-			"attack": "HHAGATTK.wav",
-			"defend": "HHAGDFND.wav",
-			"killed": "HHAGKILL.wav",
-			"move": "HHAGMOVE.wav",
-			"shoot": "HHAGSHOT.wav",
-			"wince": "HHAGWNCE.wav"
+		"sound" : {
+			"attack" : "HHAGATTK.wav",
+			"defend" : "HHAGDFND.wav",
+			"killed" : "HHAGKILL.wav",
+			"move" : "HHAGMOVE.wav",
+			"shoot" : "HHAGSHOT.wav",
+			"wince" : "HHAGWNCE.wav"
 		}
 	}
 }

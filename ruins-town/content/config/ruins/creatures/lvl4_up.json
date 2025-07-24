@@ -1,124 +1,173 @@
 {
-	"rn_creature_lvl4_up": {
-		"name": {
-			"singular": "Eldritch Kelpie",
-			"plural": "Eldritch Kelpies"
+	"rn_creature_lvl4_up" : {
+		"name" : {
+			"singular" : "Eldritch Kelpie",
+			"plural" : "Eldritch Kelpies"
 		},
-		"level": 4,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 340
+		"level" : 4,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 340
 		},
-		"fightValue": 490,
-		"aiValue": 530,
-		"growth": 5,
-		"attack": 9,
-		"defense": 11,
-		"hitPoints": 40,
-		"shots": 0,
-		"speed": 7,
-		"damage": {
-			"min": 7,
-			"max": 9
+		"fightValue" : 490,
+		"aiValue" : 530,
+		"growth" : 5,
+		"attack" : 9,
+		"defense" : 11,
+		"hitPoints" : 40,
+		"shots" : 0,
+		"speed" : 7,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
 		},
-		"spellPoints": 50,
-		"advMapAmount": {
-			"max": 15,
-			"min": 12
+		"spellPoints" : 50,
+		"advMapAmount" : {
+			"max" : 15,
+			"min" : 12
 		},
-		"doubleWide": true,
-		"abilities": {
-			"spirit": {
-				"type": "NON_LIVING"
+		"doubleWide" : true,
+		"abilities" : {
+			"spirit" : {
+				"type" : "NON_LIVING"
 			},
-			"slow": {
-				"type": "SPELL_AFTER_ATTACK",
-				"subtype": "rn_seaweedGrapple",
-				"val": 50,
-				"addInfo": 3
+			"slow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "rn_seaweedGrapple",
+				"val" : 50,
+				"addInfo" : 3
 			},
-			"reduction": {
+			"reduction" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
 				"val" : 100
 			},
-			"immunity": {
+			"immunity" : {
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 				"subtype" : "water",
 				"description" : "{Bad Water Immunity}\nEldritch Kelpies are immune to all negative water spells",
-				"icon" : "icons/e_spwater1.png"					
+				"icon" : "icons/e_spwater1.png"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl4_up.def",
-			"map": "ruins/creatures/adventure/lvl4_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl4_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl4_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl4_up.def",
+			"map" : "ruins/creatures/adventure/lvl4_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl4_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl4_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "WUNCATTK.wav",
-			"defend": "WUNCDFND.wav",
-			"killed": "WUNCKILL.wav",
-			"move": "WUNCMOVE.wav",
-			"shoot": "WUNCSHOT.wav",
-			"wince": "WUNCWNCE.wav"
+		"sound" : {
+			"attack" : "WUNCATTK.wav",
+			"defend" : "WUNCDFND.wav",
+			"killed" : "WUNCKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"shoot" : "WUNCSHOT.wav",
+			"wince" : "WUNCWNCE.wav"
 		}
 	}
 }

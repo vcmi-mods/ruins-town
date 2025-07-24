@@ -1,46 +1,46 @@
 {
-	"11rn_kali": {
-		"army": [
+	"11rn_kali" : {
+		"army" : [
 			{
-				"creature": "rn_creature_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "rn_creature_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "rn_creature_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "rn_creature_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "rn_creature_lvl3",
+				"creature" : "rn_creature_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "rn_magic",
-		"spellbook": [
+		"female" : true,
+		"class" : "rn_magic",
+		"spellbook" : [
 			"sacrifice"
 		],
-		"images": {
-			"large": "ruins/heroes/kali_l.png",
-			"small": "ruins/heroes/kali_s.png",
-			"specialtyLarge": "ruins/heroes/kali_sl.png",
-			"specialtySmall": "ruins/heroes/kali_ss.png"
+		"images" : {
+			"large" : "ruins/heroes/kali_l.png",
+			"small" : "ruins/heroes/kali_s.png",
+			"specialtyLarge" : "ruins/heroes/kali_sl.png",
+			"specialtySmall" : "ruins/heroes/kali_ss.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "mysticism"
+				"level" : "basic",
+				"skill" : "mysticism"
 			},
 			{
-				"level": "basic",
-				"skill": "fireMagic"
+				"level" : "basic",
+				"skill" : "fireMagic"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"maxSacrifice": {
+		"specialty" : {
+			"bonuses" : {
+				"maxSacrifice" : {
 					"subtype" : "sacrifice",
 					"type" : "SPELL",
 					"val" : 3,
@@ -48,13 +48,13 @@
 				}
 			}
 		},
-		"texts": {
-			"biography": "Kali comes from the Human tribe called Ashflame, in Tatalia. She is the founder of the Original Witches, the Chroma Covenant, a faction of witches who have sworn to protect the lands. She is known to resolve the matter in unconventional and sometimes harmful ways. She hails from a bloodline of Fire Witches, possessing a lineage so potent that any subsequent Fire Witch is likely to be her heir.",
-			"name": "Kali",
-			"specialty": {
-				"tooltip": "Maxed Sacrifice.",
-				"name": "Sacrifice",
-				"description": "Casts Sacrifice with expert effects. Starts with Sacrifice spell."
+		"texts" : {
+			"biography" : "Kali comes from the Human tribe called Ashflame, in Tatalia. She is the founder of the Original Witches, the Chroma Covenant, a faction of witches who have sworn to protect the lands. She is known to resolve the matter in unconventional and sometimes harmful ways. She hails from a bloodline of Fire Witches, possessing a lineage so potent that any subsequent Fire Witch is likely to be her heir.",
+			"name" : "Kali",
+			"specialty" : {
+				"tooltip" : "Maxed Sacrifice.",
+				"name" : "Sacrifice",
+				"description" : "Casts Sacrifice with expert effects. Starts with Sacrifice spell."
 			}
 		}
 	}

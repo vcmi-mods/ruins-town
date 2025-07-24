@@ -1,115 +1,164 @@
 {
-	"rn_creature_lvl1_up": {
-		"name": {
-			"singular": "Wild Chief",
-			"plural": "Wild Chiefs"
+	"rn_creature_lvl1_up" : {
+		"name" : {
+			"singular" : "Wild Chief",
+			"plural" : "Wild Chiefs"
 		},
-		"level": 1,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 80
+		"level" : 1,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 80
 		},
-		"fightValue": 70,
-		"aiValue": 105,
-		"growth": 16,
-		"horde": 9,
-		"attack": 4,
-		"defense": 4,
-		"hitPoints": 6,
-		"shots": 12,
-		"speed": 5,
-		"damage": {
-			"min": 2,
-			"max": 3
+		"fightValue" : 70,
+		"aiValue" : 105,
+		"growth" : 16,
+		"horde" : 9,
+		"attack" : 4,
+		"defense" : 4,
+		"hitPoints" : 6,
+		"shots" : 12,
+		"speed" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 45,
-			"min": 16
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 45,
+			"min" : 16
 		},
-		"doubleWide": false,
-		"abilities": {
-			"shooter": {
-				"type": "SHOOTER"
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
 			},
-			"penalty": {
-				"type": "NO_WALL_PENALTY"
+			"penalty" : {
+				"type" : "NO_WALL_PENALTY"
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/battle_lvl1_up.def",
-			"map": "ruins/creatures/adventure/lvl1_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl1_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl1_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/battle_lvl1_up.def",
+			"map" : "ruins/creatures/adventure/lvl1_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl1_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl1_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile": {
-				"attackClimaxFrame": 5,
-				"projectile": "ruins/projectiles/boomerang-triple.def",
-				"offset": {
-					"lowerX": 28,
-					"lowerY": 3,
-					"middleX": 62,
-					"middleY": -53,
-					"upperX": 37,
-					"upperY": -98
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"projectile" : "ruins/projectiles/boomerang-triple.def",
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
 				},
-				"frameAngles": [
+				"frameAngles" : [
 					-90,
 					-45,
 					0,
@@ -118,13 +167,13 @@
 				]
 			}
 		},
-		"sound": {
-			"attack": "HALFATTK.wav",
-			"defend": "HALFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"move": "BDRFMOVE.wav",
-			"shoot": "HALFSHOT.wav",
-			"wince": "HALFWNCE.wav"
+		"sound" : {
+			"attack" : "HALFATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"move" : "BDRFMOVE.wav",
+			"shoot" : "HALFSHOT.wav",
+			"wince" : "HALFWNCE.wav"
 		}
 	}
 }

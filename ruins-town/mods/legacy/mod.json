@@ -1,34 +1,34 @@
 {
-	"name": "Legacy view",
-	"description": "This mod restores legacy design of town and related objects.",
-	"author": "Fiorin, Stefan Ciobanu, Orc Hunter",
-	"contact": "https://fior.in",
-	"version": "1.0.1",
-	"modType": "Interface",
-	"depends": [
+	"name" : "Legacy view",
+	"description" : "This mod restores legacy design of town and related objects.",
+	"author" : "Fiorin, Stefan Ciobanu, Orc Hunter",
+	"contact" : "https://fior.in",
+	"version" : "1.0.1",
+	"modType" : "Interface",
+	"depends" : [
 		"hota.cove",
 		"hota.interference"
 	],
 	"keepDisabled" : true,
-	"czech": {
-		"name": "Původní vzhled",
-		"description": "Tato modifikace oboví původní vzhled města a dalších objektů",
-		"translations": [
+	"czech" : {
+		"name" : "Původní vzhled",
+		"description" : "Tato modifikace oboví původní vzhled města a dalších objektů",
+		"translations" : [
 			"translation/legacy/czech.json"
 		]
 	},
-	"factions": [
+	"factions" : [
 		"config/ruins/town/buildings.json",
 		"config/ruins/town/structures.json"
 	],
-	"creatures": [
+	"creatures" : [
 		"config/ruins/creatures/tracker.json"
 	],
-	"heroClasses": [
+	"heroClasses" : [
 		"config/ruins/classes/might.json",
 		"config/ruins/classes/magic.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/ruins/dwellings.json"
 	]
 }

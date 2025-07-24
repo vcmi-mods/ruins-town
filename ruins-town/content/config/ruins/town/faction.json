@@ -1,149 +1,260 @@
 {
-  "ruins": {
-    "name": "Ruins",
-    "alignment": "neutral",
-    "boat": "boatFortress",
-    "nativeTerrain": "grass",
-    "creatureBackground": {
-      "120px": "ruins/creaturebg120px",
-      "130px": "ruins/creaturebg130px"
-    },
-    "town": {
-      "primaryResource": "ore",
-      "mapObject": {
-        "filters": {
-          "castle": ["allOf", ["castle"], ["noneOf", ["capitol"]]],
-          "citadel": ["allOf", ["citadel"], ["noneOf", ["castle"]]],
-          "fort": ["allOf", ["fort"], ["noneOf", ["citadel"]]]
-        },
-        "templates": {
-          "capitol": {
-            "animation": "ruins/map/capitol.def"
-          },
-          "castle": {
-            "animation": "ruins/map/castle.def"
-          },
-          "citadel": {
-            "animation": "ruins/map/citadel.def"
-          },
-          "fort": {
-            "animation": "ruins/map/fort.def"
-          },
-          "village": {
-            "animation": "ruins/map/village.def"
-          }
-        }
-      },
-      "musicTheme": ["music/ruins"],
-      "creatures": [
-        ["rn_creature_lvl1", "rn_creature_lvl1_up"],
-        ["rn_creature_lvl2", "rn_creature_lvl2_up"],
-        ["rn_creature_lvl3", "rn_creature_lvl3_up"],
-        ["rn_creature_lvl4", "rn_creature_lvl4_up"],
-        [
-          "rn_creature_lvl5",
-          "rn_creature_lvl5_up",
-          "rn_creature_alternate",
-          "rn_creature_alternate_up"
-        ],
-        ["rn_creature_lvl6", "rn_creature_lvl6_up"],
-        ["rn_creature_lvl7", "rn_creature_lvl7_up"]
-      ],
-      "guildWindow": "ruins/town/mageguild",
-      "names": [
-        "Welnin",
-        "Harmondale",
-        "Stormhammer",
-        "Hillrock",
-        "Ashflame",
-        "Lindisfarne",
-        "Aberystwyth",
-        "Clifden",
-        "Tintagel",
-        "Oban",
-        "Dingle"
-      ],
-      "hallBackground": "ruins/town/hall",
-      "hallSlots": [
-        [
-          ["villageHall", "townHall", "cityHall", "capitol"],
-          ["fort", "citadel", "castle"],
-          ["tavern"],
-          ["blacksmith"]
-        ],
-        [
-          ["marketplace", "resourceSilo"],
-          ["mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4"],
-          ["special4"],
-          ["special1"]
-        ],
-        [
-          ["hordeLvl1", "hordeUpLvl1"],
-          ["hordeLvl6", "hordeUpLvl6"]
-        ],
-        [
-          ["dwellingLvl1", "dwellingUpLvl1"],
-          ["dwellingLvl2", "dwellingUpLvl2"],
-          ["dwellingLvl3", "dwellingUpLvl3"],
-          ["dwellingLvl4", "dwellingUpLvl4"]
-        ],
-        [
-          ["dwellingLvl5", "dwellingUpLvl5"],
-          ["dwellingAlternateLvl5", "dwellingAlternateUpLvl5"],
-          ["dwellingLvl6", "dwellingUpLvl6"],
-          ["dwellingLvl7", "dwellingUpLvl7"]
-        ]
-      ],
-      "horde": [0, 5],
-      "icons": {
-        "fort": {
-          "built": {
-            "large": "ruins/icons/fortbuildedlarge.bmp",
-            "small": "ruins/icons/fortbuildedsmall.bmp"
-          },
-          "normal": {
-            "large": "ruins/icons/fortlarge.bmp",
-            "small": "ruins/icons/fortsmall.bmp"
-          }
-        },
-        "village": {
-          "built": {
-            "large": "ruins/icons/hallbuildedlarge.bmp",
-            "small": "ruins/icons/hallbuildedsmall.bmp"
-          },
-          "normal": {
-            "large": "ruins/icons/halllarge.bmp",
-            "small": "ruins/icons/hallsmall.bmp"
-          }
-        }
-      },
-      "mageGuild": 4,
-      "defaultTavern": 5,
-      "tavern": {
-        "knight": 6,
-        "cleric": 3,
-        "ranger": 9,
-        "druid": 9,
-        "alchemist": 5,
-        "wizard": 5,
-        "demoniac": 1,
-        "heretic": 0,
-        "deathknight": 2,
-        "necromancer": 3,
-        "overlord": 3,
-        "warlock": 4,
-        "barbarian": 8,
-        "battlemage": 6,
-        "beastmaster": 8,
-        "witch": 4,
-        "planeswalker": 3,
-        "elementalist": 4
-      },
-      "tavernVideo": "TAVERN.BIK",
-      "townBackground": "ruins/town/background",
-      "guildBackground": "TPMAGE.bmp",
-      "moatAbility": "castleMoat"
-    },
-    "description": "Ruins is a civilization that remains deeply rooted in its tribal origins, once consisting primarily of hunters and gatherers who have since transitioned into a more settled way of life within the ancient ruins they've discovered. They've embraced agriculture, working harmoniously with nature and seldom resorting to felling trees to construct their homes. Instead, they've chosen to inhabit the existing ruins, though they've fashioned a few basic structures with minimal wood usage."
-  }
+	"ruins" : {
+		"name" : "Ruins",
+		"alignment" : "neutral",
+		"boat" : "boatFortress",
+		"nativeTerrain" : "grass",
+		"creatureBackground" : {
+			"120px" : "ruins/creaturebg120px",
+			"130px" : "ruins/creaturebg130px"
+		},
+		"town" : {
+			"primaryResource" : "ore",
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
+				},
+				"templates" : {
+					"capitol" : {
+						"animation" : "ruins/map/capitol.def"
+					},
+					"castle" : {
+						"animation" : "ruins/map/castle.def"
+					},
+					"citadel" : {
+						"animation" : "ruins/map/citadel.def"
+					},
+					"fort" : {
+						"animation" : "ruins/map/fort.def"
+					},
+					"village" : {
+						"animation" : "ruins/map/village.def"
+					}
+				}
+			},
+			"musicTheme" : [
+				"music/ruins"
+			],
+			"creatures" : [
+				[
+					"rn_creature_lvl1",
+					"rn_creature_lvl1_up"
+				],
+				[
+					"rn_creature_lvl2",
+					"rn_creature_lvl2_up"
+				],
+				[
+					"rn_creature_lvl3",
+					"rn_creature_lvl3_up"
+				],
+				[
+					"rn_creature_lvl4",
+					"rn_creature_lvl4_up"
+				],
+				[
+					"rn_creature_lvl5",
+					"rn_creature_lvl5_up",
+					"rn_creature_alternate",
+					"rn_creature_alternate_up"
+				],
+				[
+					"rn_creature_lvl6",
+					"rn_creature_lvl6_up"
+				],
+				[
+					"rn_creature_lvl7",
+					"rn_creature_lvl7_up"
+				]
+			],
+			"guildWindow" : "ruins/town/mageguild",
+			"names" : [
+				"Welnin",
+				"Harmondale",
+				"Stormhammer",
+				"Hillrock",
+				"Ashflame",
+				"Lindisfarne",
+				"Aberystwyth",
+				"Clifden",
+				"Tintagel",
+				"Oban",
+				"Dingle"
+			],
+			"hallBackground" : "ruins/town/hall",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"hordeLvl1",
+						"hordeUpLvl1"
+					],
+					[
+						"hordeLvl6",
+						"hordeUpLvl6"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingAlternateLvl5",
+						"dwellingAlternateUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"horde" : [
+				0,
+				5
+			],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "ruins/icons/fortbuildedlarge.bmp",
+						"small" : "ruins/icons/fortbuildedsmall.bmp"
+					},
+					"normal" : {
+						"large" : "ruins/icons/fortlarge.bmp",
+						"small" : "ruins/icons/fortsmall.bmp"
+					}
+				},
+				"village" : {
+					"built" : {
+						"large" : "ruins/icons/hallbuildedlarge.bmp",
+						"small" : "ruins/icons/hallbuildedsmall.bmp"
+					},
+					"normal" : {
+						"large" : "ruins/icons/halllarge.bmp",
+						"small" : "ruins/icons/hallsmall.bmp"
+					}
+				}
+			},
+			"mageGuild" : 4,
+			"defaultTavern" : 5,
+			"tavern" : {
+				"knight" : 6,
+				"cleric" : 3,
+				"ranger" : 9,
+				"druid" : 9,
+				"alchemist" : 5,
+				"wizard" : 5,
+				"demoniac" : 1,
+				"heretic" : 0,
+				"deathknight" : 2,
+				"necromancer" : 3,
+				"overlord" : 3,
+				"warlock" : 4,
+				"barbarian" : 8,
+				"battlemage" : 6,
+				"beastmaster" : 8,
+				"witch" : 4,
+				"planeswalker" : 3,
+				"elementalist" : 4
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "ruins/town/background",
+			"guildBackground" : "TPMAGE.bmp",
+			"moatAbility" : "castleMoat"
+		},
+		"description" : "Ruins is a civilization that remains deeply rooted in its tribal origins, once consisting primarily of hunters and gatherers who have since transitioned into a more settled way of life within the ancient ruins they've discovered. They've embraced agriculture, working harmoniously with nature and seldom resorting to felling trees to construct their homes. Instead, they've chosen to inhabit the existing ruins, though they've fashioned a few basic structures with minimal wood usage."
+	}
 }

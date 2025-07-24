@@ -1,49 +1,49 @@
 {
-	"02rn_gobni": {
-		"army": [
+	"02rn_gobni" : {
+		"army" : [
 			{
-				"creature": "rn_creature_lvl2",
-				"max": 12,
-				"min": 7
+				"creature" : "rn_creature_lvl2",
+				"max" : 12,
+				"min" : 7
 			},
 			{
-				"creature": "rn_creature_lvl2",
-				"max": 12,
-				"min": 7
+				"creature" : "rn_creature_lvl2",
+				"max" : 12,
+				"min" : 7
 			},
 			{
-			  "creature" : "ballista",
-			  "max" : 1,
-			  "min" : 1
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
 			}
 		],
-		"class": "rn_might",
-		"images": {
-			"large": "ruins/heroes/gobni/large.bmp",
-			"small": "ruins/heroes/gobni/small.bmp",
-			"specialtyLarge": "ruins/heroes/gobni/slarge.bmp",
-			"specialtySmall": "ruins/heroes/gobni/ssmall.bmp"
+		"class" : "rn_might",
+		"images" : {
+			"large" : "ruins/heroes/gobni/large.bmp",
+			"small" : "ruins/heroes/gobni/small.bmp",
+			"specialtyLarge" : "ruins/heroes/gobni/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/gobni/ssmall.bmp"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "pathfinding"
+				"level" : "basic",
+				"skill" : "pathfinding"
 			},
 			{
-				"level": "basic",
-				"skill": "artillery"
+				"level" : "basic",
+				"skill" : "artillery"
 			}
 		],
-		"specialty": {
-			"creature": "rn_creature_lvl2"
+		"specialty" : {
+			"creature" : "rn_creature_lvl2"
 		},
-		"texts": {
-			"biography": "Gobni, the Stormshield village's esteemed beastmaster, has been a denizen of the forests since his youth. With a profound understanding of the local wildlife, he has honed his skills as a master of the art of traps. His heart, however, belongs to the enigmatic Cockatrice, and by his side is a loyal companion named Skippy. When the clarion call of war resounded, Gobni and Skippy wasted no time in answering, standing as staunch protectors of their beloved lands.",
-			"name": "Gobni",
-			"specialty": {
-				"tooltip": "Creature Bonus: Cockatrices",
-				"name": "Cockatrice",
-				"description": "Increases Speed of any Cockatrice or Dire Cockatrice by 1 and their Attack and Defense skills by 5% for every 2 levels."
+		"texts" : {
+			"biography" : "Gobni, the Stormshield village's esteemed beastmaster, has been a denizen of the forests since his youth. With a profound understanding of the local wildlife, he has honed his skills as a master of the art of traps. His heart, however, belongs to the enigmatic Cockatrice, and by his side is a loyal companion named Skippy. When the clarion call of war resounded, Gobni and Skippy wasted no time in answering, standing as staunch protectors of their beloved lands.",
+			"name" : "Gobni",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Cockatrices",
+				"name" : "Cockatrice",
+				"description" : "Increases Speed of any Cockatrice or Dire Cockatrice by 1 and their Attack and Defense skills by 5% for every 2 levels."
 			}
 		}
 	}

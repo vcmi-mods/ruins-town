@@ -1,144 +1,218 @@
 {
-  "name": "Ruins Town",
-  "description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
-  "author": "Fiorin, Stefan Ciobanu",
-  "contact": "https://fior.in",
-  "version": "2.0.30",
-  "modType": "Town",
-  "depends": ["hota.cove", "hota.interference"],
-  "conflicts": ["ruins-town-var"],
-  "compatibility": {
-    "min": "1.7.0"
-  },
-  "german": {
-    "name": "Ruinen",
-    "description": "Ruinen Stadt",
-    "translations": ["translation/ruins/german.json"]
-  },
-  "chinese": {
-    "name": "遗迹",
-    "description": "遗迹有着浓厚的原始氛围，兵种主要来自凯尔特神话和阿尔冈昆传说。更多信息请访问http://heroescommunity.com/viewthread.php3?TID=44951进行反馈。",
-    "translations": ["translation/ruins/chinese.json"]
-  },
-  "polish": {
-    "name": "Ruiny",
-    "description": "Mod dodaje miasto: Ruiny\n – \n\nMod wykonany z wielkim zaangażowaniem, miłej zabawy. Czekam na Twoją opinię.\n\n Więcej informacji znajdziesz na http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtwórz plik manual.pdf w katalogu mod",
-    "translations": ["translation/ruins/polish.json"]
-  },
-  "russian": {
-    "name": "Руины",
-    "description": "Новый город Руины от Tok, в основе которого лежит кельтская мифология. Подробнее на http://heroescommunity.com/viewthread.php3?TID=44951",
-    "translations": ["translation/ruins/russian.json"]
-  },
-  "czech": {
-    "name": "Ruiny",
-    "description": "Ruiny\n – \n\nMod vytvořený s velkou péčí, užijte si ho. Těším se na vaše názory.\n\nVíce informací naleznete na: http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtevřete soubor manual.pdf ve složce s módem.",
-    "translations": ["translation/ruins/czech.json"]
-  },
-  "changelog": {
-    "2.0.30": ["Some custom ability icons added"],
-	"2.0.29": ["Update to vcmi-1.7 format"],
-	"2.0.28": ["Def towscreen fixes"],
-    "2.0.27": ["Updated Czech translation"],
-    "2.0.26": ["Few bufixes"],
-    "2.0.25": ["Towscreen rework", "Building changes"],
-    "2.0.24": ["Bug fixes"],
-    "2.0.23": [
-      "Added Legacy view submod",
-      "Updated Czech translation with Legacy view strings submod"
-    ],
-    "2.0.22": ["Added wikipedia. Author: Star_mage"],
-    "2.0.21": ["Czech translation by George King"],
-    "2.0.20": ["Update to vcmi-1.6 format"],
-    "2.0.14": ["New townscreen"],
-    "2.0.13": ["Russian translation by Anton Sergeew", "Updated horde values"],
-    "2.0.12": ["New portraits", "PVP balance", "Mage guild dependency change"],
-    "2.0.11": ["Fixed Priestess .def", "Some portraits graphics improvements"],
-    "2.0.10": ["Some rebalance for a PVP tournament"],
-    "2.0.9": [
-      "Removed Cockatrice Stone Gaze immunity",
-      "Changed spell reduction to immunity for Kelpies"
-    ],
-    "2.0.8": [
-      "Added secondary skill: Evasion",
-      "Changed some heroes secondaries"
-    ],
-    "2.0.7": [
-      "Added the creatures' stackExp, fixed the commander and translations"
-    ],
-    "2.0.6": [
-      "Added Polish translation by ToRRent1812",
-      "Horae portrait replace",
-      "Small buildings and graphic fixes"
-    ],
-    "2.0.5": ["Few minor graphical fixes by Fabrice"],
-    "2.0.4": ["Update to vcmi-1.4 format", "manual.pdf added"],
-    "2.0.3": ["Texts polishing", "Few tiny fixes"],
-    "2.0.2": ["Chinese translation update by Rindlit"],
-    "2.0.1": ["Add Priestess and lots of fixes"],
-    "2.0.0": ["Town rework"],
-    "1.2.5": [
-      "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
-    ],
-    "1.2.4": ["Update to vcmi-1.2"],
-    "1.2.3": ["Lots od changes and fixes"],
-    "0.95": ["Initial release"]
-  },
-  "factions": [
-    "config/ruins/town/faction.json",
-    "config/ruins/town/buildings.json",
-    "config/ruins/town/structures.json",
-    "config/ruins/town/siege.json",
-    "config/ruins/town/spells.json",
-    "config/ruins/town/puzzle.json"
-  ],
-  "creatures": [
-    "config/ruins/creatures/lvl1.json",
-    "config/ruins/creatures/lvl1_up.json",
-    "config/ruins/creatures/lvl2.json",
-    "config/ruins/creatures/lvl2_up.json",
-    "config/ruins/creatures/lvl3.json",
-    "config/ruins/creatures/lvl3_up.json",
-    "config/ruins/creatures/lvl4.json",
-    "config/ruins/creatures/lvl4_up.json",
-    "config/ruins/creatures/lvl5.json",
-    "config/ruins/creatures/lvl5_up.json",
-    "config/ruins/creatures/lvl6.json",
-    "config/ruins/creatures/lvl6_up.json",
-    "config/ruins/creatures/lvl7.json",
-    "config/ruins/creatures/lvl7_up.json",
-    "config/ruins/creatures/alternate.json",
-    "config/ruins/creatures/alternate_up.json",
-    "config/ruins/creatures/cm3.json",
-    "config/ruins/creatures/cm3_up.json",
-    "config/ruins/creatures/wiki.json"
-  ],
-  "heroClasses": [
-    "config/ruins/classes/might.json",
-    "config/ruins/classes/magic.json"
-  ],
-  "heroes": [
-    "config/ruins/heroes/bellona.json",
-    "config/ruins/heroes/gobni.json",
-    "config/ruins/heroes/grimm.json",
-    "config/ruins/heroes/gwyn.json",
-    "config/ruins/heroes/herian.json",
-    "config/ruins/heroes/horae.json",
-    "config/ruins/heroes/hughes.json",
-    "config/ruins/heroes/huldra.json",
-    "config/ruins/heroes/kali.json",
-    "config/ruins/heroes/mogh.json",
-    "config/ruins/heroes/myra.json",
-    "config/ruins/heroes/nodens.json",
-    "config/ruins/heroes/rhea.json",
-    "config/ruins/heroes/thar.json",
-    "config/ruins/heroes/neit.json",
-    "config/ruins/heroes/woden.json"
-  ],
-  "objects": ["config/ruins/dwellings.json"],
-  "spells": [
-    "config/spells/grapple/grapple.json",
-    "config/spells/dodge/dodge.json"
-  ],
-  "skills": ["config/skills/evasion.json"]
+	"name" : "Ruins Town",
+	"description" : "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
+	"author" : "Fiorin, Stefan Ciobanu",
+	"contact" : "https://fior.in",
+	"version" : "2.0.30",
+	"modType" : "Town",
+	"depends" : [
+		"hota.cove",
+		"hota.interference"
+	],
+	"conflicts" : [
+		"ruins-town-var"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"german" : {
+		"name" : "Ruinen",
+		"description" : "Ruinen Stadt",
+		"translations" : [
+			"translation/ruins/german.json"
+		]
+	},
+	"chinese" : {
+		"name" : "遗迹",
+		"description" : "遗迹有着浓厚的原始氛围，兵种主要来自凯尔特神话和阿尔冈昆传说。更多信息请访问http://heroescommunity.com/viewthread.php3?TID=44951进行反馈。",
+		"translations" : [
+			"translation/ruins/chinese.json"
+		]
+	},
+	"polish" : {
+		"name" : "Ruiny",
+		"description" : "Mod dodaje miasto: Ruiny\n – \n\nMod wykonany z wielkim zaangażowaniem, miłej zabawy. Czekam na Twoją opinię.\n\n Więcej informacji znajdziesz na http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtwórz plik manual.pdf w katalogu mod",
+		"translations" : [
+			"translation/ruins/polish.json"
+		]
+	},
+	"russian" : {
+		"name" : "Руины",
+		"description" : "Новый город Руины от Tok, в основе которого лежит кельтская мифология. Подробнее на http://heroescommunity.com/viewthread.php3?TID=44951",
+		"translations" : [
+			"translation/ruins/russian.json"
+		]
+	},
+	"czech" : {
+		"name" : "Ruiny",
+		"description" : "Ruiny\n – \n\nMod vytvořený s velkou péčí, užijte si ho. Těším se na vaše názory.\n\nVíce informací naleznete na: http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtevřete soubor manual.pdf ve složce s módem.",
+		"translations" : [
+			"translation/ruins/czech.json"
+		]
+	},
+	"changelog" : {
+		"2.0.30" : [
+			"Some custom ability icons added"
+		],
+		"2.0.29" : [
+			"Update to vcmi-1.7 format"
+		],
+		"2.0.28" : [
+			"Def towscreen fixes"
+		],
+		"2.0.27" : [
+			"Updated Czech translation"
+		],
+		"2.0.26" : [
+			"Few bufixes"
+		],
+		"2.0.25" : [
+			"Towscreen rework",
+			"Building changes"
+		],
+		"2.0.24" : [
+			"Bug fixes"
+		],
+		"2.0.23" : [
+			"Added Legacy view submod",
+			"Updated Czech translation with Legacy view strings submod"
+		],
+		"2.0.22" : [
+			"Added wikipedia. Author: Star_mage"
+		],
+		"2.0.21" : [
+			"Czech translation by George King"
+		],
+		"2.0.20" : [
+			"Update to vcmi-1.6 format"
+		],
+		"2.0.14" : [
+			"New townscreen"
+		],
+		"2.0.13" : [
+			"Russian translation by Anton Sergeew",
+			"Updated horde values"
+		],
+		"2.0.12" : [
+			"New portraits",
+			"PVP balance",
+			"Mage guild dependency change"
+		],
+		"2.0.11" : [
+			"Fixed Priestess .def",
+			"Some portraits graphics improvements"
+		],
+		"2.0.10" : [
+			"Some rebalance for a PVP tournament"
+		],
+		"2.0.9" : [
+			"Removed Cockatrice Stone Gaze immunity",
+			"Changed spell reduction to immunity for Kelpies"
+		],
+		"2.0.8" : [
+			"Added secondary skill: Evasion",
+			"Changed some heroes secondaries"
+		],
+		"2.0.7" : [
+			"Added the creatures' stackExp, fixed the commander and translations"
+		],
+		"2.0.6" : [
+			"Added Polish translation by ToRRent1812",
+			"Horae portrait replace",
+			"Small buildings and graphic fixes"
+		],
+		"2.0.5" : [
+			"Few minor graphical fixes by Fabrice"
+		],
+		"2.0.4" : [
+			"Update to vcmi-1.4 format",
+			"manual.pdf added"
+		],
+		"2.0.3" : [
+			"Texts polishing",
+			"Few tiny fixes"
+		],
+		"2.0.2" : [
+			"Chinese translation update by Rindlit"
+		],
+		"2.0.1" : [
+			"Add Priestess and lots of fixes"
+		],
+		"2.0.0" : [
+			"Town rework"
+		],
+		"1.2.5" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.2.4" : [
+			"Update to vcmi-1.2"
+		],
+		"1.2.3" : [
+			"Lots od changes and fixes"
+		],
+		"0.95" : [
+			"Initial release"
+		]
+	},
+	"factions" : [
+		"config/ruins/town/faction.json",
+		"config/ruins/town/buildings.json",
+		"config/ruins/town/structures.json",
+		"config/ruins/town/siege.json",
+		"config/ruins/town/spells.json",
+		"config/ruins/town/puzzle.json"
+	],
+	"creatures" : [
+		"config/ruins/creatures/lvl1.json",
+		"config/ruins/creatures/lvl1_up.json",
+		"config/ruins/creatures/lvl2.json",
+		"config/ruins/creatures/lvl2_up.json",
+		"config/ruins/creatures/lvl3.json",
+		"config/ruins/creatures/lvl3_up.json",
+		"config/ruins/creatures/lvl4.json",
+		"config/ruins/creatures/lvl4_up.json",
+		"config/ruins/creatures/lvl5.json",
+		"config/ruins/creatures/lvl5_up.json",
+		"config/ruins/creatures/lvl6.json",
+		"config/ruins/creatures/lvl6_up.json",
+		"config/ruins/creatures/lvl7.json",
+		"config/ruins/creatures/lvl7_up.json",
+		"config/ruins/creatures/alternate.json",
+		"config/ruins/creatures/alternate_up.json",
+		"config/ruins/creatures/cm3.json",
+		"config/ruins/creatures/cm3_up.json",
+		"config/ruins/creatures/wiki.json"
+	],
+	"heroClasses" : [
+		"config/ruins/classes/might.json",
+		"config/ruins/classes/magic.json"
+	],
+	"heroes" : [
+		"config/ruins/heroes/bellona.json",
+		"config/ruins/heroes/gobni.json",
+		"config/ruins/heroes/grimm.json",
+		"config/ruins/heroes/gwyn.json",
+		"config/ruins/heroes/herian.json",
+		"config/ruins/heroes/horae.json",
+		"config/ruins/heroes/hughes.json",
+		"config/ruins/heroes/huldra.json",
+		"config/ruins/heroes/kali.json",
+		"config/ruins/heroes/mogh.json",
+		"config/ruins/heroes/myra.json",
+		"config/ruins/heroes/nodens.json",
+		"config/ruins/heroes/rhea.json",
+		"config/ruins/heroes/thar.json",
+		"config/ruins/heroes/neit.json",
+		"config/ruins/heroes/woden.json"
+	],
+	"objects" : [
+		"config/ruins/dwellings.json"
+	],
+	"spells" : [
+		"config/spells/grapple/grapple.json",
+		"config/spells/dodge/dodge.json"
+	],
+	"skills" : [
+		"config/skills/evasion.json"
+	]
 }

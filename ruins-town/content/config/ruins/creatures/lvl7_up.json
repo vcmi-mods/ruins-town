@@ -1,145 +1,216 @@
 {
-	"rn_creature_lvl7_up": {
-		"name": {
-			"singular": "Colossus",
-			"plural": "Colossus"
+	"rn_creature_lvl7_up" : {
+		"name" : {
+			"singular" : "Colossus",
+			"plural" : "Colossus"
 		},
-		"level": 7,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 3,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 1,
-			"gold": 3000
+		"level" : 7,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 3,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 1,
+			"gold" : 3000
 		},
-		"fightValue": 4860,
-		"aiValue": 6200,
-		"growth": 1,
-		"attack": 18,
-		"defense": 32,
-		"hitPoints": 300,
-		"shots": 0,
-		"speed": 8,
-		"damage": {
-			"min": 40,
-			"max": 50
+		"fightValue" : 4860,
+		"aiValue" : 6200,
+		"growth" : 1,
+		"attack" : 18,
+		"defense" : 32,
+		"hitPoints" : 300,
+		"shots" : 0,
+		"speed" : 8,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 7,
-			"min": 3
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 7,
+			"min" : 3
 		},
-		"doubleWide": true,
-		"abilities": {
-			"immunity": {
+		"doubleWide" : true,
+		"abilities" : {
+			"immunity" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "fire",
 				"val" : 100
 			},
-			"nonliving": {
-				"type": "NON_LIVING"
+			"nonliving" : {
+				"type" : "NON_LIVING"
 			},
-			"resistance": {
-				"type": "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeRanged",
-				"val": 20
+			"resistance" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 20
 			},
-			"earthquake":{
+			"earthquake" : {
 				"subtype" : "earthquake",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 3,
 				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege",
-				"icon" : "icons/placeholder.png"					
+				"icon" : "icons/placeholder.png"
 			},
-			"paralize" :
-			{
+			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "earthquake",
 				"val" : 100,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 54, 58, 62, 66, 70, 74, 78, 82, 86, 90 ]
+				"values" : [
+					54,
+					58,
+					62,
+					66,
+					70,
+					74,
+					78,
+					82,
+					86,
+					90
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl7_up.def",
-			"map": "ruins/creatures/adventure/lvl7_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl7_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl7_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl7_up.def",
+			"map" : "ruins/creatures/adventure/lvl7_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl7_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl7_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "BMTHATTK.wav",
-			"defend": "GGLMDFND.wav",
-			"killed": "GGLMKILL.wav",
-			"move": "BMTHMOVE.wav",
-			"wince": "BMTHWNCE.wav"
+		"sound" : {
+			"attack" : "BMTHATTK.wav",
+			"defend" : "GGLMDFND.wav",
+			"killed" : "GGLMKILL.wav",
+			"move" : "BMTHMOVE.wav",
+			"wince" : "BMTHWNCE.wav"
 		}
 	}
 }

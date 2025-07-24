@@ -1,113 +1,162 @@
 {
-	"rn_creature_lvl5": {
-		"name": {
-			"singular": "Peryton",
-			"plural": "Perytons"
+	"rn_creature_lvl5" : {
+		"name" : {
+			"singular" : "Peryton",
+			"plural" : "Perytons"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"rn_creature_lvl5_up"
 		],
-		"level": 5,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 480
+		"level" : 5,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 480
 		},
-		"fightValue": 640,
-		"aiValue": 900,
-		"growth": 3,
-		"attack": 11,
-		"defense": 10,
-		"hitPoints": 37,
-		"shots": 0,
-		"speed": 10,
-		"damage": {
-			"min": 9,
-			"max": 11
+		"fightValue" : 640,
+		"aiValue" : 900,
+		"growth" : 3,
+		"attack" : 11,
+		"defense" : 10,
+		"hitPoints" : 37,
+		"shots" : 0,
+		"speed" : 10,
+		"damage" : {
+			"min" : 9,
+			"max" : 11
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 13,
-			"min": 9
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
 		},
-		"doubleWide": true,
-		"abilities": {
-			"flying": {
-				"type": "FLYING",
-				"subtype": "movementFlying"
+		"doubleWide" : true,
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
-			"retaliation": {
-				"type": "BLOCKS_RETALIATION"
+			"retaliation" : {
+				"type" : "BLOCKS_RETALIATION"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl5.def",
-			"map": "ruins/creatures/adventure/lvl5.def",
-			"iconSmall": "ruins/creatures/icon/lvl5.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl5.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.4,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl5.def",
+			"map" : "ruins/creatures/adventure/lvl5.def",
+			"iconSmall" : "ruins/creatures/icon/lvl5.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl5.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.4,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "GRIFATTK.wav",
-			"defend": "GRIFDFND.wav",
-			"killed": "GRIFKILL.wav",
-			"move": "GRIFMOVE.wav",
-			"wince": "GRIFWNCE.wav"
+		"sound" : {
+			"attack" : "GRIFATTK.wav",
+			"defend" : "GRIFDFND.wav",
+			"killed" : "GRIFKILL.wav",
+			"move" : "GRIFMOVE.wav",
+			"wince" : "GRIFWNCE.wav"
 		}
 	}
 }

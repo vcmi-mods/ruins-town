@@ -1,68 +1,68 @@
 {
-	"rn_creature_alternate": {
-		"name": {
-			"singular": "Jackalope",
-			"plural": "Jackalopes"
+	"rn_creature_alternate" : {
+		"name" : {
+			"singular" : "Jackalope",
+			"plural" : "Jackalopes"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"rn_creature_alternate_up"
 		],
-		"level": 1,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 2,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 1600
+		"level" : 1,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 2,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 1600
 		},
-		"fightValue": 3021,
-		"aiValue": 3772,
-		"growth": 1,
-		"attack": 16,
-		"defense": 22,
-		"hitPoints": 190,
-		"shots": 0,
-		"speed": 5,
-		"damage": {
-			"min": 35,
-			"max": 45
+		"fightValue" : 3021,
+		"aiValue" : 3772,
+		"growth" : 1,
+		"attack" : 16,
+		"defense" : 22,
+		"hitPoints" : 190,
+		"shots" : 0,
+		"speed" : 5,
+		"damage" : {
+			"min" : 35,
+			"max" : 45
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"min": 5,
-			"max": 11
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 11
 		},
-		"doubleWide": true,
-		"abilities": {
-			"quick": {
-				"subtype": "airShield",
-				"type": "ENCHANTED",
-				"val": 1
+		"doubleWide" : true,
+		"abilities" : {
+			"quick" : {
+				"subtype" : "airShield",
+				"type" : "ENCHANTED",
+				"val" : 1
 			}
 		},
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/alternate.def",
-			"map": "ruins/creatures/adventure/alternate.def",
-			"iconSmall": "ruins/creatures/icon/alternate.bmp",
-			"iconLarge": "ruins/creatures/portrait/alternate.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/alternate.def",
+			"map" : "ruins/creatures/adventure/alternate.def",
+			"iconSmall" : "ruins/creatures/icon/alternate.bmp",
+			"iconLarge" : "ruins/creatures/portrait/alternate.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"defend": "HALFDFND.wav",
-			"killed": "HALFKILL.wav",
-			"move": "HALFMOVE.wav",
-			"shoot": "HALFSHOT.wav",
-			"wince": "HALFWNCE.wav"
+		"sound" : {
+			"defend" : "HALFDFND.wav",
+			"killed" : "HALFKILL.wav",
+			"move" : "HALFMOVE.wav",
+			"shoot" : "HALFSHOT.wav",
+			"wince" : "HALFWNCE.wav"
 		}
 	}
 }

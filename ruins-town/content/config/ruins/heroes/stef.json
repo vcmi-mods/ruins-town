@@ -1,67 +1,67 @@
 {
-	"rn_stef": {
-		"army": [
+	"rn_stef" : {
+		"army" : [
 			{
-				"creature": "rn_creature_lvl1",
-				"max": 25,
-				"min": 15
+				"creature" : "rn_creature_lvl1",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "rn_creature_lvl2",
-				"max": 9,
-				"min": 7
+				"creature" : "rn_creature_lvl2",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "rn_creature_lvl3",
+				"creature" : "rn_creature_lvl3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "rn_magic",
-		"images": {
-			"large": "ruins/heroes/stef/large.bmp",
-			"small": "ruins/heroes/stef/small.bmp",
-			"specialtyLarge": "ruins/heroes/stef/slarge.bmp",
-			"specialtySmall": "ruins/heroes/stef/ssmall.bmp"
+		"female" : true,
+		"class" : "rn_magic",
+		"images" : {
+			"large" : "ruins/heroes/stef/large.bmp",
+			"small" : "ruins/heroes/stef/small.bmp",
+			"specialtyLarge" : "ruins/heroes/stef/slarge.bmp",
+			"specialtySmall" : "ruins/heroes/stef/ssmall.bmp"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "earthMagic"
+				"level" : "basic",
+				"skill" : "earthMagic"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"interference": {
-					"propagator": "GLOBAL_EFFECT",
-					"limiters": [
+		"specialty" : {
+			"bonuses" : {
+				"interference" : {
+					"propagator" : "GLOBAL_EFFECT",
+					"limiters" : [
 						"OPPOSITE_SIDE"
 					],
-					"subtype": "knowledge",
-					"type": "PRIMARY_SKILL",
-					"val": -20,
-					"valueType": "PERCENT_TO_BASE",
-					"updater": {
-						"parameters": [
+					"subtype" : "knowledge",
+					"type" : "PRIMARY_SKILL",
+					"val" : -20,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+						"parameters" : [
 							-5
 						],
-						"type": "GROWS_WITH_LEVEL"
+						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
 			}
 		},
-		"texts": {
-			"biography": "Stef is a welsh bard and poet, writer of inumerous songs.",
-			"name": "Stef",
-			"specialty": {
-				"description": "Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
-				"name": "Writing",
-				"tooltip": "Knowledge enemy reduction."
+		"texts" : {
+			"biography" : "Stef is a welsh bard and poet, writer of inumerous songs.",
+			"name" : "Stef",
+			"specialty" : {
+				"description" : "Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
+				"name" : "Writing",
+				"tooltip" : "Knowledge enemy reduction."
 			}
 		}
 	}

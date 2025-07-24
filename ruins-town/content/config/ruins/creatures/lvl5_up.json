@@ -1,113 +1,162 @@
 {
-	"rn_creature_lvl5_up": {
-		"name": {
-			"singular": "Grand Peryton",
-			"plural": "Grand Perytons"
+	"rn_creature_lvl5_up" : {
+		"name" : {
+			"singular" : "Grand Peryton",
+			"plural" : "Grand Perytons"
 		},
-		"level": 5,
-		"special": false,
-		"faction": "ruins",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 660
+		"level" : 5,
+		"special" : false,
+		"faction" : "ruins",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 660
 		},
-		"fightValue": 718,
-		"aiValue": 1500,
-		"growth": 3,
-		"attack": 12,
-		"defense": 12,
-		"hitPoints": 50,
-		"shots": 0,
-		"speed": 11,
-		"damage": {
-			"min": 11,
-			"max": 14
+		"fightValue" : 718,
+		"aiValue" : 1500,
+		"growth" : 3,
+		"attack" : 12,
+		"defense" : 12,
+		"hitPoints" : 50,
+		"shots" : 0,
+		"speed" : 11,
+		"damage" : {
+			"min" : 11,
+			"max" : 14
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 11,
-			"min": 8
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 8
 		},
-		"doubleWide": true,
-		"abilities": {
-			"flying": {
-				"type": "FLYING",
-				"subtype": "movementFlying"
+		"doubleWide" : true,
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
-			"return": {
-				"type": "RETURN_AFTER_STRIKE"
+			"return" : {
+				"type" : "RETURN_AFTER_STRIKE"
 			},
-			"retaliation": {
-				"type": "BLOCKS_RETALIATION"
+			"retaliation" : {
+				"type" : "BLOCKS_RETALIATION"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "ruins/creatures/battle/lvl5_up.def",
-			"map": "ruins/creatures/adventure/lvl5_up.def",
-			"iconSmall": "ruins/creatures/icon/lvl5_up.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl5_up.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.8,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl5_up.def",
+			"map" : "ruins/creatures/adventure/lvl5_up.def",
+			"iconSmall" : "ruins/creatures/icon/lvl5_up.bmp",
+			"iconLarge" : "ruins/creatures/portrait/lvl5_up.bmp",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.8,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "RGRFATTK.wav",
-			"defend": "RGRFDFND.wav",
-			"killed": "RGRFKILL.wav",
-			"move": "RGRFMOVE.wav",
-			"wince": "RGRFWNCE.wav"
+		"sound" : {
+			"attack" : "RGRFATTK.wav",
+			"defend" : "RGRFDFND.wav",
+			"killed" : "RGRFKILL.wav",
+			"move" : "RGRFMOVE.wav",
+			"wince" : "RGRFWNCE.wav"
 		}
 	}
 }

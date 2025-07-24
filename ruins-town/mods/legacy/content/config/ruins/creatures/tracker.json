@@ -1,16 +1,13 @@
 {
-	"trackercommander":
-	{
-		"name" :
-		{
+	"trackercommander" : {
+		"name" : {
 			"singular" : "Veteran Tracker",
 			"plural" : "Veteran Trackers"
 		},
 		"level" : 0,
 		"special" : true,
 		"faction" : "ruins",
-		"cost" : 
-		{
+		"cost" : {
 			"gold" : 140
 		},
 		"speed" : 4,
@@ -18,68 +15,56 @@
 		"shots" : 24,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 12
+		"damage" : {
+			"min" : 6,
+			"max" : 12
 		},
 		"fightValue" : 130,
 		"aiValue" : 156,
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
-		{
-			"magicResistance" :
-			{
+		"hasDoubleWeek" : false,
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "curse",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ruins/creatures/battle/veteranTracker.def",
 			"iconSmall" : "ruins/creatures/portrait/veteranTracker_s.png",
 			"iconLarge" : "ruins/creatures/portrait/veteranTracker_l.png",
-			"timeBetweenFidgets" : 1.00,
-			"animationTime" :
-			{
-				"walk" : 0.90,
-				"idle" : 10.00,
-				"attack" : 0.90
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 0.9,
+				"idle" : 10.0,
+				"attack" : 0.9
 			},
-			"missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 4,
-				"projectile": "ruins/projectiles/woodball.def",
-				"offset" :
-				{
+				"projectile" : "ruins/projectiles/woodball.def",
+				"offset" : {
 					"upperX" : 0,
 					"upperY" : 0,
 					"middleX" : 0,
@@ -87,17 +72,22 @@
 					"lowerX" : -5,
 					"lowerY" : 20
 				},
-				"frameAngles" : [ -90, -45, 0, 45, 90]
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
 			}
 		},
-		"sound" :
-		{
-			"shoot": "HALFATTK.wav",
-			"attack": "OGREATTK.wav",
-			"defend": "OGREDFND.wav",
-			"killed": "OGREKILL.wav",
-			"move": "OGREMOVE.wav",
-			"wince": "OGREWNCE.wav"
+		"sound" : {
+			"shoot" : "HALFATTK.wav",
+			"attack" : "OGREATTK.wav",
+			"defend" : "OGREDFND.wav",
+			"killed" : "OGREKILL.wav",
+			"move" : "OGREMOVE.wav",
+			"wince" : "OGREWNCE.wav"
 		}
 	}
 }
