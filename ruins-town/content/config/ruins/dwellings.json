@@ -25,7 +25,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw1.def"
 			},
 			"rn_creature_lvl2_dwelling" : {
 				"name" : "Scalecrest Roost",
@@ -51,7 +52,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw2.def"
 			},
 			"rn_creature_lvl3_dwelling" : {
 				"name" : "Trapcrafters Headquarter",
@@ -77,7 +79,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw3.def"
 			},
 			"rn_creature_lvl4_dwelling" : {
 				"name" : "Aquarius Pond",
@@ -103,7 +106,7 @@
 							"VBA"
 						]
 					}
-				}
+				},"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw4.def"
 			},
 			"rn_creature_lvl5_dwelling" : {
 				"name" : "High Peak Nests",
@@ -129,7 +132,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw5.def"
 			},
 			"rn_creature_lvl6_dwelling" : {
 				"name" : "Cave Thicket",
@@ -155,7 +159,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw6.def"
 			},
 			"rn_creature_lvl7_dwelling" : {
 				"name" : "Mountain Nexus",
@@ -181,7 +186,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw7.def"
 			}
 		}
 	}

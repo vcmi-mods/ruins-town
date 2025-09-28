@@ -18,6 +18,80 @@
 			}
 		},
 		"types" : {
+			"rn_creature_lvl1_dwelling" : {
+				"name" : "Wildmen Village",
+				"creatures" : [
+					[
+						"rn_creature_lvl1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPELF"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw1.def"
+			},
+			"rn_creature_lvl2_dwelling" : {
+				"name" : "Scalecrest Roost",
+				"creatures" : [
+					[
+						"rn_creature_lvl2"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPCAVE"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl2",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw2.def"
+			},
+			"rn_creature_lvl3_dwelling" : {
+				"name" : "Trapcrafters Headquarter",
+				"creatures" : [
+					[
+						"rn_creature_lvl3"
+					]
+				],
+
+				"templates" : {
+					"default" : {
+						"animation" : "ruins/map/lvl3",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw3.def"
+			},			
 			"rn_creature_lvl4_dwelling" : {
 				"name" : "Old spring",
 				"creatures" : [
@@ -34,7 +108,8 @@
 					"default" : {
 						"animation" : "ruins/map/lvl4"
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw4.def"
 			},
 			"rn_creature_lvl5_dwelling" : {
 				"name" : "High Altar",
@@ -52,7 +127,8 @@
 					"default" : {
 						"animation" : "ruins/map/lvl5"
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw5.def"
 			},
 			"rn_creature_lvl6_dwelling" : {
 				"name" : "River forest",
@@ -70,7 +146,8 @@
 					"default" : {
 						"animation" : "ruins/map/lvl6"
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw6.def"
 			},
 			"rn_creature_lvl7_dwelling" : {
 				"name" : "Stonehenge",
@@ -88,7 +165,8 @@
 					"default" : {
 						"animation" : "ruins/map/lvl7"
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw7.def"
 			}
 		}
 	}
