@@ -106,7 +106,8 @@
 							"VBA"
 						]
 					}
-				},"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw4.def"
+				},
+				"kingdomOverviewImage" : "ruins/map/flagports/ruinsdw4.def"
 			},
 			"rn_creature_lvl5_dwelling" : {
 				"name" : "High Peak Nests",

@@ -91,7 +91,7 @@
 					}
 				},
 				"kingdomOverviewImage" : "ruins/map/flagports/lruinsdw3.def"
-			},			
+			},
 			"rn_creature_lvl4_dwelling" : {
 				"name" : "Old spring",
 				"creatures" : [
