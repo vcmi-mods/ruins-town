@@ -52,7 +52,7 @@
 	},
 	"changelog" : {
 		"2.0.33" : [
-			"Fixed configs after BMPs to PNGs conversion",
+			"Fixed configs after BMPs to PNGs conversion"
 		],
 		"2.0.32" : [
 			"Fixed town view palette, now it's correctly recolored per player color",
