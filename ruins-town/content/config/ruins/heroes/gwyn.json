@@ -19,10 +19,10 @@
 		],
 		"class" : "rn_might",
 		"images" : {
-			"large" : "ruins/heroes/gwyn_l.bmp",
-			"small" : "ruins/heroes/gwyn_s.bmp",
-			"specialtyLarge" : "ruins/heroes/gwyn_sl.bmp",
-			"specialtySmall" : "ruins/heroes/gwyn_ss.bmp"
+			"large" : "ruins/heroes/gwyn_l",
+			"small" : "ruins/heroes/gwyn_s",
+			"specialtyLarge" : "ruins/heroes/gwyn_sl",
+			"specialtySmall" : "ruins/heroes/gwyn_ss"
 		},
 		"skills" : [
 			{

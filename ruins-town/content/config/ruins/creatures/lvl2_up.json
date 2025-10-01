@@ -215,8 +215,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/lvl2_up.def",
 			"map" : "ruins/creatures/adventure/lvl2_up.def",
-			"iconSmall" : "ruins/creatures/icon/lvl2_up.bmp",
-			"iconLarge" : "ruins/creatures/portrait/lvl2_up.bmp",
+			"iconSmall" : "ruins/creatures/icon/lvl2_up",
+			"iconLarge" : "ruins/creatures/portrait/lvl2_up",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,

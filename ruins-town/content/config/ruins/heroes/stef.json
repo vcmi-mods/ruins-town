@@ -20,10 +20,10 @@
 		"female" : true,
 		"class" : "rn_magic",
 		"images" : {
-			"large" : "ruins/heroes/stef/large.bmp",
-			"small" : "ruins/heroes/stef/small.bmp",
-			"specialtyLarge" : "ruins/heroes/stef/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/stef/ssmall.bmp"
+			"large" : "ruins/heroes/stef/large",
+			"small" : "ruins/heroes/stef/small",
+			"specialtyLarge" : "ruins/heroes/stef/slarge",
+			"specialtySmall" : "ruins/heroes/stef/ssmall"
 		},
 		"skills" : [
 			{

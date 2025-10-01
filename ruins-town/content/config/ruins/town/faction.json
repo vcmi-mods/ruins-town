@@ -209,22 +209,22 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "ruins/icons/fortbuildedlarge.bmp",
-						"small" : "ruins/icons/fortbuildedsmall.bmp"
+						"large" : "ruins/icons/fortbuildedlarge",
+						"small" : "ruins/icons/fortbuildedsmall"
 					},
 					"normal" : {
-						"large" : "ruins/icons/fortlarge.bmp",
-						"small" : "ruins/icons/fortsmall.bmp"
+						"large" : "ruins/icons/fortlarge",
+						"small" : "ruins/icons/fortsmall"
 					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "ruins/icons/hallbuildedlarge.bmp",
-						"small" : "ruins/icons/hallbuildedsmall.bmp"
+						"large" : "ruins/icons/hallbuildedlarge",
+						"small" : "ruins/icons/hallbuildedsmall"
 					},
 					"normal" : {
-						"large" : "ruins/icons/halllarge.bmp",
-						"small" : "ruins/icons/hallsmall.bmp"
+						"large" : "ruins/icons/halllarge",
+						"small" : "ruins/icons/hallsmall"
 					}
 				}
 			},
@@ -252,7 +252,7 @@
 			},
 			"tavernVideo" : "TAVERN.BIK",
 			"townBackground" : "ruins/town/background",
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE",
 			"moatAbility" : "castleMoat"
 		},
 		"description" : "Ruins is a civilization that remains deeply rooted in its tribal origins, once consisting primarily of hunters and gatherers who have since transitioned into a more settled way of life within the ancient ruins they've discovered. They've embraced agriculture, working harmoniously with nature and seldom resorting to felling trees to construct their homes. Instead, they've chosen to inhabit the existing ruins, though they've fashioned a few basic structures with minimal wood usage."

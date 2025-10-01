@@ -182,8 +182,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/lvl7.def",
 			"map" : "ruins/creatures/adventure/lvl7.def",
-			"iconSmall" : "ruins/creatures/icon/lvl7.bmp",
-			"iconLarge" : "ruins/creatures/portrait/lvl7.bmp",
+			"iconSmall" : "ruins/creatures/icon/lvl7",
+			"iconLarge" : "ruins/creatures/portrait/lvl7",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,

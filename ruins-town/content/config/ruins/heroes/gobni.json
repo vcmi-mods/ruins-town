@@ -19,10 +19,10 @@
 		],
 		"class" : "rn_might",
 		"images" : {
-			"large" : "ruins/heroes/gobni/large.bmp",
-			"small" : "ruins/heroes/gobni/small.bmp",
-			"specialtyLarge" : "ruins/heroes/gobni/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/gobni/ssmall.bmp"
+			"large" : "ruins/heroes/gobni/large",
+			"small" : "ruins/heroes/gobni/small",
+			"specialtyLarge" : "ruins/heroes/gobni/slarge",
+			"specialtySmall" : "ruins/heroes/gobni/ssmall"
 		},
 		"skills" : [
 			{

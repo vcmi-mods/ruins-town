@@ -38,10 +38,10 @@
 			"cast" : "BIND"
 		},
 		"graphics" : {
-			"iconBook" : "spells/grapple/iconbook.bmp",
-			"iconScroll" : "spells/grapple/iconscroll.bmp",
-			"iconScenarioBonus" : "spells/grapple/iconbonus.bmp",
-			"iconEffect" : "spells/grapple/iconeffect.bmp"
+			"iconBook" : "spells/grapple/iconbook",
+			"iconScroll" : "spells/grapple/iconscroll",
+			"iconScenarioBonus" : "spells/grapple/iconbonus",
+			"iconEffect" : "spells/grapple/iconeffect"
 		},
 		"levels" : {
 			"base" : {

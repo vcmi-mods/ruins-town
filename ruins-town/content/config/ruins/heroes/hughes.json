@@ -19,10 +19,10 @@
 		],
 		"class" : "rn_might",
 		"images" : {
-			"large" : "ruins/heroes/hughes/large.bmp",
-			"small" : "ruins/heroes/hughes/small.bmp",
-			"specialtyLarge" : "ruins/heroes/hughes/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/hughes/ssmall.bmp"
+			"large" : "ruins/heroes/hughes/large",
+			"small" : "ruins/heroes/hughes/small",
+			"specialtyLarge" : "ruins/heroes/hughes/slarge",
+			"specialtySmall" : "ruins/heroes/hughes/ssmall"
 		},
 		"skills" : [
 			{
