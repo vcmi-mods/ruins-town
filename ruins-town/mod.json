@@ -3,7 +3,7 @@
 	"description" : "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author" : "Fiorin, Stefan Ciobanu",
 	"contact" : "https://fior.in",
-	"version" : "2.0.31",
+	"version" : "2.0.32",
 	"modType" : "Town",
 	"depends" : [
 		"hota.cove",
@@ -45,12 +45,18 @@
 	},
 	"czech" : {
 		"name" : "Ruiny",
-		"description" : "Ruiny\n – \n\nMod vytvořený s velkou péčí, užijte si ho. Těším se na vaše názory.\n\nVíce informací naleznete na: http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtevřete soubor manual.pdf ve složce s módem.",
+		"description" : "Ruiny jsou město vystavěné na troskách dávných civilizací, kde se prolíná síla přírody s temnými kouzly. Vládnou mu kmeny a osamělí poutníci, kteří se naučili využívat drsné prostředí i magické bytosti, jež zde přebývají.<br/><br/>Jeho armádu tvoří <b>divocí muži</b>, <b>kokatricové</b>, <b>lovci</b>, <b>perytoni</b> a tajemné <b>kelpie</b>, posílené strašlivými <b>wendigy</b> a ohromnými <b>kolosy</b>.<br/><br/>Ruiny se specializují na přírodní magii, iluze a prokletí. Díky tomu dokáží překvapit protivníka a využít terén i počasí ve svůj prospěch.<br/><br/>Je to frakce pro hráče, kteří mají rádi nezkrotnou sílu divočiny, podporovanou magií a záludnými schopnostmi.<br/><br/>Pro více informací si můžete přečíst anglický manuál ve složce s modifikací.",
 		"translations" : [
 			"translation/ruins/czech.json"
 		]
 	},
 	"changelog" : {
+		"2.0.32" : [
+			"Fixed town view palette, now it's correctly recolored per player color",
+			"Fixed dwellings entry point",
+			"Converted BMPs to PNGs",
+			"Updated Czech translation"
+		],
 		"2.0.31" : [
 			"Added flagport frames (Kingdom Overwiev window)"
 		],
