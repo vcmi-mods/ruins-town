@@ -153,8 +153,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/lvl5alt_up.def",
 			"map" : "ruins/creatures/adventure/lvl5alt_up.def",
-			"iconSmall" : "ruins/creatures/icon/lvl5alt_up.bmp",
-			"iconLarge" : "ruins/creatures/portrait/lvl5alt_up.bmp",
+			"iconSmall" : "ruins/creatures/icon/lvl5alt_up",
+			"iconLarge" : "ruins/creatures/portrait/lvl5alt_up",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,

@@ -153,8 +153,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/lvl6_up.def",
 			"map" : "ruins/creatures/adventure/lvl6_up.def",
-			"iconSmall" : "ruins/creatures/icon/lvl6_up.bmp",
-			"iconLarge" : "ruins/creatures/portrait/lvl6_up.bmp",
+			"iconSmall" : "ruins/creatures/icon/lvl6_up",
+			"iconLarge" : "ruins/creatures/portrait/lvl6_up",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1.2,

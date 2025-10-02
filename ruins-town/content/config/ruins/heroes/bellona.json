@@ -20,10 +20,10 @@
 		"female" : true,
 		"class" : "rn_might",
 		"images" : {
-			"large" : "ruins/heroes/bellona/large.bmp",
-			"small" : "ruins/heroes/bellona/small.bmp",
-			"specialtyLarge" : "ruins/heroes/bellona/slarge.bmp",
-			"specialtySmall" : "ruins/heroes/bellona/ssmall.bmp"
+			"large" : "ruins/heroes/bellona/large",
+			"small" : "ruins/heroes/bellona/small",
+			"specialtyLarge" : "ruins/heroes/bellona/slarge",
+			"specialtySmall" : "ruins/heroes/bellona/ssmall"
 		},
 		"skills" : [
 			{

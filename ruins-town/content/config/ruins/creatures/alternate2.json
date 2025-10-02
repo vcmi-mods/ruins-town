@@ -48,8 +48,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/alternate.def",
 			"map" : "ruins/creatures/adventure/alternate.def",
-			"iconSmall" : "ruins/creatures/icon/alternate.bmp",
-			"iconLarge" : "ruins/creatures/portrait/alternate.bmp",
+			"iconSmall" : "ruins/creatures/icon/alternate",
+			"iconLarge" : "ruins/creatures/portrait/alternate",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,

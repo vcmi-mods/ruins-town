@@ -218,8 +218,8 @@
 		"graphics" : {
 			"animation" : "ruins/creatures/battle/lvl2.def",
 			"map" : "ruins/creatures/adventure/lvl2.def",
-			"iconSmall" : "ruins/creatures/icon/lvl2.bmp",
-			"iconLarge" : "ruins/creatures/portrait/lvl2.bmp",
+			"iconSmall" : "ruins/creatures/icon/lvl2",
+			"iconLarge" : "ruins/creatures/portrait/lvl2",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,

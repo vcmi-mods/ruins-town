@@ -19,10 +19,10 @@
 		],
 		"class" : "rn_might",
 		"images" : {
-			"large" : "ruins/heroes/herian_l.bmp",
-			"small" : "ruins/heroes/herian_s.bmp",
-			"specialtyLarge" : "ruins/heroes/herian_sl.bmp",
-			"specialtySmall" : "ruins/heroes/herian_ss.bmp"
+			"large" : "ruins/heroes/herian_l",
+			"small" : "ruins/heroes/herian_s",
+			"specialtyLarge" : "ruins/heroes/herian_sl",
+			"specialtySmall" : "ruins/heroes/herian_ss"
 		},
 		"skills" : [
 			{

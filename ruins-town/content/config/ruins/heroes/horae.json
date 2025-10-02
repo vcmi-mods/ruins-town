@@ -24,8 +24,8 @@
 		"images" : {
 			"large" : "ruins/heroes/horae_l.png",
 			"small" : "ruins/heroes/horae_s.png",
-			"specialtyLarge" : "ruins/heroes/horae_sl.bmp",
-			"specialtySmall" : "ruins/heroes/horae_ss.bmp"
+			"specialtyLarge" : "ruins/heroes/horae_sl",
+			"specialtySmall" : "ruins/heroes/horae_ss"
 		},
 		"skills" : [
 			{
