@@ -1,0 +1,12 @@
+{
+	"ruins-town:rn_creature_lvl6_up" : {
+		"abilities" : {
+			"frenzy" : {
+				"icon" : "bonuses/frenzyattack.png"
+			},
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_wendigoupg.png"
+			}
+		}
+	}
+}

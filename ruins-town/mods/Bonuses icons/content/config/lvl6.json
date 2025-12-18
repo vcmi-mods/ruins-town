@@ -1,0 +1,9 @@
+{
+	"ruins-town:rn_creature_lvl6" : {
+		"abilities" : {
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_wendigo.png"
+			}
+		}
+	}
+}

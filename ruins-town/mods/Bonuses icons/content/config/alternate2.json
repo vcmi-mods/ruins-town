@@ -1,0 +1,9 @@
+{
+	"ruins-town:rn_creature_alternate" : {
+		"abilities" : {
+			"quick" : {
+				"icon" : "bonuses/enchantedairshield.png"
+			}
+		}
+	}
+}

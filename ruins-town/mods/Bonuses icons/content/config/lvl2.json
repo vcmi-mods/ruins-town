@@ -1,0 +1,200 @@
+{
+	"ruins-town:rn_creature_lvl2" : {
+		"abilities" : {
+			"fly" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"petrify" : {
+				"icon" : "bonuses/cockatricepetrify_0.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "stoneGaze"
+				},
+				"values" : [
+					3,
+					6,
+					9,
+					12,
+					15,
+					18,
+					21,
+					24,
+					27,
+					30
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "paralyze",
+					"addInfo" : [
+						3,
+						1
+					],
+					"icon" : "bonuses/paralysisattack.png"
+				},
+				"values" : [
+					5,
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					15,
+					15,
+					20
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "DEATH_STARE",
+					"subtype" : "deathStareGorgon"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			}
+		],
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "ruins/creatures/battle/lvl2.def",
+			"map" : "ruins/creatures/adventure/lvl2.def",
+			"iconSmall" : "ruins/creatures/icon/lvl2",
+			"iconLarge" : "ruins/creatures/portrait/lvl2",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "HARPATTK.wav",
+			"defend" : "HARPDFND.wav",
+			"killed" : "HARPKILL.wav",
+			"move" : "HARPMOVE.wav",
+			"wince" : "HARPWNCE.wav"
+		}
+	}
+}

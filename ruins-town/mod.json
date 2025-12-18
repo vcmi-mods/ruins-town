@@ -3,7 +3,7 @@
 	"description" : "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author" : "Fiorin, Stefan Ciobanu",
 	"contact" : "https://fior.in",
-	"version" : "2.0.33",
+	"version" : "2.0.34",
 	"modType" : "Town",
 	"depends" : [
 		"hota.cove",
@@ -51,6 +51,9 @@
 		]
 	},
 	"changelog" : {
+		"2.0.34" : [
+			"Added additional creatures abilities icons by Kurek"
+		],
 		"2.0.33" : [
 			"Fixed configs after BMPs to PNGs conversion"
 		],

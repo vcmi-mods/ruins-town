@@ -1,0 +1,19 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/lvl2.json",
+		"config/lvl2_up.json",
+		"config/lvl3_up.json",
+		"config/lvl4_up.json",
+		"config/lvl6.json",
+		"config/lvl6_up.json",
+		"config/lvl7_up.json",
+		"config/alternate_up.json",	
+		"config/cm3_up.json"
+	]
+}

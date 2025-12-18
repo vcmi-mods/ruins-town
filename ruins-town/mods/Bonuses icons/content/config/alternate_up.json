@@ -1,0 +1,12 @@
+{
+	"ruins-town:rn_creature_alternate_up" : {
+		"abilities" : {
+			"magic" : {
+				"icon" : "bonuses/bonusmagicmirror2.png"
+			},
+			"spellcaster" : {
+				"icon" : "bonuses/forcefield2.png"
+			}
+		}
+	}
+}

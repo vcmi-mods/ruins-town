@@ -1,0 +1,12 @@
+{
+	"ruins-town:rn_creature_alternate_up" : {
+		"abilities" : {
+			"quick" : {
+				"icon" : "bonuses/enchantedairshield.png"
+			},
+			"jousting" : {
+				"icon" : "bonuses/e_champ_wolpentinger.png"
+			}
+		}
+	}
+}
