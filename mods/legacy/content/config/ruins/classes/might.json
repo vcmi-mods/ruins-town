@@ -1,0 +1,18 @@
+{
+	"ruins-town:rn_might" : {
+		"animation" : {
+			"battle" : {
+				"female" : "ruins/classes/magic/female.def",
+				"male" : "ruins/classes/magic/male.def"
+			}
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "ruins/classes/magic/adventureold.def"
+				}
+			}
+		},
+		"commander" : "trackercommander"
+	}
+}

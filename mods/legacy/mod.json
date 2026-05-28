@@ -5,10 +5,6 @@
 	"contact" : "https://fior.in",
 	"version" : "1.0.2",
 	"modType" : "Interface",
-	"depends" : [
-		"hota.cove",
-		"hota.interference"
-	],
 	"keepDisabled" : true,
 	"chinese" : {
 		"name" : "旧版外观",

@@ -1,0 +1,12 @@
+{
+	"ruins-town:rn_magic" : {
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "ruins/classes/magic/adventureold.def"
+				}
+			}
+		},
+		"commander" : "trackercommander"
+	}
+}

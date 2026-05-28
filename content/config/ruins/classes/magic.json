@@ -44,7 +44,6 @@
 			"firstAid" : 8,
 			"pathfinding" : 8,
 			"mysticism" : 7,
-			"interference" : 7,
 			"eagleEye" : 7,
 			"scouting" : 7,
 			"resistance" : 6,
@@ -77,8 +76,7 @@
 			"ruins" : 8,
 			"necropolis" : 0,
 			"inferno" : 0,
-			"tower" : 0,
-			"cove" : 4
+			"tower" : 0
 		}
 	}
 }

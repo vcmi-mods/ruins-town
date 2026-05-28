@@ -1,0 +1,10 @@
+{
+	"ruins-town:rn_might" : {
+		"secondarySkills" : {
+			"interference" : 4
+		},
+		"tavern" : {
+			"cove" : 6
+		}
+	}
+}
