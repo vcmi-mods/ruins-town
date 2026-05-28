@@ -2,7 +2,7 @@
 	"name" : "Ruins",
 	"author" : "Fiorin, Stefan Ciobanu",
 	"contact" : "https://fior.in http://heroescommunity.com/viewthread.php3?TID=44951",
-	"version" : "2.0.34",
+	"version" : "2.0.35",
 	"modType" : "Town",
 	"conflicts" : [
 		"ruins-town-var"
@@ -46,7 +46,8 @@
 			"Removed HotA hard dependency",
 			"Moved mod to root",
 			"Adjusted translation paths",
-			"Added new description"
+			"Added new description",
+			"Updated Czech translation"
 		],
 		"2.0.34" : [
 			"Added additional creatures abilities icons by Kurek"
