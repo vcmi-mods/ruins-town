@@ -1,0 +1,30 @@
+{
+	"name" : "HotA connector",
+	"description" : "Connects Ruins with Interference",
+	"author" : "Fiorin, Stefan Ciobanu",
+	"contact" : "https://fior.in",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.cove",
+		"hota.interference"
+	],
+	"conflicts" : [
+		"ruins-town-var"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"heroClasses" : [
+		"config/ruins/classes/might.json",
+		"config/ruins/classes/magic.json"
+	],
+	"heroes" : [
+		"config/ruins/heroes/woden.json"
+	]
+}

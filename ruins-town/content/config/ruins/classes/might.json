@@ -53,7 +53,6 @@
 			"firstAid" : 5,
 			"wisdom" : 4,
 			"mysticism" : 4,
-			"interference" : 4,
 			"navigation" : 4,
 			"airMagic" : 4,
 			"estates" : 3,
@@ -77,8 +76,7 @@
 			"stronghold" : 6,
 			"ruins" : 9,
 			"inferno" : 0,
-			"tower" : 0,
-			"cove" : 6
+			"tower" : 0
 		}
 	}
 }
