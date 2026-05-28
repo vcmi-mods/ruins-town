@@ -26,5 +26,10 @@
 	],
 	"heroes" : [
 		"config/ruins/heroes/woden.json"
-	]
+	],
+	"czech" : {
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
 }
