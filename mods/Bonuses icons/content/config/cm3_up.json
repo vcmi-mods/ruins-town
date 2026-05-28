@@ -2,7 +2,7 @@
 	"ruins-town:rn_creature_cm3_up" : {
 		"abilities" : {
 			"trapper" : {
-				"icon" : "bonuses/landmine2.png"
+				"icon" : "bonuses_ruins/landmine2.png"
 			}
 		}
 	}

@@ -2,10 +2,10 @@
 	"ruins-town:rn_creature_lvl2" : {
 		"abilities" : {
 			"fly" : {
-				"icon" : "bonuses/e_fly2.png"
+				"icon" : "bonuses_ruins/e_fly2.png"
 			},
 			"petrify" : {
-				"icon" : "bonuses/cockatricepetrify_0.png"
+				"icon" : "bonuses_ruins/cockatricepetrify_0.png"
 			}
 		},
 		"stackExperience" : [
@@ -125,7 +125,7 @@
 						3,
 						1
 					],
-					"icon" : "bonuses/paralysisattack.png"
+					"icon" : "bonuses_ruins/paralysisattack.png"
 				},
 				"values" : [
 					5,

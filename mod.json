@@ -47,7 +47,8 @@
 			"Moved mod to root",
 			"Adjusted translation paths",
 			"Added new description",
-			"Updated Czech translation"
+			"Updated Czech translation",
+			"Updated structures settings to clean console warnings"
 		],
 		"2.0.34" : [
 			"Added additional creatures abilities icons by Kurek"

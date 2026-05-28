@@ -2,10 +2,10 @@
 	"ruins-town:rn_creature_lvl7_up" : {
 		"abilities" : {
 			"earthquake" : {
-				"icon" : "bonuses/earthquake3.png"
+				"icon" : "bonuses_ruins/earthquake3.png"
 			},
 			"paralize" : {
-				"icon" : "bonuses/earthquakeattack.png"
+				"icon" : "bonuses_ruins/earthquakeattack.png"
 			}
 		}
 	}
