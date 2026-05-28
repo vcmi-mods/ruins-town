@@ -2,7 +2,7 @@
 	"ruins-town:rn_creature_lvl4_up" : {
 		"abilities" : {
 			"slow" : {
-				"icon" : "bonuses/kelpieupg0.png"
+				"icon" : "bonuses_ruins/kelpieupg0.png"
 			}
 		}
 	}

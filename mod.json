@@ -1,9 +1,8 @@
 {
 	"name" : "Ruins",
-	"description" : "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author" : "Fiorin, Stefan Ciobanu",
-	"contact" : "https://fior.in",
-	"version" : "2.0.34",
+	"contact" : "https://fior.in http://heroescommunity.com/viewthread.php3?TID=44951",
+	"version" : "2.0.35",
 	"modType" : "Town",
 	"conflicts" : [
 		"ruins-town-var"
@@ -15,38 +14,42 @@
 		"name" : "Ruinen",
 		"description" : "Ruinen Stadt",
 		"translations" : [
-			"translation/ruins/german.json"
+			"translation/german.json"
 		]
 	},
 	"chinese" : {
 		"name" : "遗迹",
-		"description" : "遗迹有着浓厚的原始氛围，兵种主要来自凯尔特神话和阿尔冈昆传说。更多信息请访问http://heroescommunity.com/viewthread.php3?TID=44951进行反馈。",
 		"translations" : [
-			"translation/ruins/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"polish" : {
 		"name" : "Ruiny",
-		"description" : "Mod dodaje miasto: Ruiny\n – \n\nMod wykonany z wielkim zaangażowaniem, miłej zabawy. Czekam na Twoją opinię.\n\n Więcej informacji znajdziesz na http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOtwórz plik manual.pdf w katalogu mod",
 		"translations" : [
-			"translation/ruins/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Руины",
-		"description" : "Новый город Руины от Tok, в основе которого лежит кельтская мифология. Подробнее на http://heroescommunity.com/viewthread.php3?TID=44951",
 		"translations" : [
-			"translation/ruins/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"czech" : {
 		"name" : "Ruiny",
-		"description" : "Ruiny jsou město vystavěné na troskách dávných civilizací, kde se prolíná síla přírody s temnými kouzly. Vládnou mu kmeny a osamělí poutníci, kteří se naučili využívat drsné prostředí i magické bytosti, jež zde přebývají.<br/><br/>Jeho armádu tvoří <b>divocí muži</b>, <b>kokatricové</b>, <b>lovci</b>, <b>perytoni</b> a tajemné <b>kelpie</b>, posílené strašlivými <b>wendigy</b> a ohromnými <b>kolosy</b>.<br/><br/>Ruiny se specializují na přírodní magii, iluze a prokletí. Díky tomu dokáží překvapit protivníka a využít terén i počasí ve svůj prospěch.<br/><br/>Je to frakce pro hráče, kteří mají rádi nezkrotnou sílu divočiny, podporovanou magií a záludnými schopnostmi.<br/><br/>Pro více informací si můžete přečíst anglický manuál ve složce s modifikací.",
 		"translations" : [
-			"translation/ruins/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"changelog" : {
+		"2.0.35" : [
+			"Removed HotA hard dependency",
+			"Moved mod to root",
+			"Adjusted translation paths",
+			"Added new description",
+			"Updated Czech translation",
+			"Updated structures settings to clean console warnings"
+		],
 		"2.0.34" : [
 			"Added additional creatures abilities icons by Kurek"
 		],

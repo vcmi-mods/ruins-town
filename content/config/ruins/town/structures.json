@@ -48,7 +48,7 @@
 					"border" : "ruins/town/border/fort",
 					"x" : 334,
 					"y" : 27,
-					"z" : 0
+					"z" : -2
 				},
 				"citadel" : {
 					"animation" : "ruins/buildings/citadel",
@@ -56,7 +56,7 @@
 					"border" : "ruins/town/border/citadel",
 					"x" : 334,
 					"y" : 27,
-					"z" : 0
+					"z" : -2
 				},
 				"castle" : {
 					"animation" : "ruins/buildings/castle",
@@ -64,7 +64,7 @@
 					"border" : "ruins/town/border/castle",
 					"x" : 334,
 					"y" : 27,
-					"z" : 0
+					"z" : -2
 				},
 				"villageHall" : {
 					"animation" : "ruins/buildings/villagehall",
@@ -104,7 +104,7 @@
 					"border" : "ruins/town/border/blacksmith",
 					"x" : 252,
 					"y" : 189,
-					"z" : 4
+					"z" : 5
 				},
 				"marketplace" : {
 					"animation" : "ruins/buildings/marketplace",
@@ -195,7 +195,7 @@
 					"border" : "ruins/town/border/dwellingLvl4",
 					"x" : 0,
 					"y" : 162,
-					"z" : 3
+					"z" : 2
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "ruins/buildings/dwellingUpLvl4",
@@ -203,7 +203,7 @@
 					"border" : "ruins/town/border/dwellingUpLvl4",
 					"x" : 0,
 					"y" : 162,
-					"z" : 3
+					"z" : 2
 				},
 				"dwellingLvl5" : {
 					"animation" : "ruins/buildings/dwellingLvl5",
@@ -227,7 +227,7 @@
 					"border" : "ruins/town/border/dwellingLvl6",
 					"x" : 0,
 					"y" : 70,
-					"z" : 0
+					"z" : -1
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "ruins/buildings/dwellingUpLvl6",
@@ -235,7 +235,7 @@
 					"border" : "ruins/town/border/dwellingUpLvl6",
 					"x" : 0,
 					"y" : 70,
-					"z" : 0
+					"z" : -1
 				},
 				"hordeLvl6" : {
 					"animation" : "ruins/buildings/hordeLvl6",
@@ -244,7 +244,7 @@
 					"hidden" : true,
 					"x" : 0,
 					"y" : 70,
-					"z" : 1
+					"z" : -1
 				},
 				"hordeUpLvl6" : {
 					"animation" : "ruins/buildings/hordeUpLvl6",
@@ -254,7 +254,7 @@
 					"builds" : "hordeLvl6",
 					"x" : 0,
 					"y" : 70,
-					"z" : 1
+					"z" : -1
 				},
 				"dwellingLvl7" : {
 					"animation" : "ruins/buildings/dwellingLvl7",
@@ -302,7 +302,7 @@
 					"border" : "ruins/town/border/dwellingAlternateLvl5",
 					"x" : 725,
 					"y" : 54,
-					"z" : 1
+					"z" : 2
 				},
 				"dwellingAlternateUpLvl5" : {
 					"animation" : "ruins/buildings/dwellingAlternateUpLvl5",
@@ -310,7 +310,7 @@
 					"border" : "ruins/town/border/dwellingAlternateUpLvl5",
 					"x" : 725,
 					"y" : 54,
-					"z" : 1
+					"z" : 2
 				}
 			}
 		}

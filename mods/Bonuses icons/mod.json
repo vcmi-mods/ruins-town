@@ -15,5 +15,9 @@
 		"config/lvl7_up.json",
 		"config/alternate_up.json",
 		"config/cm3_up.json"
-	]
+	],
+	"czech" : {
+		"name" : "Ikony bonusů",
+		"description" : "Ikony pro schopnosti jednotek."
+	}
 }

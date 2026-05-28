@@ -10,14 +10,14 @@
 		"name" : "旧版外观",
 		"description" : "此模组将使遗迹城市和其中建筑物恢复旧版外观。",
 		"translations" : [
-			"translation/legacy/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Původní vzhled",
 		"description" : "Tato modifikace oboví původní vzhled města a dalších objektů",
 		"translations" : [
-			"translation/legacy/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"factions" : [

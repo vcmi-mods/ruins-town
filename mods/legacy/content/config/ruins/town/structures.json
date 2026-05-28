@@ -104,7 +104,7 @@
 					"border" : "ruins/town/border/blacksmith",
 					"x" : 614,
 					"y" : 164,
-					"z" : 1
+					"z" : 4
 				},
 				"marketplace" : {
 					"animation" : "ruins/buildings/marketplace",
@@ -195,7 +195,7 @@
 					"border" : "ruins/town/border/dwellingLvl4",
 					"x" : 162,
 					"y" : 158,
-					"z" : 2
+					"z" : 0
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "ruins/buildings/dwellingUpLvl4",
@@ -203,7 +203,7 @@
 					"border" : "ruins/town/border/dwellingUpLvl4",
 					"x" : 146,
 					"y" : 154,
-					"z" : 2
+					"z" : 0
 				},
 				"dwellingLvl5" : {
 					"animation" : "ruins/buildings/dwellingLvl5",
@@ -244,7 +244,7 @@
 					"hidden" : true,
 					"x" : 162,
 					"y" : 158,
-					"z" : 2
+					"z" : 0
 				},
 				"hordeUpLvl6" : {
 					"animation" : "ruins/buildings/dwellingUpLvl4",
@@ -254,7 +254,7 @@
 					"builds" : "hordeLvl6",
 					"x" : 146,
 					"y" : 154,
-					"z" : 2
+					"z" : 0
 				},
 				"dwellingLvl7" : {
 					"animation" : "ruins/buildings/dwellingLvl7",
@@ -302,7 +302,7 @@
 					"border" : "ruins/town/border/dwellingLvl5",
 					"x" : 88,
 					"y" : 276,
-					"z" : 4
+					"z" : 5
 				},
 				"dwellingAlternateUpLvl5" : {
 					"animation" : "ruins/buildings/dwellingAlternateUpLvl5",
@@ -310,7 +310,7 @@
 					"border" : "ruins/town/border/dwellingAlternateUpLvl5",
 					"x" : 88,
 					"y" : 269,
-					"z" : 4
+					"z" : 5
 				}
 			}
 		}

@@ -36,5 +36,8 @@
 	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl6_dwelling.name" : "Les u řeky",
 	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl7_dwelling.name" : "Kamenný kruh",
 	"creatures.ruins-town.legacy.trackercommander.name.plural" : "Zkušení stopaři",
-	"creatures.ruins-town.legacy.trackercommander.name.singular" : "Zkušený stopař"
+	"creatures.ruins-town.legacy.trackercommander.name.singular" : "Zkušený stopař",
+	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl1_dwelling.name" : "Komunita",
+	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl2_dwelling.name" : "Hnízdo šupinatých",
+	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl3_dwelling.name" : "Lovecká základna"
 }
