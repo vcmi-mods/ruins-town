@@ -37,8 +37,6 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Born an Erathian, Woden embarked on a journey of knowledge during his youth, enrolling at the esteemed University of Celeste. Despite his innate attraction to natural magic, the institution's curriculum leaned heavily toward elemental disciplines like fire, water, and air. Disheartened by the lack of focus on nature magic, he charted his own path into the verdant depths of the forests, where he painstakingly cultivated his mastery of this ancient art. All the while, Woden maintained his ties to the Empire of Erathia by serving as the royal herbalist, bridging the worlds of academia and the untamed wilds.",
-			"name" : "Woden",
 			"specialty#override" : {
 				"tooltip" : "Secondary Skill Bonus: Interference",
 				"name" : "Interference",
