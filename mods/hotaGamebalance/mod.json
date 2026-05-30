@@ -1,0 +1,30 @@
+{
+	"name" : "HotA Gamebalance connector",
+	"description" : "Connects Ruins with Hota's Game Balance module",
+	"author" : "Fiorin, Stefan Ciobanu, Karyoplasma",
+	"contact" : "https://fior.in",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.gamebalance.heroes"
+	],
+	"conflicts" : [
+		"ruins-town-var"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/ruins/heroes/gobni.json",
+		"config/ruins/heroes/herian.json",
+		"config/ruins/heroes/hughes.json",
+		"config/ruins/heroes/mogh.json",
+		"config/ruins/heroes/myra.json",
+		"config/ruins/heroes/neit.json"
+	]
+}
