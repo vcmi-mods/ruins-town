@@ -19,5 +19,9 @@
 	"czech" : {
 		"name" : "Ikony bonusů",
 		"description" : "Ikony pro schopnosti jednotek."
+	},
+	"german" : {
+		"name" : "Zusätzliche Bonussymbole",
+		"description" : "Fügt Bonussymbole für die Fähigkeiten der Kreaturen hinzu."
 	}
 }

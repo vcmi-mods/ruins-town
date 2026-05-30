@@ -26,5 +26,30 @@
 		"config/ruins/heroes/mogh.json",
 		"config/ruins/heroes/myra.json",
 		"config/ruins/heroes/neit.json"
-	]
+	],
+	"chinese" : {
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"german" : {
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
+	}
 }
