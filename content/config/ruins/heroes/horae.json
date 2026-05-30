@@ -52,7 +52,7 @@
 			"specialty" : {
 				"description" : "Casts Earthquake with expert effects. Starts with Earthquake spell.",
 				"name" : "Earthquake",
-				"tooltip" : "Maxed Earthquake spell. Starts with Earthquake."
+				"tooltip" : "Spell Bonus: Earthquake"
 			}
 		}
 	}

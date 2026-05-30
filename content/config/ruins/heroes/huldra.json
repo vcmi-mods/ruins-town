@@ -52,9 +52,9 @@
 			"biography" : "Huldra, a being descended from pure light, possesses the innate ability to effortlessly influence the minds of lesser creatures and maintain a constant awareness of their thoughts. However, her benevolent nature guides her to exercise these powers only when circumstances deem it necessary. Having descended from the Elemental Plane of Light long ago, traversed the world, but it was the Emerald Forest that truly captured her heart. Her connection to the forest was profound, and she always felt the spirits that surrounded her, strengthening her bond with the natural world. However, on this particular journey, an unfamiliar presence stirred within her, distinct and unlike any she had ever experienced before.",
 			"name" : "Huldra",
 			"specialty" : {
-				"description" : "Cast Hypnotize with maxed power.",
+				"description" : "Casts Hypnotize with expert effects. Starts with Hypnotize spell.",
 				"name" : "Hypnotize",
-				"tooltip" : "Casts Hypnotize with expert effects. Starts with Hypnotize spell."
+				"tooltip" : "Spell Bonus: hypnotize"
 			}
 		}
 	}

@@ -59,9 +59,9 @@
 			"biography" : "Stef is a welsh bard and poet, writer of inumerous songs.",
 			"name" : "Stef",
 			"specialty" : {
-				"description" : "Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
+				"description" : "Opposing heroes receive a -20% reduction to Knowledge skill in battle.",
 				"name" : "Writing",
-				"tooltip" : "Knowledge enemy reduction."
+				"tooltip" : "Enemy Knowledge reduction"
 			}
 		}
 	}

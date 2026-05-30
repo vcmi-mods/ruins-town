@@ -48,9 +48,9 @@
 			"biography" : "Once the revered blacksmith of the tribe, he gracefully passed the mantle to the younger generation. Now, in his multifaceted role as a tribe member, he has channeled his skills toward the art of conscientious tree-felling and actively contributes to the forest's rejuvenation.",
 			"name" : "Grimm",
 			"specialty" : {
-				"description" : "+2 Wood each day",
+				"description" : "Increases kingdom's wood production by 2 per day.",
 				"name" : "+2 Wood",
-				"tooltip" : "Increases kingdom's wood production by 2 per day."
+				"tooltip" : "+2 Wood each day"
 			}
 		}
 	}

@@ -9,8 +9,8 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
 					"requires" : [
 						"villageHall"
 					]
@@ -25,7 +25,7 @@
 						"mercury" : 4,
 						"gems" : 4
 					},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
@@ -38,7 +38,7 @@
 						"mercury" : 6,
 						"gems" : 6
 					},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3"
 				},
 				"mageGuild4" : {
@@ -51,7 +51,7 @@
 						"mercury" : 8,
 						"gems" : 8
 					},
-					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4"
 				},
 				"mageGuild5" : null,
@@ -60,7 +60,7 @@
 						"gold" : 500,
 						"wood" : 5
 					},
-					"description" : "The Tavern allow recruiting heroes.",
+					"description" : "The Tavern allows hiring heroes, hearing the latest gossip and visiting the Thieves' Guild. It also increases morale for troops defending the city.",
 					"name" : "Tavern"
 				},
 				"fort" : {
@@ -69,7 +69,7 @@
 						"ore" : 20,
 						"wood" : 20
 					},
-					"description" : "The Fort provides your ruins with defensive walls.",
+					"description" : "The Fort provides your town with defensive walls.",
 					"name" : "Fort"
 				},
 				"citadel" : {
@@ -138,7 +138,7 @@
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"description" : "The Blacksmith provides your armies with First Aid Tent.",
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"warMachine" : "firstAidTent",
 					"name" : "Blacksmith",
 					"requires" : [
@@ -150,7 +150,7 @@
 						"gold" : 2000,
 						"wood" : 5
 					},
-					"description" : "Siege Junkyard provides your armies with Ballistas.",
+					"description" : "The Siege Junkyard provides your armies with Ballistas.",
 					"warMachine" : "ballista",
 					"name" : "Siege Junkyard",
 					"requires" : [
@@ -167,9 +167,9 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"description" : "Crop fields increases Wildmen production by 9 per week.",
+					"description" : "The Crop Fields increase Wild Man production by 9 per week.",
 					"id" : 18,
-					"name" : "Crop fields",
+					"name" : "Crop Fields",
 					"requires" : [
 						"dwellingLvl1"
 					],
@@ -179,9 +179,9 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"description" : "Crop fields increases Wild Chief production by 9 per week.",
+					"description" : "The Crop Fields increase Wild Chief production by 9 per week.",
 					"id" : 19,
-					"name" : "Crop fields",
+					"name" : "Crop Fields",
 					"requires" : [
 						"hordeLvl1"
 					],
@@ -248,7 +248,7 @@
 					"cost" : {
 						"gold" : 1500
 					},
-					"description" : "Impaling Stakes increases Wendigos production by 2 per week.",
+					"description" : "The Impaling Stakes increase Wendigo production by 2 per week.",
 					"id" : 24,
 					"name" : "Impaling Stakes",
 					"requires" : [
@@ -260,7 +260,7 @@
 					"cost" : {
 						"gold" : 1500
 					},
-					"description" : "Impaling Stakes increases Feral Wendigos production by 2 per week.",
+					"description" : "The Impaling Stakes increase Feral Wendigo production by 2 per week.",
 					"id" : 25,
 					"name" : "Impaling Stakes",
 					"requires" : [
@@ -270,7 +270,7 @@
 					"mode" : "auto"
 				},
 				"grail" : {
-					"description" : "The Wickerman increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 20% health bonus and your heroes get maxed Sacrifice spell.",
+					"description" : "The Wickerman increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day. All your creatures from Ruins get a 20% health bonus and all allied heroes gain the Sacrifice spell on Expert level.",
 					"name" : "The Wickerman",
 					"bonuses" : [
 						{
@@ -304,7 +304,7 @@
 					"cost" : {
 						"gold" : 500
 					},
-					"description" : "Shirefolk allows you to recruit Wildmen.",
+					"description" : "The Shirefolk allows you to recruit Wild Men.",
 					"name" : "Shirefolk",
 					"requires" : [
 						"fort"
@@ -315,7 +315,7 @@
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"description" : "Scalecrest Roost allows you to recruit Cockatrices.",
+					"description" : "The Scalecrest Roost allows you to recruit Cockatrices.",
 					"name" : "Scalecrest Roost",
 					"requires" : [
 						"allOf",
@@ -332,7 +332,7 @@
 						"gold" : 1000,
 						"wood" : 10
 					},
-					"description" : "Trapcrafters HQ allows you to recruit Trackers.",
+					"description" : "The Trapcrafters HQ allows you to recruit Trackers.",
 					"name" : "Trapcrafters HQ",
 					"requires" : [
 						"allOf",
@@ -346,7 +346,7 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"description" : "Aquarius Pond allow you to recruit Kelpies.",
+					"description" : "The Aquarius Pond allow you to recruit Kelpies.",
 					"name" : "Aquarius Pond",
 					"requires" : [
 						"allOf",
@@ -364,7 +364,7 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"description" : "High Peak Nests allows you to recruit Perytons.",
+					"description" : "The High Peak Nests allow you to recruit Perytons.",
 					"name" : "High Peak Nests",
 					"requires" : [
 						"allOf",
@@ -387,7 +387,7 @@
 						"gold" : 4000,
 						"wood" : 5
 					},
-					"description" : "Cave Thicket allows you to recruit Wendigos.",
+					"description" : "The Cave Thicket allows you to recruit Wendigos.",
 					"name" : "Cave Thicket",
 					"requires" : [
 						"allOf",
@@ -404,7 +404,7 @@
 						"gold" : 10000,
 						"ore" : 30
 					},
-					"description" : "Mountain Nexus allow you to recruit Walking Stones.",
+					"description" : "The Mountain Nexus allows you to recruit Walking Stones.",
 					"name" : "Mountain Nexus",
 					"requires" : [
 						"allOf",
@@ -458,7 +458,7 @@
 						"gold" : 1500,
 						"wood" : 5
 					},
-					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
+					"description" : "The Upg. High Peak Nests allow you to recruit Grand Perytons.",
 					"name" : "Upg. High Peak Nests",
 					"upgrades" : "dwellingLvl5",
 					"requires" : [
@@ -500,7 +500,7 @@
 						"wood" : 3,
 						"gold" : 2500
 					},
-					"description" : "Witch Hut allows you to recruit Forest Witches.",
+					"description" : "The Witch Hut allows you to recruit Forest Witches.",
 					"id" : 48,
 					"name" : "Witch Hut",
 					"requires" : [
@@ -525,7 +525,7 @@
 						"sulfur" : 2,
 						"gold" : 2500
 					},
-					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
+					"description" : "The Upg. Witch Hut allows you to recruit Priestesses.",
 					"id" : 55,
 					"name" : "Upg. Witch Hut",
 					"upgrades" : "dwellingAlternateLvl5",
