@@ -65,7 +65,7 @@
 			"specialty" : {
 				"description" : "Casts Slow with expert effects but not expert range. Your creatures are immune to Slow. Starts with Slow spell.",
 				"name" : "Slow",
-				"tooltip" : "Maxed Slow spell. Slow immunity. Starts with Slow."
+				"tooltip" : "Spell Bonus: Slow"
 			}
 		}
 	}
