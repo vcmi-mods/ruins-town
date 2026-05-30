@@ -1,0 +1,9 @@
+{
+	"ruins-town:02rn_gobni" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Cockatrices or Dire Cockatrices by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	}
+}

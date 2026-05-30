@@ -1,0 +1,9 @@
+{
+	"ruins-town:05rn_herian" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Trackers or Huntsmen by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		}
+	}
+}

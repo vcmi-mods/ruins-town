@@ -1,0 +1,12 @@
+{
+	"ruins-town:06rn_hughes" : {
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Wild Men or Wild Chiefs by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	}
+}
