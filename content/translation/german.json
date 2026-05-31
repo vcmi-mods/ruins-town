@@ -43,7 +43,7 @@
 	"building.ruins-town.ruins.dwellingUpLvl7.name": "Aufg. Gebirgs-Nexus",
 	"building.ruins-town.ruins.fort.description": "Das Fort beschützt Eure Stadt mit defensiven Mauern.",
 	"building.ruins-town.ruins.fort.name": "Fort",
-	"building.ruins-town.ruins.grail.description": "Die Präsenz des Baums des Lebens erhöht die Kreaturenerzeugung um 50%, versorgt Euer Königreich mit 5000 Gold extra jeden Tag und erhöht die Gesundheit aller Kreaturen aus den Ruinen um 30%. Eure Helden erhalten den Zauberspruch 'Opfer Meisterhaft'.",
+	"building.ruins-town.ruins.grail.description": "Die Präsenz des Baums des Lebens erhöht die Kreaturenerzeugung um 50%, versorgt Euer Königreich mit 5000 Gold extra jeden Tag und erhöht die Gesundheit aller Kreaturen aus den Ruinen um 20%. Eure Helden erhalten den Zauberspruch 'Opfer Meisterhaft'.",
 	"building.ruins-town.ruins.grail.name": "Baum des Lebens",
 	"building.ruins-town.ruins.hordeLvl1.description": "Die Erntefelder erhöhen die Produktion von Wilden Männern um 9 pro Woche.",
 	"building.ruins-town.ruins.hordeLvl1.name": "Erntefelder",
