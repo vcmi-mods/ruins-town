@@ -1,0 +1,8 @@
+{
+	"hero.ruins-town.02rn_gobni.specialty.description" : "Increases the Speed of any Cockatrices or Dire Cockatrices by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+	"hero.ruins-town.05rn_herian.specialty.description" : "Increases the Speed of any Trackers or Huntsmen by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+	"hero.ruins-town.06rn_hughes.specialty.description" : "Increases the Speed of any Wild Men or Wild Chiefs by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+	"hero.ruins-town.13rn_myra.specialty.description" : "Receives a 5% per level bonus to bonus Health provided by the First Aid Tent.",
+	"hero.ruins-town.rn_mogh.specialty.description" : "Increases the Speed of any Wendigos or Feral Wendigos by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+	"hero.ruins-town.rn_neit.specialty.description" : "Increases the Speed of any Perytons and Grand Perytons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+}
