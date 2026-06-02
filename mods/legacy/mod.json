@@ -20,6 +20,13 @@
 			"translation/czech.json"
 		]
 	},
+	"polish" : {
+		"name" : "Poprzedni ekran miasta",
+		"description" : "Ten submod zmienia istniejący ekran miasta na ten z poprzednich iteracji",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
 	"factions" : [
 		"config/ruins/town/buildings.json",
 		"config/ruins/town/structures.json"
