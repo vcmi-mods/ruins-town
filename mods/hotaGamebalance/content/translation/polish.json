@@ -1,2 +1,8 @@
 {
+	"hero.ruins-town.02rn_gobni.specialty.description": "Zwiększa {szybkość} kuroliszków i złowieszczych kuroliszków o {1} oraz ich {atak} i {obronę} o {20%} za każde {2} poziomy bohatera (zaokrąglając w górę).",
+	"hero.ruins-town.05rn_herian.specialty.description": "Zwiększa {szybkość} traperów i myśliwych o {1} oraz ich {atak} i {obronę} o {20%} za każde {3} poziomy bohatera (zaokrąglając w górę).",
+	"hero.ruins-town.06rn_hughes.specialty.description": "Zwiększa {szybkość} dzikusów i wodzów o {1} oraz ich {atak} i {obronę} o {10%} za każdy poziom bohatera (zaokrąglając w górę).",
+	"hero.ruins-town.rn_mogh.specialty.description": "Zwiększa {szybkość} wendigo i dzikich wendigo o {1} oraz ich {atak} i {obronę} o {20%} za każde {6} poziomy bohatera (zaokrąglając w górę).",
+	"hero.ruins-town.rn_neit.specialty.description": "Zwiększa {szybkość} perytów i wielkich perytów o {1} oraz ich {atak} i {obronę} o {20%} za każde {5} poziomów bohatera (zaokrąglając w górę).",
+	"hero.ruins-town.13rn_myra.specialty.description": "Zwiększa o {5%} skuteczność ozdrowieńczą {namiotów medyka}."
 }
