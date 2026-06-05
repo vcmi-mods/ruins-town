@@ -1,2 +1,8 @@
 {
+	"hero.ruins-town.02rn_gobni.specialty.description": "Erhöht die Geschwindigkeit verbündeter Kakadus und Schrecklicher Kakadus um 1, sowie deren Angriff und Verteidigung um 20% für je 2 Stufen (aufgerundet).",
+	"hero.ruins-town.05rn_herian.specialty.description": "Erhöht die Geschwindigkeit verbündeter Verfolger und Veteranen-Verfolger um 1, sowie deren Angriff und Verteidigung um 20% für je 3 Stufen (aufgerundet).",
+	"hero.ruins-town.06rn_hughes.specialty.description": "Erhöht die Geschwindigkeit verbündeter Wilder Männer und Wilder Häuptlinge um 1, sowie deren Angriff und Verteidigung um 10% für jede Stufe (aufgerundet).",
+	"hero.ruins-town.13rn_myra.specialty.description": "Erhält einen Bonus von 5% pro Stufe auf die zusätzlichen Lebenspunkte, die durch das Erste Hilfe-Zelt bereitgestellt werden.",
+	"hero.ruins-town.rn_mogh.specialty.description": "Erhöht die Geschwindigkeit verbündeter Wendigos und Wilder Wendigos um 1, sowie deren Angriff und Verteidigung um 20% für je 6 Stufen (aufgerundet).",
+	"hero.ruins-town.rn_neit.specialty.description": "Erhöht die Geschwindigkeit verbündeter Perytons und Großer Perytons um 1, sowie deren Angriff und Verteidigung um 20% für je 5 Stufen (aufgerundet)."
 }
