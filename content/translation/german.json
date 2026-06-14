@@ -202,7 +202,7 @@
 	"hero.ruins-town.16rn_woden.name": "Woden",
 	"hero.ruins-town.rn_mogh.biography": "Mogh ist einer der ersten Waldelfen-Druiden, der vom Gründer des Ältestenkreises unterrichtet wurde. Das AvLean-Königreich beauftragte ihn, den Smaragdwald zu beschützen. Er entschied sich, dort zu leben und verbrachte sein Leben damit, selbst die furchterregendsten Kreaturen des Waldes zu erforschen und sich mit ihnen anzufreunden. Zwar nahm er immer noch Schüler aus dem Reich auf und unterrichtete sie in Erd- und Naturmagie, doch seine Isolation machte ihn zu einem schrulligen alten Mann. Heute fühlt er sich mehr mit dem Wald als mit dem Elfenreich verbunden.",
 	"hero.ruins-town.rn_mogh.name": "Mogh",
-	"hero.ruins-town.rn_mogh.specialty.name": "Wendigo",
+	"hero.ruins-town.rn_mogh.specialty.name": "Wendigos",
 	"hero.ruins-town.rn_mogh.specialty.tooltip": "Kreaturenbonus: Wendigos",
 	"hero.ruins-town.rn_neit.biography": "Neits Familie hatte lange Zeit die geschätzte Rolle der Peryton-Bändiger inne, eine Tradition, die über Generationen weitergegeben wurde. Doch als ihr Stamm einer schrecklichen Bedrohung ausgesetzt war, stand sie vor einer schweren Entscheidung. In einem verzweifelten Versuch, sich der Hilfe der Perytons zu versichern, ließ sie ihre abgelegene Heimat zurück. Als sie zurückkehrte, musste sie leider feststellen, dass die Zeit sie verraten hatte und sie zu spät kam. Die Tragödie hatte sich bereits entfaltet, und die meisten ihrer Leute waren tot.",
 	"hero.ruins-town.rn_neit.name": "Neit",
@@ -239,5 +239,14 @@
 	"creatures.ruins-town.rn_creature_lvl3_up.bonus.trapper": "{Guerilla}\nZaubert 'Mine verbessert' zum Beginn eines Kampfes",
 	"creatures.ruins-town.rn_creature_lvl4_up.bonus.immunity": "{Gegenstrom-Immunität}\nEldritch Kelpies sind immun gegen alle negativen Wassermagieeffekte",
 	"creatures.ruins-town.rn_creature_lvl6.bonus.fearless": "{Furchtlos}\nImmun gegen Furcht",
-	"creatures.ruins-town.rn_creature_lvl6_up.bonus.fearless": "{Furchtlos}\nImmun gegen Furcht"
+	"creatures.ruins-town.rn_creature_lvl6_up.bonus.fearless": "{Furchtlos}\nImmun gegen Furcht",
+	"hero.ruins-town.02rn_gobni.specialty.description": "Erhöht die Geschwindigkeit verbündeter Kakadus und Schrecklicher Kakadus um 1, sowie deren Angriff und Verteidigung um 5% für je 2 Stufen (aufgerundet).",
+	"hero.ruins-town.05rn_herian.specialty.description": "Erhöht die Geschwindigkeit verbündeter Verfolger und Veteranen-Verfolger um 1, sowie deren Angriff und Verteidigung um 5% für je 3 Stufen (aufgerundet).",
+	"hero.ruins-town.06rn_hughes.specialty.description": "Erhöht die Geschwindigkeit verbündeter Wilder Männer und Wilder Häuptlinge um 1, sowie deren Angriff und Verteidigung um 5% für jede Stufe (aufgerundet).",
+	"hero.ruins-town.13rn_myra.specialty.description": "Erhält 5% Bonus pro Stufe auf die Fähigkeit Erste Hilfe.",
+	"hero.ruins-town.16rn_woden.specialty.description": "Erhält 5% Bonus pro Stufe auf die Fähigkeit Resistenz.",
+	"hero.ruins-town.16rn_woden.specialty.name": "Resistenz",
+	"hero.ruins-town.16rn_woden.specialty.tooltip": "Sekundärfähigkeits-Bonus: Resistenz",
+	"hero.ruins-town.rn_mogh.specialty.description": "Erhöht die Geschwindigkeit verbündeter Wendigos und Wilder Wendigos um 1, sowie deren Angriff und Verteidigung um 5% für je 6 Stufen (aufgerundet).",
+	"hero.ruins-town.rn_neit.specialty.description": "Erhöht die Geschwindigkeit verbündeter Perytons und Großer Perytons um 1, sowie deren Angriff und Verteidigung um 5% für je 5 Stufen (aufgerundet)."
 }
