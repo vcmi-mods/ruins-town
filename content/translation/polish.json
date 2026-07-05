@@ -43,7 +43,7 @@
 	"building.ruins-town.ruins.dwellingUpLvl7.name": "Ul. Górski Nexus",
 	"building.ruins-town.ruins.fort.description": "Fort chroni twoje miasto murami obronnymi.",
 	"building.ruins-town.ruins.fort.name": "Fort",
-	"building.ruins-town.ruins.grail.description": "Wiklinowy olbrzym zwiększa tygodniową produkcję stworzeń o 50% i daje Twojemu królestwu dodatkowe 5000 sztuk złota każdego dnia. Wszystkie stworzenia z Ruin otrzymują premię 20% do punktów życia, a sprzymierzeni bohaterowie otrzymują zaklęcie Ofiara na eksperckim poziomie.",
+	"building.ruins-town.ruins.grail.description": "Wiklinowy olbrzym zwiększa tygodniową produkcję stworzeń o 50% i daje twojemu królestwu dodatkowe 5000 sztuk złota każdego dnia. Wszystkie stworzenia z Ruin otrzymują premię 20% do punktów życia, a sprzymierzeni bohaterowie otrzymują zaklęcie Ofiara na eksperckim poziomie.",
 	"building.ruins-town.ruins.grail.name": "Wiklinowy olbrzym",
 	"building.ruins-town.ruins.hordeLvl1.description": "Pola uprawne zwiększają produkcję Dzikusów o 9 tygodniowo.",
 	"building.ruins-town.ruins.hordeLvl1.name": "Pola uprawne",
@@ -252,7 +252,7 @@
 	"hero.ruins-town.13rn_myra.specialty.description": "Zwiększa o {5%} zdolność {pierwsza pomoc} dla każdego osiągniętego poziomu doświadczenia.",
 	"hero.ruins-town.16rn_woden.specialty.description": "Zwiększa o 5% zdolność {Odporność} za każdy osiągnięty poziom doświadczenia.",
 	"hero.ruins-town.16rn_woden.specialty.name": "Odporność",
-	"hero.ruins-town.16rn_woden.specialty.tooltip": "Premia do zdolności: odporność",
+	"hero.ruins-town.16rn_woden.specialty.tooltip": "Premia do zdolności: Odporność",
 	"hero.ruins-town.rn_mogh.specialty.description": "Zwiększa {szybkość} wendigo i dzikich wendigo o {1} oraz ich {atak} i {obronę} o {5%} za każde {6} poziomy bohatera (zaokrąglając w górę).",
 	"hero.ruins-town.rn_neit.specialty.description": "Zwiększa {szybkość} perytów i wielkich perytów o {1} oraz ich {atak} i {obronę} o {5%} za każde {5} poziomów bohatera (zaokrąglając w górę)."
 }
