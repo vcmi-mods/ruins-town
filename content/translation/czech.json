@@ -247,5 +247,10 @@
 	"creatures.ruins-town.legacy.trackercommander.name.plural": "Zkušení stopaři",
 	"creatures.ruins-town.legacy.trackercommander.name.singular": "Zkušený stopař",
 	"hero.ruins-town.16rn_woden.specialty.name": "Odolnost",
-	"hero.ruins-town.16rn_woden.specialty.tooltip": "Druhotná schopnost bonus: Odolnost"
+	"hero.ruins-town.16rn_woden.specialty.tooltip": "Druhotná schopnost bonus: Odolnost",
+	"mod.name": "Ruiny",
+	"mod.bonuses icons.name": "Ikony bonusů",
+	"mod.bonuses icons.description": "Ikony pro schopnosti jednotek.",
+	"mod.legacy.name": "Původní vzhled",
+	"mod.legacy.description": "Tato modifikace oboví původní vzhled města a dalších objektů"
 }

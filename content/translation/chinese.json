@@ -231,5 +231,8 @@
 	"spell.ruins-town.rn_seaweedGrapple.description.basic": "将目标生物缠绕并减速。",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "将目标生物缠绕并减速。",
 	"spell.ruins-town.rn_seaweedGrapple.description.none": "将目标生物缠绕并减速。",
-	"spell.ruins-town.rn_seaweedGrapple.name": "缠绕"
+	"spell.ruins-town.rn_seaweedGrapple.name": "缠绕",
+	"mod.name": "遗迹",
+	"mod.legacy.name": "旧版外观",
+	"mod.legacy.description": "此模组将使遗迹城市和其中建筑物恢复旧版外观。"
 }

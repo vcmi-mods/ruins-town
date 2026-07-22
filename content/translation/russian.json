@@ -231,5 +231,6 @@
 	"spell.ruins-town.rn_seaweedGrapple.description.basic": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.description.none": "Целевое существо схватывается и замедляется.",
-	"spell.ruins-town.rn_seaweedGrapple.name": "Захват морских водорослей"
+	"spell.ruins-town.rn_seaweedGrapple.name": "Захват морских водорослей",
+	"mod.name": "Руины"
 }

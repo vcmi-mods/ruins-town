@@ -254,5 +254,14 @@
 	"spell.ruins-town.rn_seaweedGrapple.description.basic" : "Targeted creature will be grappled and slowed.",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert" : "Targeted creature will be grappled and slowed.",
 	"spell.ruins-town.rn_seaweedGrapple.description.none" : "Targeted creature will be grappled and slowed.",
-	"spell.ruins-town.rn_seaweedGrapple.name" : "Seaweed Grapple"
+	"spell.ruins-town.rn_seaweedGrapple.name" : "Seaweed Grapple",
+	"mod.name" : "Ruins",
+	"mod.bonuses icons.name" : "Additional bonuses icons",
+	"mod.bonuses icons.description" : "Additional icons for creatures abilities.",
+	"mod.hota.name" : "HotA connector",
+	"mod.hota.description" : "Connects Ruins with Interference",
+	"mod.hotagamebalance.name" : "HotA Gamebalance connector",
+	"mod.hotagamebalance.description" : "Connects Ruins with Hota's Game Balance module",
+	"mod.legacy.name" : "Legacy view",
+	"mod.legacy.description" : "This mod restores legacy design of town and related objects."
 }

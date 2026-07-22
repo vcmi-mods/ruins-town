@@ -248,5 +248,8 @@
 	"hero.ruins-town.16rn_woden.specialty.name": "Resistenz",
 	"hero.ruins-town.16rn_woden.specialty.tooltip": "Sekundärfähigkeits-Bonus: Resistenz",
 	"hero.ruins-town.rn_mogh.specialty.description": "Erhöht die Geschwindigkeit verbündeter Wendigos und Wilder Wendigos um 1, sowie deren Angriff und Verteidigung um 5% für je 6 Stufen (aufgerundet).",
-	"hero.ruins-town.rn_neit.specialty.description": "Erhöht die Geschwindigkeit verbündeter Perytons und Großer Perytons um 1, sowie deren Angriff und Verteidigung um 5% für je 5 Stufen (aufgerundet)."
+	"hero.ruins-town.rn_neit.specialty.description": "Erhöht die Geschwindigkeit verbündeter Perytons und Großer Perytons um 1, sowie deren Angriff und Verteidigung um 5% für je 5 Stufen (aufgerundet).",
+	"mod.name": "Ruinen",
+	"mod.bonuses icons.name": "Zusätzliche Bonussymbole",
+	"mod.bonuses icons.description": "Fügt Bonussymbole für die Fähigkeiten der Kreaturen hinzu."
 }
