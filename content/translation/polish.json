@@ -257,5 +257,11 @@
 	"hero.ruins-town.rn_neit.specialty.description": "Zwiększa {szybkość} perytów i wielkich perytów o {1} oraz ich {atak} i {obronę} o {5%} za każde {5} poziomów bohatera (zaokrąglając w górę).",
 	"mod.name": "Ruiny",
 	"mod.legacy.name": "Poprzedni ekran miasta",
-	"mod.legacy.description": "Ten submod zmienia istniejący ekran miasta na ten z poprzednich iteracji"
+	"mod.legacy.description": "Ten submod zmienia istniejący ekran miasta na ten z poprzednich iteracji.",
+	"mod.bonuses icons.name": "Dodatkowe ikonki umiejek",
+	"mod.bonuses icons.description": "Dodatkowe ikonki obrazujące umiejętności stworzeń.",
+	"mod.hota.name": "Łącznik z HotA",
+	"mod.hota.description": "Mod wiąże miasto Ruiny z hotowskim Zakłócaniem",
+	"mod.hotagamebalance.name": "Łącznik z HotA balansem",
+	"mod.hotagamebalance.description": "Mod ten powiązuje miasto Ruin z hotowskimi zmianami w balansie"
 }
