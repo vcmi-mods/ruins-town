@@ -3,7 +3,7 @@
 		"specialty#override" : {
 			"bonuses" : {
 				"maxSlow" : {
-					"val" : 3,
+					"val" : 2,
 					"subtype" : "slow",
 					"type" : "SPELL"
 				},
@@ -16,7 +16,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Your creatures are immune to Slow. Starts with Expert Slow spell.",
+				"description" : "Your creatures are immune to Slow. Starts with Advanced Slow spell.",
 				"name" : "Slow",
 				"tooltip" : "Spell Bonus: Slow"
 			}
