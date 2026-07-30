@@ -1,4 +1,7 @@
 {
+	"hero.ruins-town.15rn_thar.specialty.description" : "Your creatures are immune to Slow. Starts with Advanced Slow spell.",
+	"hero.ruins-town.15rn_thar.specialty.name" : "Slow",
+	"hero.ruins-town.15rn_thar.specialty.tooltip" : "Spell Bonus: Slow",
 	"hero.ruins-town.16rn_woden.specialty.description" : "Receives a 5% per level bonus to Interference skill percentage.",
 	"hero.ruins-town.16rn_woden.specialty.name" : "Interference",
 	"hero.ruins-town.16rn_woden.specialty.tooltip" : "Secondary Skill Bonus: Interference"
