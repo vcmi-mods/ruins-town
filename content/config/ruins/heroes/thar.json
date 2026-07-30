@@ -40,22 +40,14 @@
 		"specialty" : {
 			"bonuses" : {
 				"maxSlow" : {
-					"addInfo" : 3,
+					"addInfo" : -50,
 					"subtype" : "slow",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				},
 				"immunity" : {
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "slow",
-					"propagator" : "BATTLE_WIDE",
-					"limiters" : [
-						[
-							"noneOf",
-							[
-								"OPPOSITE_SIDE"
-							]
-						]
-					]
+					"propagator" : "ARMY"
 				}
 			}
 		},

@@ -43,8 +43,7 @@
 				"maxSacrifice" : {
 					"subtype" : "sacrifice",
 					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"val" : 3
 				}
 			}
 		},

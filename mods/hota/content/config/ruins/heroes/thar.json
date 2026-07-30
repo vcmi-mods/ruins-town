@@ -1,0 +1,25 @@
+{
+	"ruins-town:15rn_thar" : {
+		"specialty#override" : {
+			"bonuses" : {
+				"maxSlow" : {
+					"val" : 3,
+					"subtype" : "slow",
+					"type" : "SPELL"
+				},
+				"immunity" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "slow",
+					"propagator" : "ARMY"
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Your creatures are immune to Slow. Starts with Expert Slow spell.",
+				"name" : "Slow",
+				"tooltip" : "Spell Bonus: Slow"
+			}
+		}
+	}
+}
