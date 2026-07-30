@@ -43,8 +43,7 @@
 				"hypnotize" : {
 					"subtype" : "hypnotize",
 					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"val" : 3
 				}
 			}
 		},

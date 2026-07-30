@@ -25,6 +25,7 @@
 		"config/ruins/classes/magic.json"
 	],
 	"heroes" : [
+		"config/ruins/heroes/thar.json",
 		"config/ruins/heroes/woden.json"
 	],
 	"chinese" : {
