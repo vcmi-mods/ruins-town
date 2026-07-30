@@ -1,5 +1,8 @@
 {
 	"ruins-town:13rn_myra" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to bonus Health provided by the First Aid Tent."
