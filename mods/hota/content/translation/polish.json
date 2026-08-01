@@ -1,5 +1,8 @@
 {
 	"hero.ruins-town.16rn_woden.specialty.description": "Zwiększa o 5% zdolność {tłumienia} za każdy osiągnięty poziom doświadczenia.",
 	"hero.ruins-town.16rn_woden.specialty.name": "Tłumienie",
-	"hero.ruins-town.16rn_woden.specialty.tooltip": "Premia do zdolności: Tłumienie"
+	"hero.ruins-town.16rn_woden.specialty.tooltip": "Premia do zdolności: Tłumienie",
+	"hero.ruins-town.15rn_thar.specialty.name": "Spowolnienie",
+	"hero.ruins-town.15rn_thar.specialty.description": "Wszystkie jednostki w armii bohatera są odporne na Spowolnienie. Bohater rozpoczyna grę ze znajomością zaklęcia Spowolnienie na poziomie zaawansowanym.",
+	"hero.ruins-town.15rn_thar.specialty.tooltip": "Premia do zaklęcia: Spowolnienie"
 }
