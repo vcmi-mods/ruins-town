@@ -51,9 +51,14 @@
 			"earthquake" : {
 				"subtype" : "earthquake",
 				"type" : "OPENING_BATTLE_SPELL",
+				"propagator" : "HERO",
 				"val" : 3,
-				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege",
-				"icon" : "icons/placeholder.png"
+				"hidden" : true
+			},
+			"earthquakeDescription" : {
+				"type" : "NONE",
+				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege.",
+				"icon" : "icons/wallcrasher.png"
 			},
 			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
