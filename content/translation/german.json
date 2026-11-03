@@ -235,7 +235,6 @@
 	"building.ruins-town.ruins.special3.description": "Das Monument erhöht das Wissen jedes Helden, der es besucht, um +1.",
 	"building.ruins-town.ruins.special3.name": "Monument",
 	"building.ruins-town.ruins.special3.rewards.0": "Euer Held studiert die Glyphen auf dem Monument und erhält Einblicke in die Wirkungsweisen verschiedener Magien (+1 Wissen)",
-	"creatures.ruins-town.rn_creature_lvl7_up.bonus.earthquake": "{Mauerbrecher}\nZaubert zu Beginn einer Belagerung „Erdbeben Meisterhaft“",
 	"creatures.ruins-town.rn_creature_lvl3_up.bonus.trapper": "{Guerilla}\nZaubert 'Mine verbessert' zum Beginn eines Kampfes",
 	"creatures.ruins-town.rn_creature_lvl4_up.bonus.immunity": "{Gegenstrom-Immunität}\nEldritch Kelpies sind immun gegen alle negativen Wassermagieeffekte",
 	"creatures.ruins-town.rn_creature_lvl6.bonus.fearless": "{Furchtlos}\nImmun gegen Furcht",
