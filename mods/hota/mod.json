@@ -52,5 +52,10 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"french" : {
+		"translations" : [
+			"translation/french.json"
+		]
 	}
 }

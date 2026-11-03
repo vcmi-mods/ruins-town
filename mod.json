@@ -228,5 +228,10 @@
 	],
 	"skills" : [
 		"config/skills/evasion.json"
-	]
+	],
+	"french" : {
+		"translations" : [
+			"translation/french.json"
+		]
+	}
 }

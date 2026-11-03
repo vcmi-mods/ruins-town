@@ -40,5 +40,10 @@
 	],
 	"objects" : [
 		"config/ruins/dwellings.json"
-	]
+	],
+	"french" : {
+		"translations" : [
+			"translation/french.json"
+		]
+	}
 }
