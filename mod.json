@@ -10,6 +10,13 @@
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
+	"french" : {
+		"name" : "Ruines",
+		"description" : "La ville de Ruines",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Ruinen",
 		"description" : "Ruinen Stadt",
@@ -228,10 +235,5 @@
 	],
 	"skills" : [
 		"config/skills/evasion.json"
-	],
-	"french" : {
-		"translations" : [
-			"translation/french.json"
-		]
-	}
+	]
 }
