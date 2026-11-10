@@ -226,7 +226,8 @@
 						},
 						{
 							"propagator" : "BATTLE_WIDE",
-							"type" : "BATTLE_NO_FLEEING",
+							"type" : "BATTLE_CAN_FLEE",
+							"val" : -100,
 							"propagationUpdater" : "BONUS_OWNER_UPDATER",
 							"limiters" : [
 								"OPPOSITE_SIDE"
