@@ -41,68 +41,88 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"melee" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"propagator" : "BATTLE_WIDE",
-						"duration" : "UNTIL_BEING_ATTACKED",
-						"limiters" : [
-							[
-								"noneOf",
-								[
-									"OPPOSITE_SIDE"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"melee" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
+								"propagator" : "BATTLE_WIDE",
+								"duration" : "UNTIL_BEING_ATTACKED",
+								"limiters" : [
+									[
+										"noneOf",
+										[
+											"OPPOSITE_SIDE"
+										]
+									]
 								]
-							]
-						]
-					},
-					"ranged" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeRanged",
-						"propagator" : "BATTLE_WIDE",
-						"duration" : "UNTIL_BEING_ATTACKED",
-						"limiters" : [
-							[
-								"noneOf",
-								[
-									"OPPOSITE_SIDE"
+							},
+							"ranged" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeRanged",
+								"propagator" : "BATTLE_WIDE",
+								"duration" : "UNTIL_BEING_ATTACKED",
+								"limiters" : [
+									[
+										"noneOf",
+										[
+											"OPPOSITE_SIDE"
+										]
+									]
 								]
-							]
-						]
+							}
+						}
 					}
 				}
 			},
 			"none" : {},
 			"basic" : {
 				"description" : "The creature has damage reduced for the next melee attack by 40% or ranged attack by 80%.",
-				"effects" : {
-					"melee" : {
-						"val" : 40
-					},
-					"ranged" : {
-						"val" : 80
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"melee" : {
+								"val" : 40
+							},
+							"ranged" : {
+								"val" : 80
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "The creature has damage reduced for the next melee attack by 45% or ranged attack by 90%.",
-				"effects" : {
-					"melee" : {
-						"val" : 45
-					},
-					"ranged" : {
-						"val" : 90
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"melee" : {
+								"val" : 45
+							},
+							"ranged" : {
+								"val" : 90
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "The creature has damage reduced for the next melee attack by 50% or ranged attack to 1.",
-				"effects" : {
-					"melee" : {
-						"val" : 50
-					},
-					"ranged" : {
-						"val" : 100
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"melee" : {
+								"val" : 50
+							},
+							"ranged" : {
+								"val" : 100
+							}
+						}
 					}
 				}
 			}

@@ -3,7 +3,7 @@
 		"name" : "Ruins",
 		"alignment" : "neutral",
 		"boat" : "boatFortress",
-		"nativeTerrain" : "grass",
+		"nativeTerrain" : [ "grass" ],
 		"creatureBackground" : {
 			"120px" : "ruins/creaturebg120px",
 			"130px" : "ruins/creaturebg130px"

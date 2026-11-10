@@ -12,7 +12,7 @@
 					},
 					"description" : "The Well allows a garrison hero to flee from defending against a siege.",
 					"name" : "Well",
-					"type" : "escapeTunnel",
+					"bonuses" : [ { "type" : "BATTLE_CAN_FLEE", "val" : 10 } ],
 					"requires" : [
 						"fort"
 					]
