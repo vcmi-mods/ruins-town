@@ -146,7 +146,7 @@
 	"hero.ruins-town.01rn_bellona.name": "Беллона",
 	"hero.ruins-town.01rn_bellona.specialty.description": "Бонусный вторичнй навык: Наступление",
 	"hero.ruins-town.01rn_bellona.specialty.name": "Наступление",
-	"hero.ruins-town.01rn_bellona.specialty.tooltip": "{Наступление}\r\n\r\nПолучает 5% бонус за уровень к проценту навыка нападения.",
+	"hero.ruins-town.01rn_bellona.specialty.tooltip": "Улучшение вторичного навыка «Нападение»",
 	"hero.ruins-town.02rn_gobni.biography": "Мастер выживания и инструктор. Никто не приближается к вашей хижине без предупреждения и полностью.",
 	"hero.ruins-town.02rn_gobni.name": "Гобни",
 	"hero.ruins-town.02rn_gobni.specialty.name": "Кокатрисы",
@@ -160,7 +160,7 @@
 	"hero.ruins-town.04rn_gwyn.name": "Гвин",
 	"hero.ruins-town.04rn_gwyn.specialty.description": "{Стрелок}\r\n\r\nПолучает 5% бонус за уровень к проценту навыка стрельбы из лука.",
 	"hero.ruins-town.04rn_gwyn.specialty.name": "Стрелок",
-	"hero.ruins-town.04rn_gwyn.specialty.tooltip": "Бонус вторичного навыка: Стрельба",
+	"hero.ruins-town.04rn_gwyn.specialty.tooltip": "Улучшение вторичного навыка «Стрельба»",
 	"hero.ruins-town.05rn_herian.biography": "Известный во всей Империи Авлин как величайший лучник и воплощение верности, Хериан столкнулся с необычайным поворотом судьбы во время своих миссий по защите Империи. Проклятый сбросить свою смертную плоть, он превратился в призрачное существо. Решив сохранить свою репутацию, он искал убежища в лесном заповеднике, открывая свое присутствие лишь немногим избранным, которых он любил как настоящих друзей.",
 	"hero.ruins-town.05rn_herian.name": "Хериан",
 	"hero.ruins-town.05rn_herian.specialty.name": "Охотники",
@@ -187,7 +187,7 @@
 	"hero.ruins-town.13rn_myra.biography": "Майра научилась от своей матери, как использовать растения, чтобы кормить братьев и сестер, залечивать раны и даже устранять угрозы. Сегодня она знает, как это делать, и делала это не раз.",
 	"hero.ruins-town.13rn_myra.name": "Майра",
 	"hero.ruins-town.13rn_myra.specialty.name": "Первая помощь",
-	"hero.ruins-town.13rn_myra.specialty.tooltip": "{Первая помощь}\r\n\r\nПолучает 5% бонус к навыку первой помощи за уровень..",
+	"hero.ruins-town.13rn_myra.specialty.tooltip": "Улучшение вторичного навыка «Первая помощь»",
 	"hero.ruins-town.14rn_rhea.biography": "Изгнанная из своей деревни за занятия колдовством, Рея использовала свой дар, чтобы выжить в опасных глубинах леса. Она никогда не считала магию чем-то плохим. Это весело, речь идет о выживании, и у нее всегда это хорошо получалось.",
 	"hero.ruins-town.14rn_rhea.name": "Рея",
 	"hero.ruins-town.14rn_rhea.specialty.description": "{Силовое поле}\r\n\r\nСоздает силовое поле с экспертными эффектами.",
@@ -212,7 +212,7 @@
 	"hero.ruins-town.rn_nodens.name": "Ноденс",
 	"hero.ruins-town.rn_nodens.specialty.description": "{Оружейник}\r\n\r\nПолучает 5% бонус за уровень к проценту навыка оружейника.",
 	"hero.ruins-town.rn_nodens.specialty.name": "Оружейник",
-	"hero.ruins-town.rn_nodens.specialty.tooltip": "Бонусный вторичный навык: Оружейник",
+	"hero.ruins-town.rn_nodens.specialty.tooltip": "Улучшение вторичного навыка «Доспехи»",
 	"heroClass.ruins-town.rn_magic.name": "Отшельник",
 	"heroClass.ruins-town.rn_might.name": "Охотник",
 	"mapObject.ruins-town.creatureGeneratorCommon.rn_creature_lvl1_dwelling.name": "Деревня вождей",
@@ -232,5 +232,6 @@
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.description.none": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.name": "Захват морских водорослей",
-	"mod.name": "Руины"
+	"mod.name": "Руины",
+	"hero.ruins-town.16rn_woden.specialty.tooltip": "Улучшение вторичного навыка «Сопротивление»"
 }
