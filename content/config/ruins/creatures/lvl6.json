@@ -156,12 +156,12 @@
 				"attack" : 1.3
 			}
 		},
-		"sound": {
-			"attack": "ruins/lvl6/WendigoATTK.wav",
-			"defend": "ruins/lvl6/WendigoDFND.wav",
-			"killed": "ruins/lvl6/WendigoKILL.wav",
-			"move": "ruins/lvl6/WendigoMOVE.wav",
-			"wince": "ruins/lvl6/WendigoWNCE.wav"
+		"sound" : {
+			"attack" : "ruins/lvl6/WendigoATTK.wav",
+			"defend" : "ruins/lvl6/WendigoDFND.wav",
+			"killed" : "ruins/lvl6/WendigoKILL.wav",
+			"move" : "ruins/lvl6/WendigoMOVE.wav",
+			"wince" : "ruins/lvl6/WendigoWNCE.wav"
 		}
 	}
 }

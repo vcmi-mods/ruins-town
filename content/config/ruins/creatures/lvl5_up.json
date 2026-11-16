@@ -151,12 +151,12 @@
 				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "ruins/lvl5/PerytonATTK.wav",
-			"defend": "ruins/lvl5/PerytonDFND.wav",
-			"killed": "ruins/lvl5/PerytonKILL.wav",
-			"move": "ruins/lvl5/PerytonMOVE.wav",
-			"wince": "ruins/lvl5/PerytonWNCE.wav"
+		"sound" : {
+			"attack" : "ruins/lvl5/PerytonATTK.wav",
+			"defend" : "ruins/lvl5/PerytonDFND.wav",
+			"killed" : "ruins/lvl5/PerytonKILL.wav",
+			"move" : "ruins/lvl5/PerytonMOVE.wav",
+			"wince" : "ruins/lvl5/PerytonWNCE.wav"
 		}
 	}
 }
