@@ -162,12 +162,12 @@
 				"attack" : 1.5
 			}
 		},
-		"sound" : {
-			"attack" : "ADVLATTK.wav",
-			"defend" : "DHDMDFND.wav",
-			"killed" : "DHDMKILL.wav",
-			"move" : "DHDMMOVE.wav",
-			"wince" : "DHDMWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl6/WendigoATTK.wav",
+			"defend": "ruins/lvl6/WendigoDFND.wav",
+			"killed": "ruins/lvl6/WendigoKILL.wav",
+			"move": "ruins/lvl6/WendigoMOVE.wav",
+			"wince": "ruins/lvl6/WendigoWNCE.wav"
 		}
 	}
 }

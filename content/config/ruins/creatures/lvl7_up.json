@@ -210,12 +210,12 @@
 				"attack" : 1
 			}
 		},
-		"sound" : {
-			"attack" : "BMTHATTK.wav",
-			"defend" : "GGLMDFND.wav",
-			"killed" : "GGLMKILL.wav",
-			"move" : "BMTHMOVE.wav",
-			"wince" : "BMTHWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl7/WalkingStonesATTK.wav",
+			"defend": "ruins/lvl7/WalkingStonesDFND.wav",
+			"killed": "ruins/lvl7/WalkingStonesKILL.wav",
+			"move": "ruins/lvl7/WalkingStonesMOVE.wav",
+			"wince": "ruins/lvl7/WalkingStonesWNCE.wav"
 		}
 	}
 }

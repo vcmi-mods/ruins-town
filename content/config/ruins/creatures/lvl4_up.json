@@ -161,13 +161,13 @@
 				"attack" : 1
 			}
 		},
-		"sound" : {
-			"attack" : "WUNCATTK.wav",
-			"defend" : "WUNCDFND.wav",
-			"killed" : "WUNCKILL.wav",
-			"move" : "WUNCMOVE.wav",
-			"shoot" : "WUNCSHOT.wav",
-			"wince" : "WUNCWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl4/KelpiesATTK.wav",
+			"defend": "ruins/lvl4/KelpiesDFND.wav",
+			"killed": "ruins/lvl4/KelpiesKILL.wav",
+			"move": "ruins/lvl4/KelpiesMOVE.wav",
+			"shoot": "WUNCSHOT.wav",
+			"wince": "ruins/lvl4/KelpiesWNCE.wav"
 		}
 	}
 }
