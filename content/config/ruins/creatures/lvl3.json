@@ -151,13 +151,13 @@
 				]
 			}
 		},
-		"sound" : {
-			"attack" : "HCRSATTK.wav",
-			"defend" : "HCRSDFND.wav",
-			"killed" : "HCRSKILL.wav",
-			"move" : "HCRSMOVE.wav",
-			"shoot" : "HCRSSHOT.wav",
-			"wince" : "HCRSWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl3/HuntsmenATTK.wav",
+			"defend": "ruins/lvl3/HuntsmenDFND.wav",
+			"killed": "ruins/lvl3/HuntsmenDEAD.wav",
+			"move": "ruins/lvl3/HuntsmenMOVE.wav",
+			"shoot": "ruins/lvl3/HuntsmenSHOT.wav",
+			"wince": "ruins/lvl3/HuntsmenWNCE.wav"
 		}
 	}
 }

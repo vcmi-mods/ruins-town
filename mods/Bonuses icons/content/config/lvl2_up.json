@@ -192,13 +192,12 @@
 				"attack" : 1
 			}
 		},
-		"sound" : {
-			"attack" : "HHAGATTK.wav",
-			"defend" : "HHAGDFND.wav",
-			"killed" : "HHAGKILL.wav",
-			"move" : "HHAGMOVE.wav",
-			"shoot" : "HHAGSHOT.wav",
-			"wince" : "HHAGWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl2/CockatricesATTK.wav",
+			"defend": "ruins/lvl2/CockatricesDFND.wav",
+			"killed": "ruins/lvl2/CockatricesDEAD.wav",
+			"move": "ruins/lvl2/CockatricesMOVE.wav",
+			"wince": "ruins/lvl2/CockatricesWNCE.wav"
 		}
 	}
 }

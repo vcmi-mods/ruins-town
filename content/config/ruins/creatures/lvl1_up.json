@@ -167,13 +167,13 @@
 				]
 			}
 		},
-		"sound" : {
-			"attack" : "HALFATTK.wav",
-			"defend" : "HALFDFND.wav",
-			"killed" : "BDRFKILL.wav",
-			"move" : "BDRFMOVE.wav",
-			"shoot" : "HALFSHOT.wav",
-			"wince" : "HALFWNCE.wav"
+		"sound": {
+			"attack": "ruins/lvl1/WildMenATTK.wav",
+			"defend": "ruins/lvl1/WildMenDFND.wav",
+			"killed": "ruins/lvl1/WildMenDEAD.wav",
+			"move": "ruins/lvl1/WildMenMOVE.wav",
+			"shoot": "ruins/lvl1/WildMenSHOT.wav",
+			"wince": "ruins/lvl1/WildMenWNCE.wav"
 		}
 	}
 }
