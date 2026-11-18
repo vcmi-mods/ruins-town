@@ -1,0 +1,22 @@
+{
+	"name" : "HotA Highlands Terrain connector",
+	"description" : "Connects Ruins with Hota's Highlands Terrain module",
+	"author" : "Fiorin, Stefan Ciobanu, Karyoplasma",
+	"contact" : "https://fior.in",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.highlandsterrain"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"objects" : [
+		"config/ruins/skills/hermitsShackRewards.json"
+	]
+}

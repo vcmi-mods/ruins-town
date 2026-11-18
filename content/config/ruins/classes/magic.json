@@ -63,7 +63,8 @@
 			"artillery" : 1,
 			"leadership" : 1,
 			"navigation" : 0,
-			"necromancy" : 0
+			"necromancy" : 0,
+			"hota.interference:interference" : 7
 		},
 		"defaultTavern" : 3,
 		"tavern" : {
@@ -76,7 +77,8 @@
 			"ruins" : 8,
 			"necropolis" : 0,
 			"inferno" : 0,
-			"tower" : 0
+			"tower" : 0,
+			"hota.cove:cove" : 4
 		}
 	}
 }

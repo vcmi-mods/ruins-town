@@ -1,0 +1,40 @@
+{
+	"ruinsEvasion" : {
+		"implements" : "combatEvent",
+		"script" : "combat/ruinsEvasion.lua",
+		"patches" : [],
+		"schema" : {
+			"required" : [ "evadeMelee", "evadeRanged" ],
+			"properties" : {
+				"evadeMelee" : {
+					"type" : "number",
+					"minimum" : 0,
+					"maximum" : 100,
+					"description" : "magnitude of melee reduction when dodging"
+				},
+				"evadeRanged" : {
+					"type" : "number",
+					"minimum" : 0,
+					"maximum" : 100,
+					"description" : "magnitude of ranged reduction when dodging"
+				}
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : "{Evasion}\n${val}% chance to reduce incoming Melee Damage by ${evadeMelee}% and Ranged Damage by ${evadeRanged}%."
+	},
+	"wallCrasher" : {
+		"implements" : "spellEffect",
+		"script" : "spells/wallCrasher.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {},
+				"chanceToNormalHit" : { "type" : "number" },
+				"chanceToCrit" : { "type" : "number" }
+			},
+			"additionalProperties" : false
+		}
+	}
+}

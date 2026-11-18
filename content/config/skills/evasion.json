@@ -8,19 +8,17 @@
 		},
 		"base" : {
 			"effects" : {
-				"miss" : {
-					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "dodge",
-					"val" : 100,
-					"addInfo" : [
-						3,
-						0
-					],
+				"evasion" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "ruinsEvasion",
 					"limiters" : [
-						"OPPOSITE_SIDE"
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SIEGE_WEAPON"
+						}
 					],
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER"
+					"icon" : "icons/evasion.png"
 				}
 			}
 		},
@@ -31,14 +29,14 @@
 				"large" : "skills/evasion/LargeBasic.png",
 				"scenarioBonus" : "skills/evasion/bonusBasic.png"
 			},
-			"description" : "{Basic Evasion}\n\nCreatures have a 10% chance to mitigate incoming damage, reducing by 40% melee attack damage and 80% ranged attack damage",
+			"description" : "{Basic Evasion}\n\nCreatures have a 10% chance to mitigate incoming Damage, reducing Melee Attack Damage by 40% and Ranged Attack Damage by 80%.",
 			"effects" : {
-				"miss" : {
+				"evasion" : {
 					"val" : 10,
-					"addInfo" : [
-						1,
-						0
-					]
+					"addInfo" : {
+						"evadeMelee" : 40,
+						"evadeRanged" : 80
+					}
 				}
 			}
 		},
@@ -49,14 +47,14 @@
 				"large" : "skills/evasion/LargeAdvanced.png",
 				"scenarioBonus" : "skills/evasion/bonusAdvanced.png"
 			},
-			"description" : "{Advanced Evasion}\n\nCreatures have a 15% chance to mitigate incoming damage, reducing by 45% melee attack damage and 90% ranged attack damage",
+			"description" : "{Advanced Evasion}\n\nCreatures have a 15% chance to mitigate incoming Damage, reducing Melee Attack Damage by 45% and Ranged Attack Damage by 90%.",
 			"effects" : {
-				"miss" : {
+				"evasion" : {
 					"val" : 15,
-					"addInfo" : [
-						2,
-						0
-					]
+					"addInfo" : {
+						"evadeMelee" : 45,
+						"evadeRanged" : 90
+					}
 				}
 			}
 		},
@@ -67,14 +65,14 @@
 				"large" : "skills/evasion/LargeExpert.png",
 				"scenarioBonus" : "skills/evasion/bonusExpert.png"
 			},
-			"description" : "{Basic Evasion}\n\nCreatures have a 20% chance to mitigate incoming damage, reducing by 50% melee attack damage and to 1 ranged attack damage",
+			"description" : "{Basic Evasion}\n\nCreatures have a 20% chance to mitigate incoming Damage, reducing Melee Attack Damage by 50% and Ranged Attack Damage by 100%.",
 			"effects" : {
-				"miss" : {
+				"evasion" : {
 					"val" : 20,
-					"addInfo" : [
-						3,
-						0
-					]
+					"addInfo" : {
+						"evadeMelee" : 50,
+						"evadeRanged" : 100
+					}
 				}
 			}
 		}

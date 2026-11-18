@@ -63,7 +63,8 @@
 			"scholar" : 2,
 			"sorcery" : 2,
 			"fireMagic" : 1,
-			"necromancy" : 0
+			"necromancy" : 0,
+			"hota.interference:interference" : 4
 		},
 		"defaultTavern" : 5,
 		"tavern" : {
@@ -76,7 +77,8 @@
 			"stronghold" : 6,
 			"ruins" : 9,
 			"inferno" : 0,
-			"tower" : 0
+			"tower" : 0,
+			"hota.cove:cove" : 6
 		}
 	}
 }

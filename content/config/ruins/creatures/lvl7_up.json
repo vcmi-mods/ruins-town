@@ -55,19 +55,16 @@
 				"val" : 3,
 				"hidden" : true
 			},
-			"earthquakeDescription" : {
-				"type" : "NONE",
-				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege.",
-				"icon" : "icons/wallcrasher.png"
-			},
-			"paralize" : {
+			"wallCrasher" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "earthquake",
+				"subtype" : "wallCrasher",
 				"val" : 100,
 				"addInfo" : [
 					1,
 					2
-				]
+				],
+				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege and Basic Earthquake after Melee attack.",
+				"icon" : "icons/wallcrasher.png"
 			}
 		},
 		"stackExperience" : [
