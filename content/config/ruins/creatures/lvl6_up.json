@@ -38,9 +38,9 @@
 		"abilities" : {
 			"fearless" : {
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MIN",
+				"valueType" : "AT_MOST",
 				"val" : 0,
-				"description" : "{Fearless}\nImmune to Fear ability",
+				"description" : "{Fearless}\nImmune to Fear.",
 				"icon" : "icons/e_fearl.png"
 			},
 			"frenzy" : {

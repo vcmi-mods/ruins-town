@@ -1,0 +1,48 @@
+{
+	"wallCrasher" : {
+		"targetType" : "LOCATION",
+		"type" : "ability",
+		"name" : "Earthquake",
+		"school" : {},
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"animation" : {},
+		"targetCondition" : {},
+		"gainChance" : {},
+		"graphics" : {
+			// just so the "image failed to load error doesn't show, not visible.
+			"iconBook" : "spells/grapple/iconbook",
+			"iconScroll" : "spells/grapple/iconscroll",
+			"iconScenarioBonus" : "spells/grapple/iconbonus",
+			"iconEffect" : "spells/grapple/iconeffect"
+		},
+		"levels" : {
+			"base" : {
+				"description" : "",
+				"power" : 1,
+				"cost" : 0,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"wallCrasher" : {
+						"type" : "wallCrasher",
+						"chanceToCrit" : 0,
+						"chanceToNormalHit" : 100
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		},
+		"flags" : {
+			"nonMagical" : true,
+			"indifferent" : true,
+			"special" : true
+		}
+	}
+}

@@ -225,9 +225,12 @@
 	"objects" : [
 		"config/ruins/dwellings.json"
 	],
+	"scripts" : [
+		"config/ruins/scriptBindings.json"
+	],
 	"spells" : [
 		"config/spells/grapple/grapple.json",
-		"config/spells/dodge/dodge.json"
+		"config/spells/wallcrasher/wallcrasher.json"
 	],
 	"skills" : [
 		"config/skills/evasion.json"

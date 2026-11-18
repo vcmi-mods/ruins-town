@@ -6,7 +6,6 @@
 	"version" : "1.0",
 	"modType" : "Compatibility",
 	"depends" : [
-		"hota.cove",
 		"hota.interference"
 	],
 	"conflicts" : [
@@ -20,10 +19,6 @@
 			"Initial release"
 		]
 	},
-	"heroClasses" : [
-		"config/ruins/classes/might.json",
-		"config/ruins/classes/magic.json"
-	],
 	"heroes" : [
 		"config/ruins/heroes/thar.json",
 		"config/ruins/heroes/woden.json"

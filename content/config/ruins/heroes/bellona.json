@@ -43,7 +43,7 @@
 			"name" : "Bellona",
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Offense",
-				"name" : "Offence",
+				"name" : "Offense",
 				"description" : "Receives a 5% per level bonus to Offense skill percentage."
 			}
 		}

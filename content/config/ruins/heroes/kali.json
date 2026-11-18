@@ -53,7 +53,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Sacrifice",
 				"name" : "Sacrifice",
-				"description" : "Casts Sacrifice with expert effects. Starts with Sacrifice spell."
+				"description" : "Casts Sacrifice with Expert effects. Starts with Sacrifice spell."
 			}
 		}
 	}

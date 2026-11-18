@@ -53,8 +53,7 @@
 			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "forceField",
-				"val" : 2,
-				"valueType" : "INDEPENDENT_MAX"
+				"val" : 2
 			}
 		},
 		"stackExperience" : [

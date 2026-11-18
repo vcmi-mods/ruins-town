@@ -40,18 +40,6 @@
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" : {
-				"type" : "CASTS",
-				"val" : 1
-			},
-			"enchant" : {
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 1
-			},
-			"spellpower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
-			},
 			"hunter" : {
 				"type" : "NO_WALL_PENALTY"
 			}

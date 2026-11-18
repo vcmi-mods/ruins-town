@@ -41,11 +41,16 @@
 			"hunter" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"trapper" : {
+			"openingCastLandmine" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "landMine",
 				"val" : 2,
-				"description" : "{Guerilla}\nCasts Advanced Land Mines spell at the beginning of the battle",
+				"propagator" : "HERO",
+				"hidden" : true
+			},
+			"trapper" : {
+				"type" : "NONE",
+				"description" : "{Guerilla}\nCasts Advanced Land Mines at the beginning of the battle.",
 				"icon" : "icons/placeholder.png"
 			}
 		},

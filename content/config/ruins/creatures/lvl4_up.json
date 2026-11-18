@@ -52,7 +52,7 @@
 			"immunity" : {
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 				"subtype" : "water",
-				"description" : "{Bad Water Immunity}\nEldritch Kelpies are immune to all negative water spells",
+				"description" : "{Bad Water Immunity}\nEldritch Kelpies are immune to all negative water spells.",
 				"icon" : "icons/e_spwater1.png"
 			}
 		},
