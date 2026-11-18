@@ -30,13 +30,12 @@ function Script:addDodgeBonus(server, battle, unit, ranged)
 
 	server:addUnitBonus(battle, unit, {
 		type = "GENERAL_DAMAGE_REDUCTION",
-		subtype = ranged and "damageTypeRange" or "damageTypeMelee",
+		subtype = ranged and "damageTypeRanged" or "damageTypeMelee",
 		val = magnitude,
 		valueType = "ADDITIVE_VALUE",
 		sourceType = "OTHER",
 		sourceID = SOURCE_KEY,
-		duration = "ONE_BATTLE",
-		hidden = true
+		duration = "ONE_BATTLE"
 	}, false)
 
 	return true
