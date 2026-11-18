@@ -4,7 +4,10 @@
 		"script" : "combat/ruinsEvasion.lua",
 		"patches" : [],
 		"schema" : {
-			"required" : [ "evadeMelee", "evadeRanged" ],
+			"required" : [
+				"evadeMelee",
+				"evadeRanged"
+			],
 			"properties" : {
 				"evadeMelee" : {
 					"type" : "number",
@@ -31,8 +34,12 @@
 		"schema" : {
 			"properties" : {
 				"type" : {},
-				"chanceToNormalHit" : { "type" : "number" },
-				"chanceToCrit" : { "type" : "number" }
+				"chanceToNormalHit" : {
+					"type" : "number"
+				},
+				"chanceToCrit" : {
+					"type" : "number"
+				}
 			},
 			"additionalProperties" : false
 		}
