@@ -16,7 +16,7 @@
 				"aiValue" : 0,
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage"
+						"type" : "damage"
 					}
 				},
 				"targetModifier" : {
@@ -70,7 +70,7 @@
 				},
 				"battleEffects" : {
 					"obstacle" : {
-						"type" : "core:obstacle",
+						"type" : "obstacle",
 						"hidden" : false,
 						"passable" : true,
 						"trap" : true,

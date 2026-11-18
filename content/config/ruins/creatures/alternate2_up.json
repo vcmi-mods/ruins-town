@@ -39,8 +39,11 @@
 				"type" : "FLYING"
 			},
 			"quick" : {
-				"subtype" : "airShield",
-				"type" : "ENCHANTED",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "airShield"
+				},
 				"val" : 2
 			},
 			"jousting" : {

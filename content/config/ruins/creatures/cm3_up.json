@@ -40,25 +40,20 @@
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" : {
-				"type" : "CASTS",
-				"val" : 1
+			"openingCastLandmine" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "landMine",
+				"val" : 2,
+				"propagator" : "HERO",
+				"hidden" : true
 			},
-			"enchant" : {
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 1
-			},
-			"spellpower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
+			"trapper" : {
+				"type" : "NONE",
+				"description" : "{Guerilla}\nCasts Advanced Land Mines at the beginning of the battle.",
+				"icon" : "icons/placeholder.png"
 			},
 			"hunter" : {
 				"type" : "NO_WALL_PENALTY"
-			},
-			"trapper" : {
-				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "landMine",
-				"val" : 2
 			}
 		},
 		"hasDoubleWeek" : false,

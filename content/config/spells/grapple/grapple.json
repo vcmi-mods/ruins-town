@@ -53,7 +53,7 @@
 				},
 				"battleEffects" : {
 					"bindEffects" : {
-						"type" : "core:timed",
+						"type" : "timed",
 						"cumulative" : false,
 						"bonus" : {
 							"bindEffect" : {

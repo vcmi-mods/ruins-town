@@ -290,7 +290,6 @@
 							"type" : "SPELL",
 							"subtype" : "sacrifice",
 							"val" : 3,
-							"valueType" : "INDEPENDENT_MAX",
 							"propagator" : "TEAM",
 							"limiters" : [
 								{
