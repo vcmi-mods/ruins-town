@@ -60,7 +60,9 @@
 		"script" : "combat/selfBuffBeforeAttack.lua",
 		"patches" : [],
 		"schema" : {
-			"required" : [ "spell" ],
+			"required" : [
+				"spell"
+			],
 			"properties" : {
 				"spell" : {
 					"type" : "string",
