@@ -65,7 +65,7 @@
 				"large" : "skills/evasion/LargeExpert.png",
 				"scenarioBonus" : "skills/evasion/bonusExpert.png"
 			},
-			"description" : "{Basic Evasion}\n\nCreatures have a 20% chance to mitigate incoming Damage, reducing Melee Attack Damage by 50% and Ranged Attack Damage by 100%.",
+			"description" : "{Expert Evasion}\n\nCreatures have a 20% chance to mitigate incoming Damage, reducing Melee Attack Damage by 50% and Ranged Attack Damage by 100%.",
 			"effects" : {
 				"evasion" : {
 					"val" : 20,
