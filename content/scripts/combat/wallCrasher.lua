@@ -7,7 +7,7 @@ local DAMAGED_PARTS_ATTACK = 2
 
 function Script:castWallCrasher(server, battle, unit, shots)
 	if not (battle:hasFortifications() and unit:getSide() == ENUM.BattleSide.attacker) then return end
-	local spell = LIBRARY:getSpellByName("wallCrasher")
+	local spell = LIBRARY:getSpellByName("rn_wallCrasher")
 	server:castSpell(battle, unit, spell, {}, shots)
 end
 
