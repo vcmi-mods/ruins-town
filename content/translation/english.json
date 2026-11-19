@@ -247,7 +247,7 @@
 	"ruins-town.script.rn_selfBuffBeforeAttack.description" : "{Buff Before Attack}\nHas a ${val}% chance to buff itself with ${spell} before attacking.",
 	"skill.ruins-town.evasion.description.advanced" : "{Advanced Evasion}\n\nCreatures have a 15% chance to mitigate incoming Damage, reducing Melee Attack Damage by 45% and Ranged Attack Damage by 90%.",
 	"skill.ruins-town.evasion.description.basic" : "{Basic Evasion}\n\nCreatures have a 10% chance to mitigate incoming Damage, reducing Melee Attack Damage by 40% and Ranged Attack Damage by 80%.",
-	"skill.ruins-town.evasion.description.expert" : "{Basic Evasion}\n\nCreatures have a 20% chance to mitigate incoming Damage, reducing Melee Attack Damage by 50% and Ranged Attack Damage by 100%.",
+	"skill.ruins-town.evasion.description.expert" : "{Expert Evasion}\n\nCreatures have a 20% chance to mitigate incoming Damage, reducing Melee Attack Damage by 50% and Ranged Attack Damage by 100%.",
 	"skill.ruins-town.evasion.name" : "Evasion",
 	"spell.ruins-town.rn_seaweedGrapple.description.advanced" : "Targeted creature will be grappled and slowed.",
 	"spell.ruins-town.rn_seaweedGrapple.description.basic" : "Targeted creature will be grappled and slowed.",
