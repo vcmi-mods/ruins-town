@@ -48,22 +48,9 @@
 				"subtype" : "damageTypeRanged",
 				"val" : 20
 			},
-			"earthquake" : {
-				"subtype" : "earthquake",
-				"type" : "OPENING_BATTLE_SPELL",
-				"propagator" : "HERO",
-				"val" : 3,
-				"hidden" : true
-			},
 			"wallCrasher" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "wallCrasher",
-				"val" : 100,
-				"addInfo" : [
-					1,
-					2
-				],
-				"description" : "{Wall Crasher}\nCasts Expert Earthquake at the beginning of the siege and Basic Earthquake after Melee attack.",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rn_combat_wallCrasher",
 				"icon" : "icons/wallcrasher.png"
 			}
 		},

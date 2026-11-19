@@ -3,7 +3,7 @@ local Script = setmetatable({}, { __index = Base })
 Script.__index = Script
 
 function Script:apply(mechanics, server, target)
-	self:applyEarthquake(mechanics:getBattle(), server, nil, 2)
+	self:applyEarthquake(mechanics:getBattle(), server, nil, mechanics:getEffectValue())
 end
 
 return Script
