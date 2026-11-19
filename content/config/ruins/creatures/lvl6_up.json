@@ -44,13 +44,13 @@
 				"icon" : "icons/e_fearl.png"
 			},
 			"frenzy" : {
-				"type" : "SPELL_BEFORE_ATTACK",
-				"subtype" : "frenzy",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rn_selfBuffBeforeAttack",
 				"val" : 70,
-				"addInfo" : [
-					1,
-					2
-				]
+				"addInfo" : {
+					"spell" : "frenzy",
+					"onCounter" : true
+				}
 			},
 			"enemyDefenceReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",

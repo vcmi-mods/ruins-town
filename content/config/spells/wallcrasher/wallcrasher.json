@@ -1,5 +1,5 @@
 {
-	"wallCrasher" : {
+	"rn_wallCrasher" : {
 		"targetType" : "LOCATION",
 		"type" : "ability",
 		"name" : "Earthquake",
@@ -28,7 +28,7 @@
 				},
 				"battleEffects" : {
 					"wallCrasher" : {
-						"type" : "wallCrasher",
+						"type" : "rn_spell_wallCrasher",
 						"chanceToCrit" : 0,
 						"chanceToNormalHit" : 100
 					}

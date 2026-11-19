@@ -1,5 +1,5 @@
 {
-	"ruinsEvasion" : {
+	"rn_evasion" : {
 		"implements" : "combatEvent",
 		"script" : "combat/ruinsEvasion.lua",
 		"patches" : [],
@@ -27,7 +27,7 @@
 		"priority" : 0,
 		"description" : "{Evasion}\n${val}% chance to reduce incoming Melee Damage by ${evadeMelee}% and Ranged Damage by ${evadeRanged}%."
 	},
-	"wallCrasher" : {
+	"rn_spell_wallCrasher" : {
 		"implements" : "spellEffect",
 		"script" : "spells/wallCrasher.lua",
 		"patches" : [],
@@ -43,5 +43,38 @@
 			},
 			"additionalProperties" : false
 		}
+	},
+	"rn_combat_wallCrasher" : {
+		"implements" : "combatEvent",
+		"script" : "combat/wallCrasher.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : "{Wall Crasher}\nDuring a siege, casts Expert Earthquake at the beginning and Basic Earthquake after attacking."
+	},
+	"rn_selfBuffBeforeAttack" : {
+		"implements" : "combatEvent",
+		"script" : "combat/selfBuffBeforeAttack.lua",
+		"patches" : [],
+		"schema" : {
+			"required" : [ "spell" ],
+			"properties" : {
+				"spell" : {
+					"type" : "string",
+					"entity" : "spell",
+					"description" : "spell to be cast on self"
+				},
+				"onCounter" : {
+					"type" : "boolean",
+					"description" : "also buff on counterattack"
+				}
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : "{Buff Before Attack}\nHas a ${val}% chance to buff itself with ${spell} before attacking."
 	}
 }

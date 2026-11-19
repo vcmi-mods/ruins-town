@@ -10,7 +10,7 @@
 			"effects" : {
 				"evasion" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
-					"subtype" : "ruinsEvasion",
+					"subtype" : "rn_evasion",
 					"limiters" : [
 						"noneOf",
 						{

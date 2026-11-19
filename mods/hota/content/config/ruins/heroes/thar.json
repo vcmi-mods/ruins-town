@@ -10,6 +10,7 @@
 				"immunity" : {
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "slow",
+					"addInfo" : 1,
 					"propagator" : "ARMY"
 				}
 			}
