@@ -1,7 +1,7 @@
 --- Parameters:
---- val: chance to trigger
---- evadeMelee: melee reduction
---- evadeRanged: ranged reduction
+--- val: chance to trigger, optional (default = 0)
+--- evadeMelee: melee reduction magnitude, required and validated between 0 and 100 (inclusive)
+--- evadeRanged: ranged reduction magnitude, required and validated between 0 and 100 (inclusive)
 
 local Base = require("combat/combatScript")
 local Script = setmetatable({}, { __index = Base })
@@ -11,22 +11,28 @@ local SOURCE_KEY = "ruinsDodge"
 local ANIMATION = "spells/dodge/dodge.def"
 local SOUND = "dodge.mp3"
 
-local function clamp(value)
-	return math.min(math.max(value, 0), 100)
-end
-
-function Script:addDodgeBonus(server, battle, unit, ranged)
+--- Returns the reduction magnitude
+function Script:getMagnitude(ranged)
 	local magnitude = 0
 
 	if ranged then
-		magnitude = clamp(self.evadeRanged or 0)
+		magnitude = self.evadeRanged or 0
 	else
-		magnitude = clamp(self.evadeMelee or 0)
+		magnitude = self.evadeMelee or 0
 	end
 
-	if magnitude <= 0 then
-		return false
-	end
+	return math.min(magnitude, 100)
+end
+
+function Script:onBeforeAttacked(server, battle, unit, other, payload)
+	local ranged = payload.ranged
+	local magnitude = self:getMagnitude(ranged)
+
+	if magnitude <= 0 then return end
+	if not self.val or self.val <= 0 then return end
+	local chance = self.val
+
+	if chance < 100 and not server:rollCombatAbility(battle, unit, chance) then return end
 
 	server:addUnitBonus(battle, unit, {
 		type = "GENERAL_DAMAGE_REDUCTION",
@@ -38,20 +44,7 @@ function Script:addDodgeBonus(server, battle, unit, ranged)
 		duration = "ONE_BATTLE"
 	}, false)
 
-	return true
-end
-
-function Script:onBeforeAttacked(server, battle, unit, other, payload)
-	if self.val <= 0 then return end
-	local chance = clamp(self.val or 0)
-
-	if chance < 100 and server:rngInt(1,100) > chance then return end
-
-	local animate = self:addDodgeBonus(server, battle, unit, payload.ranged)
-
-	if animate then
-		server:showBattleAnimation(battle, { { unit = unit } }, ANIMATION, SOUND, 1.0, false)
-	end
+	server:showBattleAnimation(battle, { { unit = unit } }, ANIMATION, SOUND, 1.0, false)
 end
 
 function Script:onAfterAttacked(server, battle, unit, other, payload)
