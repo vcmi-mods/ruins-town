@@ -226,7 +226,6 @@
 	"skill.ruins-town.evasion.description.basic": "{初级闪避术}\n\n生物有10%的概率获得伤害减免，近战伤害减少50%，远程伤害减少至1点。",
 	"skill.ruins-town.evasion.description.expert": "{高级闪避术}\n\n生物有20%的概率获得伤害减免，近战伤害减少50%，远程伤害减少至1点。",
 	"skill.ruins-town.evasion.name": "闪避术",
-	"spell.ruins-town.dodge.name": "身轻如燕",
 	"spell.ruins-town.rn_seaweedGrapple.description.advanced": "将目标生物缠绕并减速。",
 	"spell.ruins-town.rn_seaweedGrapple.description.basic": "将目标生物缠绕并减速。",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "将目标生物缠绕并减速。",

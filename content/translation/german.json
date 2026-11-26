@@ -226,7 +226,6 @@
 	"skill.ruins-town.evasion.description.basic": "{Entrinnen einfach}\n\nKreaturen haben eine Chance von 10%, eingehenden Schaden abzuschwächen, wodurch der Schaden von Nahkampfangriffen um 40% und der von Fernkampfangriffen um 80% reduziert wird.",
 	"skill.ruins-town.evasion.description.expert": "{Entrinnen Meisterhaft}\n\nKreaturen haben eine Chance von 20%, eingehenden Schaden abzuschwächen, wodurch der Schaden von Nahkampfangriffen um 50% und der von Fernkampfangriffen um 1 reduziert wird.",
 	"skill.ruins-town.evasion.name": "Entrinnen",
-	"spell.ruins-town.dodge.name": "Ausweichen",
 	"spell.ruins-town.rn_seaweedGrapple.description.advanced": "Die anvisierte Kreatur wird gepackt und verlangsamt.",
 	"spell.ruins-town.rn_seaweedGrapple.description.basic": "Die anvisierte Kreatur wird gepackt und verlangsamt.",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "Die anvisierte Kreatur wird gepackt und verlangsamt.",

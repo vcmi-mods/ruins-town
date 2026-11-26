@@ -226,7 +226,6 @@
 	"skill.ruins-town.evasion.description.basic": "{Легкое уклонение}\n\nСущества имеют 10%-ный шанс смягчить входящий урон, уменьшая урон от атак ближнего боя на 40% и урон от дальних атак на 80%.",
 	"skill.ruins-town.evasion.description.expert": "{Мастерское уклонение}\n\nСущества имеют 20% шанс смягчить входящий урон, уменьшая урон от атак ближнего боя на 50% и урон от дальних атак на 1.",
 	"skill.ruins-town.evasion.name": "Уклонение",
-	"spell.ruins-town.dodge.name": "Уклонение",
 	"spell.ruins-town.rn_seaweedGrapple.description.advanced": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.description.basic": "Целевое существо схватывается и замедляется.",
 	"spell.ruins-town.rn_seaweedGrapple.description.expert": "Целевое существо схватывается и замедляется.",
